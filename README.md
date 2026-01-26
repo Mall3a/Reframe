@@ -116,6 +116,7 @@ MIT License © 2026 Constanza Mallea
 ## 📷 Capturas de pantalla
 
 ![IMG_20260126_172945](https://github.com/user-attachments/assets/f4f00098-b49b-4ffc-9436-0111bcc66f72)
+<img width="529" height="872" alt="image" src="https://github.com/user-attachments/assets/f3a165da-c328-4283-96a2-137eef4208e4" />
 
 ![IMG_20260126_172443](https://github.com/user-attachments/assets/f9654b57-5dca-47ef-9368-73cc22bb73c0)
 <img width="530" height="816" alt="image" src="https://github.com/user-attachments/assets/a109ed34-765b-41e2-8dc2-8f4c2a288651" />
