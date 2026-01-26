@@ -90,9 +90,11 @@ Combinando **vibración + color + frase**, el cerebro recibe un estímulo multis
 ### 5️⃣ Fundamento científico y espiritual
 
 - **Interrupción de Patrón:** rompe el piloto automático del cerebro para procesar nuevas verdades  
-- **Neuroplasticidad dirigida:** fortalece rutas neuronales de fe y seguridad  
+- **Neuroplasticidad dirigida:** fortalece rutas neuronales de fe y seguridad
+-  ![licensed-image](https://github.com/user-attachments/assets/34ab9d8f-3ca7-4085-985f-57661823d261)
 - **Frecuencia Ultradiana (60–90 min):** respeta ciclos de atención; evita habituación y refuerza memoria a largo plazo  
-- **Quiet Time / Sueño:** protege la consolidación de memoria y evita aumento de cortisol que bloquea aprendizaje  
+- **Quiet Time / Sueño:** protege la consolidación de memoria y evita aumento de cortisol que bloquea aprendizaje
+- ![licensed-image (1)](https://github.com/user-attachments/assets/e9105483-2b9e-4702-921f-14a1df129c7d)
 - **PNL y anclaje emocional:** vibración + color prepara emocionalmente para recibir el mensaje  
 - **Base bíblica:** Romanos 12:2 y 2 Corintios 10:5, renovación de la mente y cautivo todo pensamiento a la obediencia a Cristo  
 
