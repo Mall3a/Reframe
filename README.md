@@ -39,7 +39,7 @@ Finaliza con Background.exit() para liberar recursos
 
 3️⃣ Mensajes y vibración
 
-Mensajes guardados en la app y persistentes con Storage![IMG_20260126_172945](https://github.com/user-attachments/assets/f02082a8-b5e5-4e86-9777-bf03e979d297)
+Mensajes guardados en la app y persistentes con Storage
 
 Modo aleatorio o secuencial (para crear narrativa de transformación)
 Vibración diferenciada: suave para mensajes intermedios, más larga y compleja para el final del ciclo, (para beneficiar al sistema de recompensa del cerebro)
