@@ -1,6 +1,6 @@
 # **Reframe** – Garmin Mind Renewal App
 
-**Reframe** es una app para relojes Garmin (Venu, Venu 2/2S, Forerunner y otros) diseñada para ayudarte a **renovar tu mente y reprogramar tus pensamientos** mediante recordatorios periódicos con vibración y mensajes inspiradores.  
+**Reframe** es una app para relojes Garmin (Venu, Venu 2/2S, Forerunner y otros) diseñada para ayudarte a **renovar tu mente y reprogramar tus pensamientos** mediante recordatorios periódicos con vibración, colores y mensajes inspiradores.  
 
 A diferencia de apps simples, Reframe está pensada para **uso pasivo durante el día**, utilizando los **servicios de background de Garmin**, respetando sus limitaciones y batería.  
 
@@ -44,26 +44,57 @@ No es un simple recordatorio: es una **herramienta de Ingeniería Mental**, que 
 - Si no es QuietTime, solicita **wake up de la app** con un prompt  
 - Finaliza con `Background.exit()` para liberar recursos  
 
-### 3️⃣ Mensajes y vibración
+---
 
-- Mensajes guardados en la app y persistentes con `Storage`  
-- Modo aleatorio o secuencial (para crear narrativa de transformación)  
-- Vibración diferenciada: suave para mensajes intermedios, más larga y compleja para el final del ciclo (beneficia al sistema de recompensa del cerebro)  
+## 🔀 Modo Secuencial, Colores y Vibración
 
-### 4️⃣ Colores
+### 1️⃣ Propósito del modo secuencial
 
-- Cada mensaje se acompaña de un color: **azul, verde o púrpura**  
-- **Fundamento PNL**: el cerebro procesa el color antes que las palabras, preparando el terreno emocional para que el mensaje penetre sin resistencia consciente  
+El modo secuencial ayuda a que el subconsciente reciba los mensajes como un **proceso continuo y coherente**, reforzando las conexiones neuronales según la **Ley de Hebb**: *“Las neuronas que se activan juntas se conectan juntas”*.  
+Esto permite crear una **narrativa de transformación** que guía al cerebro desde la identidad personal, pasando por la paz emocional, hasta la acción y consolidación.
+
+### 2️⃣ Estructura de la narrativa (ejemplo con 37 mensajes)
+
+1. **Identidad (Mensajes 1–8)** – refuerza quién eres en Dios  
+2. **Paz y confianza (Mensajes 9–16)** – calma la mente y genera confianza  
+3. **Empoderamiento y acción (Mensajes 17–28)** – motiva fe práctica y resiliencia  
+4. **Sabiduría y conexión con Dios (Mensajes 29–36)** – refuerza discernimiento y crecimiento espiritual  
+5. **Cierre y refuerzo final (Mensaje 37)** – consolida el ciclo y refuerza la reprogramación mental  
 
 ---
 
-## 💡 Por qué funciona
+### 3️⃣ Colores y anclaje emocional
 
-- **Interrupción de Patrón**: rompe el piloto automático del cerebro para procesar nuevas verdades  
-- **Modo Secuencial (37 frases)**: el cerebro busca orden; seguir un camino de identidad → paz → poder crea narrativa de transformación  
-- **Frecuencia Ultradiana (60–90 min)**: respeta ciclos de atención; evita habituación y refuerza memoria a largo plazo  
-- **Quiet Time / Sueño**: protege la consolidación de memoria y evita aumento de cortisol que bloquea aprendizaje  
-- **Ley de Hebb aplicada**: vibración + color + frase dispara neuronas en sincronía, formando nuevas conexiones duraderas  
+Cada mensaje se acompaña de un **color específico**: azul, verde o púrpura. Esto tiene un **propósito neurocientífico y de PNL**:
+
+- **Procesamiento visual previo:** el cerebro percibe el color antes de procesar las palabras, preparando el terreno emocional  
+- **Azul:** calma y concentración  
+- **Verde:** equilibrio y sensación de bienestar  
+- **Púrpura:** creatividad y conexión espiritual  
+
+Este **anclaje de color** ayuda a que el mensaje penetre más profundamente en el subconsciente, alineando emoción y contenido.
+
+---
+
+### 4️⃣ Vibración diferenciada
+
+Cada mensaje se acompaña de **vibración**, con un patrón que aprovecha el **sistema de recompensa del cerebro**:
+
+- **Mensajes intermedios:** vibración **suave**, para mantener atención sin sobreestimulación  
+- **Último mensaje del ciclo:** vibración **más larga y compleja**, generando un **refuerzo emocional positivo**, reforzando la sensación de logro y aprendizaje subconsciente  
+
+Combinando **vibración + color + frase**, el cerebro recibe un estímulo multisensorial que **facilita la consolidación de nuevas rutas neuronales**.
+
+---
+
+### 5️⃣ Fundamento científico y espiritual
+
+- **Interrupción de Patrón:** rompe el piloto automático del cerebro para procesar nuevas verdades  
+- **Neuroplasticidad dirigida:** fortalece rutas neuronales de fe y seguridad  
+- **Frecuencia Ultradiana (60–90 min):** respeta ciclos de atención; evita habituación y refuerza memoria a largo plazo  
+- **Quiet Time / Sueño:** protege la consolidación de memoria y evita aumento de cortisol que bloquea aprendizaje  
+- **PNL y anclaje emocional:** vibración + color prepara emocionalmente para recibir el mensaje  
+- **Base bíblica:** Romanos 12:2 y 2 Corintios 10:5, renovación de la mente y cautivo todo pensamiento a la obediencia a Cristo  
 
 ---
 
