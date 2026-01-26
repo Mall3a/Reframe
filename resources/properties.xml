@@ -1,0 +1,44 @@
+<properties>
+    <property id="appVersion" type="string">1.0.0</property>
+    <property id="frequency" type="number">5</property>
+    <property id="message1" type="string">"Todo lo puedo en Cristo que me fortalece" (Filipenses 4:13)</property>
+    <property id="message2" type="string">"Dios me ama profunda y eternamente"</property>
+    <property id="message3" type="string">"Soy valiosa para Dios, Su tesoro especial"</property>
+    <property id="message4" type="string">"Soy la luz del mundo; no ando en tinieblas, tengo la luz de la vida" (Juan 8:12)</property>
+    <property id="message5" type="string">"Soy un amigo de Jesús; Él me ha dado a conocer todo lo del Padre" (Juan 15:15)</property>
+    <property id="message6" type="string">"He sido elegida y puesta por Dios para dar fruto permanente" (Juan 15:16)</property>
+    <property id="message7" type="string">"Como el Padre amó a Jesús, así Él me ama a mí; permanezco en Su amor" (Juan 15:9)</property>
+    <property id="message8" type="string">"Soy más que vencedora por medio de Aquel que me amó" (Romanos 8:37)</property>
+
+    <property id="message9" type="string">"La paz de Jesús gobierna mi corazón y nada me turba" (Juan 14:27)</property>
+    <property id="message10" type="string">"Confío en el Señor con todo mi corazón y no me apoyo en mi propia inteligencia" (Proverbios 3:5)</property>
+    <property id="message11" type="string">"Mi corazón no se turba ni tiene miedo; acepto la paz de Cristo" (Juan 14:27)</property>
+    <property id="message12" type="string">"En el mundo hay aflicción, pero confío: Jesús ya venció al mundo" (Juan 16:33)</property>
+    <property id="message13" type="string">"Conozco la Verdad de Jesús, y esa Verdad me hace libre hoy" (Juan 8:32)</property>
+    <property id="message14" type="string">"El amor de Dios ha sido derramado en mi corazón por el Espíritu Santo" (Romanos 5:5)</property>
+    <property id="message15" type="string">"El Espíritu de Verdad vive en mí y me guía a toda verdad" (Juan 16:13)</property>
+    <property id="message16" type="string">"No me afano por el mañana, Dios cuida de mí hoy" (Mateo 6:34)</property>
+
+    <property id="message17" type="string">"Para mí todo es posible porque he decidido creer" (Marcos 9:23)</property>
+    <property id="message18" type="string">"Tengo vida en abundancia porque Jesús me la ha dado" (Juan 10:10)</property>
+    <property id="message19" type="string">"El gozo del Señor es mi fortaleza y me llena de energía" (Nehemías 8:10)</property>
+    <property id="message20" type="string">"Dios es mi refugio y mi fortaleza, siempre presente en mi vida" (Salmo 46:1)</property>
+    <property id="message21" type="string">"Camino por fe y no por vista, confiando en las promesas de Dios" (2 Corintios 5:7)</property>
+    <property id="message22" type="string">"Permanezco en la Vid; por eso hoy llevo mucho fruto" (Juan 15:5)</property>
+    <property id="message23" type="string">"Si Dios viste así a las flores, ¡cuánto más cuidará de mí hoy!" (Mateo 6:30)</property>
+    <property id="message24" type="string">"Recibo poder del Espíritu Santo para ser testigo de Su gracia" (Hechos 1:8)</property>
+    <property id="message25" type="string">"Todo lo que pido creyendo que ya lo he recibido, me vendrá" (Marcos 11:24)</property>
+    <property id="message26" type="string">"Pido con fe y recibo, porque mi Padre me ama" (Mateo 7:7)</property>
+    <property id="message27" type="string">"Soy libre de toda carga, Su yugo es fácil y ligero" (Mateo 11:30)</property>
+    <property id="message28" type="string">"Busco primero Su reino y todo lo demás me es añadido" (Mateo 6:33)</property>
+    <property id="message29" type="string">"El Señor es mi pastor, nada me falta" (Salmo 23:1)</property>
+    <property id="message30" type="string">"Dios me da sabiduría y entendimiento para tomar buenas decisiones" (Santiago 1:5)</property>
+    <property id="message31" type="string">"No me elegí yo a mí misma, Jesús me eligió a mí para que mi fruto permanezca" (Juan 15:16)</property>
+    <property id="message32" type="string">"Tengo fe en Dios; si digo a esta montaña 'quítate', ella me obedece" (Marcos 11:23)</property>
+    <property id="message33" type="string">"Mi Padre sabe lo que necesito antes de que yo lo pida; descanso en Su cuidado" (Mateo 6:8)</property>
+    <property id="message34" type="string">"No me conformo a este mundo; me transformo renovando mi mente" (Romanos 12:2)</property>
+    <property id="message35" type="string">"Dios no me dio un espíritu de temor, sino de poder, amor y dominio propio" (2 Timoteo 1:7)</property>
+    <property id="message36" type="string">"Todo lo que es verdadero, honesto y puro, en eso pongo mi pensamiento" (Filipenses 4:8)</property>
+    
+    <property id="message37" type="string">"Mi mente está siendo renovada ahora. Amén."</property>
+</properties>

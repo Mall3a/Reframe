@@ -1,0 +1,43 @@
+{
+  "settings" : [ {
+    "key" : "appVersion",
+    "valueType" : "string",
+    "defaultValue" : "1.0.0",
+    "configTitle" : "AppVersionTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : true,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "frequency",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "Frequency",
+    "configPrompt" : "FrequencyPrompt",
+    "configType" : "numeric",
+    "configError" : "FrequencyError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "AppVersionTitle" : "Versión de la aplicación",
+      "Frequency" : "Frecuencia",
+      "FrequencyError" : "Por favor ingrese un número válido para la frecuencia.",
+      "FrequencyPrompt" : "¿Con qué frecuencia desea recibir recordatorios (en minutos)?",
+      "AppName" : "Reframe"
+    }
+  }
+}

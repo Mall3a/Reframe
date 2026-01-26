@@ -1,0 +1,169 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; ]
+using Toybox.Application;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Lang,2,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 6; background = true; @symbol_classdef = [Settings,6,6,14]; ]
+class Settings {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 9; @position = 15; @symbol_vardef = [MAX_MESSAGES,9,15,27]; ]
+    static
+    var MAX_MESSAGES = 37;
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 12; @symbol_functiondef = [getFrequency,12,20,32]; ]
+    static
+    function getFrequency() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_12_35_16_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 13 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_12_35_16_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_12_35_16_4_stop" ]
+        %propertiesFrequency.1 = local;
+        symbol [ propertiesFrequency %propertiesFrequency.1 13 12 31 ];
+        symbol [ Application %tmp.1 13 34 45 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.2 13 46 56 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 13 57 65 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "frequency";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        lputv %propertiesFrequency.1 %tmp.5;
+        symbol [ propertiesFrequency %propertiesFrequency.1 13 12 31 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 14 8 ]
+        symbol [ System %tmp.6 14 8 14 ];
+        %tmp.6 = getm $.Toybox.System;
+        symbol [ println %tmp.7 14 15 22 ];
+        %tmp.7 = getv function %tmp.6 :println;
+        %tmp.8 = "Frecuencia de Properties: ";
+        %tmp.9 = lgetv %propertiesFrequency.1;
+        symbol [ propertiesFrequency %tmp.9 14 53 72 ];
+        %tmp.10 = add %tmp.8 %tmp.9;
+        invoke %tmp.6 %tmp.7(%tmp.10);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 15 8 ]
+        %tmp.11 = lgetv %propertiesFrequency.1;
+        symbol [ propertiesFrequency %tmp.11 15 15 34 ];
+        ret %tmp.11;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_12_35_16_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 19; @symbol_functiondef = [getMessages,19,20,31]; ]
+    static
+    function getMessages() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 20 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_stop" ]
+        %properties.1 = local;
+        symbol [ properties %properties.1 20 12 22 ];
+        symbol [ Application %tmp.1 20 25 36 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.2 20 37 47 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        lputv %properties.1 %tmp.2;
+        symbol [ properties %properties.1 20 12 22 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 21 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_stop" ]
+        %msgs.2 = local;
+        symbol [ msgs %msgs.2 21 12 16 ];
+        %tmp.3 = newa 0;
+        lputv %msgs.2 %tmp.3;
+        symbol [ msgs %msgs.2 21 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 22 8 ]
+        for @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_test @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_incr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_init:
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_begin" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_end" ]
+        %i.3 = local;
+        symbol [ i %i.3 22 17 18 ];
+        %tmp.4 = 1;
+        lputv %i.3 %tmp.4;
+        symbol [ i %i.3 22 17 18 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_test:
+        %tmp.5 = lgetv %i.3;
+        symbol [ i %tmp.5 22 24 25 ];
+        symbol [ MAX_MESSAGES %tmp.7 22 29 41 ];
+        %tmp.7 = getv ? :MAX_MESSAGES;
+        %tmp.8 = lte %tmp.5 %tmp.7;
+        bf %tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 23 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_stop" ]
+        %propName.4 = local;
+        symbol [ propName %propName.4 23 16 24 ];
+        %tmp.9 = "message";
+        %tmp.10 = lgetv %i.3;
+        symbol [ i %tmp.10 23 39 40 ];
+        %tmp.11 = add %tmp.9 %tmp.10;
+        lputv %propName.4 %tmp.11;
+        symbol [ propName %propName.4 23 16 24 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 25 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_stop" ]
+        %msg.5 = local;
+        symbol [ msg %msg.5 25 16 19 ];
+        %tmp.12 = lgetv %properties.1;
+        symbol [ properties %tmp.12 25 22 32 ];
+        symbol [ getValue %tmp.13 25 33 41 ];
+        %tmp.13 = getv function %tmp.12 :getValue;
+        %tmp.14 = lgetv %propName.4;
+        symbol [ propName %tmp.14 25 42 50 ];
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        lputv %msg.5 %tmp.15;
+        symbol [ msg %msg.5 25 16 19 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 27 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_16_27_46_begin:
+        %tmp.16 = lgetv %msg.5;
+        symbol [ msg %tmp.16 27 16 19 ];
+        %tmp.17 = null;
+        %tmp.18 = ne %tmp.16 %tmp.17;
+        bf %tmp.18 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_31_27_46_true:
+        %tmp.19 = lgetv %msg.5;
+        symbol [ msg %tmp.19 27 31 34 ];
+        %tmp.20 = as %tmp.19 { (!Null) };
+        symbol [ length %tmp.21 27 35 41 ];
+        %tmp.21 = getv function %tmp.20 :length;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        %tmp.23 = 0;
+        %tmp.24 = gt %tmp.22 %tmp.23;
+        push %tmp.24;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_31_27_46_end:
+        %tmp.25 = phi [%tmp.18 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_16_27_46_begin] [%tmp.24 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_31_27_46_true] [%tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_31_27_46_end];
+        bf %tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_49_29_12_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 28 16 ]
+        %tmp.26 = lgetv %msgs.2;
+        symbol [ msgs %tmp.26 28 16 20 ];
+        symbol [ add %tmp.27 28 21 24 ];
+        %tmp.27 = getv function %tmp.26 :add;
+        %tmp.28 = lgetv %msg.5;
+        symbol [ msg %tmp.28 28 25 28 ];
+        %tmp.29 = as %tmp.28 { (!Null) };
+        invoke %tmp.26 %tmp.27(%tmp.29);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_49_29_12_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_27_12_29_12_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_48_30_8_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_incr:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 22 ]
+        %tmp.32 = lgetv %i.3;
+        symbol [ i %tmp.32 22 43 44 ];
+        %tmp.33 = add %tmp.32 1;
+        lputv %i.3 %tmp.33;
+        symbol [ i %i.3 22 43 44 ];
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_test;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_22_8_30_8_for_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 31 8 ]
+        %tmp.34 = lgetv %msgs.2;
+        symbol [ msgs %tmp.34 31 15 19 ];
+        ret %tmp.34;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_19_34_32_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 1; ]
+<init> {
+}

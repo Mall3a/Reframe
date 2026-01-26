@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+    <setting propertyKey="@Properties.frequency" title="@Strings.Frequency" prompt="@Strings.FrequencyPrompt">
+        <settingConfig type="numeric" errorMessage="@Strings.FrequencyError" />
+    </setting>
+</settings>

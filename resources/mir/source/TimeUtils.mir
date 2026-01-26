@@ -1,0 +1,115 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [System,1,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Time,2,13,17]; ]
+using Toybox.Time;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 4; @symbol_classdef = [TimeUtils,4,6,15]; ]
+class TimeUtils {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 6; @symbol_functiondef = [isWithinActiveHours,6,20,39]; ]
+    static
+    function isWithinActiveHours() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_6_42_9_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc" 7 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_6_42_9_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_6_42_9_4_stop" ]
+        %time.1 = local;
+        symbol [ time %time.1 7 12 16 ];
+        symbol [ System %tmp.1 7 19 25 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 7 26 38 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %time.1 %tmp.3;
+        symbol [ time %time.1 7 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc" 8 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_16_8_46_begin:
+        %tmp.4 = lgetv %time.1;
+        symbol [ time %tmp.4 8 16 20 ];
+        symbol [ hour %tmp.5 8 21 25 ];
+        %tmp.5 = getv %tmp.4 :hour;
+        %tmp.6 = 8;
+        %tmp.7 = gte %tmp.5 %tmp.6;
+        %tmp.8 = dup %tmp.7;
+        bf %tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_34_8_46_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_34_8_46_true:
+        %tmp.9 = lgetv %time.1;
+        symbol [ time %tmp.9 8 34 38 ];
+        symbol [ hour %tmp.10 8 39 43 ];
+        %tmp.10 = getv %tmp.9 :hour;
+        %tmp.11 = 22;
+        %tmp.12 = lt %tmp.10 %tmp.11;
+        %tmp.13 = and %tmp.7 %tmp.12;
+        push %tmp.13;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_34_8_46_end:
+        %tmp.14 = phi [%tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_16_8_46_begin] [%tmp.13 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_34_8_46_true] [%tmp.14 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_8_34_8_46_end];
+        ret %tmp.14;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_6_42_9_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 11; @symbol_functiondef = [getTodayKey,11,20,31]; ]
+    static
+    function getTodayKey() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc" 12 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 12 12 15 ];
+        symbol [ Time %tmp.1 12 18 22 ];
+        %tmp.1 = getm $.Toybox.Time;
+        symbol [ now %tmp.2 12 23 26 ];
+        %tmp.2 = getv function %tmp.1 :now;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %now.1 %tmp.3;
+        symbol [ now %now.1 12 12 15 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc" 15 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_stop" ]
+        %info.2 = local;
+        symbol [ info %info.2 15 12 16 ];
+        symbol [ Time %tmp.4 15 19 23 ];
+        %tmp.4 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.5 15 24 33 ];
+        %tmp.5 = getv %tmp.4 :Gregorian;
+        symbol [ info %tmp.6 15 34 38 ];
+        %tmp.6 = getv function %tmp.5 :info;
+        %tmp.7 = lgetv %now.1;
+        symbol [ now %tmp.7 15 39 42 ];
+        symbol [ Time %tmp.8 15 44 48 ];
+        %tmp.8 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.9 15 49 61 ];
+        %tmp.9 = getv %tmp.8 :FORMAT_SHORT;
+        %tmp.10 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.9);
+        lputv %info.2 %tmp.10;
+        symbol [ info %info.2 15 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc" 17 8 ]
+        %tmp.11 = lgetv %info.2;
+        symbol [ info %tmp.11 17 15 19 ];
+        %tmp.13 = const :year;
+        symbol [ year %tmp.13 17 21 25 const ];
+        %tmp.14 = agetv %tmp.11 %tmp.13;
+        %tmp.15 = "-";
+        %tmp.16 = add %tmp.14 %tmp.15;
+        %tmp.17 = lgetv %info.2;
+        symbol [ info %tmp.17 17 35 39 ];
+        %tmp.19 = const :month;
+        symbol [ month %tmp.19 17 41 46 const ];
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        %tmp.21 = add %tmp.16 %tmp.20;
+        %tmp.22 = "-";
+        %tmp.23 = add %tmp.21 %tmp.22;
+        %tmp.24 = lgetv %info.2;
+        symbol [ info %tmp.24 17 56 60 ];
+        %tmp.26 = const :day;
+        symbol [ day %tmp.26 17 62 65 const ];
+        %tmp.27 = agetv %tmp.24 %tmp.26;
+        %tmp.28 = add %tmp.23 %tmp.27;
+        ret %tmp.28;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_TimeUtils_mc_11_34_18_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/TimeUtils.mc"; @line = 1; ]
+<init> {
+}

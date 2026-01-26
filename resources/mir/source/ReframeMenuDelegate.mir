@@ -1,0 +1,30 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 5; @symbol_classdef = [ReframeMenuDelegate,5,6,25]; @symbol_extends<0> = [WatchUi,5,34,41]; @symbol_extends<1> = [MenuInputDelegate,5,42,59]; ]
+class ReframeMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeMenuDelegate_mc_6_26_8_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc" 7 8 ]
+        symbol [ MenuInputDelegate %tmp.2 7 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 7 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeMenuDelegate_mc_6_26_8_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
