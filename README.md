@@ -91,11 +91,11 @@ Combinando **vibración + color + frase**, el cerebro recibe un estímulo multis
 
 - **Interrupción de Patrón:** rompe el piloto automático del cerebro para procesar nuevas verdades  
 - **Neuroplasticidad dirigida:** fortalece rutas neuronales de fe y seguridad
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/34ab9d8f-3ca7-4085-985f-57661823d261" />
+  <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/34ab9d8f-3ca7-4085-985f-57661823d261" />
 
 - **Frecuencia Ultradiana (60–90 min):** respeta ciclos de atención; evita habituación y refuerza memoria a largo plazo  
 - **Quiet Time / Sueño:** protege la consolidación de memoria y evita aumento de cortisol que bloquea aprendizaje
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e9105483-2b9e-4702-921f-14a1df129c7d" />
+  <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/e9105483-2b9e-4702-921f-14a1df129c7d" />
 - **PNL y anclaje emocional:** vibración + color prepara emocionalmente para recibir el mensaje  
 - **Base bíblica:** Romanos 12:2 y 2 Corintios 10:5, renovación de la mente y cautivo todo pensamiento a la obediencia a Cristo  
 
@@ -119,14 +119,14 @@ MIT License © 2026 Constanza Mallea
 ## 📷 Capturas de pantalla
 
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/f4f00098-b49b-4ffc-9436-0111bcc66f72" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f4f00098-b49b-4ffc-9436-0111bcc66f72" />
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/f3a165da-c328-4283-96a2-137eef4208e4" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f3a165da-c328-4283-96a2-137eef4208e4" />
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/f9654b57-5dca-47ef-9368-73cc22bb73c0" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f9654b57-5dca-47ef-9368-73cc22bb73c0" />
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/a109ed34-765b-41e2-8dc2-8f4c2a288651" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/a109ed34-765b-41e2-8dc2-8f4c2a288651" />
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/f1573f1d-b441-4e07-8189-2daa43296871" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f1573f1d-b441-4e07-8189-2daa43296871" />
 
-<img width="529" height="818" alt="image" src="https://github.com/user-attachments/assets/324e12e9-9f8c-4804-9035-f5381470c854" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/324e12e9-9f8c-4804-9035-f5381470c854" />
