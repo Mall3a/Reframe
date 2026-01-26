@@ -12,9 +12,9 @@ No es un simple recordatorio: es una **herramienta de Ingeniería Mental**, que 
 
 - 🔔 Recordatorios con vibración y mensajes en pantalla  
 - ⏱️ Frecuencia configurable (minutos u horas)  
-- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(En progreso)**  
+- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(En progreso: por ahora hardcoded)**   
 - 🔀 Modo de entrega: aleatorio o secuencial **(En progreso: por ahora secuencial basado en índices)**  
-- 📱 Configuración desde Garmin Connect (teléfono) **(En progreso: por ahora hardcoded)**  
+- 📱 Configuración desde Garmin Connect (teléfono) **(En progreso)**  
 
 ---
 
