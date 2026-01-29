@@ -3,81 +3,67 @@ using Toybox.Background;
 using Toybox.System;
 using Toybox.Time;
 using Toybox.Application.Storage;
+using Toybox.Application.Properties;
 using Toybox.Attention;
 
 (:background)
 class ReframeApp extends Application.AppBase {
-    // initialize the AppBase class
     function initialize() {
         AppBase.initialize();
     }
 
-    // onStart() is called on application start up
     function onStart(state) {
-      // frecuencia por defecto (settings)
-        var propertiesFrequency = Settings.getFrequency(); // minutos
-        // frecuencia guardada por el usuario en FrequencyMenuInputDelegate
-        var storageFrequency = Storage.getValue("frequency"); 
-        System.println("Frecuencia de Storage: "+ storageFrequency);
-        var minutes;
-        if (storageFrequency != null) {
-            minutes = storageFrequency;
-        } else {
-            minutes = propertiesFrequency;
+        var minutes = Storage.getValue("frequency"); 
+        System.println("Frecuencia de usuario: "+ minutes);
+        if (minutes == null) {
+            System.println("Sin frecuencia de usuario, se usa frecuencia de Properties: " + Settings.getFrequency() );
+            minutes = Settings.getFrequency();
         }
 
-        // Time.Duration usa SEGUNDOS
         var duration = new Time.Duration(minutes * 60);
         var eventTime = Time.now().add(duration);
         Background.registerForTemporalEvent(eventTime);
-        // esto disparará onTemporalEvent() en X minutos
     }
 
-    // Return the initial view of your application here
     function getInitialView() {
-        var msgs = Settings.getMessages();
-        // System.println("msgs en getInitialView: " + msgs);
-
-        var lastIndex = Storage.getValue("last_msg_index");
-        if (lastIndex == null || lastIndex >= msgs.size()) {
-            lastIndex = 0;
+        // Obtenemos el "paquete" completo de datos
+        var data = Settings.getNextSequentialMessage();
+        
+        if (data == null) {
+            // Fallback por si no hay mensajes
+            return [ new ReframeView(), new ReframeViewDelegate() ];
         }
 
-        var msg = msgs[lastIndex];
+        var msgObj = data[:msg];
+        var currentIndex = data[:index];
+        var totalCount = data[:total];
 
-        vibrateForIndex(lastIndex, msgs.size());
+        // Ejecutamos la vibración
+        vibrateForIndex(currentIndex, totalCount);
 
-        Storage.setValue(
-            "last_msg_index",
-            (lastIndex + 1) % msgs.size()
-        );
-        return [ new NotificationView(msg, lastIndex, msgs.size()), new NotificationViewDelegate() ];  
-        // Mientras se hace lo de onStart, se muestra esta vista
+        // Retornamos la vista pasando los datos ya procesados
+        return [ 
+            new NotificationView(msgObj, currentIndex, totalCount), 
+            new NotificationViewDelegate() 
+        ];
     }
 
-    // onStop() is called when your application is exiting
+    function onSettingsChanged() {
+        // Esto refresca la pantalla si el usuario cambia algo en el móvil con la app abierta
+        WatchUi.requestUpdate(); 
+    }
+
     function onStop(state) {
-    /**
-        If the application needs to save data to the object store it should be done in this function. 
-        Once the function is complete, the application will terminate.
-    */
     }
 
-    // ServiceDelegate runs background tasks for this app
     function getServiceDelegate() {
-        /**
-        When a ServiceDelegate is retrieved, the following will occur:
-            The method triggered within the ServiceDelegate will be run
-            The background task will exit using Background.exit() or System.exit()
-            The background task will be automatically terminated after 30 seconds if it is not exited by these methods
-        */
         return [ new ReframeBackgroundServiceDelegate() ];
     }
 
     function vibrateForIndex(index, total) {
         if (!(Attention has :vibrate)) { return; }
-
-        if (index == total - 1) {
+        if (index == total - 1) { 
+            // el último de la lista vibra distinto
             Attention.vibrate([
                 new Attention.VibeProfile(100, 500),
                 new Attention.VibeProfile(0, 200),
@@ -89,46 +75,44 @@ class ReframeApp extends Application.AppBase {
             Attention.vibrate([ new Attention.VibeProfile(70, 150) ]);
         }
     }
-
-    function showNotification(){
-        var msgs = Settings.getMessages();
-        System.println("msgs: " + msgs);
-
-        var lastIndex = Storage.getValue("last_msg_index");
-        if (lastIndex == null || lastIndex >= msgs.size()) {
-            lastIndex = 0;
-        }
-
-        var msg = msgs[lastIndex];
-
-        vibrateForIndex(lastIndex, msgs.size());
-
-        WatchUi.switchToView(
-            new NotificationView(msg, lastIndex, msgs.size()),
-            new NotificationViewDelegate(),
-            WatchUi.SLIDE_IMMEDIATE
-        );
-
-        WatchUi.requestUpdate();
-
-        Storage.setValue(
-            "last_msg_index",
-            (lastIndex + 1) % msgs.size()
-        );
-    }
 }
 
 (:background)
 class ReframeBackgroundServiceDelegate extends System.ServiceDelegate {
-    function isQuietTime() {
-        var settings = System.getDeviceSettings();
-        if (settings has :doNotDisturb && settings.doNotDisturb) {
-            return true;
-            // TODO: que usuario pueda elegir si quiere ser molestado en este modo (switch boolean)
+
+    function byPassDnD(){
+        var allowDND = Storage.getValue("allowDND");
+        if (allowDND == null) {
+            allowDND = Properties.getValue("allowDND");
         }
-        var clock = System.getClockTime();
-        return (clock.hour >= 24 || clock.hour < 9);
-        // TODO: que usuario pueda modificar horas en un menu después 
+        return allowDND;
+    }
+
+    function isDnDMode(){
+        var settings = System.getDeviceSettings();
+        return (settings has :doNotDisturb && settings.doNotDisturb) ? true : false;
+    }
+
+    function isSleepTime(){
+        var now = System.getClockTime();
+        var sleepStart = Storage.getValue("sleepStart");
+        if (sleepStart == null) {
+            // Valores por defecto si el usuario no ha configurado nada
+            sleepStart = Properties.getValue("sleepStart");
+        }
+        var sleepEnd = Storage.getValue("sleepEnd");
+        if (sleepEnd == null) {
+            // Valores por defecto si el usuario no ha configurado nada
+            sleepEnd = Properties.getValue("sleepEnd");
+        }
+
+        if (sleepStart < sleepEnd) {
+            // Caso simple: Sueño de 01:00 a 07:00
+            return (now.hour >= sleepStart && now.hour < sleepEnd);
+        } else {
+            // Caso cruzando medianoche: Sueño de 22:00 a 07:00
+            return (now.hour >= sleepStart || now.hour < sleepEnd);
+        }
     }
 
     function initialize() {
@@ -136,10 +120,27 @@ class ReframeBackgroundServiceDelegate extends System.ServiceDelegate {
     }
 
     function onTemporalEvent() {
-        if (isQuietTime()) { 
-            return; 
-        }else{
-            Background.requestApplicationWake("¿Quieres renovar tu mente?");
+        var enabled = Storage.getValue("enabled");
+        if (enabled == null) { 
+            enabled = Properties.getValue("enabled"); 
+        }
+
+        if (enabled) {
+            var isSleep = isSleepTime();
+            var isDnD = isDnDMode();
+            var bypass = byPassDnD();
+
+            // REGLA: 
+            // 1. Nunca enviamos si es hora de dormir (isSleep).
+            // 2. Si no es hora de dormir, enviamos si:
+            //    - No hay No Molestar (DnD)
+            //    - O hay No Molestar pero el usuario activó el Bypass.
+            
+            if (!isSleep) {
+                if (!isDnD || bypass) {
+                    Background.requestApplicationWake("¿Quieres renovar tu mente?");
+                }
+            }
         }
         Background.exit(null);
     }

@@ -77,22 +77,22 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         %tmp.1 = getm $.Toybox.System;
         symbol [ println %tmp.2 25 15 22 ];
         %tmp.2 = getv function %tmp.1 :println;
-        %tmp.3 = "onSelect clicked";
+        %tmp.3 = "onSelect clicked with pushView";
         invoke %tmp.1 %tmp.2(%tmp.3);
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 26 8 ]
         symbol [ WatchUi %tmp.4 26 8 15 ];
         %tmp.4 = getm $.Toybox.WatchUi;
-        symbol [ switchToView %tmp.5 26 16 28 ];
-        %tmp.5 = getv function %tmp.4 :switchToView;
-        symbol [ FrequencyMenu %tmp.9 26 33 46 ];
-        %tmp.9 = getv ? :FrequencyMenu;
+        symbol [ pushView %tmp.5 26 16 24 ];
+        %tmp.5 = getv function %tmp.4 :pushView;
+        symbol [ SettingsMenu %tmp.9 26 29 41 ];
+        %tmp.9 = getv ? :SettingsMenu;
         %tmp.6 = newc %tmp.9 ();
-        symbol [ FrequencyMenuInputDelegate %tmp.13 26 54 80 ];
-        %tmp.13 = getv ? :FrequencyMenuInputDelegate;
+        symbol [ SettingsMenuInputDelegate %tmp.13 26 49 74 ];
+        %tmp.13 = getv ? :SettingsMenuInputDelegate;
         %tmp.10 = newc %tmp.13 ();
-        symbol [ WatchUi %tmp.14 26 84 91 ];
+        symbol [ WatchUi %tmp.14 26 78 85 ];
         %tmp.14 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_UP %tmp.15 26 92 100 ];
+        symbol [ SLIDE_UP %tmp.15 26 86 94 ];
         %tmp.15 = getv %tmp.14 :SLIDE_UP;
         invoke %tmp.4 %tmp.5(%tmp.6, %tmp.10, %tmp.15);
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 27 8 ]
@@ -114,6 +114,17 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_3
         %tmp.4 = true;
         ret %tmp.4;
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_30_56_33_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 35; @symbol_functiondef = [onSettingsChanged,35,13,30]; ]
+    function onSettingsChanged() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_35_33_38_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 37 8 ]
+        symbol [ WatchUi %tmp.1 37 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 37 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_35_33_38_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 1; ]

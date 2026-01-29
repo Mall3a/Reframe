@@ -1,0 +1,378 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Application,3,14,25]; @symbol_importdef<2> = [Storage,3,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Application,4,14,25]; @symbol_importdef<2> = [Properties,4,26,36]; ]
+import Toybox.Application.Properties;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [System,5,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 7; @symbol_classdef = [SettingsMenuInputDelegate,7,6,31]; @symbol_extends<0> = [WatchUi,7,40,47]; @symbol_extends<1> = [Menu2InputDelegate,7,48,66]; ]
+class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_9_26_11_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 10 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 10 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 10 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_9_26_11_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,13,21]; @symbol_param<0> = [menuItem,13,22,30]; ]
+    function onSelect(menuItem) {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 14 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 14 12 14 ];
+        %tmp.1 = lgetv %menuItem;
+        symbol [ menuItem %tmp.1 14 17 25 ];
+        symbol [ getId %tmp.2 14 26 31 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %id.1 %tmp.3;
+        symbol [ id %id.1 14 12 14 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 15 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_stop" ]
+        %idStr.2 = local;
+        symbol [ idStr %idStr.2 15 12 17 ];
+        %tmp.4 = lgetv %id.1;
+        symbol [ id %tmp.4 15 20 22 ];
+        symbol [ toString %tmp.5 15 23 31 ];
+        %tmp.5 = getv function %tmp.4 :toString;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %idStr.2 %tmp.6;
+        symbol [ idStr %idStr.2 15 12 17 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 16 8 ]
+        symbol [ System %tmp.7 16 8 14 ];
+        %tmp.7 = getm $.Toybox.System;
+        symbol [ println %tmp.8 16 15 22 ];
+        %tmp.8 = getv function %tmp.7 :println;
+        %tmp.9 = "Opción Seleccionada: ";
+        %tmp.10 = lgetv %idStr.2;
+        symbol [ idStr %tmp.10 16 49 54 ];
+        %tmp.11 = add %tmp.9 %tmp.10;
+        invoke %tmp.7 %tmp.8(%tmp.11);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 18 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_stmt:
+        %tmp.12 = lgetv %idStr.2;
+        symbol [ idStr %tmp.12 18 11 16 ];
+        symbol [ equals %tmp.13 18 17 23 ];
+        %tmp.13 = getv function %tmp.12 :equals;
+        %tmp.14 = "freq";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        bf %tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_32_22_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 20 12 ]
+        symbol [ WatchUi %tmp.16 20 12 19 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.17 20 20 28 ];
+        %tmp.17 = getv function %tmp.16 :pushView;
+        symbol [ FrequencyMenu %tmp.21 20 33 46 ];
+        %tmp.21 = getv ? :FrequencyMenu;
+        %tmp.18 = newc %tmp.21 ();
+        symbol [ FrequencyMenuInputDelegate %tmp.25 20 54 80 ];
+        %tmp.25 = getv ? :FrequencyMenuInputDelegate;
+        %tmp.22 = newc %tmp.25 ();
+        symbol [ WatchUi %tmp.26 20 84 91 ];
+        %tmp.26 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.27 20 92 100 ];
+        %tmp.27 = getv %tmp.26 :SLIDE_UP;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.22, %tmp.27);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_32_22_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 23 13 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_stmt:
+        %tmp.28 = lgetv %idStr.2;
+        symbol [ idStr %tmp.28 23 17 22 ];
+        symbol [ equals %tmp.29 23 23 29 ];
+        %tmp.29 = getv function %tmp.28 :equals;
+        %tmp.30 = "enable_msgs";
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        bf %tmp.31 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 24 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_stop" ]
+        %toggleItem.3 = local;
+        symbol [ toggleItem %toggleItem.3 24 16 26 ];
+        %tmp.32 = lgetv %menuItem;
+        symbol [ menuItem %tmp.32 24 29 37 ];
+        %tmp.33 = as %tmp.32 WatchUi.ToggleMenuItem;
+        symbol [ WatchUi %tmp.33 24 41 48 ];
+        symbol [ ToggleMenuItem %tmp.33 24 49 63 ];
+        lputv %toggleItem.3 %tmp.33;
+        symbol [ toggleItem %toggleItem.3 24 16 26 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 25 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_stop" ]
+        %val.4 = local;
+        symbol [ val %val.4 25 16 19 ];
+        %tmp.34 = lgetv %toggleItem.3;
+        symbol [ toggleItem %tmp.34 25 22 32 ];
+        symbol [ isEnabled %tmp.35 25 33 42 ];
+        %tmp.35 = getv function %tmp.34 :isEnabled;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        lputv %val.4 %tmp.36;
+        symbol [ val %val.4 25 16 19 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 26 12 ]
+        symbol [ Storage %tmp.37 26 12 19 ];
+        %tmp.37 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.38 26 20 28 ];
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "enabled";
+        %tmp.40 = lgetv %val.4;
+        symbol [ val %tmp.40 26 40 43 ];
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 27 12 ]
+        symbol [ System %tmp.41 27 12 18 ];
+        %tmp.41 = getm $.Toybox.System;
+        symbol [ println %tmp.42 27 19 26 ];
+        %tmp.42 = getv function %tmp.41 :println;
+        %tmp.43 = "Notificaciones habilitadas: ";
+        %tmp.44 = lgetv %val.4;
+        symbol [ val %tmp.44 27 60 63 ];
+        %tmp.45 = add %tmp.43 %tmp.44;
+        invoke %tmp.41 %tmp.42(%tmp.45);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_46_28_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 29 13 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_stmt:
+        %tmp.46 = lgetv %idStr.2;
+        symbol [ idStr %tmp.46 29 17 22 ];
+        symbol [ equals %tmp.47 29 23 29 ];
+        %tmp.47 = getv function %tmp.46 :equals;
+        %tmp.48 = "dnd_mode";
+        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
+        bf %tmp.49 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 30 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_stop" ]
+        %toggleItem.5 = local;
+        symbol [ toggleItem %toggleItem.5 30 16 26 ];
+        %tmp.50 = lgetv %menuItem;
+        symbol [ menuItem %tmp.50 30 29 37 ];
+        %tmp.51 = as %tmp.50 WatchUi.ToggleMenuItem;
+        symbol [ WatchUi %tmp.51 30 41 48 ];
+        symbol [ ToggleMenuItem %tmp.51 30 49 63 ];
+        lputv %toggleItem.5 %tmp.51;
+        symbol [ toggleItem %toggleItem.5 30 16 26 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 31 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_stop" ]
+        %val.6 = local;
+        symbol [ val %val.6 31 16 19 ];
+        %tmp.52 = lgetv %toggleItem.5;
+        symbol [ toggleItem %tmp.52 31 22 32 ];
+        symbol [ isEnabled %tmp.53 31 33 42 ];
+        %tmp.53 = getv function %tmp.52 :isEnabled;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        lputv %val.6 %tmp.54;
+        symbol [ val %val.6 31 16 19 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 32 12 ]
+        symbol [ Storage %tmp.55 32 12 19 ];
+        %tmp.55 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.56 32 20 28 ];
+        %tmp.56 = getv function %tmp.55 :setValue;
+        %tmp.57 = "allowDND";
+        %tmp.58 = lgetv %val.6;
+        symbol [ val %tmp.58 32 41 44 ];
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.58);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 33 12 ]
+        symbol [ System %tmp.59 33 12 18 ];
+        %tmp.59 = getm $.Toybox.System;
+        symbol [ println %tmp.60 33 19 26 ];
+        %tmp.60 = getv function %tmp.59 :println;
+        %tmp.61 = "Notificaciones habilitadas en DnD: ";
+        %tmp.62 = lgetv %val.6;
+        symbol [ val %tmp.62 33 67 70 ];
+        %tmp.63 = add %tmp.61 %tmp.62;
+        invoke %tmp.59 %tmp.60(%tmp.63);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_43_34_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 35 13 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_stmt:
+        %tmp.64 = lgetv %idStr.2;
+        symbol [ idStr %tmp.64 35 17 22 ];
+        symbol [ equals %tmp.65 35 23 29 ];
+        %tmp.65 = getv function %tmp.64 :equals;
+        %tmp.66 = "sleep_time";
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        bf %tmp.67 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_45_42_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 36 12 ]
+        symbol [ System %tmp.68 36 12 18 ];
+        %tmp.68 = getm $.Toybox.System;
+        symbol [ println %tmp.69 36 19 26 ];
+        %tmp.69 = getv function %tmp.68 :println;
+        %tmp.70 = "Configurando horario de Inicio de sueño";
+        invoke %tmp.68 %tmp.69(%tmp.70);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 37 12 ]
+        symbol [ WatchUi %tmp.71 37 12 19 ];
+        %tmp.71 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.72 37 20 28 ];
+        %tmp.72 = getv function %tmp.71 :pushView;
+        symbol [ $ %tmp.76 38 20 21 ];
+        %tmp.76 = getm $;
+        symbol [ SleepPicker %tmp.77 38 22 33 ];
+        %tmp.77 = getv %tmp.76 :SleepPicker;
+        %tmp.78 = "Inicio Sueño";
+        %tmp.73 = newc %tmp.77 (%tmp.78);
+        symbol [ $ %tmp.82 39 20 21 ];
+        %tmp.82 = getm $;
+        symbol [ SleepPickerDelegate %tmp.83 39 22 41 ];
+        %tmp.83 = getv %tmp.82 :SleepPickerDelegate;
+        %tmp.84 = "sleepStart";
+        %tmp.79 = newc %tmp.83 (%tmp.84);
+        symbol [ WatchUi %tmp.85 40 16 23 ];
+        %tmp.85 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.86 40 24 32 ];
+        %tmp.86 = getv %tmp.85 :SLIDE_UP;
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.79, %tmp.86);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_45_42_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 43 13 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_stmt:
+        %tmp.87 = lgetv %idStr.2;
+        symbol [ idStr %tmp.87 43 17 22 ];
+        symbol [ equals %tmp.88 43 23 29 ];
+        %tmp.88 = getv function %tmp.87 :equals;
+        %tmp.89 = "delete_msgs";
+        %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
+        bf %tmp.90 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_46_49_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 45 12 ]
+        symbol [ Settings %tmp.92 45 12 20 ];
+        %tmp.92 = getv ? :Settings;
+        symbol [ clearData %tmp.93 45 21 30 ];
+        %tmp.93 = getv function %tmp.92 :clearData;
+        invoke %tmp.92 %tmp.93();
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 46 12 ]
+        symbol [ WatchUi %tmp.94 46 12 19 ];
+        %tmp.94 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.95 46 20 29 ];
+        %tmp.95 = getv function %tmp.94 :showToast;
+        %tmp.96 = "Mensajes Borrados";
+        %tmp.97 = null;
+        invoke %tmp.94 %tmp.95(%tmp.96, %tmp.97);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 47 12 ]
+        symbol [ WatchUi %tmp.98 47 12 19 ];
+        %tmp.98 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.99 47 20 27 ];
+        %tmp.99 = getv function %tmp.98 :popView;
+        symbol [ WatchUi %tmp.100 47 28 35 ];
+        %tmp.100 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.101 47 36 46 ];
+        %tmp.101 = getv %tmp.100 :SLIDE_DOWN;
+        invoke %tmp.98 %tmp.99(%tmp.101);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 48 12 ]
+        symbol [ WatchUi %tmp.102 48 12 19 ];
+        %tmp.102 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.103 48 20 27 ];
+        %tmp.103 = getv function %tmp.102 :popView;
+        symbol [ WatchUi %tmp.104 48 28 35 ];
+        %tmp.104 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.105 48 36 46 ];
+        %tmp.105 = getv %tmp.104 :SLIDE_DOWN;
+        invoke %tmp.102 %tmp.103(%tmp.105);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_46_49_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 50 13 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_13_56_8_if_stmt:
+        %tmp.106 = lgetv %idStr.2;
+        symbol [ idStr %tmp.106 50 16 21 ];
+        symbol [ equals %tmp.107 50 22 28 ];
+        %tmp.107 = getv function %tmp.106 :equals;
+        %tmp.108 = "restore_settings";
+        %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
+        bf %tmp.109 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_13_56_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_49_56_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 52 12 ]
+        symbol [ Storage %tmp.110 52 12 19 ];
+        %tmp.110 = getm $.Toybox.Application.Storage;
+        symbol [ clearValues %tmp.111 52 20 31 ];
+        %tmp.111 = getv function %tmp.110 :clearValues;
+        invoke %tmp.110 %tmp.111();
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 53 12 ]
+        symbol [ System %tmp.112 53 12 18 ];
+        %tmp.112 = getm $.Toybox.System;
+        symbol [ println %tmp.113 53 19 26 ];
+        %tmp.113 = getv function %tmp.112 :println;
+        %tmp.114 = "Configuración Reestablecida";
+        invoke %tmp.112 %tmp.113(%tmp.114);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 54 12 ]
+        symbol [ WatchUi %tmp.115 54 12 19 ];
+        %tmp.115 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.116 54 20 29 ];
+        %tmp.116 = getv function %tmp.115 :showToast;
+        %tmp.117 = "Configuración Reestablecida";
+        %tmp.118 = null;
+        invoke %tmp.115 %tmp.116(%tmp.117, %tmp.118);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 55 12 ]
+        symbol [ WatchUi %tmp.119 55 12 19 ];
+        %tmp.119 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.120 55 20 27 ];
+        %tmp.120 = getv function %tmp.119 :popView;
+        symbol [ WatchUi %tmp.121 55 28 35 ];
+        %tmp.121 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.122 55 36 46 ];
+        %tmp.122 = getv %tmp.121 :SLIDE_DOWN;
+        invoke %tmp.119 %tmp.120(%tmp.122);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_49_56_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_13_56_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_50_13_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_43_13_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_35_13_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_29_13_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_23_13_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_18_8_56_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_13_32_57_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 60; @symbol_functiondef = [onBack,60,13,19]; ]
+    function onBack() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_60_22_62_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 61 8 ]
+        symbol [ WatchUi %tmp.1 61 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 61 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 61 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.4 61 32 42 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_60_22_62_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 64; @symbol_functiondef = [onSettingsChanged,64,13,30]; ]
+    function onSettingsChanged() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_64_33_67_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" 66 8 ]
+        symbol [ WatchUi %tmp.1 66 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 66 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SettingsMenuInputDelegate_mc_64_33_67_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc"; @line = 1; ]
+<init> {
+}

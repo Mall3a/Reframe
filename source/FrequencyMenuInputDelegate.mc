@@ -1,32 +1,28 @@
-using Toybox.WatchUi;
-using Toybox.System;
-using Toybox.Application.Storage;
+import Toybox.WatchUi;
+import Toybox.System;
+import Toybox.Application.Storage;
+import Toybox.Application.Properties;
 
-class FrequencyMenuInputDelegate extends WatchUi.MenuInputDelegate {
+class FrequencyMenuInputDelegate extends WatchUi.Menu2InputDelegate {
+
     function initialize() {
-        MenuInputDelegate.initialize();
+        Menu2InputDelegate.initialize();
     }
 
-    function onMenuItem(item) {
-        System.println("Frecuencia seleccionada: " + item);
-
-        var minutes;
-     
-        if (item == :min5) {
-            minutes = 5;
-        } else if (item == :min15) {
-            minutes = 15;
-        } else if (item == :min30) {
-            minutes = 30;   
-        } else if (item == :min60) {
-            minutes = 60;
-        } else if (item == :min120) {
-            minutes = 120;
-        } else {
-            minutes = 180;
-        }
+    function onSelect(item) {
+        // Obtenemos los minutos directamente del ID del item seleccionado
+        var minutes = item.getId();
+        
+        // Guardamos en Storage
         Storage.setValue("frequency", minutes);
-        System.println("Frecuencia establecida: " + minutes);
+        System.println("Frecuencia establecida por usuario: " + minutes);
+
+        // Volvemos atrás de forma segura
+        WatchUi.popView(WatchUi.SLIDE_DOWN);
+    }
+
+    // Por si el usuario usa el botón físico "atrás"
+    function onBack() {
         WatchUi.popView(WatchUi.SLIDE_DOWN);
     }
 }

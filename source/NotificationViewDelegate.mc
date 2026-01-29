@@ -22,13 +22,18 @@ class NotificationViewDelegate extends WatchUi.BehaviorDelegate {
     }
 
      function onSelect() {
-        System.println("onSelect clicked");
-        WatchUi.switchToView(new FrequencyMenu(), new FrequencyMenuInputDelegate(), WatchUi.SLIDE_UP);
+        System.println("onSelect clicked with pushView");
+        WatchUi.pushView(new SettingsMenu(), new SettingsMenuInputDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 
     function onFlick(flickEvent as WatchUi.FlickEvent)  {
         System.println("onFlick clicked");
         return true;
+    }
+
+    function onSettingsChanged() {
+        // Esto refresca la pantalla si el usuario cambia algo en el móvil con la app abierta
+        WatchUi.requestUpdate(); 
     }
 }

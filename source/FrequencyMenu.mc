@@ -1,19 +1,17 @@
-using Toybox.WatchUi;
-using Toybox.Application.Storage;
+import Toybox.WatchUi;
 
-class FrequencyMenu extends WatchUi.Menu {
+class FrequencyMenu extends WatchUi.Menu2 {
 
     function initialize() {
-        Menu.initialize();
-        addItem("Cada 5 minutos", :min5);
-        addItem("Cada 15 minutos", :min15);
-        addItem("Cada 30 minutos", :min30);
-        addItem("Cada 1 hora", :min60);
-        addItem("Cada 2 horas", :min120);
-        addItem("Cada 3 horas", :min180);
-    }
+        // Le damos un título al menú
+        Menu2.initialize({:title=>"Frecuencia"});
 
-    function onSelect(item) {
-        return true;
+        // El tercer parámetro es el ID (aquí guardamos los minutos directamente)
+        Menu2.addItem(new WatchUi.MenuItem("Cada 5 minutos", null, 5, {}));
+        Menu2.addItem(new WatchUi.MenuItem("Cada 15 minutos", null, 15, {}));
+        Menu2.addItem(new WatchUi.MenuItem("Cada 30 minutos", null, 30, {}));
+        Menu2.addItem(new WatchUi.MenuItem("Cada 1 hora", null, 60, {}));
+        Menu2.addItem(new WatchUi.MenuItem("Cada 2 horas", null, 120, {}));
+        Menu2.addItem(new WatchUi.MenuItem("Cada 3 horas", null, 180, {}));
     }
 }

@@ -62,7 +62,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeView_mc_10_26_25_4_sta
         %tmp.13 = newd 8;
         %tmp.15 = const :text;
         symbol [ text %tmp.15 15 13 17 const ];
-        %tmp.16 = "REFRAME";
+        %tmp.16 = "Agrega tus mensajes a través de la Garmin Connect";
         %tmp.17 = dup %tmp.13;
         %tmp.18 = aputv %tmp.17 %tmp.15 %tmp.16;
         %tmp.20 = const :color;

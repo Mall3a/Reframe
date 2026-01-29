@@ -1,67 +1,60 @@
 import Toybox.WatchUi;
 import Toybox.Graphics;
-import Toybox.Application.Storage;
 
 class NotificationView extends WatchUi.View {
-    private var _message;
+    private var _messageObj;
     private var _index;
     private var _total;
 
-    function initialize(message, index, total) {
+    function initialize(messageObj, index, total) {
         View.initialize();
-        _message = message;
+        _messageObj = messageObj;
         _index = index;
         _total = total;
     }
 
     function onUpdate(dc) {
-        // Lógica de Colores PNL según el índice guardado
-        var lastIndex = Storage.getValue("last_msg_index");
-        if (lastIndex == null) { lastIndex = 0; }
-
-        var backgroundColor = Graphics.COLOR_BLACK; 
-
-        var ratio = (_index.toFloat() / _total);
-
-        if (ratio < 0.25) {
-            backgroundColor = 0x000055;
-        } else if (ratio < 0.5) {
-            backgroundColor = 0x003300;
-        } else if (ratio < 0.75) {
-            backgroundColor = 0x330066;
-        } else {
-            backgroundColor = 0x552200;
-        }
-
+        // 1. Fondo dinámico
+        var backgroundColor = Settings.getColor(_messageObj, _index, _total);
         dc.setColor(backgroundColor, backgroundColor);
         dc.clear();
 
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-
+        // 2. Preparar el texto
+        var text = _messageObj[:text];
+        if (text == null) { text = ""; }
+        
+        // Selección de fuente basada en longitud
         var font = Graphics.FONT_SYSTEM_MEDIUM;
-        if (_message.length() > 70) {
+        if (text.length() > 70) {
             font = Graphics.FONT_SYSTEM_SMALL;
+        } else if (text.length() > 120) {
+            font = Graphics.FONT_SYSTEM_TINY;
         }
 
+        // 3. Dibujar el área de texto
+        // Usamos un margen de seguridad un poco mayor para pantallas redondas
+        var margin = dc.getWidth() * 0.12; // 12% de margen
         var textArea = new WatchUi.TextArea({
-            :text => _message,
+            :text => text,
             :color => Graphics.COLOR_WHITE,
             :font => font,
-            :locX => 25,
-            :locY => 25,
-            :width => dc.getWidth() - 50,
-            :height => dc.getHeight() - 50,
+            :locX => margin,
+            :locY => margin,
+            :width => dc.getWidth() - (margin * 2),
+            :height => dc.getHeight() - (margin * 2) - 20, // Espacio para el contador
             :justification => Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         });
       
         textArea.draw(dc);
 
-        // Contador (X / 37)
-        var progressText = (lastIndex).toString() + " / " + _total;
+        // 4. Dibujar el Contador (X / Total)
+        var progressText = (_index + 1).toString() + " / " + _total;
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        
+        // Ubicación relativa al alto de la pantalla para evitar cortes
         dc.drawText(
             dc.getWidth() / 2, 
-            dc.getHeight() - 35,
+            dc.getHeight() - (dc.getHeight() * 0.15), // 15% desde abajo
             Graphics.FONT_SYSTEM_XTINY, 
             progressText, 
             Graphics.TEXT_JUSTIFY_CENTER

@@ -3,6 +3,45 @@
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
     <setting propertyKey="@Properties.frequency" title="@Strings.Frequency" prompt="@Strings.FrequencyPrompt">
-        <settingConfig type="numeric" errorMessage="@Strings.FrequencyError" />
+        <settingConfig type="numeric" errorMessage="@Strings.FrequencyError" min="5" max="1440"/>
+    </setting>
+        <setting propertyKey="@Properties.enabled" title="Habilitado" prompt="Habilita los mensajes">
+        <settingConfig type="boolean" errorMessage="Error al habilitar mensajes"/>
+    </setting>
+    <setting propertyKey="@Properties.allowDND" title="Permitir Mensajes en Modo no Molestar" prompt="Habilita los mensajes en Modo No Molestar">
+        <settingConfig type="boolean" errorMessage="Error al habilitar mensajes en modo no molestar"/>
+    </setting>
+    <setting propertyKey="@Properties.sleepStart" title="Inicio Sueño" >
+        <settingConfig type="numeric"  min="0" max="24"/>
+    </setting>
+        <setting propertyKey="@Properties.sleepEnd" title="Fin Sueño" >
+        <settingConfig type="numeric"  min="0" max="24"/>
+    </setting>
+    <setting propertyKey="@Properties.messageList" title="Tus Mensajes" maxLength="40">
+        <setting title="Mensaje" type="string">
+            <settingConfig id="msgText" type="alphaNumeric" required="true" />
+        </setting>
+        <setting title="Color" type="number">
+            <settingConfig id="msgCat" type="list">
+                <listEntry value="0">Azul</listEntry>
+                <listEntry value="1">Verde</listEntry>
+                <listEntry value="2">Púrpura</listEntry>
+                <listEntry value="3">Amarillo</listEntry>
+            </settingConfig>
+        </setting>
+        <defaults>
+            <entry>
+                <default id="msgText">Todo lo puedo en Cristo que me fortalece (Filipenses 4:13)</default>
+                <default id="msgCat">0</default>
+            </entry>
+            <entry>
+                <default id="msgText">Dios me ama profunda y eternamente</default>
+                <default id="msgCat">1</default>
+            </entry>
+            <entry>
+                <default id="msgText">Soy valiosa para Dios, Su tesoro especial</default>
+                <default id="msgCat">2</default>
+            </entry>
+        </defaults>
     </setting>
 </settings>
