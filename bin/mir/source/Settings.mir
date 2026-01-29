@@ -1,0 +1,1210 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; ]
+using Toybox.Application;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; @symbol_usingdef<2> = [Storage,2,25,32]; ]
+using Toybox.Application.Storage;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; @symbol_usingdef<2> = [Properties,3,25,35]; ]
+using Toybox.Application.Properties;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Lang,4,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [System,5,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Time,7,14,18]; @symbol_importdef<2> = [Gregorian,7,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 9; background = true; @symbol_classdef = [Settings,9,6,14]; ]
+class Settings {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 9; ]
+    static
+    <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 12 15 ]
+        %tmp.1 = newa 37;
+        %tmp.2 = newd 2;
+        %tmp.4 = const :text;
+        symbol [ text %tmp.4 13 10 14 const ];
+        %tmp.5 = "Todo lo puedo en Cristo que me fortalece (Filipenses 4:13)";
+        %tmp.6 = dup %tmp.2;
+        %tmp.7 = aputv %tmp.6 %tmp.4 %tmp.5;
+        %tmp.9 = const :category;
+        symbol [ category %tmp.9 13 81 89 const ];
+        %tmp.10 = "AZUL";
+        %tmp.11 = dup %tmp.7;
+        %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
+        %tmp.13 = dup %tmp.1;
+        %tmp.14 = aputv %tmp.13 0 %tmp.12;
+        %tmp.15 = newd 2;
+        %tmp.17 = const :text;
+        symbol [ text %tmp.17 14 10 14 const ];
+        %tmp.18 = "Dios me ama profunda y eternamente";
+        %tmp.19 = dup %tmp.15;
+        %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+        %tmp.22 = const :category;
+        symbol [ category %tmp.22 14 57 65 const ];
+        %tmp.23 = "VERDE";
+        %tmp.24 = dup %tmp.20;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        %tmp.26 = dup %tmp.14;
+        %tmp.27 = aputv %tmp.26 1 %tmp.25;
+        %tmp.28 = newd 2;
+        %tmp.30 = const :text;
+        symbol [ text %tmp.30 15 10 14 const ];
+        %tmp.31 = "Soy valiosa para Dios, Su tesoro especial";
+        %tmp.32 = dup %tmp.28;
+        %tmp.33 = aputv %tmp.32 %tmp.30 %tmp.31;
+        %tmp.35 = const :category;
+        symbol [ category %tmp.35 15 64 72 const ];
+        %tmp.36 = "PURPURA";
+        %tmp.37 = dup %tmp.33;
+        %tmp.38 = aputv %tmp.37 %tmp.35 %tmp.36;
+        %tmp.39 = dup %tmp.27;
+        %tmp.40 = aputv %tmp.39 2 %tmp.38;
+        %tmp.41 = newd 2;
+        %tmp.43 = const :text;
+        symbol [ text %tmp.43 16 10 14 const ];
+        %tmp.44 = "Soy la luz del mundo; no ando en tinieblas, tengo la luz de la vida (Juan 8:12)";
+        %tmp.45 = dup %tmp.41;
+        %tmp.46 = aputv %tmp.45 %tmp.43 %tmp.44;
+        %tmp.48 = const :category;
+        symbol [ category %tmp.48 16 102 110 const ];
+        %tmp.49 = "AZUL";
+        %tmp.50 = dup %tmp.46;
+        %tmp.51 = aputv %tmp.50 %tmp.48 %tmp.49;
+        %tmp.52 = dup %tmp.40;
+        %tmp.53 = aputv %tmp.52 3 %tmp.51;
+        %tmp.54 = newd 2;
+        %tmp.56 = const :text;
+        symbol [ text %tmp.56 17 10 14 const ];
+        %tmp.57 = "Soy un amigo de Jesús; Él me ha dado a conocer todo lo del Padre (Juan 15:15)";
+        %tmp.58 = dup %tmp.54;
+        %tmp.59 = aputv %tmp.58 %tmp.56 %tmp.57;
+        %tmp.61 = const :category;
+        symbol [ category %tmp.61 17 100 108 const ];
+        %tmp.62 = "VERDE";
+        %tmp.63 = dup %tmp.59;
+        %tmp.64 = aputv %tmp.63 %tmp.61 %tmp.62;
+        %tmp.65 = dup %tmp.53;
+        %tmp.66 = aputv %tmp.65 4 %tmp.64;
+        %tmp.67 = newd 2;
+        %tmp.69 = const :text;
+        symbol [ text %tmp.69 18 10 14 const ];
+        %tmp.70 = "He sido elegida y puesta por Dios para dar fruto permanente (Juan 15:16)";
+        %tmp.71 = dup %tmp.67;
+        %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
+        %tmp.74 = const :category;
+        symbol [ category %tmp.74 18 95 103 const ];
+        %tmp.75 = "PURPURA";
+        %tmp.76 = dup %tmp.72;
+        %tmp.77 = aputv %tmp.76 %tmp.74 %tmp.75;
+        %tmp.78 = dup %tmp.66;
+        %tmp.79 = aputv %tmp.78 5 %tmp.77;
+        %tmp.80 = newd 2;
+        %tmp.82 = const :text;
+        symbol [ text %tmp.82 19 10 14 const ];
+        %tmp.83 = "Como el Padre amó a Jesús, así Él me ama a mí; permanezco en Su amor (Juan 15:9)";
+        %tmp.84 = dup %tmp.80;
+        %tmp.85 = aputv %tmp.84 %tmp.82 %tmp.83;
+        %tmp.87 = const :category;
+        symbol [ category %tmp.87 19 103 111 const ];
+        %tmp.88 = "AZUL";
+        %tmp.89 = dup %tmp.85;
+        %tmp.90 = aputv %tmp.89 %tmp.87 %tmp.88;
+        %tmp.91 = dup %tmp.79;
+        %tmp.92 = aputv %tmp.91 6 %tmp.90;
+        %tmp.93 = newd 2;
+        %tmp.95 = const :text;
+        symbol [ text %tmp.95 20 10 14 const ];
+        %tmp.96 = "Soy más que vencedora por medio de Aquel que me amó (Romanos 8:37)";
+        %tmp.97 = dup %tmp.93;
+        %tmp.98 = aputv %tmp.97 %tmp.95 %tmp.96;
+        %tmp.100 = const :category;
+        symbol [ category %tmp.100 20 89 97 const ];
+        %tmp.101 = "VERDE";
+        %tmp.102 = dup %tmp.98;
+        %tmp.103 = aputv %tmp.102 %tmp.100 %tmp.101;
+        %tmp.104 = dup %tmp.92;
+        %tmp.105 = aputv %tmp.104 7 %tmp.103;
+        %tmp.106 = newd 2;
+        %tmp.108 = const :text;
+        symbol [ text %tmp.108 21 10 14 const ];
+        %tmp.109 = "La paz de Jesús gobierna mi corazón y nada me turba (Juan 14:27)";
+        %tmp.110 = dup %tmp.106;
+        %tmp.111 = aputv %tmp.110 %tmp.108 %tmp.109;
+        %tmp.113 = const :category;
+        symbol [ category %tmp.113 21 87 95 const ];
+        %tmp.114 = "AZUL";
+        %tmp.115 = dup %tmp.111;
+        %tmp.116 = aputv %tmp.115 %tmp.113 %tmp.114;
+        %tmp.117 = dup %tmp.105;
+        %tmp.118 = aputv %tmp.117 8 %tmp.116;
+        %tmp.119 = newd 2;
+        %tmp.121 = const :text;
+        symbol [ text %tmp.121 22 10 14 const ];
+        %tmp.122 = "Confío en el Señor con todo mi corazón y no me apoyo en mi propia inteligencia (Proverbios 3:5)";
+        %tmp.123 = dup %tmp.119;
+        %tmp.124 = aputv %tmp.123 %tmp.121 %tmp.122;
+        %tmp.126 = const :category;
+        symbol [ category %tmp.126 22 118 126 const ];
+        %tmp.127 = "VERDE";
+        %tmp.128 = dup %tmp.124;
+        %tmp.129 = aputv %tmp.128 %tmp.126 %tmp.127;
+        %tmp.130 = dup %tmp.118;
+        %tmp.131 = aputv %tmp.130 9 %tmp.129;
+        %tmp.132 = newd 2;
+        %tmp.134 = const :text;
+        symbol [ text %tmp.134 23 10 14 const ];
+        %tmp.135 = "Mi corazón no se turba ni tiene miedo; acepto la paz de Cristo (Juan 14:27)";
+        %tmp.136 = dup %tmp.132;
+        %tmp.137 = aputv %tmp.136 %tmp.134 %tmp.135;
+        %tmp.139 = const :category;
+        symbol [ category %tmp.139 23 98 106 const ];
+        %tmp.140 = "AZUL";
+        %tmp.141 = dup %tmp.137;
+        %tmp.142 = aputv %tmp.141 %tmp.139 %tmp.140;
+        %tmp.143 = dup %tmp.131;
+        %tmp.144 = aputv %tmp.143 10 %tmp.142;
+        %tmp.145 = newd 2;
+        %tmp.147 = const :text;
+        symbol [ text %tmp.147 24 10 14 const ];
+        %tmp.148 = "En el mundo hay aflicción, pero confío: Jesús ya venció al mundo (Juan 16:33)";
+        %tmp.149 = dup %tmp.145;
+        %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+        %tmp.152 = const :category;
+        symbol [ category %tmp.152 24 100 108 const ];
+        %tmp.153 = "VERDE";
+        %tmp.154 = dup %tmp.150;
+        %tmp.155 = aputv %tmp.154 %tmp.152 %tmp.153;
+        %tmp.156 = dup %tmp.144;
+        %tmp.157 = aputv %tmp.156 11 %tmp.155;
+        %tmp.158 = newd 2;
+        %tmp.160 = const :text;
+        symbol [ text %tmp.160 25 10 14 const ];
+        %tmp.161 = "Conozco la Verdad de Jesús, y esa Verdad me hace libre hoy (Juan 8:32)";
+        %tmp.162 = dup %tmp.158;
+        %tmp.163 = aputv %tmp.162 %tmp.160 %tmp.161;
+        %tmp.165 = const :category;
+        symbol [ category %tmp.165 25 93 101 const ];
+        %tmp.166 = "PURPURA";
+        %tmp.167 = dup %tmp.163;
+        %tmp.168 = aputv %tmp.167 %tmp.165 %tmp.166;
+        %tmp.169 = dup %tmp.157;
+        %tmp.170 = aputv %tmp.169 12 %tmp.168;
+        %tmp.171 = newd 2;
+        %tmp.173 = const :text;
+        symbol [ text %tmp.173 26 10 14 const ];
+        %tmp.174 = "El amor de Dios ha sido derramado en mi corazón por el Espíritu Santo (Romanos 5:5)";
+        %tmp.175 = dup %tmp.171;
+        %tmp.176 = aputv %tmp.175 %tmp.173 %tmp.174;
+        %tmp.178 = const :category;
+        symbol [ category %tmp.178 26 106 114 const ];
+        %tmp.179 = "VERDE";
+        %tmp.180 = dup %tmp.176;
+        %tmp.181 = aputv %tmp.180 %tmp.178 %tmp.179;
+        %tmp.182 = dup %tmp.170;
+        %tmp.183 = aputv %tmp.182 13 %tmp.181;
+        %tmp.184 = newd 2;
+        %tmp.186 = const :text;
+        symbol [ text %tmp.186 27 10 14 const ];
+        %tmp.187 = "El Espíritu de Verdad vive en mí y me guía a toda verdad (Juan 16:13)";
+        %tmp.188 = dup %tmp.184;
+        %tmp.189 = aputv %tmp.188 %tmp.186 %tmp.187;
+        %tmp.191 = const :category;
+        symbol [ category %tmp.191 27 92 100 const ];
+        %tmp.192 = "PURPURA";
+        %tmp.193 = dup %tmp.189;
+        %tmp.194 = aputv %tmp.193 %tmp.191 %tmp.192;
+        %tmp.195 = dup %tmp.183;
+        %tmp.196 = aputv %tmp.195 14 %tmp.194;
+        %tmp.197 = newd 2;
+        %tmp.199 = const :text;
+        symbol [ text %tmp.199 28 10 14 const ];
+        %tmp.200 = "No me afano por el mañana, Dios cuida de mí hoy (Mateo 6:34)";
+        %tmp.201 = dup %tmp.197;
+        %tmp.202 = aputv %tmp.201 %tmp.199 %tmp.200;
+        %tmp.204 = const :category;
+        symbol [ category %tmp.204 28 83 91 const ];
+        %tmp.205 = "AZUL";
+        %tmp.206 = dup %tmp.202;
+        %tmp.207 = aputv %tmp.206 %tmp.204 %tmp.205;
+        %tmp.208 = dup %tmp.196;
+        %tmp.209 = aputv %tmp.208 15 %tmp.207;
+        %tmp.210 = newd 2;
+        %tmp.212 = const :text;
+        symbol [ text %tmp.212 29 10 14 const ];
+        %tmp.213 = "Para mí todo es posible porque he decidido creer (Marcos 9:23)";
+        %tmp.214 = dup %tmp.210;
+        %tmp.215 = aputv %tmp.214 %tmp.212 %tmp.213;
+        %tmp.217 = const :category;
+        symbol [ category %tmp.217 29 85 93 const ];
+        %tmp.218 = "AZUL";
+        %tmp.219 = dup %tmp.215;
+        %tmp.220 = aputv %tmp.219 %tmp.217 %tmp.218;
+        %tmp.221 = dup %tmp.209;
+        %tmp.222 = aputv %tmp.221 16 %tmp.220;
+        %tmp.223 = newd 2;
+        %tmp.225 = const :text;
+        symbol [ text %tmp.225 30 10 14 const ];
+        %tmp.226 = "Tengo vida en abundancia porque Jesús me la ha dado (Juan 10:10)";
+        %tmp.227 = dup %tmp.223;
+        %tmp.228 = aputv %tmp.227 %tmp.225 %tmp.226;
+        %tmp.230 = const :category;
+        symbol [ category %tmp.230 30 87 95 const ];
+        %tmp.231 = "VERDE";
+        %tmp.232 = dup %tmp.228;
+        %tmp.233 = aputv %tmp.232 %tmp.230 %tmp.231;
+        %tmp.234 = dup %tmp.222;
+        %tmp.235 = aputv %tmp.234 17 %tmp.233;
+        %tmp.236 = newd 2;
+        %tmp.238 = const :text;
+        symbol [ text %tmp.238 31 10 14 const ];
+        %tmp.239 = "El gozo del Señor es mi fortaleza y me llena de energía (Nehemías 8:10)";
+        %tmp.240 = dup %tmp.236;
+        %tmp.241 = aputv %tmp.240 %tmp.238 %tmp.239;
+        %tmp.243 = const :category;
+        symbol [ category %tmp.243 31 94 102 const ];
+        %tmp.244 = "VERDE";
+        %tmp.245 = dup %tmp.241;
+        %tmp.246 = aputv %tmp.245 %tmp.243 %tmp.244;
+        %tmp.247 = dup %tmp.235;
+        %tmp.248 = aputv %tmp.247 18 %tmp.246;
+        %tmp.249 = newd 2;
+        %tmp.251 = const :text;
+        symbol [ text %tmp.251 32 10 14 const ];
+        %tmp.252 = "Dios es mi refugio y mi fortaleza, siempre presente en mi vida (Salmo 46:1)";
+        %tmp.253 = dup %tmp.249;
+        %tmp.254 = aputv %tmp.253 %tmp.251 %tmp.252;
+        %tmp.256 = const :category;
+        symbol [ category %tmp.256 32 98 106 const ];
+        %tmp.257 = "AZUL";
+        %tmp.258 = dup %tmp.254;
+        %tmp.259 = aputv %tmp.258 %tmp.256 %tmp.257;
+        %tmp.260 = dup %tmp.248;
+        %tmp.261 = aputv %tmp.260 19 %tmp.259;
+        %tmp.262 = newd 2;
+        %tmp.264 = const :text;
+        symbol [ text %tmp.264 33 10 14 const ];
+        %tmp.265 = "Camino por fe y no por vista, confiando en las promesas de Dios (2 Corintios 5:7)";
+        %tmp.266 = dup %tmp.262;
+        %tmp.267 = aputv %tmp.266 %tmp.264 %tmp.265;
+        %tmp.269 = const :category;
+        symbol [ category %tmp.269 33 104 112 const ];
+        %tmp.270 = "AZUL";
+        %tmp.271 = dup %tmp.267;
+        %tmp.272 = aputv %tmp.271 %tmp.269 %tmp.270;
+        %tmp.273 = dup %tmp.261;
+        %tmp.274 = aputv %tmp.273 20 %tmp.272;
+        %tmp.275 = newd 2;
+        %tmp.277 = const :text;
+        symbol [ text %tmp.277 34 10 14 const ];
+        %tmp.278 = "Permanezco en la Vid; por eso hoy llevo mucho fruto (Juan 15:5)";
+        %tmp.279 = dup %tmp.275;
+        %tmp.280 = aputv %tmp.279 %tmp.277 %tmp.278;
+        %tmp.282 = const :category;
+        symbol [ category %tmp.282 34 86 94 const ];
+        %tmp.283 = "VERDE";
+        %tmp.284 = dup %tmp.280;
+        %tmp.285 = aputv %tmp.284 %tmp.282 %tmp.283;
+        %tmp.286 = dup %tmp.274;
+        %tmp.287 = aputv %tmp.286 21 %tmp.285;
+        %tmp.288 = newd 2;
+        %tmp.290 = const :text;
+        symbol [ text %tmp.290 35 10 14 const ];
+        %tmp.291 = "Si Dios viste así a las flores, ¡cuánto más cuidará de mí hoy! (Mateo 6:30)";
+        %tmp.292 = dup %tmp.288;
+        %tmp.293 = aputv %tmp.292 %tmp.290 %tmp.291;
+        %tmp.295 = const :category;
+        symbol [ category %tmp.295 35 98 106 const ];
+        %tmp.296 = "VERDE";
+        %tmp.297 = dup %tmp.293;
+        %tmp.298 = aputv %tmp.297 %tmp.295 %tmp.296;
+        %tmp.299 = dup %tmp.287;
+        %tmp.300 = aputv %tmp.299 22 %tmp.298;
+        %tmp.301 = newd 2;
+        %tmp.303 = const :text;
+        symbol [ text %tmp.303 36 10 14 const ];
+        %tmp.304 = "Recibo poder del Espíritu Santo para ser testigo de Su gracia (Hechos 1:8)";
+        %tmp.305 = dup %tmp.301;
+        %tmp.306 = aputv %tmp.305 %tmp.303 %tmp.304;
+        %tmp.308 = const :category;
+        symbol [ category %tmp.308 36 97 105 const ];
+        %tmp.309 = "PURPURA";
+        %tmp.310 = dup %tmp.306;
+        %tmp.311 = aputv %tmp.310 %tmp.308 %tmp.309;
+        %tmp.312 = dup %tmp.300;
+        %tmp.313 = aputv %tmp.312 23 %tmp.311;
+        %tmp.314 = newd 2;
+        %tmp.316 = const :text;
+        symbol [ text %tmp.316 37 10 14 const ];
+        %tmp.317 = "Todo lo que pido creyendo que ya lo he recibido, me vendrá (Marcos 11:24)";
+        %tmp.318 = dup %tmp.314;
+        %tmp.319 = aputv %tmp.318 %tmp.316 %tmp.317;
+        %tmp.321 = const :category;
+        symbol [ category %tmp.321 37 96 104 const ];
+        %tmp.322 = "AZUL";
+        %tmp.323 = dup %tmp.319;
+        %tmp.324 = aputv %tmp.323 %tmp.321 %tmp.322;
+        %tmp.325 = dup %tmp.313;
+        %tmp.326 = aputv %tmp.325 24 %tmp.324;
+        %tmp.327 = newd 2;
+        %tmp.329 = const :text;
+        symbol [ text %tmp.329 38 10 14 const ];
+        %tmp.330 = "Pido con fe y recibo, porque mi Padre me ama (Mateo 7:7)";
+        %tmp.331 = dup %tmp.327;
+        %tmp.332 = aputv %tmp.331 %tmp.329 %tmp.330;
+        %tmp.334 = const :category;
+        symbol [ category %tmp.334 38 79 87 const ];
+        %tmp.335 = "VERDE";
+        %tmp.336 = dup %tmp.332;
+        %tmp.337 = aputv %tmp.336 %tmp.334 %tmp.335;
+        %tmp.338 = dup %tmp.326;
+        %tmp.339 = aputv %tmp.338 25 %tmp.337;
+        %tmp.340 = newd 2;
+        %tmp.342 = const :text;
+        symbol [ text %tmp.342 39 10 14 const ];
+        %tmp.343 = "Soy libre de toda carga, Su yugo es fácil y ligero (Mateo 11:30)";
+        %tmp.344 = dup %tmp.340;
+        %tmp.345 = aputv %tmp.344 %tmp.342 %tmp.343;
+        %tmp.347 = const :category;
+        symbol [ category %tmp.347 39 87 95 const ];
+        %tmp.348 = "AMARILLO";
+        %tmp.349 = dup %tmp.345;
+        %tmp.350 = aputv %tmp.349 %tmp.347 %tmp.348;
+        %tmp.351 = dup %tmp.339;
+        %tmp.352 = aputv %tmp.351 26 %tmp.350;
+        %tmp.353 = newd 2;
+        %tmp.355 = const :text;
+        symbol [ text %tmp.355 40 10 14 const ];
+        %tmp.356 = "Busco primero Su reino y todo lo demás me es añadido (Mateo 6:33)";
+        %tmp.357 = dup %tmp.353;
+        %tmp.358 = aputv %tmp.357 %tmp.355 %tmp.356;
+        %tmp.360 = const :category;
+        symbol [ category %tmp.360 40 88 96 const ];
+        %tmp.361 = "AZUL";
+        %tmp.362 = dup %tmp.358;
+        %tmp.363 = aputv %tmp.362 %tmp.360 %tmp.361;
+        %tmp.364 = dup %tmp.352;
+        %tmp.365 = aputv %tmp.364 27 %tmp.363;
+        %tmp.366 = newd 2;
+        %tmp.368 = const :text;
+        symbol [ text %tmp.368 41 10 14 const ];
+        %tmp.369 = "El Señor es mi pastor, nada me falta (Salmo 23:1)";
+        %tmp.370 = dup %tmp.366;
+        %tmp.371 = aputv %tmp.370 %tmp.368 %tmp.369;
+        %tmp.373 = const :category;
+        symbol [ category %tmp.373 41 72 80 const ];
+        %tmp.374 = "VERDE";
+        %tmp.375 = dup %tmp.371;
+        %tmp.376 = aputv %tmp.375 %tmp.373 %tmp.374;
+        %tmp.377 = dup %tmp.365;
+        %tmp.378 = aputv %tmp.377 28 %tmp.376;
+        %tmp.379 = newd 2;
+        %tmp.381 = const :text;
+        symbol [ text %tmp.381 42 10 14 const ];
+        %tmp.382 = "Dios me da sabiduría y entendimiento para tomar buenas decisiones (Santiago 1:5)";
+        %tmp.383 = dup %tmp.379;
+        %tmp.384 = aputv %tmp.383 %tmp.381 %tmp.382;
+        %tmp.386 = const :category;
+        symbol [ category %tmp.386 42 103 111 const ];
+        %tmp.387 = "AZUL";
+        %tmp.388 = dup %tmp.384;
+        %tmp.389 = aputv %tmp.388 %tmp.386 %tmp.387;
+        %tmp.390 = dup %tmp.378;
+        %tmp.391 = aputv %tmp.390 29 %tmp.389;
+        %tmp.392 = newd 2;
+        %tmp.394 = const :text;
+        symbol [ text %tmp.394 43 10 14 const ];
+        %tmp.395 = "No me elegí yo a mí misma, Jesús me elegió a mí para que mi fruto permanezca (Juan 15:16)";
+        %tmp.396 = dup %tmp.392;
+        %tmp.397 = aputv %tmp.396 %tmp.394 %tmp.395;
+        %tmp.399 = const :category;
+        symbol [ category %tmp.399 43 112 120 const ];
+        %tmp.400 = "VERDE";
+        %tmp.401 = dup %tmp.397;
+        %tmp.402 = aputv %tmp.401 %tmp.399 %tmp.400;
+        %tmp.403 = dup %tmp.391;
+        %tmp.404 = aputv %tmp.403 30 %tmp.402;
+        %tmp.405 = newd 2;
+        %tmp.407 = const :text;
+        symbol [ text %tmp.407 44 10 14 const ];
+        %tmp.408 = "Tengo fe en Dios; si digo a esta montaña 'quítate', ella me obedece (Marcos 11:23)";
+        %tmp.409 = dup %tmp.405;
+        %tmp.410 = aputv %tmp.409 %tmp.407 %tmp.408;
+        %tmp.412 = const :category;
+        symbol [ category %tmp.412 44 105 113 const ];
+        %tmp.413 = "AZUL";
+        %tmp.414 = dup %tmp.410;
+        %tmp.415 = aputv %tmp.414 %tmp.412 %tmp.413;
+        %tmp.416 = dup %tmp.404;
+        %tmp.417 = aputv %tmp.416 31 %tmp.415;
+        %tmp.418 = newd 2;
+        %tmp.420 = const :text;
+        symbol [ text %tmp.420 45 10 14 const ];
+        %tmp.421 = "Mi Padre sabe lo que necesito antes de que yo lo pida; descanso en Su cuidado (Mateo 6:8)";
+        %tmp.422 = dup %tmp.418;
+        %tmp.423 = aputv %tmp.422 %tmp.420 %tmp.421;
+        %tmp.425 = const :category;
+        symbol [ category %tmp.425 45 112 120 const ];
+        %tmp.426 = "VERDE";
+        %tmp.427 = dup %tmp.423;
+        %tmp.428 = aputv %tmp.427 %tmp.425 %tmp.426;
+        %tmp.429 = dup %tmp.417;
+        %tmp.430 = aputv %tmp.429 32 %tmp.428;
+        %tmp.431 = newd 2;
+        %tmp.433 = const :text;
+        symbol [ text %tmp.433 46 10 14 const ];
+        %tmp.434 = "No me conformo a este mundo; me transformo renovando mi mente (Romanos 12:2)";
+        %tmp.435 = dup %tmp.431;
+        %tmp.436 = aputv %tmp.435 %tmp.433 %tmp.434;
+        %tmp.438 = const :category;
+        symbol [ category %tmp.438 46 99 107 const ];
+        %tmp.439 = "PURPURA";
+        %tmp.440 = dup %tmp.436;
+        %tmp.441 = aputv %tmp.440 %tmp.438 %tmp.439;
+        %tmp.442 = dup %tmp.430;
+        %tmp.443 = aputv %tmp.442 33 %tmp.441;
+        %tmp.444 = newd 2;
+        %tmp.446 = const :text;
+        symbol [ text %tmp.446 47 10 14 const ];
+        %tmp.447 = "Dios no me dio un espíritu de temor, sino de poder, amor y dominio propio (2 Timoteo 1:7)";
+        %tmp.448 = dup %tmp.444;
+        %tmp.449 = aputv %tmp.448 %tmp.446 %tmp.447;
+        %tmp.451 = const :category;
+        symbol [ category %tmp.451 47 112 120 const ];
+        %tmp.452 = "VERDE";
+        %tmp.453 = dup %tmp.449;
+        %tmp.454 = aputv %tmp.453 %tmp.451 %tmp.452;
+        %tmp.455 = dup %tmp.443;
+        %tmp.456 = aputv %tmp.455 34 %tmp.454;
+        %tmp.457 = newd 2;
+        %tmp.459 = const :text;
+        symbol [ text %tmp.459 48 10 14 const ];
+        %tmp.460 = "Todo lo que es verdadero, honesto y puro, en eso pongo mi pensamiento (Filipenses 4:8)";
+        %tmp.461 = dup %tmp.457;
+        %tmp.462 = aputv %tmp.461 %tmp.459 %tmp.460;
+        %tmp.464 = const :category;
+        symbol [ category %tmp.464 48 109 117 const ];
+        %tmp.465 = "AZUL";
+        %tmp.466 = dup %tmp.462;
+        %tmp.467 = aputv %tmp.466 %tmp.464 %tmp.465;
+        %tmp.468 = dup %tmp.456;
+        %tmp.469 = aputv %tmp.468 35 %tmp.467;
+        %tmp.470 = newd 2;
+        %tmp.472 = const :text;
+        symbol [ text %tmp.472 49 10 14 const ];
+        %tmp.473 = "Mi mente está siendo renovada ahora. Amén.";
+        %tmp.474 = dup %tmp.470;
+        %tmp.475 = aputv %tmp.474 %tmp.472 %tmp.473;
+        %tmp.477 = const :category;
+        symbol [ category %tmp.477 49 65 73 const ];
+        %tmp.478 = "AMARILLO";
+        %tmp.479 = dup %tmp.475;
+        %tmp.480 = aputv %tmp.479 %tmp.477 %tmp.478;
+        %tmp.481 = dup %tmp.469;
+        %tmp.482 = aputv %tmp.481 36 %tmp.480;
+        putv self :defaultMessages %tmp.482;
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 12; @position = 15; @symbol_vardef = [defaultMessages,12,15,30]; ]
+    static
+    var defaultMessages;
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 53; @symbol_functiondef = [getFrequency,53,20,32]; ]
+    static
+    function getFrequency() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_53_35_57_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 54 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_53_35_57_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_53_35_57_4_stop" ]
+        %freq.1 = local;
+        symbol [ freq %freq.1 54 12 16 ];
+        symbol [ Properties %tmp.1 54 19 29 ];
+        %tmp.1 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.2 54 30 38 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "frequency";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %freq.1 %tmp.4;
+        symbol [ freq %freq.1 54 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 55 8 ]
+        symbol [ System %tmp.5 55 8 14 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ println %tmp.6 55 15 22 ];
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = "Frecuencia en Properties XML (Garmin Connect): ";
+        %tmp.8 = lgetv %freq.1;
+        symbol [ freq %tmp.8 55 75 79 ];
+        %tmp.9 = add %tmp.7 %tmp.8;
+        invoke %tmp.5 %tmp.6(%tmp.9);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 56 8 ]
+        %tmp.10 = lgetv %freq.1;
+        symbol [ freq %tmp.10 56 15 19 ];
+        ret %tmp.10;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_53_35_57_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 60; @symbol_functiondef = [getMessages,60,20,31]; ]
+    static
+    function getMessages() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 61 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_stop" ]
+        %userArray.1 = local;
+        symbol [ userArray %userArray.1 61 12 21 ];
+        symbol [ Properties %tmp.1 61 24 34 ];
+        %tmp.1 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.2 61 35 43 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "messageList";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %userArray.1 %tmp.4;
+        symbol [ userArray %userArray.1 61 12 21 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 62 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_stop" ]
+        %parsed.2 = local;
+        symbol [ parsed %parsed.2 62 12 18 ];
+        %tmp.5 = newa 0;
+        lputv %parsed.2 %tmp.5;
+        symbol [ parsed %parsed.2 62 12 18 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 65 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_12_65_52_begin:
+        %tmp.6 = lgetv %userArray.1;
+        symbol [ userArray %tmp.6 65 12 21 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_33_65_52_true:
+        %tmp.9 = lgetv %userArray.1;
+        symbol [ userArray %tmp.9 65 33 42 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        symbol [ size %tmp.11 65 43 47 ];
+        %tmp.11 = getv function %tmp.10 :size;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = 0;
+        %tmp.14 = gt %tmp.12 %tmp.13;
+        push %tmp.14;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_33_65_52_end:
+        %tmp.15 = phi [%tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_12_65_52_begin] [%tmp.14 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_33_65_52_true] [%tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_33_65_52_end];
+        bf %tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_55_88_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 66 12 ]
+        for @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_test @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_incr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_init:
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_begin" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_end" ]
+        %i.3 = local;
+        symbol [ i %i.3 66 21 22 ];
+        %tmp.16 = 0;
+        lputv %i.3 %tmp.16;
+        symbol [ i %i.3 66 21 22 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_test:
+        %tmp.17 = lgetv %i.3;
+        symbol [ i %tmp.17 66 28 29 ];
+        %tmp.18 = lgetv %userArray.1;
+        symbol [ userArray %tmp.18 66 32 41 ];
+        %tmp.19 = as %tmp.18 { (!Null) };
+        symbol [ size %tmp.20 66 42 46 ];
+        %tmp.20 = getv function %tmp.19 :size;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = lt %tmp.17 %tmp.21;
+        bf %tmp.22 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 67 16 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_stop" ]
+        %entry.4 = local;
+        symbol [ entry %entry.4 67 20 25 ];
+        %tmp.23 = lgetv %userArray.1;
+        symbol [ userArray %tmp.23 67 28 37 ];
+        %tmp.24 = as %tmp.23 { (!Null) };
+        %tmp.25 = lgetv %i.3;
+        symbol [ i %tmp.25 67 38 39 ];
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        lputv %entry.4 %tmp.26;
+        symbol [ entry %entry.4 67 20 25 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 68 16 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_stop" ]
+        %keys.5 = local;
+        symbol [ keys %keys.5 68 20 24 ];
+        %tmp.27 = lgetv %entry.4;
+        symbol [ entry %tmp.27 68 27 32 ];
+        symbol [ keys %tmp.28 68 33 37 ];
+        %tmp.28 = getv function %tmp.27 :keys;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        lputv %keys.5 %tmp.29;
+        symbol [ keys %keys.5 68 20 24 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 69 16 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_stop" ]
+        %text.6 = local;
+        symbol [ text %text.6 69 20 24 ];
+        %tmp.30 = "";
+        lputv %text.6 %tmp.30;
+        symbol [ text %text.6 69 20 24 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 70 16 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_stop" ]
+        %catId.7 = local;
+        symbol [ catId %catId.7 70 20 25 ];
+        %tmp.31 = 0;
+        lputv %catId.7 %tmp.31;
+        symbol [ catId %catId.7 70 20 25 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 72 16 ]
+        for @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_test @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_incr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_init:
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_begin" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_end" ]
+        %j.8 = local;
+        symbol [ j %j.8 72 25 26 ];
+        %tmp.32 = 0;
+        lputv %j.8 %tmp.32;
+        symbol [ j %j.8 72 25 26 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_test:
+        %tmp.33 = lgetv %j.8;
+        symbol [ j %tmp.33 72 32 33 ];
+        %tmp.34 = lgetv %keys.5;
+        symbol [ keys %tmp.34 72 36 40 ];
+        symbol [ size %tmp.35 72 41 45 ];
+        %tmp.35 = getv function %tmp.34 :size;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = lt %tmp.33 %tmp.36;
+        bf %tmp.37 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_54_79_16_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 73 20 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_54_79_16_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_54_79_16_stop" ]
+        %key.9 = local;
+        symbol [ key %key.9 73 24 27 ];
+        %tmp.38 = lgetv %keys.5;
+        symbol [ keys %tmp.38 73 30 34 ];
+        %tmp.39 = lgetv %j.8;
+        symbol [ j %tmp.39 73 35 36 ];
+        %tmp.40 = agetv %tmp.38 %tmp.39;
+        lputv %key.9 %tmp.40;
+        symbol [ key %key.9 73 24 27 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 74 20 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_stmt:
+        %tmp.41 = lgetv %key.9;
+        symbol [ key %tmp.41 74 24 27 ];
+        symbol [ toString %tmp.42 74 28 36 ];
+        %tmp.42 = getv function %tmp.41 :toString;
+        %tmp.43 = invoke %tmp.41 %tmp.42();
+        symbol [ equals %tmp.44 74 39 45 ];
+        %tmp.44 = getv function %tmp.43 :equals;
+        %tmp.45 = "msgText";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        bf %tmp.46 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_58_76_20_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 75 24 ]
+        %tmp.47 = lgetv %entry.4;
+        symbol [ entry %tmp.47 75 31 36 ];
+        %tmp.48 = lgetv %key.9;
+        symbol [ key %tmp.48 75 37 40 ];
+        %tmp.49 = agetv %tmp.47 %tmp.48;
+        lputv %text.6 %tmp.49;
+        symbol [ text %text.6 75 24 28 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_58_76_20_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_false:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 76 27 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_27_78_20_if_stmt:
+        %tmp.50 = lgetv %key.9;
+        symbol [ key %tmp.50 76 31 34 ];
+        symbol [ toString %tmp.51 76 35 43 ];
+        %tmp.51 = getv function %tmp.50 :toString;
+        %tmp.52 = invoke %tmp.50 %tmp.51();
+        symbol [ equals %tmp.53 76 46 52 ];
+        %tmp.53 = getv function %tmp.52 :equals;
+        %tmp.54 = "msgCat";
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        bf %tmp.55 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_27_78_20_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_27_78_20_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_64_78_20_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 77 24 ]
+        %tmp.56 = lgetv %entry.4;
+        symbol [ entry %tmp.56 77 32 37 ];
+        %tmp.57 = lgetv %key.9;
+        symbol [ key %tmp.57 77 38 41 ];
+        %tmp.58 = agetv %tmp.56 %tmp.57;
+        lputv %catId.7 %tmp.58;
+        symbol [ catId %catId.7 77 24 29 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_64_78_20_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_27_78_20_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_76_27_78_20_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_74_20_78_20_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_54_79_16_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_incr:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 72 ]
+        %tmp.61 = lgetv %j.8;
+        symbol [ j %tmp.61 72 49 50 ];
+        %tmp.62 = add %tmp.61 1;
+        lputv %j.8 %tmp.62;
+        symbol [ j %j.8 72 49 50 ];
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_test;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_72_16_79_16_for_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 81 16 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_20_81_67_begin:
+        %tmp.63 = lgetv %text.6;
+        symbol [ text %tmp.63 81 20 24 ];
+        symbol [ Lang %tmp.64 81 36 40 ];
+        %tmp.64 = getm $.Toybox.Lang;
+        symbol [ String %tmp.65 81 41 47 ];
+        %tmp.65 = getv %tmp.64 :String;
+        %tmp.66 = isa %tmp.63 %tmp.65;
+        bf %tmp.66 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_51_81_67_true:
+        %tmp.67 = lgetv %text.6;
+        symbol [ text %tmp.67 81 51 55 ];
+        %tmp.68 = as %tmp.67 { (Lang.String) };
+        symbol [ length %tmp.69 81 56 62 ];
+        %tmp.69 = getv function %tmp.68 :length;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        %tmp.71 = 0;
+        %tmp.72 = gt %tmp.70 %tmp.71;
+        push %tmp.72;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_51_81_67_end:
+        %tmp.73 = phi [%tmp.66 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_20_81_67_begin] [%tmp.72 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_51_81_67_true] [%tmp.73 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_51_81_67_end];
+        bf %tmp.73 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_70_86_16_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 82 20 ]
+        %tmp.74 = lgetv %parsed.2;
+        symbol [ parsed %tmp.74 82 20 26 ];
+        symbol [ add %tmp.75 82 27 30 ];
+        %tmp.75 = getv function %tmp.74 :add;
+        %tmp.76 = newd 2;
+        %tmp.78 = const :text;
+        symbol [ text %tmp.78 83 25 29 const ];
+        %tmp.79 = lgetv %text.6;
+        symbol [ text %tmp.79 83 33 37 ];
+        %tmp.80 = as %tmp.79 { (Lang.String) };
+        %tmp.81 = dup %tmp.76;
+        %tmp.82 = aputv %tmp.81 %tmp.78 %tmp.80;
+        %tmp.84 = const :category;
+        symbol [ category %tmp.84 84 25 33 const ];
+        %tmp.85 = self;
+        symbol [ mapCategory %tmp.86 84 37 48 ];
+        %tmp.86 = getv function %tmp.85 :mapCategory;
+        %tmp.87 = lgetv %catId.7;
+        symbol [ catId %tmp.87 84 49 54 ];
+        %tmp.88 = invoke %tmp.85 %tmp.86(%tmp.87);
+        %tmp.89 = dup %tmp.82;
+        %tmp.90 = aputv %tmp.89 %tmp.84 %tmp.88;
+        invoke %tmp.74 %tmp.75(%tmp.90);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_70_86_16_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_81_16_86_16_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_55_87_12_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_incr:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 66 ]
+        %tmp.93 = lgetv %i.3;
+        symbol [ i %tmp.93 66 50 51 ];
+        %tmp.94 = add %tmp.93 1;
+        lputv %i.3 %tmp.94;
+        symbol [ i %i.3 66 50 51 ];
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_test;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_66_12_87_12_for_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_55_88_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_65_8_88_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 92 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_stop" ]
+        %totalMessages.10 = local;
+        symbol [ totalMessages %totalMessages.10 92 12 25 ];
+        %tmp.95 = newa 0;
+        lputv %totalMessages.10 %tmp.95;
+        symbol [ totalMessages %totalMessages.10 92 12 25 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 95 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_8_97_8_if_stmt:
+        %tmp.96 = lgetv %parsed.2;
+        symbol [ parsed %tmp.96 95 12 18 ];
+        symbol [ size %tmp.97 95 19 23 ];
+        %tmp.97 = getv function %tmp.96 :size;
+        %tmp.98 = invoke %tmp.96 %tmp.97();
+        %tmp.99 = 0;
+        %tmp.100 = gt %tmp.98 %tmp.99;
+        bf %tmp.100 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_8_97_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_8_97_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_31_97_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 96 12 ]
+        %tmp.101 = lgetv %totalMessages.10;
+        symbol [ totalMessages %tmp.101 96 12 25 ];
+        symbol [ addAll %tmp.102 96 26 32 ];
+        %tmp.102 = getv function %tmp.101 :addAll;
+        %tmp.103 = lgetv %parsed.2;
+        symbol [ parsed %tmp.103 96 33 39 ];
+        invoke %tmp.101 %tmp.102(%tmp.103);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_31_97_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_8_97_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_95_8_97_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 100 8 ]
+        %tmp.104 = lgetv %totalMessages.10;
+        symbol [ totalMessages %tmp.104 100 8 21 ];
+        symbol [ addAll %tmp.105 100 22 28 ];
+        %tmp.105 = getv function %tmp.104 :addAll;
+        symbol [ defaultMessages %tmp.107 100 29 44 ];
+        %tmp.107 = getv ? :defaultMessages;
+        invoke %tmp.104 %tmp.105(%tmp.107);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 102 8 ]
+        %tmp.108 = lgetv %totalMessages.10;
+        symbol [ totalMessages %tmp.108 102 15 28 ];
+        ret %tmp.108;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_60_34_103_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 106; @symbol_functiondef = [mapCategory,106,20,31]; @symbol_param<0> = [id,106,32,34]; ]
+    static
+    function mapCategory(id) {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_106_36_114_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 109 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_106_36_114_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_106_36_114_4_stop" ]
+        %cats.1 = local;
+        symbol [ cats %cats.1 109 12 16 ];
+        %tmp.1 = newa 4;
+        %tmp.2 = "AZUL";
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = "VERDE";
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = "PURPURA";
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = "AMARILLO";
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        lputv %cats.1 %tmp.13;
+        symbol [ cats %cats.1 109 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 110 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_12_110_52_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_12_110_32_begin:
+        %tmp.14 = lgetv %id;
+        symbol [ id %tmp.14 110 12 14 ];
+        %tmp.15 = null;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        bf %tmp.16 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_26_110_32_true:
+        %tmp.17 = lgetv %id;
+        symbol [ id %tmp.17 110 26 28 ];
+        %tmp.18 = as %tmp.17 { (!Null) };
+        %tmp.19 = 0;
+        %tmp.20 = gte %tmp.18 %tmp.19;
+        push %tmp.20;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_26_110_32_end:
+        %tmp.21 = phi [%tmp.16 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_12_110_32_begin] [%tmp.20 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_26_110_32_true] [%tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_26_110_32_end];
+        bf %tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_37_110_52_true:
+        %tmp.22 = lgetv %id;
+        symbol [ id %tmp.22 110 37 39 ];
+        %tmp.23 = as %tmp.22 { (!Null) };
+        %tmp.24 = lgetv %cats.1;
+        symbol [ cats %tmp.24 110 42 46 ];
+        symbol [ size %tmp.25 110 47 51 ];
+        %tmp.25 = getv function %tmp.24 :size;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = lt %tmp.23 %tmp.26;
+        push %tmp.27;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_37_110_52_end:
+        %tmp.28 = phi [%tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_12_110_52_begin] [%tmp.27 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_37_110_52_true] [%tmp.28 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_37_110_52_end];
+        bf %tmp.28 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_55_112_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 111 12 ]
+        %tmp.29 = lgetv %cats.1;
+        symbol [ cats %tmp.29 111 19 23 ];
+        %tmp.30 = lgetv %id;
+        symbol [ id %tmp.30 111 24 26 ];
+        %tmp.31 = as %tmp.30 { (!Null) };
+        %tmp.32 = agetv %tmp.29 %tmp.31;
+        ret %tmp.32;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_55_112_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_110_8_112_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 113 8 ]
+        %tmp.33 = "AZUL";
+        ret %tmp.33;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_106_36_114_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 116; @symbol_functiondef = [getColor,116,20,28]; @symbol_param<0> = [messageObj,116,29,39]; @symbol_param<1> = [index,116,41,46]; @symbol_param<2> = [total,116,48,53]; ]
+    static
+    function getColor(messageObj, index, total) {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_116_55_129_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 117 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_116_55_129_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_116_55_129_4_stop" ]
+        %cat.1 = local;
+        symbol [ cat %cat.1 117 12 15 ];
+        %tmp.1 = lgetv %messageObj;
+        symbol [ messageObj %tmp.1 117 18 28 ];
+        %tmp.3 = const :category;
+        symbol [ category %tmp.3 117 30 38 const ];
+        %tmp.4 = agetv %tmp.1 %tmp.3;
+        lputv %cat.1 %tmp.4;
+        symbol [ cat %cat.1 117 12 15 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 120 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_8_125_8_if_stmt:
+        %tmp.5 = lgetv %cat.1;
+        symbol [ cat %tmp.5 120 12 15 ];
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_8_125_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_8_125_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_25_125_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 121 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_12_121_55_if_stmt:
+        %tmp.8 = lgetv %cat.1;
+        symbol [ cat %tmp.8 121 16 19 ];
+        %tmp.9 = as %tmp.8 { (!Null) };
+        symbol [ equals %tmp.10 121 20 26 ];
+        %tmp.10 = getv function %tmp.9 :equals;
+        %tmp.11 = "AZUL";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        bf %tmp.12 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_12_121_55_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_12_121_55_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_36_121_55_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 121 38 ]
+        %tmp.13 = 0x000055;
+        ret %tmp.13;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_36_121_55_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_12_121_55_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_121_12_121_55_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 122 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_12_122_56_if_stmt:
+        %tmp.14 = lgetv %cat.1;
+        symbol [ cat %tmp.14 122 16 19 ];
+        %tmp.15 = as %tmp.14 { (!Null) };
+        symbol [ equals %tmp.16 122 20 26 ];
+        %tmp.16 = getv function %tmp.15 :equals;
+        %tmp.17 = "VERDE";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        bf %tmp.18 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_12_122_56_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_12_122_56_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_37_122_56_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 122 39 ]
+        %tmp.19 = 0x003300;
+        ret %tmp.19;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_37_122_56_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_12_122_56_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_122_12_122_56_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 123 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_12_123_58_if_stmt:
+        %tmp.20 = lgetv %cat.1;
+        symbol [ cat %tmp.20 123 16 19 ];
+        %tmp.21 = as %tmp.20 { (!Null) };
+        symbol [ equals %tmp.22 123 20 26 ];
+        %tmp.22 = getv function %tmp.21 :equals;
+        %tmp.23 = "PURPURA";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        bf %tmp.24 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_12_123_58_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_12_123_58_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_39_123_58_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 123 41 ]
+        %tmp.25 = 0x330066;
+        ret %tmp.25;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_39_123_58_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_12_123_58_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_123_12_123_58_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 124 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_12_124_59_if_stmt:
+        %tmp.26 = lgetv %cat.1;
+        symbol [ cat %tmp.26 124 16 19 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ equals %tmp.28 124 20 26 ];
+        %tmp.28 = getv function %tmp.27 :equals;
+        %tmp.29 = "AMARILLO";
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        bf %tmp.30 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_12_124_59_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_12_124_59_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_40_124_59_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 124 42 ]
+        %tmp.31 = 0x552200;
+        ret %tmp.31;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_40_124_59_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_12_124_59_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_124_12_124_59_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_25_125_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_8_125_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_120_8_125_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 128 8 ]
+        %tmp.32 = 0x000055;
+        ret %tmp.32;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_116_55_129_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 131; @symbol_functiondef = [getNextSequentialMessage,131,20,44]; ]
+    static
+    function getNextSequentialMessage() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 132 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_stop" ]
+        %msgs.1 = local;
+        symbol [ msgs %msgs.1 132 12 16 ];
+        %tmp.1 = self;
+        symbol [ getMessages %tmp.2 132 19 30 ];
+        %tmp.2 = getv function %tmp.1 :getMessages;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %msgs.1 %tmp.3;
+        symbol [ msgs %msgs.1 132 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 133 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_stop" ]
+        %size.2 = local;
+        symbol [ size %size.2 133 12 16 ];
+        %tmp.4 = lgetv %msgs.1;
+        symbol [ msgs %tmp.4 133 19 23 ];
+        symbol [ size %tmp.5 133 24 28 ];
+        %tmp.5 = getv function %tmp.4 :size;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %size.2 %tmp.6;
+        symbol [ size %size.2 133 12 16 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 134 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_8_134_38_if_stmt:
+        %tmp.7 = lgetv %size.2;
+        symbol [ size %tmp.7 134 12 16 ];
+        %tmp.8 = 0;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_8_134_38_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_8_134_38_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_23_134_38_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 134 25 ]
+        %tmp.10 = null;
+        ret %tmp.10;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_23_134_38_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_8_134_38_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_134_8_134_38_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 136 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_stop" ]
+        %index.3 = local;
+        symbol [ index %index.3 136 12 17 ];
+        symbol [ Storage %tmp.11 136 20 27 ];
+        %tmp.11 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.12 136 28 36 ];
+        %tmp.12 = getv function %tmp.11 :getValue;
+        %tmp.13 = "last_msg_index";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        lputv %index.3 %tmp.14;
+        symbol [ index %index.3 136 12 17 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 138 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_12_138_38_begin:
+        %tmp.15 = lgetv %index.3;
+        symbol [ index %tmp.15 138 12 17 ];
+        %tmp.16 = null;
+        %tmp.17 = eq %tmp.15 %tmp.16;
+        bt %tmp.17 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_true;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_29_138_38_false:
+        %tmp.18 = lgetv %index.3;
+        symbol [ index %tmp.18 138 29 34 ];
+        %tmp.19 = as %tmp.18 { (!Null) };
+        %tmp.20 = lgetv %size.2;
+        symbol [ size %tmp.20 138 38 42 ];
+        %tmp.21 = gte %tmp.19 %tmp.20;
+        push %tmp.21;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_29_138_38_end:
+        %tmp.22 = phi [%tmp.17 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_12_138_38_begin] [%tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_29_138_38_false] [%tmp.22 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_29_138_38_end];
+        bf %tmp.22 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_44_138_57_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 138 46 ]
+        %tmp.23 = 0;
+        lputv %index.3 %tmp.23;
+        symbol [ index %index.3 138 46 51 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_44_138_57_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_138_8_138_57_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 140 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_stop" ]
+        %selected.4 = local;
+        symbol [ selected %selected.4 140 12 20 ];
+        %tmp.24 = lgetv %msgs.1;
+        symbol [ msgs %tmp.24 140 23 27 ];
+        %tmp.25 = lgetv %index.3;
+        symbol [ index %tmp.25 140 28 33 ];
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        lputv %selected.4 %tmp.26;
+        symbol [ selected %selected.4 140 12 20 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 143 8 ]
+        symbol [ Storage %tmp.27 143 8 15 ];
+        %tmp.27 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.28 143 16 24 ];
+        %tmp.28 = getv function %tmp.27 :setValue;
+        %tmp.29 = "last_msg_index";
+        %tmp.30 = lgetv %index.3;
+        symbol [ index %tmp.30 143 44 49 ];
+        %tmp.31 = 1;
+        %tmp.32 = add %tmp.30 %tmp.31;
+        %tmp.33 = lgetv %size.2;
+        symbol [ size %tmp.33 143 57 61 ];
+        %tmp.34 = mod %tmp.32 %tmp.33;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.34);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 146 8 ]
+        %tmp.35 = newd 3;
+        %tmp.37 = const :msg;
+        symbol [ msg %tmp.37 147 13 16 const ];
+        %tmp.38 = lgetv %selected.4;
+        symbol [ selected %tmp.38 147 20 28 ];
+        %tmp.39 = dup %tmp.35;
+        %tmp.40 = aputv %tmp.39 %tmp.37 %tmp.38;
+        %tmp.42 = const :index;
+        symbol [ index %tmp.42 148 13 18 const ];
+        %tmp.43 = lgetv %index.3;
+        symbol [ index %tmp.43 148 22 27 ];
+        %tmp.44 = dup %tmp.40;
+        %tmp.45 = aputv %tmp.44 %tmp.42 %tmp.43;
+        %tmp.47 = const :total;
+        symbol [ total %tmp.47 149 13 18 const ];
+        %tmp.48 = lgetv %size.2;
+        symbol [ size %tmp.48 149 22 26 ];
+        %tmp.49 = dup %tmp.45;
+        %tmp.50 = aputv %tmp.49 %tmp.47 %tmp.48;
+        ret %tmp.50;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_131_47_151_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 153; @symbol_functiondef = [clearData,153,20,29]; ]
+    static
+    function clearData() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_153_32_159_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 154 8 ]
+        symbol [ Properties %tmp.1 154 8 18 ];
+        %tmp.1 = getm $.Toybox.Application.Properties;
+        symbol [ setValue %tmp.2 154 19 27 ];
+        %tmp.2 = getv function %tmp.1 :setValue;
+        %tmp.3 = "messageList";
+        %tmp.4 = newa 0;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 156 8 ]
+        symbol [ Storage %tmp.5 156 8 15 ];
+        %tmp.5 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.6 156 16 24 ];
+        %tmp.6 = getv function %tmp.5 :setValue;
+        %tmp.7 = "last_msg_index";
+        %tmp.8 = 0;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 157 8 ]
+        symbol [ System %tmp.9 157 8 14 ];
+        %tmp.9 = getm $.Toybox.System;
+        symbol [ println %tmp.10 157 15 22 ];
+        %tmp.10 = getv function %tmp.9 :println;
+        %tmp.11 = "messageList ";
+        symbol [ Properties %tmp.12 157 39 49 ];
+        %tmp.12 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.13 157 50 58 ];
+        %tmp.13 = getv function %tmp.12 :getValue;
+        %tmp.14 = "messageList";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        %tmp.16 = add %tmp.11 %tmp.15;
+        invoke %tmp.9 %tmp.10(%tmp.16);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc" 158 8 ]
+        symbol [ System %tmp.17 158 8 14 ];
+        %tmp.17 = getm $.Toybox.System;
+        symbol [ println %tmp.18 158 15 22 ];
+        %tmp.18 = getv function %tmp.17 :println;
+        %tmp.19 = "last_msg_index ";
+        symbol [ Storage %tmp.20 158 42 49 ];
+        %tmp.20 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.21 158 50 58 ];
+        %tmp.21 = getv function %tmp.20 :getValue;
+        %tmp.22 = "last_msg_index";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        %tmp.24 = add %tmp.19 %tmp.23;
+        invoke %tmp.17 %tmp.18(%tmp.24);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_Settings_mc_153_32_159_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/Settings.mc"; @line = 1; ]
+<init> {
+}

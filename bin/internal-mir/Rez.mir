@@ -1,0 +1,1548 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [AppVersionTitle,13,27,42]; @symbol_type<0> = [ResourceId,13,46,56]; ]
+        var AppVersionTitle as ResourceId;
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [FrequencyError,14,27,41]; @symbol_type<0> = [ResourceId,14,45,55]; ]
+        var FrequencyError as ResourceId;
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [Frequency,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
+        var Frequency as ResourceId;
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [FrequencyPrompt,16,27,42]; @symbol_type<0> = [ResourceId,16,46,56]; ]
+        var FrequencyPrompt as ResourceId;
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [AppName,17,27,34]; @symbol_type<0> = [ResourceId,17,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 20; @symbol_moduledef = [Styles,20,11,17]; ]
+    module Styles {
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 20; ]
+        <init> {
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 21; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,21,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 22; @position = 18; @symbol_constdef = [exclude,22,18,25]; @symbol_type<0> = [Boolean,22,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 25; @symbol_moduledef = [system_size__menu_header,25,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 25; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 26; @position = 18; @symbol_constdef = [width,26,18,23]; @symbol_type<0> = [Number,26,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 27; @position = 18; @symbol_constdef = [height,27,18,24]; @symbol_type<0> = [Number,27,28,34]; ]
+            const height as Number = 82;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 30; @symbol_moduledef = [system_loc__hint_button_left_bottom,30,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 30; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 31; @position = 18; @symbol_constdef = [exclude,31,18,25]; @symbol_type<0> = [Boolean,31,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 34; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,34,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [exclude,35,18,25]; @symbol_type<0> = [Boolean,35,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 38; @symbol_moduledef = [prompt_loc__body_no_title,38,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 39; @position = 18; @symbol_constdef = [x,39,18,19]; @symbol_type<0> = [Number,39,23,29]; ]
+            const x as Number = 36;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [y,40,18,19]; @symbol_type<0> = [Number,40,23,29]; ]
+            const y as Number = 61;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 43; @symbol_moduledef = [system_icon_dark__about,43,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 43; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 44; @position = 18; @symbol_constdef = [filename,44,18,26]; @symbol_type<0> = [String,44,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__about.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 45; @position = 18; @symbol_constdef = [compress,45,18,26]; @symbol_type<0> = [String,45,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [dithering,46,18,27]; @symbol_type<0> = [String,46,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [automaticPalette,47,18,34]; @symbol_type<0> = [String,47,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 48; @position = 18; @symbol_constdef = [packingFormat,48,18,31]; @symbol_type<0> = [String,48,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 51; @symbol_moduledef = [system_icon_light__question,51,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 51; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [filename,52,18,26]; @symbol_type<0> = [String,52,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__question.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 53; @position = 18; @symbol_constdef = [compress,53,18,26]; @symbol_type<0> = [String,53,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [dithering,54,18,27]; @symbol_type<0> = [String,54,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [automaticPalette,55,18,34]; @symbol_type<0> = [String,55,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [packingFormat,56,18,31]; @symbol_type<0> = [String,56,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 59; @symbol_moduledef = [system_loc__hint_button_left_top,59,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [exclude,60,18,25]; @symbol_type<0> = [Boolean,60,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 63; @symbol_moduledef = [prompt_font__title,63,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 63; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 64 18 ]
+                symbol [ Graphics %tmp.1 64 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.2 64 43 62 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.3 64 63 71 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 64 72 92 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 65 18 ]
+                symbol [ Graphics %tmp.6 65 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.7 65 34 44 ];
+                %tmp.7 = getv %tmp.6 :FONT_XTINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [justification,64,18,31]; ]
+            const justification;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [font,65,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 68; @symbol_moduledef = [system_icon_dark__discard,68,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [filename,69,18,26]; @symbol_type<0> = [String,69,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__discard.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [compress,70,18,26]; @symbol_type<0> = [String,70,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [dithering,71,18,27]; @symbol_type<0> = [String,71,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [automaticPalette,72,18,34]; @symbol_type<0> = [String,72,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [packingFormat,73,18,31]; @symbol_type<0> = [String,73,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 76; @symbol_moduledef = [system_size__menu_item,76,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 76; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [width,77,18,23]; @symbol_type<0> = [Number,77,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [height,78,18,24]; @symbol_type<0> = [Number,78,28,34]; ]
+            const height as Number = 90;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 81; @symbol_moduledef = [system_color_dark__text,81,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 81; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 83 18 ]
+                symbol [ Graphics %tmp.8 83 31 39 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.9 83 40 57 ];
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [color,82,18,23]; @symbol_type<0> = [Number,82,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [background,83,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 86; @symbol_moduledef = [system_icon_destructive__discard,86,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 86; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [filename,87,18,26]; @symbol_type<0> = [String,87,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__discard.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [dithering,88,18,27]; @symbol_type<0> = [String,88,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [packingFormat,89,18,31]; @symbol_type<0> = [String,89,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 92; @symbol_moduledef = [system_icon_dark__hint_action_menu,92,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [filename,93,18,26]; @symbol_type<0> = [String,93,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_action_menu.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [dithering,94,18,27]; @symbol_type<0> = [String,94,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [packingFormat,95,18,31]; @symbol_type<0> = [String,95,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [prompt_size__title,98,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [width,99,18,23]; @symbol_type<0> = [Number,99,27,33]; ]
+            const width as Number = 152;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [height,100,18,24]; @symbol_type<0> = [Number,100,28,34]; ]
+            const height as Number = 65;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 103; @symbol_moduledef = [confirmation_font__body,103,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 103; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 104 18 ]
+                symbol [ Graphics %tmp.10 104 34 42 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.11 104 43 62 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.12 104 63 71 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.13 104 72 92 ];
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 105 18 ]
+                symbol [ Graphics %tmp.15 105 25 33 ];
+                %tmp.15 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.16 105 34 43 ];
+                %tmp.16 = getv %tmp.15 :FONT_TINY;
+                putv self :font %tmp.16;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [justification,104,18,31]; ]
+            const justification;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [font,105,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 108; @symbol_moduledef = [system_color_dark__background,108,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [color,109,18,23]; @symbol_type<0> = [Number,109,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [background,110,18,28]; @symbol_type<0> = [Number,110,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 113; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,113,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 113; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [exclude,114,18,25]; @symbol_type<0> = [Boolean,114,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 117; @symbol_moduledef = [system_size__launch_icon,117,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [scaleX,118,18,24]; @symbol_type<0> = [Number,118,28,34]; ]
+            const scaleX as Number = 61;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [scaleY,119,18,24]; @symbol_type<0> = [Number,119,28,34]; ]
+            const scaleY as Number = 61;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [scaleRelativeTo,120,18,33]; @symbol_type<0> = [String,120,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 123; @symbol_moduledef = [confirmation_input__confirm,123,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [y1,124,18,20]; @symbol_type<0> = [Number,124,24,30]; ]
+            const y1 as Number = 265;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [x1,125,18,20]; @symbol_type<0> = [Number,125,24,30]; ]
+            const x1 as Number = 77;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [y2,126,18,20]; @symbol_type<0> = [Number,126,24,30]; ]
+            const y2 as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [x2,127,18,20]; @symbol_type<0> = [Number,127,24,30]; ]
+            const x2 as Number = 285;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 130; @symbol_moduledef = [prompt_font__body_with_title,130,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 130; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 131 18 ]
+                symbol [ Graphics %tmp.17 131 34 42 ];
+                %tmp.17 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.18 131 43 62 ];
+                %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.18;
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 132 18 ]
+                symbol [ Graphics %tmp.19 132 25 33 ];
+                %tmp.19 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.20 132 34 43 ];
+                %tmp.20 = getv %tmp.19 :FONT_TINY;
+                putv self :font %tmp.20;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [justification,131,18,31]; ]
+            const justification;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [font,132,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 135; @symbol_moduledef = [confirmation_loc__body,135,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [x,136,18,19]; @symbol_type<0> = [Number,136,23,29]; ]
+            const x as Number = 70;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [y,137,18,19]; @symbol_type<0> = [Number,137,23,29]; ]
+            const y as Number = 68;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 140; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,140,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 140; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [exclude,141,18,25]; @symbol_type<0> = [Boolean,141,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 144; @symbol_moduledef = [prompt_color_dark__background,144,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 144; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 145; @position = 18; @symbol_constdef = [color,145,18,23]; @symbol_type<0> = [Number,145,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [background,146,18,28]; @symbol_type<0> = [Number,146,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 149; @symbol_moduledef = [system_icon_destructive__hint_action_menu,149,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 149; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [filename,150,18,26]; @symbol_type<0> = [String,150,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_action_menu.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [dithering,151,18,27]; @symbol_type<0> = [String,151,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [packingFormat,152,18,31]; @symbol_type<0> = [String,152,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [system_loc__hint_action_menu,155,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [x,156,18,19]; @symbol_type<0> = [Number,156,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [horizontalJustification,157,18,41]; @symbol_type<0> = [String,157,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [y,158,18,19]; @symbol_type<0> = [Number,158,23,29]; ]
+            const y as Number = 290;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 161; @symbol_moduledef = [confirmation_icon__hint_confirm,161,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [filename,162,18,26]; @symbol_type<0> = [String,162,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [dithering,163,18,27]; @symbol_type<0> = [String,163,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [packingFormat,164,18,31]; @symbol_type<0> = [String,164,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 167; @symbol_moduledef = [system_loc__hint_button_left_middle,167,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [exclude,168,18,25]; @symbol_type<0> = [Boolean,168,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 171; @symbol_moduledef = [prompt_size__body_no_title,171,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [width,172,18,23]; @symbol_type<0> = [Number,172,27,33]; ]
+            const width as Number = 288;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [height,173,18,24]; @symbol_type<0> = [Number,173,28,34]; ]
+            const height as Number = 231;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 176; @symbol_moduledef = [system_icon_light__hint_button_left_top,176,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [exclude,177,18,25]; @symbol_type<0> = [Boolean,177,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 180; @symbol_moduledef = [prompt_color_light__background,180,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 180; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [color,181,18,23]; @symbol_type<0> = [Number,181,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [background,182,18,28]; @symbol_type<0> = [Number,182,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 185; @symbol_moduledef = [confirmation_input__delete,185,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 185; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 186 18 ]
+                symbol [ WatchUi %tmp.21 186 27 34 ];
+                %tmp.21 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.22 186 35 44 ];
+                %tmp.22 = getv %tmp.21 :KEY_ENTER;
+                putv self :button %tmp.22;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [button,186,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 189; @symbol_moduledef = [system_icon_dark__hint_button_left_top,189,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [exclude,190,18,25]; @symbol_type<0> = [Boolean,190,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 193; @symbol_moduledef = [system_input__action_menu,193,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [y1,194,18,20]; @symbol_type<0> = [Number,194,24,30]; ]
+            const y1 as Number = 300;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 195; @position = 18; @symbol_constdef = [x1,195,18,20]; @symbol_type<0> = [Number,195,24,30]; ]
+            const x1 as Number = 0;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [y2,196,18,20]; @symbol_type<0> = [Number,196,24,30]; ]
+            const y2 as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [x2,197,18,20]; @symbol_type<0> = [Number,197,24,30]; ]
+            const x2 as Number = 360;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [system_icon_light__save,200,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [filename,201,18,26]; @symbol_type<0> = [String,201,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__save.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [compress,202,18,26]; @symbol_type<0> = [String,202,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [dithering,203,18,27]; @symbol_type<0> = [String,203,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [automaticPalette,204,18,34]; @symbol_type<0> = [String,204,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [packingFormat,205,18,31]; @symbol_type<0> = [String,205,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 208; @symbol_moduledef = [prompt_color_light__body,208,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 208; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 210 18 ]
+                symbol [ Graphics %tmp.23 210 31 39 ];
+                %tmp.23 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.24 210 40 57 ];
+                %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+                putv self :background %tmp.24;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [color,209,18,23]; @symbol_type<0> = [Number,209,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [background,210,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 213; @symbol_moduledef = [system_loc__subwindow,213,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [exclude,214,18,25]; @symbol_type<0> = [Boolean,214,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 217; @symbol_moduledef = [system_icon_light__warning,217,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [filename,218,18,26]; @symbol_type<0> = [String,218,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__warning.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [compress,219,18,26]; @symbol_type<0> = [String,219,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [dithering,220,18,27]; @symbol_type<0> = [String,220,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [automaticPalette,221,18,34]; @symbol_type<0> = [String,221,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [packingFormat,222,18,31]; @symbol_type<0> = [String,222,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 225; @symbol_moduledef = [confirmation_color_light__body,225,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 225; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 227 18 ]
+                symbol [ Graphics %tmp.25 227 31 39 ];
+                %tmp.25 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.26 227 40 57 ];
+                %tmp.26 = getv %tmp.25 :COLOR_TRANSPARENT;
+                putv self :background %tmp.26;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [color,226,18,23]; @symbol_type<0> = [Number,226,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [background,227,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 230; @symbol_moduledef = [confirmation_icon_light__hint_keep,230,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [filename,231,18,26]; @symbol_type<0> = [String,231,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [dithering,232,18,27]; @symbol_type<0> = [String,232,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [packingFormat,233,18,31]; @symbol_type<0> = [String,233,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 236; @symbol_moduledef = [activity_color_light__background,236,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [color,237,18,23]; @symbol_type<0> = [Number,237,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [background,238,18,28]; @symbol_type<0> = [Number,238,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 241; @symbol_moduledef = [system_icon_positive__hint_button_right_top,241,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [filename,242,18,26]; @symbol_type<0> = [String,242,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [dithering,243,18,27]; @symbol_type<0> = [String,243,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [packingFormat,244,18,31]; @symbol_type<0> = [String,244,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 247; @symbol_moduledef = [system_size__screen,247,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 248; @position = 18; @symbol_constdef = [width,248,18,23]; @symbol_type<0> = [Number,248,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [height,249,18,24]; @symbol_type<0> = [Number,249,28,34]; ]
+            const height as Number = 360;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 252; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,252,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 252; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 253; @position = 18; @symbol_constdef = [filename,253,18,26]; @symbol_type<0> = [String,253,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [dithering,254,18,27]; @symbol_type<0> = [String,254,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [packingFormat,255,18,31]; @symbol_type<0> = [String,255,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 258; @symbol_moduledef = [system_color_light__background,258,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [color,259,18,23]; @symbol_type<0> = [Number,259,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [background,260,18,28]; @symbol_type<0> = [Number,260,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 263; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,263,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [filename,264,18,26]; @symbol_type<0> = [String,264,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [dithering,265,18,27]; @symbol_type<0> = [String,265,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [packingFormat,266,18,31]; @symbol_type<0> = [String,266,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 269; @symbol_moduledef = [confirmation_loc__hint_confirm,269,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [x,270,18,19]; @symbol_type<0> = [Number,270,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [horizontalJustification,271,18,41]; @symbol_type<0> = [String,271,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [y,272,18,19]; @symbol_type<0> = [Number,272,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 275; @symbol_moduledef = [activity_color_dark__text,275,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 275; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 277 18 ]
+                symbol [ Graphics %tmp.27 277 31 39 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.28 277 40 57 ];
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [color,276,18,23]; @symbol_type<0> = [Number,276,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [background,277,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 280; @symbol_moduledef = [confirmation_input__keep,280,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 280; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 281 18 ]
+                symbol [ WatchUi %tmp.29 281 27 34 ];
+                %tmp.29 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.30 281 35 42 ];
+                %tmp.30 = getv %tmp.29 :KEY_ESC;
+                putv self :button %tmp.30;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [button,281,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 284; @symbol_moduledef = [prompt_loc__body_with_title,284,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 284; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [x,285,18,19]; @symbol_type<0> = [Number,285,23,29]; ]
+            const x as Number = 36;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [y,286,18,19]; @symbol_type<0> = [Number,286,23,29]; ]
+            const y as Number = 90;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 289; @symbol_moduledef = [system_icon_dark__search,289,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 289; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [filename,290,18,26]; @symbol_type<0> = [String,290,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__search.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [compress,291,18,26]; @symbol_type<0> = [String,291,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [dithering,292,18,27]; @symbol_type<0> = [String,292,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [automaticPalette,293,18,34]; @symbol_type<0> = [String,293,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [packingFormat,294,18,31]; @symbol_type<0> = [String,294,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [activity_color_light__text,297,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 299 18 ]
+                symbol [ Graphics %tmp.31 299 31 39 ];
+                %tmp.31 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.32 299 40 57 ];
+                %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                putv self :background %tmp.32;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [color,298,18,23]; @symbol_type<0> = [Number,298,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [background,299,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 302; @symbol_moduledef = [confirmation_icon__hint_keep,302,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [filename,303,18,26]; @symbol_type<0> = [String,303,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [dithering,304,18,27]; @symbol_type<0> = [String,304,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [packingFormat,305,18,31]; @symbol_type<0> = [String,305,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 308; @symbol_moduledef = [system_icon_dark__save,308,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [filename,309,18,26]; @symbol_type<0> = [String,309,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__save.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [compress,310,18,26]; @symbol_type<0> = [String,310,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [dithering,311,18,27]; @symbol_type<0> = [String,311,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [automaticPalette,312,18,34]; @symbol_type<0> = [String,312,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [packingFormat,313,18,31]; @symbol_type<0> = [String,313,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 316; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,316,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 316; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [exclude,317,18,25]; @symbol_type<0> = [Boolean,317,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 320; @symbol_moduledef = [system_icon_light__search,320,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 320; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [filename,321,18,26]; @symbol_type<0> = [String,321,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__search.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [compress,322,18,26]; @symbol_type<0> = [String,322,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [dithering,323,18,27]; @symbol_type<0> = [String,323,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [automaticPalette,324,18,34]; @symbol_type<0> = [String,324,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [packingFormat,325,18,31]; @symbol_type<0> = [String,325,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 328; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,328,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 328; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [exclude,329,18,25]; @symbol_type<0> = [Boolean,329,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 332; @symbol_moduledef = [system_icon_positive__hint_button_left_top,332,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [exclude,333,18,25]; @symbol_type<0> = [Boolean,333,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 336; @symbol_moduledef = [system_loc__hint_button_right_bottom,336,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [x,337,18,19]; @symbol_type<0> = [Number,337,23,29]; ]
+            const x as Number = 287;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [y,338,18,19]; @symbol_type<0> = [Number,338,23,29]; ]
+            const y as Number = 223;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 341; @symbol_moduledef = [confirmation_icon_dark__hint_reject,341,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [dithering,343,18,27]; @symbol_type<0> = [String,343,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [packingFormat,344,18,31]; @symbol_type<0> = [String,344,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 347; @symbol_moduledef = [confirmation_color_dark__body,347,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 349 18 ]
+                symbol [ Graphics %tmp.33 349 31 39 ];
+                %tmp.33 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.34 349 40 57 ];
+                %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+                putv self :background %tmp.34;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [color,348,18,23]; @symbol_type<0> = [Number,348,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [background,349,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 352; @symbol_moduledef = [confirmation_icon_light__hint_confirm,352,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [filename,353,18,26]; @symbol_type<0> = [String,353,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [dithering,354,18,27]; @symbol_type<0> = [String,354,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [packingFormat,355,18,31]; @symbol_type<0> = [String,355,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 358; @symbol_moduledef = [prompt_color_dark__title,358,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 358; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 360 18 ]
+                symbol [ Graphics %tmp.35 360 31 39 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.36 360 40 57 ];
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [color,359,18,23]; @symbol_type<0> = [Number,359,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [background,360,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 363; @symbol_moduledef = [system_icon_destructive__cancel,363,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 363; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [filename,364,18,26]; @symbol_type<0> = [String,364,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [dithering,365,18,27]; @symbol_type<0> = [String,365,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [packingFormat,366,18,31]; @symbol_type<0> = [String,366,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 369; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,369,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 369; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [filename,370,18,26]; @symbol_type<0> = [String,370,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [dithering,371,18,27]; @symbol_type<0> = [String,371,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [packingFormat,372,18,31]; @symbol_type<0> = [String,372,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [prompt_loc__title,375,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [x,376,18,19]; @symbol_type<0> = [Number,376,23,29]; ]
+            const x as Number = 104;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [y,377,18,19]; @symbol_type<0> = [Number,377,23,29]; ]
+            const y as Number = 17;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [confirmation_font_enhanced_readability__body,380,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [exclude,381,18,25]; @symbol_type<0> = [Boolean,381,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 384; @symbol_moduledef = [prompt_color_light__title,384,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 384; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 386 18 ]
+                symbol [ Graphics %tmp.37 386 31 39 ];
+                %tmp.37 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.38 386 40 57 ];
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [color,385,18,23]; @symbol_type<0> = [Number,385,27,33]; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [background,386,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 389; @symbol_moduledef = [system_icon_dark__hint_button_right_top,389,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 389; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [filename,390,18,26]; @symbol_type<0> = [String,390,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [dithering,391,18,27]; @symbol_type<0> = [String,391,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [packingFormat,392,18,31]; @symbol_type<0> = [String,392,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 395; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,395,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [exclude,396,18,25]; @symbol_type<0> = [Boolean,396,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 399; @symbol_moduledef = [confirmation_icon_dark__hint_keep,399,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [filename,400,18,26]; @symbol_type<0> = [String,400,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [dithering,401,18,27]; @symbol_type<0> = [String,401,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [packingFormat,402,18,31]; @symbol_type<0> = [String,402,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 405; @symbol_moduledef = [system_icon_light__cancel,405,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__cancel.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [compress,407,18,26]; @symbol_type<0> = [String,407,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [dithering,408,18,27]; @symbol_type<0> = [String,408,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [automaticPalette,409,18,34]; @symbol_type<0> = [String,409,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [packingFormat,410,18,31]; @symbol_type<0> = [String,410,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 413; @symbol_moduledef = [confirmation_icon_light__hint_reject,413,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 413; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [filename,414,18,26]; @symbol_type<0> = [String,414,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [dithering,415,18,27]; @symbol_type<0> = [String,415,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [packingFormat,416,18,31]; @symbol_type<0> = [String,416,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 419; @symbol_moduledef = [system_icon_light__about,419,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 419; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [filename,420,18,26]; @symbol_type<0> = [String,420,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__about.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [compress,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 423; @position = 18; @symbol_constdef = [automaticPalette,423,18,34]; @symbol_type<0> = [String,423,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 424; @position = 18; @symbol_constdef = [packingFormat,424,18,31]; @symbol_type<0> = [String,424,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 427; @symbol_moduledef = [system_size__toast_icon,427,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 427; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [scaleX,428,18,24]; @symbol_type<0> = [Number,428,28,34]; ]
+            const scaleX as Number = 49;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [scaleY,429,18,24]; @symbol_type<0> = [Number,429,28,34]; ]
+            const scaleY as Number = 49;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [scaleRelativeTo,430,18,33]; @symbol_type<0> = [String,430,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 433; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,433,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 433; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [exclude,434,18,25]; @symbol_type<0> = [Boolean,434,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 437; @symbol_moduledef = [confirmation_icon__hint_reject,437,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 437; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 438; @position = 18; @symbol_constdef = [filename,438,18,26]; @symbol_type<0> = [String,438,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [dithering,439,18,27]; @symbol_type<0> = [String,439,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [packingFormat,440,18,31]; @symbol_type<0> = [String,440,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 443; @symbol_moduledef = [system_icon_light__hint_action_menu,443,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 443; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 444; @position = 18; @symbol_constdef = [filename,444,18,26]; @symbol_type<0> = [String,444,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_action_menu.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [dithering,445,18,27]; @symbol_type<0> = [String,445,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [packingFormat,446,18,31]; @symbol_type<0> = [String,446,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_light__hint_button_right_middle,449,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [exclude,450,18,25]; @symbol_type<0> = [Boolean,450,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 453; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,453,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [exclude,454,18,25]; @symbol_type<0> = [Boolean,454,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 457; @symbol_moduledef = [confirmation_loc__hint_reject,457,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [x,458,18,19]; @symbol_type<0> = [Number,458,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [horizontalJustification,459,18,41]; @symbol_type<0> = [String,459,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [y,460,18,19]; @symbol_type<0> = [Number,460,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 463; @symbol_moduledef = [confirmation_icon_dark__hint_delete,463,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [filename,464,18,26]; @symbol_type<0> = [String,464,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [dithering,465,18,27]; @symbol_type<0> = [String,465,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [packingFormat,466,18,31]; @symbol_type<0> = [String,466,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [activity_color_dark__background,469,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [color,470,18,23]; @symbol_type<0> = [Number,470,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [background,471,18,28]; @symbol_type<0> = [Number,471,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,474,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [exclude,475,18,25]; @symbol_type<0> = [Boolean,475,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,478,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [exclude,479,18,25]; @symbol_type<0> = [Boolean,479,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 482; @symbol_moduledef = [system_size__menu_icon,482,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [scaleX,483,18,24]; @symbol_type<0> = [Number,483,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [scaleY,484,18,24]; @symbol_type<0> = [Number,484,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [scaleRelativeTo,485,18,33]; @symbol_type<0> = [String,485,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 488; @symbol_moduledef = [system_icon_destructive__warning,488,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [filename,489,18,26]; @symbol_type<0> = [String,489,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_destructive__warning.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [dithering,490,18,27]; @symbol_type<0> = [String,490,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [packingFormat,491,18,31]; @symbol_type<0> = [String,491,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [system_loc__hint_button_right_middle,494,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [exclude,495,18,25]; @symbol_type<0> = [Boolean,495,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [system_icon_dark__cancel,498,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [filename,499,18,26]; @symbol_type<0> = [String,499,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__cancel.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [compress,500,18,26]; @symbol_type<0> = [String,500,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [dithering,501,18,27]; @symbol_type<0> = [String,501,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [automaticPalette,502,18,34]; @symbol_type<0> = [String,502,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [packingFormat,503,18,31]; @symbol_type<0> = [String,503,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 506; @symbol_moduledef = [prompt_size__body_with_title,506,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [width,507,18,23]; @symbol_type<0> = [Number,507,27,33]; ]
+            const width as Number = 288;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [height,508,18,24]; @symbol_type<0> = [Number,508,28,34]; ]
+            const height as Number = 205;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 511; @symbol_moduledef = [system_loc__hint_button_right_top,511,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [x,512,18,19]; @symbol_type<0> = [Number,512,23,29]; ]
+            const x as Number = 300;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [y,513,18,19]; @symbol_type<0> = [Number,513,23,29]; ]
+            const y as Number = 59;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 516; @symbol_moduledef = [system_color_light__text,516,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 516; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 518 18 ]
+                symbol [ Graphics %tmp.39 518 31 39 ];
+                %tmp.39 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.40 518 40 57 ];
+                %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+                putv self :background %tmp.40;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [color,517,18,23]; @symbol_type<0> = [Number,517,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [background,518,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 521; @symbol_moduledef = [system_icon_light__check,521,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [filename,522,18,26]; @symbol_type<0> = [String,522,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__check.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [compress,523,18,26]; @symbol_type<0> = [String,523,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [dithering,524,18,27]; @symbol_type<0> = [String,524,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [automaticPalette,525,18,34]; @symbol_type<0> = [String,525,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [packingFormat,526,18,31]; @symbol_type<0> = [String,526,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 529; @symbol_moduledef = [confirmation_input__reject,529,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [y1,530,18,20]; @symbol_type<0> = [Number,530,24,30]; ]
+            const y1 as Number = 0;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [x1,531,18,20]; @symbol_type<0> = [Number,531,24,30]; ]
+            const x1 as Number = 90;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [y2,532,18,20]; @symbol_type<0> = [Number,532,24,30]; ]
+            const y2 as Number = 65;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [x2,533,18,20]; @symbol_type<0> = [Number,533,24,30]; ]
+            const x2 as Number = 270;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 536; @symbol_moduledef = [system_icon_light__revert,536,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [filename,537,18,26]; @symbol_type<0> = [String,537,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__revert.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [compress,538,18,26]; @symbol_type<0> = [String,538,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [dithering,539,18,27]; @symbol_type<0> = [String,539,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [automaticPalette,540,18,34]; @symbol_type<0> = [String,540,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [packingFormat,541,18,31]; @symbol_type<0> = [String,541,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 544; @symbol_moduledef = [system_size__subwindow,544,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 544; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [exclude,545,18,25]; @symbol_type<0> = [Boolean,545,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 548; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,548,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 548; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [exclude,549,18,25]; @symbol_type<0> = [Boolean,549,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 552; @symbol_moduledef = [system_icon_dark__check,552,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [filename,553,18,26]; @symbol_type<0> = [String,553,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__check.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [compress,554,18,26]; @symbol_type<0> = [String,554,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [dithering,555,18,27]; @symbol_type<0> = [String,555,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [automaticPalette,556,18,34]; @symbol_type<0> = [String,556,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [packingFormat,557,18,31]; @symbol_type<0> = [String,557,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 560; @symbol_moduledef = [confirmation_loc__hint_keep,560,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [x,561,18,19]; @symbol_type<0> = [Number,561,23,29]; ]
+            const x as Number = 271;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [y,562,18,19]; @symbol_type<0> = [Number,562,23,29]; ]
+            const y as Number = 206;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 565; @symbol_moduledef = [confirmation_loc__hint_delete,565,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [x,566,18,19]; @symbol_type<0> = [Number,566,23,29]; ]
+            const x as Number = 284;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [y,567,18,19]; @symbol_type<0> = [Number,567,23,29]; ]
+            const y as Number = 18;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 570; @symbol_moduledef = [system_icon_positive__hint_action_menu,570,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 570; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [filename,571,18,26]; @symbol_type<0> = [String,571,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_action_menu.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [dithering,572,18,27]; @symbol_type<0> = [String,572,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [packingFormat,573,18,31]; @symbol_type<0> = [String,573,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 576; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,576,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [exclude,577,18,25]; @symbol_type<0> = [Boolean,577,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 580; @symbol_moduledef = [system_icon_light__hint_button_left_middle,580,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 580; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [exclude,581,18,25]; @symbol_type<0> = [Boolean,581,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 584; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,584,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 584; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [filename,585,18,26]; @symbol_type<0> = [String,585,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [dithering,586,18,27]; @symbol_type<0> = [String,586,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [packingFormat,587,18,31]; @symbol_type<0> = [String,587,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 590; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,590,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [dithering,592,18,27]; @symbol_type<0> = [String,592,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [packingFormat,593,18,31]; @symbol_type<0> = [String,593,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_dark__revert,596,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__revert.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [compress,598,18,26]; @symbol_type<0> = [String,598,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [dithering,599,18,27]; @symbol_type<0> = [String,599,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [automaticPalette,600,18,34]; @symbol_type<0> = [String,600,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [packingFormat,601,18,31]; @symbol_type<0> = [String,601,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 604; @symbol_moduledef = [confirmation_icon_light__hint_delete,604,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 604; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [filename,605,18,26]; @symbol_type<0> = [String,605,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [dithering,606,18,27]; @symbol_type<0> = [String,606,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [packingFormat,607,18,31]; @symbol_type<0> = [String,607,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 610; @symbol_moduledef = [system_icon_dark__question,610,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__question.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [compress,612,18,26]; @symbol_type<0> = [String,612,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [dithering,613,18,27]; @symbol_type<0> = [String,613,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [automaticPalette,614,18,34]; @symbol_type<0> = [String,614,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [packingFormat,615,18,31]; @symbol_type<0> = [String,615,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 618; @symbol_moduledef = [system_icon_light__discard,618,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [filename,619,18,26]; @symbol_type<0> = [String,619,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__discard.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [compress,620,18,26]; @symbol_type<0> = [String,620,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [dithering,621,18,27]; @symbol_type<0> = [String,621,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [automaticPalette,622,18,34]; @symbol_type<0> = [String,622,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [packingFormat,623,18,31]; @symbol_type<0> = [String,623,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 626; @symbol_moduledef = [device_info,626,15,26]; ]
+        module device_info {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 626; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 628 18 ]
+                symbol [ Toybox %tmp.42 628 32 38 ];
+                %tmp.42 = getv ? :Toybox;
+                symbol [ System %tmp.43 628 39 45 ];
+                %tmp.43 = getv %tmp.42 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.44 628 46 64 ];
+                %tmp.44 = getv %tmp.43 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.44;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [screenWidth,627,18,29]; @symbol_type<0> = [Number,627,33,39]; ]
+            const screenWidth as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [screenShape,628,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [hasNightMode,629,18,30]; @symbol_type<0> = [Boolean,629,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [hasGpu,630,18,24]; @symbol_type<0> = [Boolean,630,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [screenHeight,631,18,30]; @symbol_type<0> = [Number,631,34,40]; ]
+            const screenHeight as Number = 360;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [hasTouchScreen,632,18,32]; @symbol_type<0> = [Boolean,632,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,633,18,44]; @symbol_type<0> = [Boolean,633,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 636; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,636,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [filename,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [dithering,638,18,27]; @symbol_type<0> = [String,638,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [packingFormat,639,18,31]; @symbol_type<0> = [String,639,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 642; @symbol_moduledef = [prompt_font__body_no_title,642,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 642; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 643 18 ]
+                symbol [ Graphics %tmp.45 643 34 42 ];
+                %tmp.45 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.46 643 43 62 ];
+                %tmp.46 = getv %tmp.45 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.47 643 63 71 ];
+                %tmp.47 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.48 643 72 92 ];
+                %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_VCENTER;
+                %tmp.49 = bitor %tmp.46 %tmp.48;
+                putv self :justification %tmp.49;
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 644 18 ]
+                symbol [ Graphics %tmp.50 644 25 33 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.51 644 34 43 ];
+                %tmp.51 = getv %tmp.50 :FONT_TINY;
+                putv self :font %tmp.51;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [justification,643,18,31]; ]
+            const justification;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [font,644,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 647; @symbol_moduledef = [prompt_size__title_icon,647,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [scaleX,648,18,24]; @symbol_type<0> = [Float,648,28,33]; ]
+            const scaleX as Float = 0.12;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [scaleRelativeTo,649,18,33]; @symbol_type<0> = [String,649,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 652; @symbol_moduledef = [system_icon_dark__warning,652,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [filename,653,18,26]; @symbol_type<0> = [String,653,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_dark__warning.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [compress,654,18,26]; @symbol_type<0> = [String,654,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [dithering,655,18,27]; @symbol_type<0> = [String,655,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [automaticPalette,656,18,34]; @symbol_type<0> = [String,656,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [packingFormat,657,18,31]; @symbol_type<0> = [String,657,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 660; @symbol_moduledef = [prompt_loc__title_icon,660,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [x,661,18,19]; @symbol_type<0> = [Number,661,23,29]; ]
+            const x as Number = 180;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [y,662,18,19]; @symbol_type<0> = [Number,662,23,29]; ]
+            const y as Number = 43;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [horizontalJustification,663,18,41]; @symbol_type<0> = [String,663,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [verticalJustification,664,18,39]; @symbol_type<0> = [String,664,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 667; @symbol_moduledef = [prompt_font_enhanced_readability__title,667,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 667; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [exclude,668,18,25]; @symbol_type<0> = [Boolean,668,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 671; @symbol_moduledef = [prompt_color_dark__body,671,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 671; ]
+            <init> {
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen" 673 18 ]
+                symbol [ Graphics %tmp.52 673 31 39 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.53 673 40 57 ];
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 672; @position = 18; @symbol_constdef = [color,672,18,23]; @symbol_type<0> = [Number,672,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [background,673,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 676; @symbol_moduledef = [confirmation_icon__hint_delete,676,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 676; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 677; @position = 18; @symbol_constdef = [filename,677,18,26]; @symbol_type<0> = [String,677,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [dithering,678,18,27]; @symbol_type<0> = [String,678,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [packingFormat,679,18,31]; @symbol_type<0> = [String,679,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 682; @symbol_moduledef = [system_icon_light__hint_button_right_top,682,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 682; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [filename,683,18,26]; @symbol_type<0> = [String,683,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [dithering,684,18,27]; @symbol_type<0> = [String,684,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [packingFormat,685,18,31]; @symbol_type<0> = [String,685,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 688; @symbol_moduledef = [confirmation_size__body,688,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 688; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [width,689,18,23]; @symbol_type<0> = [Number,689,27,33]; ]
+            const width as Number = 220;
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [height,690,18,24]; @symbol_type<0> = [Number,690,28,34]; ]
+            const height as Number = 200;
+        }
+        [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 693; @symbol_moduledef = [system_icon_positive__check,693,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 693; ]
+            <init> {
+            }
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [filename,694,18,26]; @symbol_type<0> = [String,694,30,36]; ]
+            const filename as String = "/Users/mallea/Library/Application Support/Garmin/ConnectIQ/Devices/venu2s/system_icon_positive__check.svg";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 695; @position = 18; @symbol_constdef = [dithering,695,18,27]; @symbol_type<0> = [String,695,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 696; @position = 18; @symbol_constdef = [packingFormat,696,18,31]; @symbol_type<0> = [String,696,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/bin/gen/006-B3704-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
