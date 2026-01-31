@@ -77,8 +77,8 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeView_mc_10_26_25_4_sta
         symbol [ font %tmp.26 17 13 17 const ];
         symbol [ Graphics %tmp.27 17 21 29 ];
         %tmp.27 = getm $.Toybox.Graphics;
-        symbol [ FONT_SYSTEM_MEDIUM %tmp.28 17 30 48 ];
-        %tmp.28 = getv %tmp.27 :FONT_SYSTEM_MEDIUM;
+        symbol [ FONT_SYSTEM_SMALL %tmp.28 17 30 47 ];
+        %tmp.28 = getv %tmp.27 :FONT_SYSTEM_SMALL;
         %tmp.29 = dup %tmp.24;
         %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
         %tmp.32 = const :locX;

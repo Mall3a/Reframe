@@ -12,17 +12,35 @@ class ReframeApp extends Application.AppBase {
         AppBase.initialize();
     }
 
+    // 1. Esto le dice a Garmin que use tu vista de Glance
+    function getGlanceView() {
+        return [ new ReframeGlanceView() ]; 
+    }
+
+    // 2. Esto se ejecuta cuando el Background termina su tarea
+    function onBackgroundData(data) {
+        // No necesitamos procesar 'data' si ya escribimos en Storage desde el Background
+        // Solo forzamos a la interfaz (App o Glance) a mostrar los nuevos valores
+        WatchUi.requestUpdate(); 
+    }
+
     function onStart(state) {
         var minutes = Storage.getValue("frequency"); 
-        System.println("Frecuencia de usuario: "+ minutes);
         if (minutes == null) {
-            System.println("Sin frecuencia de usuario, se usa frecuencia de Properties: " + Settings.getFrequency() );
             minutes = Settings.getFrequency();
         }
 
+        // 1. Programar el evento
         var duration = new Time.Duration(minutes * 60);
-        var eventTime = Time.now().add(duration);
-        Background.registerForTemporalEvent(eventTime);
+        var proximoEvento = Time.now().add(duration);
+        Background.registerForTemporalEvent(proximoEvento);
+
+        // 2. Guardar datos para el Glance
+        Storage.setValue("proximo_timestamp", proximoEvento.value());
+        
+        // Obtenemos el texto de la frase sin avanzar el índice
+        var fraseParaGlance = Settings.peekNextMessage();
+        Storage.setValue("proxima_frase", fraseParaGlance);
     }
 
     function getInitialView() {
@@ -142,6 +160,27 @@ class ReframeBackgroundServiceDelegate extends System.ServiceDelegate {
                 }
             }
         }
-        Background.exit(null);
+
+      // 3. ACTUALIZACIÓN PARA EL GLANCE (Cálculo del próximo evento)
+        var minutes = Storage.getValue("frequency"); 
+        if (minutes == null) {
+            minutes = Settings.getFrequency();
+        }
+
+        // Calculamos el momento en que se volverá a despertar el servicio
+        var proximoMomento = Time.now().add(new Time.Duration(minutes * 60));
+        
+        // Guardamos el timestamp para que el Glance lo lea
+        Storage.setValue("proximo_timestamp", proximoMomento.value());
+
+        // Actualizamos la frase que verá el Glance (usando tu nueva función peek)
+        // Esto asegura que el Glance siempre muestre el mensaje que viene a continuación
+        var proximaFrase = Settings.peekNextMessage();
+        Storage.setValue("proxima_frase", proximaFrase);
+
+        // 4. SALIDA
+        // Salimos del proceso de fondo. 
+        // Pasamos 'true' para indicar a onBackgroundData que algo cambió.
+        Background.exit(true);
     }
 }

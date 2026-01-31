@@ -18,7 +18,6 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
         if(idStr.equals("freq")){
             // redirect to freq menu
             WatchUi.pushView(new FrequencyMenu(), new FrequencyMenuInputDelegate(), WatchUi.SLIDE_UP);
-            // TODO: añadir confirmacion con valor para usuario 
         }
         else if (idStr.equals("enable_msgs")) {
             var toggleItem = menuItem as WatchUi.ToggleMenuItem;
@@ -41,20 +40,42 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             );
         }
         else if (idStr.equals("delete_msgs")) {
-            // TODO: agregar una confirmacion antes de hacer
-            Settings.clearData();
-            WatchUi.showToast("Mensajes Borrados", null);
-            System.println("Mensajes Borrados");
-            WatchUi.popView(WatchUi.SLIDE_DOWN); // Cerrar menú tras borrar
-            WatchUi.popView(WatchUi.SLIDE_DOWN); // Cerrar menú tras borrar X2
+            var message = "¿Borrar todos los mensajes?";
+            var dialog = new WatchUi.Confirmation(message);
+            WatchUi.pushView(
+                dialog,
+                new DeleteMessagesConfirmationDelegate(),
+                WatchUi.SLIDE_IMMEDIATE
+            );
         }
         else if(idStr.equals("restore_settings")){
-            // TODO: agregar una confirmacion antes de hacer
-            Storage.clearValues();
-            // Valores: allowDND, last_msg_index, frequency, enabled, sleepEnd, sleepStart
-            System.println("Configuración Reestablecida");
-            WatchUi.showToast("Configuración Reestablecida", null);
-            WatchUi.popView(WatchUi.SLIDE_DOWN); // Cerrar menú tras borrar
+            var message = "¿Reestablecer la configuración?";
+            var dialog = new WatchUi.Confirmation(message);
+            WatchUi.pushView(
+                dialog,
+                new RestoreConfigConfirmationDelegate(),
+                WatchUi.SLIDE_IMMEDIATE
+            );
+        }else if(id == :view_storage) {
+        // Creamos el menú de resumen al vuelo
+        var summaryMenu = new WatchUi.Menu2({:title=>"Configuración Actual"});
+        
+        // Obtenemos los valores igual que en tu initialize
+        var freq = Storage.getValue("frequency");
+        var enabled = Storage.getValue("enabled");
+        var dnd = Storage.getValue("allowDND");
+        var sStart = Storage.getValue("sleepStart");
+        var sEnd = Storage.getValue("sleepEnd");
+        var lastIdx = Storage.getValue("last_msg_index");
+
+        // Los añadimos como texto simple
+        summaryMenu.addItem(new WatchUi.MenuItem("Frecuencia", freq != null ? freq.toString() : "N/A", null, {}));
+        summaryMenu.addItem(new WatchUi.MenuItem("Habilitado", enabled == true ? "Sí" : "No", null, {}));
+        summaryMenu.addItem(new WatchUi.MenuItem("Habilitado No Molestar", dnd == true ? "Sí" : "No", null, {}));
+        summaryMenu.addItem(new WatchUi.MenuItem("Horas de Sueño", sStart + " a " + sEnd, null, {}));
+
+        // Lo mostramos. Usamos un Delegate vacío porque es solo para ver.
+        WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
         }
     }
 

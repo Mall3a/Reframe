@@ -52,15 +52,18 @@ class SettingsMenu extends WatchUi.Menu2 {
             "sleep_time", 
             {}
         ));
+
+         // Al final de tu initialize() en SettingsMenu.mc
+        Menu2.addItem(new WatchUi.MenuItem("Configuración Actual", "Resumen", :view_storage, {}));
+      
         System.println("Horas de sueño: "+ sleepStart + ":00 a " + sleepEnd + ":00");
         // Borrar Frases (Acción directa)
         Menu2.addItem(new WatchUi.MenuItem("Borrar Frases Agregadas", "Limpiar lista", :delete_msgs, {}));
         
         // Reestablecer Configuracion (Acción directa)
         Menu2.addItem(new WatchUi.MenuItem("Reestablecer Configuración", null, :restore_settings, {}));
-     
-        // TODO: crear widget para frase (proxima frase en "hora, dia, frase")
-      
+
+       
     }
 
     function onSettingsChanged() {

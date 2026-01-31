@@ -23,21 +23,13 @@ class NotificationView extends WatchUi.View {
         var text = _messageObj[:text];
         if (text == null) { text = ""; }
         
-        // Selección de fuente basada en longitud
-        var font = Graphics.FONT_SYSTEM_MEDIUM;
-        if (text.length() > 70) {
-            font = Graphics.FONT_SYSTEM_SMALL;
-        } else if (text.length() > 120) {
-            font = Graphics.FONT_SYSTEM_TINY;
-        }
-
         // 3. Dibujar el área de texto
         // Usamos un margen de seguridad un poco mayor para pantallas redondas
         var margin = dc.getWidth() * 0.12; // 12% de margen
         var textArea = new WatchUi.TextArea({
             :text => text,
             :color => Graphics.COLOR_WHITE,
-            :font => font,
+            :font => Graphics.FONT_SYSTEM_SMALL, // or Graphics.FONT_SYSTEM_TINY
             :locX => margin,
             :locY => margin,
             :width => dc.getWidth() - (margin * 2),

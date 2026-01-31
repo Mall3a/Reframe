@@ -14,7 +14,7 @@ class ReframeView extends WatchUi.View {
         var textArea = new WatchUi.TextArea({
             :text => "Agrega tus mensajes a través de Garmin Connect",
             :color => Graphics.COLOR_WHITE,
-            :font => Graphics.FONT_SYSTEM_MEDIUM,
+            :font => Graphics.FONT_SYSTEM_SMALL,
             :locX => 25,
             :locY => 25,
             :width => dc.getWidth() - 50,

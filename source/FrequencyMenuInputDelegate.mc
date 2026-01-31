@@ -12,13 +12,13 @@ class FrequencyMenuInputDelegate extends WatchUi.Menu2InputDelegate {
     function onSelect(item) {
         // Obtenemos los minutos directamente del ID del item seleccionado
         var minutes = item.getId();
-        
-        // Guardamos en Storage
-        Storage.setValue("frequency", minutes);
-        System.println("Frecuencia establecida por usuario: " + minutes);
-
-        // Volvemos atrás de forma segura
-        WatchUi.popView(WatchUi.SLIDE_DOWN);
+            var message = "¿Cambiar frecuencia a "+minutes+" minutos?";
+            var dialog = new WatchUi.Confirmation(message);
+            WatchUi.pushView(
+                dialog,
+                new ChangeFrequencyConfirmationDelegate(minutes),
+                WatchUi.SLIDE_IMMEDIATE
+            );
     }
 
     // Por si el usuario usa el botón físico "atrás"

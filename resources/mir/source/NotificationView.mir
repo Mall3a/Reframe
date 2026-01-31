@@ -48,9 +48,9 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_9_50_14_4
     }
     [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 16; @symbol_functiondef = [onUpdate,16,13,21]; @symbol_param<0> = [dc,16,22,24]; ]
     function onUpdate(dc) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 18 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop" ]
         %backgroundColor.1 = local;
         symbol [ backgroundColor %backgroundColor.1 18 12 27 ];
         symbol [ Settings %tmp.2 18 30 38 ];
@@ -83,7 +83,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_
         %tmp.16 = getv function %tmp.15 :clear;
         invoke %tmp.15 %tmp.16();
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 23 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop" ]
         %text.2 = local;
         symbol [ text %text.2 23 12 16 ];
         symbol [ _messageObj %tmp.18 23 19 30 ];
@@ -109,238 +109,185 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_24_26_24_
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_24_26_24_39_stop:
         goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_24_8_24_39_if_end;
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_24_8_24_39_if_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 27 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
-        %font.3 = local;
-        symbol [ font %font.3 27 12 16 ];
-        symbol [ Graphics %tmp.26 27 19 27 ];
-        %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ FONT_SYSTEM_MEDIUM %tmp.27 27 28 46 ];
-        %tmp.27 = getv %tmp.26 :FONT_SYSTEM_MEDIUM;
-        lputv %font.3 %tmp.27;
-        symbol [ font %font.3 27 12 16 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 28 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_stmt:
-        %tmp.28 = lgetv %text.2;
-        symbol [ text %tmp.28 28 12 16 ];
-        symbol [ length %tmp.29 28 17 23 ];
-        %tmp.29 = getv function %tmp.28 :length;
-        %tmp.30 = invoke %tmp.28 %tmp.29();
-        %tmp.31 = 70;
-        %tmp.32 = gt %tmp.30 %tmp.31;
-        bf %tmp.32 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_32_30_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 29 12 ]
-        symbol [ Graphics %tmp.33 29 19 27 ];
-        %tmp.33 = getm $.Toybox.Graphics;
-        symbol [ FONT_SYSTEM_SMALL %tmp.34 29 28 45 ];
-        %tmp.34 = getv %tmp.33 :FONT_SYSTEM_SMALL;
-        lputv %font.3 %tmp.34;
-        symbol [ font %font.3 29 12 16 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_32_30_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_false:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 30 15 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_15_32_8_if_stmt:
-        %tmp.35 = lgetv %text.2;
-        symbol [ text %tmp.35 30 19 23 ];
-        symbol [ length %tmp.36 30 24 30 ];
-        %tmp.36 = getv function %tmp.35 :length;
-        %tmp.37 = invoke %tmp.35 %tmp.36();
-        %tmp.38 = 120;
-        %tmp.39 = gt %tmp.37 %tmp.38;
-        bf %tmp.39 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_15_32_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_15_32_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_40_32_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 31 12 ]
-        symbol [ Graphics %tmp.40 31 19 27 ];
-        %tmp.40 = getm $.Toybox.Graphics;
-        symbol [ FONT_SYSTEM_TINY %tmp.41 31 28 44 ];
-        %tmp.41 = getv %tmp.40 :FONT_SYSTEM_TINY;
-        lputv %font.3 %tmp.41;
-        symbol [ font %font.3 31 12 16 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_40_32_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_15_32_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_30_15_32_8_if_end:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_28_8_32_8_if_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 36 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
-        %margin.4 = local;
-        symbol [ margin %margin.4 36 12 18 ];
-        %tmp.42 = lgetv %dc;
-        symbol [ dc %tmp.42 36 21 23 ];
-        symbol [ getWidth %tmp.43 36 24 32 ];
-        %tmp.43 = getv function %tmp.42 :getWidth;
-        %tmp.44 = invoke %tmp.42 %tmp.43();
-        %tmp.45 = 0.12;
-        %tmp.46 = mul %tmp.44 %tmp.45;
-        lputv %margin.4 %tmp.46;
-        symbol [ margin %margin.4 36 12 18 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 37 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
-        %textArea.5 = local;
-        symbol [ textArea %textArea.5 37 12 20 ];
-        symbol [ WatchUi %tmp.49 37 27 34 ];
-        %tmp.49 = getm $.Toybox.WatchUi;
-        symbol [ TextArea %tmp.50 37 35 43 ];
-        %tmp.50 = getv function ? %tmp.49 :TextArea;
-        %tmp.51 = newd 8;
-        %tmp.53 = const :text;
-        symbol [ text %tmp.53 38 13 17 const ];
-        %tmp.54 = lgetv %text.2;
-        symbol [ text %tmp.54 38 21 25 ];
-        %tmp.55 = dup %tmp.51;
-        %tmp.56 = aputv %tmp.55 %tmp.53 %tmp.54;
-        %tmp.58 = const :color;
-        symbol [ color %tmp.58 39 13 18 const ];
-        symbol [ Graphics %tmp.59 39 22 30 ];
-        %tmp.59 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.60 39 31 42 ];
-        %tmp.60 = getv %tmp.59 :COLOR_WHITE;
-        %tmp.61 = dup %tmp.56;
-        %tmp.62 = aputv %tmp.61 %tmp.58 %tmp.60;
-        %tmp.64 = const :font;
-        symbol [ font %tmp.64 40 13 17 const ];
-        %tmp.65 = lgetv %font.3;
-        symbol [ font %tmp.65 40 21 25 ];
-        %tmp.66 = dup %tmp.62;
-        %tmp.67 = aputv %tmp.66 %tmp.64 %tmp.65;
-        %tmp.69 = const :locX;
-        symbol [ locX %tmp.69 41 13 17 const ];
-        %tmp.70 = lgetv %margin.4;
-        symbol [ margin %tmp.70 41 21 27 ];
-        %tmp.71 = dup %tmp.67;
-        %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
-        %tmp.74 = const :locY;
-        symbol [ locY %tmp.74 42 13 17 const ];
-        %tmp.75 = lgetv %margin.4;
-        symbol [ margin %tmp.75 42 21 27 ];
-        %tmp.76 = dup %tmp.72;
-        %tmp.77 = aputv %tmp.76 %tmp.74 %tmp.75;
-        %tmp.79 = const :width;
-        symbol [ width %tmp.79 43 13 18 const ];
-        %tmp.80 = lgetv %dc;
-        symbol [ dc %tmp.80 43 22 24 ];
-        symbol [ getWidth %tmp.81 43 25 33 ];
-        %tmp.81 = getv function %tmp.80 :getWidth;
-        %tmp.82 = invoke %tmp.80 %tmp.81();
-        %tmp.83 = lgetv %margin.4;
-        symbol [ margin %tmp.83 43 39 45 ];
-        %tmp.84 = 2;
-        %tmp.85 = mul %tmp.83 %tmp.84;
-        %tmp.86 = sub %tmp.82 %tmp.85;
-        %tmp.87 = dup %tmp.77;
-        %tmp.88 = aputv %tmp.87 %tmp.79 %tmp.86;
-        %tmp.90 = const :height;
-        symbol [ height %tmp.90 44 13 19 const ];
-        %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 44 23 25 ];
-        symbol [ getHeight %tmp.92 44 26 35 ];
-        %tmp.92 = getv function %tmp.91 :getHeight;
-        %tmp.93 = invoke %tmp.91 %tmp.92();
-        %tmp.94 = lgetv %margin.4;
-        symbol [ margin %tmp.94 44 41 47 ];
-        %tmp.95 = 2;
-        %tmp.96 = mul %tmp.94 %tmp.95;
-        %tmp.97 = sub %tmp.93 %tmp.96;
-        %tmp.98 = 20;
-        %tmp.99 = sub %tmp.97 %tmp.98;
-        %tmp.100 = dup %tmp.88;
-        %tmp.101 = aputv %tmp.100 %tmp.90 %tmp.99;
-        %tmp.103 = const :justification;
-        symbol [ justification %tmp.103 45 13 26 const ];
-        symbol [ Graphics %tmp.104 45 30 38 ];
-        %tmp.104 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.105 45 39 58 ];
-        %tmp.105 = getv %tmp.104 :TEXT_JUSTIFY_CENTER;
-        symbol [ Graphics %tmp.106 45 61 69 ];
-        %tmp.106 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_VCENTER %tmp.107 45 70 90 ];
-        %tmp.107 = getv %tmp.106 :TEXT_JUSTIFY_VCENTER;
-        %tmp.108 = bitor %tmp.105 %tmp.107;
-        %tmp.109 = dup %tmp.101;
-        %tmp.110 = aputv %tmp.109 %tmp.103 %tmp.108;
-        %tmp.47 = newc %tmp.50 (%tmp.110);
-        lputv %textArea.5 %tmp.47;
-        symbol [ textArea %textArea.5 37 12 20 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 48 8 ]
-        %tmp.111 = lgetv %textArea.5;
-        symbol [ textArea %tmp.111 48 8 16 ];
-        symbol [ draw %tmp.112 48 17 21 ];
-        %tmp.112 = getv function %tmp.111 :draw;
-        %tmp.113 = lgetv %dc;
-        symbol [ dc %tmp.113 48 22 24 ];
-        invoke %tmp.111 %tmp.112(%tmp.113);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 51 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop" ]
-        %progressText.6 = local;
-        symbol [ progressText %progressText.6 51 12 24 ];
-        symbol [ _index %tmp.115 51 28 34 ];
-        %tmp.115 = getv ? :_index;
-        %tmp.116 = 1;
-        %tmp.117 = add %tmp.115 %tmp.116;
-        symbol [ toString %tmp.118 51 40 48 ];
-        %tmp.118 = getv function %tmp.117 :toString;
-        %tmp.119 = invoke %tmp.117 %tmp.118();
-        %tmp.120 = " / ";
-        %tmp.121 = add %tmp.119 %tmp.120;
-        symbol [ _total %tmp.123 51 61 67 ];
-        %tmp.123 = getv ? :_total;
-        %tmp.124 = add %tmp.121 %tmp.123;
-        lputv %progressText.6 %tmp.124;
-        symbol [ progressText %progressText.6 51 12 24 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 52 8 ]
-        %tmp.125 = lgetv %dc;
-        symbol [ dc %tmp.125 52 8 10 ];
-        symbol [ setColor %tmp.126 52 11 19 ];
-        %tmp.126 = getv function %tmp.125 :setColor;
-        symbol [ Graphics %tmp.127 52 20 28 ];
-        %tmp.127 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.128 52 29 42 ];
-        %tmp.128 = getv %tmp.127 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.129 52 44 52 ];
-        %tmp.129 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.130 52 53 70 ];
-        %tmp.130 = getv %tmp.129 :COLOR_TRANSPARENT;
-        invoke %tmp.125 %tmp.126(%tmp.128, %tmp.130);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 55 8 ]
-        %tmp.131 = lgetv %dc;
-        symbol [ dc %tmp.131 55 8 10 ];
-        symbol [ drawText %tmp.132 55 11 19 ];
-        %tmp.132 = getv function %tmp.131 :drawText;
-        %tmp.133 = lgetv %dc;
-        symbol [ dc %tmp.133 56 12 14 ];
-        symbol [ getWidth %tmp.134 56 15 23 ];
-        %tmp.134 = getv function %tmp.133 :getWidth;
-        %tmp.135 = invoke %tmp.133 %tmp.134();
-        %tmp.136 = 2;
-        %tmp.137 = div %tmp.135 %tmp.136;
-        %tmp.138 = lgetv %dc;
-        symbol [ dc %tmp.138 57 12 14 ];
-        symbol [ getHeight %tmp.139 57 15 24 ];
-        %tmp.139 = getv function %tmp.138 :getHeight;
-        %tmp.140 = invoke %tmp.138 %tmp.139();
-        %tmp.141 = lgetv %dc;
-        symbol [ dc %tmp.141 57 30 32 ];
-        symbol [ getHeight %tmp.142 57 33 42 ];
-        %tmp.142 = getv function %tmp.141 :getHeight;
-        %tmp.143 = invoke %tmp.141 %tmp.142();
-        %tmp.144 = 0.15;
-        %tmp.145 = mul %tmp.143 %tmp.144;
-        %tmp.146 = sub %tmp.140 %tmp.145;
-        symbol [ Graphics %tmp.147 58 12 20 ];
-        %tmp.147 = getm $.Toybox.Graphics;
-        symbol [ FONT_SYSTEM_XTINY %tmp.148 58 21 38 ];
-        %tmp.148 = getv %tmp.147 :FONT_SYSTEM_XTINY;
-        %tmp.149 = lgetv %progressText.6;
-        symbol [ progressText %tmp.149 59 12 24 ];
-        symbol [ Graphics %tmp.150 60 12 20 ];
-        %tmp.150 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.151 60 21 40 ];
-        %tmp.151 = getv %tmp.150 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.131 %tmp.132(%tmp.137, %tmp.146, %tmp.148, %tmp.149, %tmp.151);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_62_4_stop:
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop" ]
+        %margin.3 = local;
+        symbol [ margin %margin.3 28 12 18 ];
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 28 21 23 ];
+        symbol [ getWidth %tmp.27 28 24 32 ];
+        %tmp.27 = getv function %tmp.26 :getWidth;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        %tmp.29 = 0.12;
+        %tmp.30 = mul %tmp.28 %tmp.29;
+        lputv %margin.3 %tmp.30;
+        symbol [ margin %margin.3 28 12 18 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 29 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop" ]
+        %textArea.4 = local;
+        symbol [ textArea %textArea.4 29 12 20 ];
+        symbol [ WatchUi %tmp.33 29 27 34 ];
+        %tmp.33 = getm $.Toybox.WatchUi;
+        symbol [ TextArea %tmp.34 29 35 43 ];
+        %tmp.34 = getv function ? %tmp.33 :TextArea;
+        %tmp.35 = newd 8;
+        %tmp.37 = const :text;
+        symbol [ text %tmp.37 30 13 17 const ];
+        %tmp.38 = lgetv %text.2;
+        symbol [ text %tmp.38 30 21 25 ];
+        %tmp.39 = dup %tmp.35;
+        %tmp.40 = aputv %tmp.39 %tmp.37 %tmp.38;
+        %tmp.42 = const :color;
+        symbol [ color %tmp.42 31 13 18 const ];
+        symbol [ Graphics %tmp.43 31 22 30 ];
+        %tmp.43 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.44 31 31 42 ];
+        %tmp.44 = getv %tmp.43 :COLOR_WHITE;
+        %tmp.45 = dup %tmp.40;
+        %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+        %tmp.48 = const :font;
+        symbol [ font %tmp.48 32 13 17 const ];
+        symbol [ Graphics %tmp.49 32 21 29 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ FONT_SYSTEM_SMALL %tmp.50 32 30 47 ];
+        %tmp.50 = getv %tmp.49 :FONT_SYSTEM_SMALL;
+        %tmp.51 = dup %tmp.46;
+        %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+        %tmp.54 = const :locX;
+        symbol [ locX %tmp.54 33 13 17 const ];
+        %tmp.55 = lgetv %margin.3;
+        symbol [ margin %tmp.55 33 21 27 ];
+        %tmp.56 = dup %tmp.52;
+        %tmp.57 = aputv %tmp.56 %tmp.54 %tmp.55;
+        %tmp.59 = const :locY;
+        symbol [ locY %tmp.59 34 13 17 const ];
+        %tmp.60 = lgetv %margin.3;
+        symbol [ margin %tmp.60 34 21 27 ];
+        %tmp.61 = dup %tmp.57;
+        %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
+        %tmp.64 = const :width;
+        symbol [ width %tmp.64 35 13 18 const ];
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 35 22 24 ];
+        symbol [ getWidth %tmp.66 35 25 33 ];
+        %tmp.66 = getv function %tmp.65 :getWidth;
+        %tmp.67 = invoke %tmp.65 %tmp.66();
+        %tmp.68 = lgetv %margin.3;
+        symbol [ margin %tmp.68 35 39 45 ];
+        %tmp.69 = 2;
+        %tmp.70 = mul %tmp.68 %tmp.69;
+        %tmp.71 = sub %tmp.67 %tmp.70;
+        %tmp.72 = dup %tmp.62;
+        %tmp.73 = aputv %tmp.72 %tmp.64 %tmp.71;
+        %tmp.75 = const :height;
+        symbol [ height %tmp.75 36 13 19 const ];
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 36 23 25 ];
+        symbol [ getHeight %tmp.77 36 26 35 ];
+        %tmp.77 = getv function %tmp.76 :getHeight;
+        %tmp.78 = invoke %tmp.76 %tmp.77();
+        %tmp.79 = lgetv %margin.3;
+        symbol [ margin %tmp.79 36 41 47 ];
+        %tmp.80 = 2;
+        %tmp.81 = mul %tmp.79 %tmp.80;
+        %tmp.82 = sub %tmp.78 %tmp.81;
+        %tmp.83 = 20;
+        %tmp.84 = sub %tmp.82 %tmp.83;
+        %tmp.85 = dup %tmp.73;
+        %tmp.86 = aputv %tmp.85 %tmp.75 %tmp.84;
+        %tmp.88 = const :justification;
+        symbol [ justification %tmp.88 37 13 26 const ];
+        symbol [ Graphics %tmp.89 37 30 38 ];
+        %tmp.89 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.90 37 39 58 ];
+        %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.91 37 61 69 ];
+        %tmp.91 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.92 37 70 90 ];
+        %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_VCENTER;
+        %tmp.93 = bitor %tmp.90 %tmp.92;
+        %tmp.94 = dup %tmp.86;
+        %tmp.95 = aputv %tmp.94 %tmp.88 %tmp.93;
+        %tmp.31 = newc %tmp.34 (%tmp.95);
+        lputv %textArea.4 %tmp.31;
+        symbol [ textArea %textArea.4 29 12 20 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 40 8 ]
+        %tmp.96 = lgetv %textArea.4;
+        symbol [ textArea %tmp.96 40 8 16 ];
+        symbol [ draw %tmp.97 40 17 21 ];
+        %tmp.97 = getv function %tmp.96 :draw;
+        %tmp.98 = lgetv %dc;
+        symbol [ dc %tmp.98 40 22 24 ];
+        invoke %tmp.96 %tmp.97(%tmp.98);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 43 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop" ]
+        %progressText.5 = local;
+        symbol [ progressText %progressText.5 43 12 24 ];
+        symbol [ _index %tmp.100 43 28 34 ];
+        %tmp.100 = getv ? :_index;
+        %tmp.101 = 1;
+        %tmp.102 = add %tmp.100 %tmp.101;
+        symbol [ toString %tmp.103 43 40 48 ];
+        %tmp.103 = getv function %tmp.102 :toString;
+        %tmp.104 = invoke %tmp.102 %tmp.103();
+        %tmp.105 = " / ";
+        %tmp.106 = add %tmp.104 %tmp.105;
+        symbol [ _total %tmp.108 43 61 67 ];
+        %tmp.108 = getv ? :_total;
+        %tmp.109 = add %tmp.106 %tmp.108;
+        lputv %progressText.5 %tmp.109;
+        symbol [ progressText %progressText.5 43 12 24 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 44 8 ]
+        %tmp.110 = lgetv %dc;
+        symbol [ dc %tmp.110 44 8 10 ];
+        symbol [ setColor %tmp.111 44 11 19 ];
+        %tmp.111 = getv function %tmp.110 :setColor;
+        symbol [ Graphics %tmp.112 44 20 28 ];
+        %tmp.112 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.113 44 29 42 ];
+        %tmp.113 = getv %tmp.112 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.114 44 44 52 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.115 44 53 70 ];
+        %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+        invoke %tmp.110 %tmp.111(%tmp.113, %tmp.115);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 47 8 ]
+        %tmp.116 = lgetv %dc;
+        symbol [ dc %tmp.116 47 8 10 ];
+        symbol [ drawText %tmp.117 47 11 19 ];
+        %tmp.117 = getv function %tmp.116 :drawText;
+        %tmp.118 = lgetv %dc;
+        symbol [ dc %tmp.118 48 12 14 ];
+        symbol [ getWidth %tmp.119 48 15 23 ];
+        %tmp.119 = getv function %tmp.118 :getWidth;
+        %tmp.120 = invoke %tmp.118 %tmp.119();
+        %tmp.121 = 2;
+        %tmp.122 = div %tmp.120 %tmp.121;
+        %tmp.123 = lgetv %dc;
+        symbol [ dc %tmp.123 49 12 14 ];
+        symbol [ getHeight %tmp.124 49 15 24 ];
+        %tmp.124 = getv function %tmp.123 :getHeight;
+        %tmp.125 = invoke %tmp.123 %tmp.124();
+        %tmp.126 = lgetv %dc;
+        symbol [ dc %tmp.126 49 30 32 ];
+        symbol [ getHeight %tmp.127 49 33 42 ];
+        %tmp.127 = getv function %tmp.126 :getHeight;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        %tmp.129 = 0.15;
+        %tmp.130 = mul %tmp.128 %tmp.129;
+        %tmp.131 = sub %tmp.125 %tmp.130;
+        symbol [ Graphics %tmp.132 50 12 20 ];
+        %tmp.132 = getm $.Toybox.Graphics;
+        symbol [ FONT_SYSTEM_XTINY %tmp.133 50 21 38 ];
+        %tmp.133 = getv %tmp.132 :FONT_SYSTEM_XTINY;
+        %tmp.134 = lgetv %progressText.5;
+        symbol [ progressText %tmp.134 51 12 24 ];
+        symbol [ Graphics %tmp.135 52 12 20 ];
+        %tmp.135 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.136 52 21 40 ];
+        %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.116 %tmp.117(%tmp.122, %tmp.131, %tmp.133, %tmp.134, %tmp.136);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_26_54_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 1; ]
