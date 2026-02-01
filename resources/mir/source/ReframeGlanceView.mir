@@ -32,438 +32,546 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_11_26_13
     }
     [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc"; @line = 15; @symbol_functiondef = [onUpdate,15,13,21]; @symbol_param<0> = [dc,15,22,24]; ]
     function onUpdate(dc) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 17 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 16 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
         %ts.1 = local;
-        symbol [ ts %ts.1 17 12 14 ];
-        symbol [ Storage %tmp.1 17 17 24 ];
+        symbol [ ts %ts.1 16 12 14 ];
+        symbol [ Storage %tmp.1 16 17 24 ];
         %tmp.1 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.2 17 25 33 ];
+        symbol [ getValue %tmp.2 16 25 33 ];
         %tmp.2 = getv function %tmp.1 :getValue;
         %tmp.3 = "proximo_timestamp";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         lputv %ts.1 %tmp.4;
-        symbol [ ts %ts.1 17 12 14 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 18 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
+        symbol [ ts %ts.1 16 12 14 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 17 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
         %frase.2 = local;
-        symbol [ frase %frase.2 18 12 17 ];
-        symbol [ Storage %tmp.5 18 20 27 ];
+        symbol [ frase %frase.2 17 12 17 ];
+        symbol [ Storage %tmp.5 17 20 27 ];
         %tmp.5 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.6 18 28 36 ];
+        symbol [ getValue %tmp.6 17 28 36 ];
         %tmp.6 = getv function %tmp.5 :getValue;
         %tmp.7 = "proxima_frase";
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         lputv %frase.2 %tmp.8;
-        symbol [ frase %frase.2 18 12 17 ];
+        symbol [ frase %frase.2 17 12 17 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 19 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %categoria.3 = local;
+        symbol [ categoria %categoria.3 19 12 21 ];
+        symbol [ Storage %tmp.9 19 24 31 ];
+        %tmp.9 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.10 19 32 40 ];
+        %tmp.10 = getv function %tmp.9 :getValue;
+        %tmp.11 = "cat_for_bg";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        lputv %categoria.3 %tmp.12;
+        symbol [ categoria %categoria.3 19 12 21 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 21 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %horaStr.3 = local;
-        symbol [ horaStr %horaStr.3 21 12 19 ];
-        %tmp.9 = "--:--";
-        lputv %horaStr.3 %tmp.9;
-        symbol [ horaStr %horaStr.3 21 12 19 ];
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %horaStr.4 = local;
+        symbol [ horaStr %horaStr.4 21 12 19 ];
+        %tmp.13 = "--:--";
+        lputv %horaStr.4 %tmp.13;
+        symbol [ horaStr %horaStr.4 21 12 19 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 22 8 ]
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_stmt:
-        %tmp.10 = lgetv %ts.1;
-        symbol [ ts %tmp.10 22 12 14 ];
-        %tmp.11 = null;
-        %tmp.12 = ne %tmp.10 %tmp.11;
-        bf %tmp.12 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_end;
+        %tmp.14 = lgetv %ts.1;
+        symbol [ ts %tmp.14 22 12 14 ];
+        %tmp.15 = null;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        bf %tmp.16 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_end;
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_true:
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_24_29_8_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 23 12 ]
         [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_24_29_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_24_29_8_stop" ]
-        %info.4 = local;
-        symbol [ info %info.4 23 16 20 ];
-        symbol [ Gregorian %tmp.13 23 23 32 ];
-        %tmp.13 = getm $.Toybox.Time.Gregorian;
-        symbol [ info %tmp.14 23 33 37 ];
-        %tmp.14 = getv function %tmp.13 :info;
-        symbol [ Time %tmp.17 23 42 46 ];
-        %tmp.17 = getm $.Toybox.Time;
-        symbol [ Moment %tmp.18 23 47 53 ];
-        %tmp.18 = getv function ? %tmp.17 :Moment;
-        %tmp.19 = lgetv %ts.1;
-        symbol [ ts %tmp.19 23 54 56 ];
-        %tmp.20 = as %tmp.19 { (!Null) };
-        %tmp.15 = newc %tmp.18 (%tmp.20);
-        symbol [ Time %tmp.21 23 59 63 ];
+        %info.5 = local;
+        symbol [ info %info.5 23 16 20 ];
+        symbol [ Gregorian %tmp.17 23 23 32 ];
+        %tmp.17 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.18 23 33 37 ];
+        %tmp.18 = getv function %tmp.17 :info;
+        symbol [ Time %tmp.21 23 42 46 ];
         %tmp.21 = getm $.Toybox.Time;
-        symbol [ FORMAT_MEDIUM %tmp.22 23 64 77 ];
-        %tmp.22 = getv %tmp.21 :FORMAT_MEDIUM;
-        %tmp.23 = invoke %tmp.13 %tmp.14(%tmp.15, %tmp.22);
-        lputv %info.4 %tmp.23;
-        symbol [ info %info.4 23 16 20 ];
+        symbol [ Moment %tmp.22 23 47 53 ];
+        %tmp.22 = getv function ? %tmp.21 :Moment;
+        %tmp.23 = lgetv %ts.1;
+        symbol [ ts %tmp.23 23 54 56 ];
+        %tmp.24 = as %tmp.23 { (!Null) };
+        %tmp.19 = newc %tmp.22 (%tmp.24);
+        symbol [ Time %tmp.25 23 59 63 ];
+        %tmp.25 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.26 23 64 77 ];
+        %tmp.26 = getv %tmp.25 :FORMAT_MEDIUM;
+        %tmp.27 = invoke %tmp.17 %tmp.18(%tmp.19, %tmp.26);
+        lputv %info.5 %tmp.27;
+        symbol [ info %info.5 23 16 20 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 24 12 ]
-        symbol [ Lang %tmp.24 24 22 26 ];
-        %tmp.24 = getm $.Toybox.Lang;
-        symbol [ format %tmp.25 24 27 33 ];
-        %tmp.25 = getv function %tmp.24 :format;
-        %tmp.26 = "$1$:$2$ ($3$)";
-        %tmp.27 = newa 3;
-        %tmp.28 = lgetv %info.4;
-        symbol [ info %tmp.28 25 16 20 ];
-        symbol [ hour %tmp.29 25 21 25 ];
-        %tmp.29 = getv %tmp.28 :hour;
-        symbol [ format %tmp.30 25 26 32 ];
-        %tmp.30 = getv function %tmp.29 :format;
-        %tmp.31 = "%02d";
-        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
-        %tmp.33 = dup %tmp.27;
-        %tmp.34 = aputv %tmp.33 0 %tmp.32;
-        %tmp.35 = lgetv %info.4;
-        symbol [ info %tmp.35 26 16 20 ];
-        symbol [ min %tmp.36 26 21 24 ];
-        %tmp.36 = getv %tmp.35 :min;
-        symbol [ format %tmp.37 26 25 31 ];
-        %tmp.37 = getv function %tmp.36 :format;
-        %tmp.38 = "%02d";
-        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        %tmp.40 = dup %tmp.34;
-        %tmp.41 = aputv %tmp.40 1 %tmp.39;
-        %tmp.42 = lgetv %info.4;
-        symbol [ info %tmp.42 27 16 20 ];
-        symbol [ day_of_week %tmp.43 27 21 32 ];
-        %tmp.43 = getv %tmp.42 :day_of_week;
-        %tmp.44 = dup %tmp.41;
-        %tmp.45 = aputv %tmp.44 2 %tmp.43;
-        %tmp.46 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.45);
-        lputv %horaStr.3 %tmp.46;
-        symbol [ horaStr %horaStr.3 24 12 19 ];
+        symbol [ Lang %tmp.28 24 22 26 ];
+        %tmp.28 = getm $.Toybox.Lang;
+        symbol [ format %tmp.29 24 27 33 ];
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = "$1$:$2$ ($3$)";
+        %tmp.31 = newa 3;
+        %tmp.32 = lgetv %info.5;
+        symbol [ info %tmp.32 25 16 20 ];
+        symbol [ hour %tmp.33 25 21 25 ];
+        %tmp.33 = getv %tmp.32 :hour;
+        symbol [ format %tmp.34 25 26 32 ];
+        %tmp.34 = getv function %tmp.33 :format;
+        %tmp.35 = "%02d";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        %tmp.37 = dup %tmp.31;
+        %tmp.38 = aputv %tmp.37 0 %tmp.36;
+        %tmp.39 = lgetv %info.5;
+        symbol [ info %tmp.39 26 16 20 ];
+        symbol [ min %tmp.40 26 21 24 ];
+        %tmp.40 = getv %tmp.39 :min;
+        symbol [ format %tmp.41 26 25 31 ];
+        %tmp.41 = getv function %tmp.40 :format;
+        %tmp.42 = "%02d";
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        %tmp.44 = dup %tmp.38;
+        %tmp.45 = aputv %tmp.44 1 %tmp.43;
+        %tmp.46 = lgetv %info.5;
+        symbol [ info %tmp.46 27 16 20 ];
+        symbol [ day_of_week %tmp.47 27 21 32 ];
+        %tmp.47 = getv %tmp.46 :day_of_week;
+        %tmp.48 = dup %tmp.45;
+        %tmp.49 = aputv %tmp.48 2 %tmp.47;
+        %tmp.50 = invoke %tmp.28 %tmp.29(%tmp.30, %tmp.49);
+        lputv %horaStr.4 %tmp.50;
+        symbol [ horaStr %horaStr.4 24 12 19 ];
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_24_29_8_stop:
         goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_end;
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_22_8_29_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 31 8 ]
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 31 8 10 ];
+        symbol [ setColor %tmp.52 31 11 19 ];
+        %tmp.52 = getv function %tmp.51 :setColor;
+        symbol [ Graphics %tmp.53 31 20 28 ];
+        %tmp.53 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.54 31 29 40 ];
+        %tmp.54 = getv %tmp.53 :COLOR_BLACK;
+        symbol [ Graphics %tmp.55 31 42 50 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.56 31 51 62 ];
+        %tmp.56 = getv %tmp.55 :COLOR_BLACK;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.56);
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 32 8 ]
-        %tmp.47 = lgetv %dc;
-        symbol [ dc %tmp.47 32 8 10 ];
-        symbol [ setColor %tmp.48 32 11 19 ];
-        %tmp.48 = getv function %tmp.47 :setColor;
-        symbol [ Graphics %tmp.49 32 20 28 ];
-        %tmp.49 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.50 32 29 40 ];
-        %tmp.50 = getv %tmp.49 :COLOR_BLACK;
-        symbol [ Graphics %tmp.51 32 42 50 ];
-        %tmp.51 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.52 32 51 62 ];
-        %tmp.52 = getv %tmp.51 :COLOR_BLACK;
-        invoke %tmp.47 %tmp.48(%tmp.50, %tmp.52);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 33 8 ]
-        %tmp.53 = lgetv %dc;
-        symbol [ dc %tmp.53 33 8 10 ];
-        symbol [ clear %tmp.54 33 11 16 ];
-        %tmp.54 = getv function %tmp.53 :clear;
-        invoke %tmp.53 %tmp.54();
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 32 8 10 ];
+        symbol [ clear %tmp.58 32 11 16 ];
+        %tmp.58 = getv function %tmp.57 :clear;
+        invoke %tmp.57 %tmp.58();
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 34 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %h.6 = local;
+        symbol [ h %h.6 34 12 13 ];
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 34 16 18 ];
+        symbol [ getHeight %tmp.60 34 19 28 ];
+        %tmp.60 = getv function %tmp.59 :getHeight;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        lputv %h.6 %tmp.61;
+        symbol [ h %h.6 34 12 13 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 35 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %fTiny.7 = local;
+        symbol [ fTiny %fTiny.7 35 12 17 ];
+        symbol [ Graphics %tmp.62 35 20 28 ];
+        %tmp.62 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.63 35 29 38 ];
+        %tmp.63 = getv %tmp.62 :FONT_TINY;
+        lputv %fTiny.7 %tmp.63;
+        symbol [ fTiny %fTiny.7 35 12 17 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 36 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %h.5 = local;
-        symbol [ h %h.5 36 12 13 ];
-        %tmp.55 = lgetv %dc;
-        symbol [ dc %tmp.55 36 16 18 ];
-        symbol [ getHeight %tmp.56 36 19 28 ];
-        %tmp.56 = getv function %tmp.55 :getHeight;
-        %tmp.57 = invoke %tmp.55 %tmp.56();
-        lputv %h.5 %tmp.57;
-        symbol [ h %h.5 36 12 13 ];
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %fXTiny.8 = local;
+        symbol [ fXTiny %fXTiny.8 36 12 18 ];
+        symbol [ Graphics %tmp.64 36 21 29 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.65 36 30 40 ];
+        %tmp.65 = getv %tmp.64 :FONT_XTINY;
+        lputv %fXTiny.8 %tmp.65;
+        symbol [ fXTiny %fXTiny.8 36 12 18 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 37 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %fTiny.6 = local;
-        symbol [ fTiny %fTiny.6 37 12 17 ];
-        symbol [ Graphics %tmp.58 37 20 28 ];
-        %tmp.58 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.59 37 29 38 ];
-        %tmp.59 = getv %tmp.58 :FONT_TINY;
-        lputv %fTiny.6 %tmp.59;
-        symbol [ fTiny %fTiny.6 37 12 17 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 38 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %fXTiny.7 = local;
-        symbol [ fXTiny %fXTiny.7 38 12 18 ];
-        symbol [ Graphics %tmp.60 38 21 29 ];
-        %tmp.60 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.61 38 30 40 ];
-        %tmp.61 = getv %tmp.60 :FONT_XTINY;
-        lputv %fXTiny.7 %tmp.61;
-        symbol [ fXTiny %fXTiny.7 38 12 18 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 42 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %x.8 = local;
-        symbol [ x %x.8 42 12 13 ];
-        %tmp.62 = 2;
-        lputv %x.8 %tmp.62;
-        symbol [ x %x.8 42 12 13 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 47 8 ]
-        %tmp.63 = lgetv %dc;
-        symbol [ dc %tmp.63 47 8 10 ];
-        symbol [ setColor %tmp.64 47 11 19 ];
-        %tmp.64 = getv function %tmp.63 :setColor;
-        symbol [ Graphics %tmp.65 47 20 28 ];
-        %tmp.65 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.66 47 29 42 ];
-        %tmp.66 = getv %tmp.65 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.67 47 44 52 ];
-        %tmp.67 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.68 47 53 70 ];
-        %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
-        invoke %tmp.63 %tmp.64(%tmp.66, %tmp.68);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 48 8 ]
-        %tmp.69 = lgetv %dc;
-        symbol [ dc %tmp.69 48 8 10 ];
-        symbol [ drawText %tmp.70 48 11 19 ];
-        %tmp.70 = getv function %tmp.69 :drawText;
-        %tmp.71 = lgetv %x.8;
-        symbol [ x %tmp.71 48 20 21 ];
-        %tmp.72 = 2;
-        %tmp.73 = lgetv %fXTiny.7;
-        symbol [ fXTiny %tmp.73 48 26 32 ];
-        %tmp.74 = "PRÓXIMO MENSAJE EN:";
-        symbol [ Graphics %tmp.75 48 57 65 ];
-        %tmp.75 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.76 48 66 83 ];
-        %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.69 %tmp.70(%tmp.71, %tmp.72, %tmp.73, %tmp.74, %tmp.76);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 51 8 ]
-        %tmp.77 = lgetv %dc;
-        symbol [ dc %tmp.77 51 8 10 ];
-        symbol [ setColor %tmp.78 51 11 19 ];
-        %tmp.78 = getv function %tmp.77 :setColor;
-        symbol [ Graphics %tmp.79 51 20 28 ];
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %x.9 = local;
+        symbol [ x %x.9 37 12 13 ];
+        %tmp.66 = 2;
+        lputv %x.9 %tmp.66;
+        symbol [ x %x.9 37 12 13 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 40 8 ]
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 40 8 10 ];
+        symbol [ setColor %tmp.68 40 11 19 ];
+        %tmp.68 = getv function %tmp.67 :setColor;
+        symbol [ Graphics %tmp.69 40 20 28 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.70 40 29 42 ];
+        %tmp.70 = getv %tmp.69 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.71 40 44 52 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.72 40 53 70 ];
+        %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 41 8 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 41 8 10 ];
+        symbol [ drawText %tmp.74 41 11 19 ];
+        %tmp.74 = getv function %tmp.73 :drawText;
+        %tmp.75 = lgetv %x.9;
+        symbol [ x %tmp.75 41 20 21 ];
+        %tmp.76 = 2;
+        %tmp.77 = lgetv %fXTiny.8;
+        symbol [ fXTiny %tmp.77 41 26 32 ];
+        %tmp.78 = "PRÓXIMO MENSAJE EN:";
+        symbol [ Graphics %tmp.79 41 57 65 ];
         %tmp.79 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.80 51 29 40 ];
-        %tmp.80 = getv %tmp.79 :COLOR_WHITE;
-        symbol [ Graphics %tmp.81 51 42 50 ];
-        %tmp.81 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.82 51 51 68 ];
-        %tmp.82 = getv %tmp.81 :COLOR_TRANSPARENT;
-        invoke %tmp.77 %tmp.78(%tmp.80, %tmp.82);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 52 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop" ]
-        %yHora.9 = local;
-        symbol [ yHora %yHora.9 52 12 17 ];
-        %tmp.83 = lgetv %h.5;
-        symbol [ h %tmp.83 52 21 22 ];
-        %tmp.84 = 2;
-        %tmp.85 = div %tmp.83 %tmp.84;
-        %tmp.86 = lgetv %dc;
-        symbol [ dc %tmp.86 52 31 33 ];
-        symbol [ getFontHeight %tmp.87 52 34 47 ];
-        %tmp.87 = getv function %tmp.86 :getFontHeight;
-        %tmp.88 = lgetv %fTiny.6;
-        symbol [ fTiny %tmp.88 52 48 53 ];
-        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
-        %tmp.90 = 2;
-        %tmp.91 = div %tmp.89 %tmp.90;
-        %tmp.92 = sub %tmp.85 %tmp.91;
-        lputv %yHora.9 %tmp.92;
-        symbol [ yHora %yHora.9 52 12 17 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 53 8 ]
-        %tmp.93 = lgetv %dc;
-        symbol [ dc %tmp.93 53 8 10 ];
-        symbol [ drawText %tmp.94 53 11 19 ];
-        %tmp.94 = getv function %tmp.93 :drawText;
-        %tmp.95 = lgetv %x.8;
-        symbol [ x %tmp.95 53 20 21 ];
-        %tmp.96 = lgetv %yHora.9;
-        symbol [ yHora %tmp.96 53 23 28 ];
-        %tmp.97 = lgetv %fTiny.6;
-        symbol [ fTiny %tmp.97 53 30 35 ];
-        %tmp.98 = lgetv %horaStr.3;
-        symbol [ horaStr %tmp.98 53 37 44 ];
-        symbol [ Graphics %tmp.99 53 46 54 ];
-        %tmp.99 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.100 53 55 72 ];
-        %tmp.100 = getv %tmp.99 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.93 %tmp.94(%tmp.95, %tmp.96, %tmp.97, %tmp.98, %tmp.100);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 56 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_8_65_8_if_stmt:
-        %tmp.101 = lgetv %frase.2;
-        symbol [ frase %tmp.101 56 12 17 ];
-        %tmp.102 = null;
-        %tmp.103 = ne %tmp.101 %tmp.102;
-        bf %tmp.103 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_8_65_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_8_65_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 57 12 ]
-        %tmp.104 = lgetv %dc;
-        symbol [ dc %tmp.104 57 12 14 ];
-        symbol [ setColor %tmp.105 57 15 23 ];
-        %tmp.105 = getv function %tmp.104 :setColor;
-        %tmp.106 = 0x00AAFF;
-        symbol [ Graphics %tmp.107 57 34 42 ];
-        %tmp.107 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.108 57 43 60 ];
-        %tmp.108 = getv %tmp.107 :COLOR_TRANSPARENT;
-        invoke %tmp.104 %tmp.105(%tmp.106, %tmp.108);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 60 12 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_stop" ]
-        %anchoMax.10 = local;
-        symbol [ anchoMax %anchoMax.10 60 16 24 ];
-        %tmp.109 = lgetv %dc;
-        symbol [ dc %tmp.109 60 27 29 ];
-        symbol [ getWidth %tmp.110 60 30 38 ];
-        %tmp.110 = getv function %tmp.109 :getWidth;
-        %tmp.111 = invoke %tmp.109 %tmp.110();
-        %tmp.112 = 15;
-        %tmp.113 = sub %tmp.111 %tmp.112;
-        lputv %anchoMax.10 %tmp.113;
-        symbol [ anchoMax %anchoMax.10 60 16 24 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 61 12 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_stop" ]
-        %fraseFinal.11 = local;
-        symbol [ fraseFinal %fraseFinal.11 61 16 26 ];
-        %tmp.114 = self;
-        symbol [ truncarTexto %tmp.115 61 29 41 ];
-        %tmp.115 = getv function %tmp.114 :truncarTexto;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.80 41 66 83 ];
+        %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.76, %tmp.77, %tmp.78, %tmp.80);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 44 8 ]
+        %tmp.81 = lgetv %dc;
+        symbol [ dc %tmp.81 44 8 10 ];
+        symbol [ setColor %tmp.82 44 11 19 ];
+        %tmp.82 = getv function %tmp.81 :setColor;
+        symbol [ Graphics %tmp.83 44 20 28 ];
+        %tmp.83 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.84 44 29 40 ];
+        %tmp.84 = getv %tmp.83 :COLOR_WHITE;
+        symbol [ Graphics %tmp.85 44 42 50 ];
+        %tmp.85 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.86 44 51 68 ];
+        %tmp.86 = getv %tmp.85 :COLOR_TRANSPARENT;
+        invoke %tmp.81 %tmp.82(%tmp.84, %tmp.86);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 45 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop" ]
+        %yHora.10 = local;
+        symbol [ yHora %yHora.10 45 12 17 ];
+        %tmp.87 = lgetv %h.6;
+        symbol [ h %tmp.87 45 21 22 ];
+        %tmp.88 = 2;
+        %tmp.89 = div %tmp.87 %tmp.88;
+        %tmp.90 = lgetv %dc;
+        symbol [ dc %tmp.90 45 31 33 ];
+        symbol [ getFontHeight %tmp.91 45 34 47 ];
+        %tmp.91 = getv function %tmp.90 :getFontHeight;
+        %tmp.92 = lgetv %fTiny.7;
+        symbol [ fTiny %tmp.92 45 48 53 ];
+        %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
+        %tmp.94 = 2;
+        %tmp.95 = div %tmp.93 %tmp.94;
+        %tmp.96 = sub %tmp.89 %tmp.95;
+        lputv %yHora.10 %tmp.96;
+        symbol [ yHora %yHora.10 45 12 17 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 46 8 ]
+        %tmp.97 = lgetv %dc;
+        symbol [ dc %tmp.97 46 8 10 ];
+        symbol [ drawText %tmp.98 46 11 19 ];
+        %tmp.98 = getv function %tmp.97 :drawText;
+        %tmp.99 = lgetv %x.9;
+        symbol [ x %tmp.99 46 20 21 ];
+        %tmp.100 = lgetv %yHora.10;
+        symbol [ yHora %tmp.100 46 23 28 ];
+        %tmp.101 = lgetv %fTiny.7;
+        symbol [ fTiny %tmp.101 46 30 35 ];
+        %tmp.102 = lgetv %horaStr.4;
+        symbol [ horaStr %tmp.102 46 37 44 ];
+        symbol [ Graphics %tmp.103 46 46 54 ];
+        %tmp.103 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.104 46 55 72 ];
+        %tmp.104 = getv %tmp.103 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.97 %tmp.98(%tmp.99, %tmp.100, %tmp.101, %tmp.102, %tmp.104);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 49 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_8_58_8_if_stmt:
+        %tmp.105 = lgetv %frase.2;
+        symbol [ frase %tmp.105 49 12 17 ];
+        %tmp.106 = null;
+        %tmp.107 = ne %tmp.105 %tmp.106;
+        bf %tmp.107 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_8_58_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_8_58_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 51 12 ]
+        %tmp.108 = lgetv %dc;
+        symbol [ dc %tmp.108 51 12 14 ];
+        symbol [ setColor %tmp.109 51 15 23 ];
+        %tmp.109 = getv function %tmp.108 :setColor;
+        %tmp.110 = self;
+        symbol [ getGlanceColor %tmp.111 51 24 38 ];
+        %tmp.111 = getv function %tmp.110 :getGlanceColor;
+        %tmp.112 = lgetv %categoria.3;
+        symbol [ categoria %tmp.112 51 39 48 ];
+        %tmp.113 = invoke %tmp.110 %tmp.111(%tmp.112);
+        symbol [ Graphics %tmp.114 51 51 59 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.115 51 60 77 ];
+        %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+        invoke %tmp.108 %tmp.109(%tmp.113, %tmp.115);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 53 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_stop" ]
+        %anchoMax.11 = local;
+        symbol [ anchoMax %anchoMax.11 53 16 24 ];
         %tmp.116 = lgetv %dc;
-        symbol [ dc %tmp.116 61 42 44 ];
-        %tmp.117 = lgetv %frase.2;
-        symbol [ frase %tmp.117 61 46 51 ];
-        %tmp.118 = as %tmp.117 { (!Null) };
-        %tmp.119 = lgetv %anchoMax.10;
-        symbol [ anchoMax %tmp.119 61 53 61 ];
-        %tmp.120 = lgetv %fXTiny.7;
-        symbol [ fXTiny %tmp.120 61 63 69 ];
-        %tmp.121 = invoke %tmp.114 %tmp.115(%tmp.116, %tmp.118, %tmp.119, %tmp.120);
-        lputv %fraseFinal.11 %tmp.121;
-        symbol [ fraseFinal %fraseFinal.11 61 16 26 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 63 12 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_stop" ]
-        %yFrase.12 = local;
-        symbol [ yFrase %yFrase.12 63 16 22 ];
-        %tmp.122 = lgetv %h.5;
-        symbol [ h %tmp.122 63 25 26 ];
+        symbol [ dc %tmp.116 53 27 29 ];
+        symbol [ getWidth %tmp.117 53 30 38 ];
+        %tmp.117 = getv function %tmp.116 :getWidth;
+        %tmp.118 = invoke %tmp.116 %tmp.117();
+        %tmp.119 = 15;
+        %tmp.120 = sub %tmp.118 %tmp.119;
+        lputv %anchoMax.11 %tmp.120;
+        symbol [ anchoMax %anchoMax.11 53 16 24 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 54 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_stop" ]
+        %fraseFinal.12 = local;
+        symbol [ fraseFinal %fraseFinal.12 54 16 26 ];
+        %tmp.121 = self;
+        symbol [ truncarTexto %tmp.122 54 29 41 ];
+        %tmp.122 = getv function %tmp.121 :truncarTexto;
         %tmp.123 = lgetv %dc;
-        symbol [ dc %tmp.123 63 29 31 ];
-        symbol [ getFontHeight %tmp.124 63 32 45 ];
-        %tmp.124 = getv function %tmp.123 :getFontHeight;
-        %tmp.125 = lgetv %fXTiny.7;
-        symbol [ fXTiny %tmp.125 63 46 52 ];
-        %tmp.126 = invoke %tmp.123 %tmp.124(%tmp.125);
-        %tmp.127 = sub %tmp.122 %tmp.126;
-        %tmp.128 = 2;
-        %tmp.129 = sub %tmp.127 %tmp.128;
-        lputv %yFrase.12 %tmp.129;
-        symbol [ yFrase %yFrase.12 63 16 22 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 64 12 ]
+        symbol [ dc %tmp.123 54 42 44 ];
+        %tmp.124 = lgetv %frase.2;
+        symbol [ frase %tmp.124 54 46 51 ];
+        %tmp.125 = as %tmp.124 { (!Null) };
+        %tmp.126 = lgetv %anchoMax.11;
+        symbol [ anchoMax %tmp.126 54 53 61 ];
+        %tmp.127 = lgetv %fXTiny.8;
+        symbol [ fXTiny %tmp.127 54 63 69 ];
+        %tmp.128 = invoke %tmp.121 %tmp.122(%tmp.123, %tmp.125, %tmp.126, %tmp.127);
+        lputv %fraseFinal.12 %tmp.128;
+        symbol [ fraseFinal %fraseFinal.12 54 16 26 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 56 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_stop" ]
+        %yFrase.13 = local;
+        symbol [ yFrase %yFrase.13 56 16 22 ];
+        %tmp.129 = lgetv %h.6;
+        symbol [ h %tmp.129 56 25 26 ];
         %tmp.130 = lgetv %dc;
-        symbol [ dc %tmp.130 64 12 14 ];
-        symbol [ drawText %tmp.131 64 15 23 ];
-        %tmp.131 = getv function %tmp.130 :drawText;
-        %tmp.132 = lgetv %x.8;
-        symbol [ x %tmp.132 64 24 25 ];
-        %tmp.133 = lgetv %yFrase.12;
-        symbol [ yFrase %tmp.133 64 27 33 ];
-        %tmp.134 = lgetv %fXTiny.7;
-        symbol [ fXTiny %tmp.134 64 35 41 ];
-        %tmp.135 = lgetv %fraseFinal.11;
-        symbol [ fraseFinal %tmp.135 64 43 53 ];
-        symbol [ Graphics %tmp.136 64 55 63 ];
-        %tmp.136 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.137 64 64 81 ];
-        %tmp.137 = getv %tmp.136 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.130 %tmp.131(%tmp.132, %tmp.133, %tmp.134, %tmp.135, %tmp.137);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_27_65_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_8_65_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_56_8_65_8_if_end:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_66_4_stop:
+        symbol [ dc %tmp.130 56 29 31 ];
+        symbol [ getFontHeight %tmp.131 56 32 45 ];
+        %tmp.131 = getv function %tmp.130 :getFontHeight;
+        %tmp.132 = lgetv %fXTiny.8;
+        symbol [ fXTiny %tmp.132 56 46 52 ];
+        %tmp.133 = invoke %tmp.130 %tmp.131(%tmp.132);
+        %tmp.134 = sub %tmp.129 %tmp.133;
+        %tmp.135 = 2;
+        %tmp.136 = sub %tmp.134 %tmp.135;
+        lputv %yFrase.13 %tmp.136;
+        symbol [ yFrase %yFrase.13 56 16 22 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 57 12 ]
+        %tmp.137 = lgetv %dc;
+        symbol [ dc %tmp.137 57 12 14 ];
+        symbol [ drawText %tmp.138 57 15 23 ];
+        %tmp.138 = getv function %tmp.137 :drawText;
+        %tmp.139 = lgetv %x.9;
+        symbol [ x %tmp.139 57 24 25 ];
+        %tmp.140 = lgetv %yFrase.13;
+        symbol [ yFrase %tmp.140 57 27 33 ];
+        %tmp.141 = lgetv %fXTiny.8;
+        symbol [ fXTiny %tmp.141 57 35 41 ];
+        %tmp.142 = lgetv %fraseFinal.12;
+        symbol [ fraseFinal %tmp.142 57 43 53 ];
+        symbol [ Graphics %tmp.143 57 55 63 ];
+        %tmp.143 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.144 57 64 81 ];
+        %tmp.144 = getv %tmp.143 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.137 %tmp.138(%tmp.139, %tmp.140, %tmp.141, %tmp.142, %tmp.144);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_27_58_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_8_58_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_49_8_58_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_15_26_59_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc"; @line = 69; @symbol_functiondef = [truncarTexto,69,13,25]; @symbol_param<0> = [dc,69,26,28]; @symbol_param<1> = [texto,69,30,35]; @symbol_param<2> = [anchoMax,69,37,45]; @symbol_param<3> = [fuente,69,47,53]; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc"; @line = 62; @symbol_functiondef = [getGlanceColor,62,13,27]; @symbol_param<0> = [cat,62,28,31]; ]
+    function getGlanceColor(cat) {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_62_33_69_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 63 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_8_63_44_if_stmt:
+        %tmp.1 = lgetv %cat;
+        symbol [ cat %tmp.1 63 12 15 ];
+        %tmp.2 = null;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_8_63_44_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_8_63_44_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_25_63_44_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 63 27 ]
+        %tmp.4 = 0x00AAFF;
+        ret %tmp.4;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_25_63_44_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_8_63_44_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_63_8_63_44_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 64 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_8_64_51_if_stmt:
+        %tmp.5 = lgetv %cat;
+        symbol [ cat %tmp.5 64 12 15 ];
+        symbol [ equals %tmp.6 64 16 22 ];
+        %tmp.6 = getv function %tmp.5 :equals;
+        %tmp.7 = "AZUL";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        bf %tmp.8 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_8_64_51_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_8_64_51_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_32_64_51_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 64 34 ]
+        %tmp.9 = 0x00AAFF;
+        ret %tmp.9;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_32_64_51_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_8_64_51_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_64_8_64_51_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 65 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_8_65_52_if_stmt:
+        %tmp.10 = lgetv %cat;
+        symbol [ cat %tmp.10 65 12 15 ];
+        symbol [ equals %tmp.11 65 16 22 ];
+        %tmp.11 = getv function %tmp.10 :equals;
+        %tmp.12 = "VERDE";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        bf %tmp.13 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_8_65_52_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_8_65_52_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_33_65_52_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 65 35 ]
+        %tmp.14 = 0x55FF00;
+        ret %tmp.14;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_33_65_52_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_8_65_52_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_65_8_65_52_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 66 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_8_66_54_if_stmt:
+        %tmp.15 = lgetv %cat;
+        symbol [ cat %tmp.15 66 12 15 ];
+        symbol [ equals %tmp.16 66 16 22 ];
+        %tmp.16 = getv function %tmp.15 :equals;
+        %tmp.17 = "PURPURA";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        bf %tmp.18 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_8_66_54_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_8_66_54_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_35_66_54_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 66 37 ]
+        %tmp.19 = 0xAA55FF;
+        ret %tmp.19;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_35_66_54_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_8_66_54_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_66_8_66_54_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 67 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_8_67_55_if_stmt:
+        %tmp.20 = lgetv %cat;
+        symbol [ cat %tmp.20 67 12 15 ];
+        symbol [ equals %tmp.21 67 16 22 ];
+        %tmp.21 = getv function %tmp.20 :equals;
+        %tmp.22 = "AMARILLO";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        bf %tmp.23 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_8_67_55_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_8_67_55_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_36_67_55_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 67 38 ]
+        %tmp.24 = 0xFFFF00;
+        ret %tmp.24;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_36_67_55_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_8_67_55_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_67_8_67_55_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 68 8 ]
+        %tmp.25 = 0x00AAFF;
+        ret %tmp.25;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_62_33_69_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc"; @line = 71; @symbol_functiondef = [truncarTexto,71,13,25]; @symbol_param<0> = [dc,71,26,28]; @symbol_param<1> = [texto,71,30,35]; @symbol_param<2> = [anchoMax,71,37,45]; @symbol_param<3> = [fuente,71,47,53]; ]
     function truncarTexto(dc, texto, anchoMax, fuente) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_69_55_78_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 70 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_8_72_8_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_71_55_80_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 72 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_8_74_8_if_stmt:
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 70 12 14 ];
-        symbol [ getTextWidthInPixels %tmp.2 70 15 35 ];
+        symbol [ dc %tmp.1 72 12 14 ];
+        symbol [ getTextWidthInPixels %tmp.2 72 15 35 ];
         %tmp.2 = getv function %tmp.1 :getTextWidthInPixels;
         %tmp.3 = lgetv %texto;
-        symbol [ texto %tmp.3 70 36 41 ];
+        symbol [ texto %tmp.3 72 36 41 ];
         %tmp.4 = lgetv %fuente;
-        symbol [ fuente %tmp.4 70 43 49 ];
+        symbol [ fuente %tmp.4 72 43 49 ];
         %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
         %tmp.6 = lgetv %anchoMax;
-        symbol [ anchoMax %tmp.6 70 54 62 ];
+        symbol [ anchoMax %tmp.6 72 54 62 ];
         %tmp.7 = lte %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_8_72_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_8_72_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_64_72_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 71 12 ]
+        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_8_74_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_8_74_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_64_74_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 73 12 ]
         %tmp.8 = lgetv %texto;
-        symbol [ texto %tmp.8 71 19 24 ];
+        symbol [ texto %tmp.8 73 19 24 ];
         ret %tmp.8;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_64_72_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_8_72_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_70_8_72_8_if_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 73 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_69_55_78_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_69_55_78_4_stop" ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_64_74_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_8_74_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_72_8_74_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 75 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_71_55_80_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_71_55_80_4_stop" ]
         %res.1 = local;
-        symbol [ res %res.1 73 12 15 ];
+        symbol [ res %res.1 75 12 15 ];
         %tmp.9 = lgetv %texto;
-        symbol [ texto %tmp.9 73 18 23 ];
+        symbol [ texto %tmp.9 75 18 23 ];
         lputv %res.1 %tmp.9;
-        symbol [ res %res.1 73 12 15 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 74 8 ]
-        while @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_test @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_test:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_15_74_82_begin:
+        symbol [ res %res.1 75 12 15 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 76 8 ]
+        while @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_test @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_test:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_15_76_82_begin:
         %tmp.10 = lgetv %res.1;
-        symbol [ res %tmp.10 74 15 18 ];
-        symbol [ length %tmp.11 74 19 25 ];
+        symbol [ res %tmp.10 76 15 18 ];
+        symbol [ length %tmp.11 76 19 25 ];
         %tmp.11 = getv function %tmp.10 :length;
         %tmp.12 = invoke %tmp.10 %tmp.11();
         %tmp.13 = 0;
         %tmp.14 = gt %tmp.12 %tmp.13;
         %tmp.15 = dup %tmp.14;
-        bf %tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_35_74_82_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_35_74_82_true:
+        bf %tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_35_76_82_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_35_76_82_true:
         %tmp.16 = lgetv %dc;
-        symbol [ dc %tmp.16 74 35 37 ];
-        symbol [ getTextWidthInPixels %tmp.17 74 38 58 ];
+        symbol [ dc %tmp.16 76 35 37 ];
+        symbol [ getTextWidthInPixels %tmp.17 76 38 58 ];
         %tmp.17 = getv function %tmp.16 :getTextWidthInPixels;
         %tmp.18 = lgetv %res.1;
-        symbol [ res %tmp.18 74 59 62 ];
+        symbol [ res %tmp.18 76 59 62 ];
         %tmp.19 = "...";
         %tmp.20 = add %tmp.18 %tmp.19;
         %tmp.21 = lgetv %fuente;
-        symbol [ fuente %tmp.21 74 72 78 ];
+        symbol [ fuente %tmp.21 76 72 78 ];
         %tmp.22 = invoke %tmp.16 %tmp.17(%tmp.20, %tmp.21);
         %tmp.23 = lgetv %anchoMax;
-        symbol [ anchoMax %tmp.23 74 82 90 ];
+        symbol [ anchoMax %tmp.23 76 82 90 ];
         %tmp.24 = gt %tmp.22 %tmp.23;
         %tmp.25 = and %tmp.14 %tmp.24;
         push %tmp.25;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_35_74_82_end:
-        %tmp.26 = phi [%tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_15_74_82_begin] [%tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_35_74_82_true] [%tmp.26 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_35_74_82_end];
-        bf %tmp.26 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_begin:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_92_76_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 75 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_35_76_82_end:
+        %tmp.26 = phi [%tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_15_76_82_begin] [%tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_35_76_82_true] [%tmp.26 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_35_76_82_end];
+        bf %tmp.26 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_92_78_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 77 12 ]
         %tmp.27 = lgetv %res.1;
-        symbol [ res %tmp.27 75 18 21 ];
-        symbol [ substring %tmp.28 75 22 31 ];
+        symbol [ res %tmp.27 77 18 21 ];
+        symbol [ substring %tmp.28 77 22 31 ];
         %tmp.28 = getv function %tmp.27 :substring;
         %tmp.29 = 0;
         %tmp.30 = lgetv %res.1;
-        symbol [ res %tmp.30 75 35 38 ];
-        symbol [ length %tmp.31 75 39 45 ];
+        symbol [ res %tmp.30 77 35 38 ];
+        symbol [ length %tmp.31 77 39 45 ];
         %tmp.31 = getv function %tmp.30 :length;
         %tmp.32 = invoke %tmp.30 %tmp.31();
         %tmp.33 = 1;
         %tmp.34 = sub %tmp.32 %tmp.33;
         %tmp.35 = invoke %tmp.27 %tmp.28(%tmp.29, %tmp.34);
         lputv %res.1 %tmp.35;
-        symbol [ res %res.1 75 12 15 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_92_76_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_test;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_74_8_76_8_while_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 77 8 ]
+        symbol [ res %res.1 77 12 15 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_92_78_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_test;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_76_8_78_8_while_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc" 79 8 ]
         %tmp.36 = lgetv %res.1;
-        symbol [ res %tmp.36 77 15 18 ];
+        symbol [ res %tmp.36 79 15 18 ];
         %tmp.37 = "...";
         %tmp.38 = add %tmp.36 %tmp.37;
         ret %tmp.38;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_69_55_78_4_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeGlanceView_mc_71_55_80_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeGlanceView.mc"; @line = 1; ]

@@ -31,11 +31,11 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_8_29_1
         putv self :_key %tmp.4;
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_8_29_11_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 13; @symbol_functiondef = [onAccept,13,9,17]; @symbol_param<0> = [values,13,18,24]; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 13; @symbol_functiondef = [onAccept,13,13,21]; @symbol_param<0> = [values,13,22,28]; ]
     function onAccept(values) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_26_39_4_start:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_30_39_4_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 14 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_26_39_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_26_39_4_stop" ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_30_39_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_30_39_4_stop" ]
         %hour.1 = local;
         symbol [ hour %hour.1 14 12 16 ];
         %tmp.1 = lgetv %values;
@@ -153,29 +153,22 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_24_8_3
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 38 8 ]
         %tmp.62 = true;
         ret %tmp.62;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_26_39_4_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_13_30_39_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 41; @symbol_functiondef = [onCancel,41,13,21]; ]
-    function onCancel() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_41_24_44_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 42 8 ]
-        symbol [ WatchUi %tmp.1 42 8 15 ];
-        %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 42 16 23 ];
-        %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 42 24 31 ];
-        %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.4 42 32 47 ];
-        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
-        invoke %tmp.1 %tmp.2(%tmp.4);
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 41; @symbol_functiondef = [onSettingsChanged,41,13,30]; ]
+    function onSettingsChanged() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_41_33_44_4_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 43 8 ]
-        %tmp.5 = true;
-        ret %tmp.5;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_41_24_44_4_stop:
+        symbol [ WatchUi %tmp.1 43 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 43 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_41_33_44_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 46; @symbol_functiondef = [onBack,46,13,19]; ]
-    function onBack() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_46_22_48_4_start:
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 46; @symbol_functiondef = [onCancel,46,13,21]; ]
+    function onCancel() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_46_24_49_4_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 47 8 ]
         symbol [ WatchUi %tmp.1 47 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
@@ -183,21 +176,13 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_46_22_
         %tmp.2 = getv function %tmp.1 :popView;
         symbol [ WatchUi %tmp.3 47 24 31 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.4 47 32 42 ];
-        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        symbol [ SLIDE_IMMEDIATE %tmp.4 47 32 47 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
         invoke %tmp.1 %tmp.2(%tmp.4);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_46_22_48_4_stop:
-    }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 50; @symbol_functiondef = [onSettingsChanged,50,13,30]; ]
-    function onSettingsChanged() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_50_33_53_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 52 8 ]
-        symbol [ WatchUi %tmp.1 52 8 15 ];
-        %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.2 52 16 29 ];
-        %tmp.2 = getv function %tmp.1 :requestUpdate;
-        invoke %tmp.1 %tmp.2();
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_50_33_53_4_stop:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" 48 8 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_SleepPickerDelegate_mc_46_24_49_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/SleepPickerDelegate.mc"; @line = 1; ]

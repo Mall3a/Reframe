@@ -1,0 +1,177 @@
+{
+  "settings" : [ {
+    "key" : "appVersion",
+    "valueType" : "string",
+    "defaultValue" : "1.0.0",
+    "configTitle" : "AppVersionTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : true,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "frequency",
+    "valueType" : "number",
+    "defaultValue" : 60,
+    "configTitle" : "Frequency",
+    "configPrompt" : "FrequencyPrompt",
+    "configType" : "numeric",
+    "configError" : "FrequencyError",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 5,
+    "configMax" : 1440,
+    "configMaxLength" : null
+  }, {
+    "key" : "enabled",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "$literal0$",
+    "configPrompt" : "$literal1$",
+    "configType" : "boolean",
+    "configError" : "$literal2$",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "allowDND",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "$literal3$",
+    "configPrompt" : "$literal4$",
+    "configType" : "boolean",
+    "configError" : "$literal5$",
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "sleepStart",
+    "valueType" : "number",
+    "defaultValue" : 22,
+    "configTitle" : "$literal6$",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 0,
+    "configMax" : 24,
+    "configMaxLength" : null
+  }, {
+    "key" : "sleepEnd",
+    "valueType" : "number",
+    "defaultValue" : 7,
+    "configTitle" : "$literal7$",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 0,
+    "configMax" : 24,
+    "configMaxLength" : null
+  }, {
+    "key" : "messageList",
+    "valueType" : "array",
+    "entry" : [ {
+      "key" : "msgText",
+      "valueType" : "string",
+      "configTitle" : "$literal9$",
+      "configPrompt" : null,
+      "configType" : "alphaNumeric",
+      "configError" : null,
+      "configHelpUrl" : null,
+      "configReadonly" : false,
+      "configRequired" : true,
+      "configOptions" : null,
+      "configMin" : null,
+      "configMax" : null,
+      "configMaxLength" : null
+    }, {
+      "key" : "msgCat",
+      "valueType" : "number",
+      "configTitle" : "$literal10$",
+      "configPrompt" : null,
+      "configType" : "list",
+      "configError" : null,
+      "configHelpUrl" : null,
+      "configReadonly" : false,
+      "configRequired" : false,
+      "configOptions" : [ {
+        "display" : "$literal11$",
+        "value" : 0
+      }, {
+        "display" : "$literal12$",
+        "value" : 1
+      }, {
+        "display" : "$literal13$",
+        "value" : 2
+      }, {
+        "display" : "$literal14$",
+        "value" : 3
+      } ],
+      "configMin" : null,
+      "configMax" : null,
+      "configMaxLength" : null
+    } ],
+    "configMax" : 40,
+    "configTitle" : "$literal8$",
+    "configPrompt" : null,
+    "configType" : "array",
+    "configError" : null,
+    "defaults" : [ {
+      "msgCat" : "0",
+      "msgText" : "Todo lo puedo en Cristo que me fortalece (Filipenses 4:13)"
+    }, {
+      "msgCat" : "1",
+      "msgText" : "Dios me ama profunda y eternamente"
+    }, {
+      "msgCat" : "2",
+      "msgText" : "Soy valiosa para Dios, Su tesoro especial"
+    } ]
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "AppVersionTitle" : "Versión de la aplicación",
+      "FrequencyPrompt" : "¿Con qué frecuencia desea recibir recordatorios (en minutos)?",
+      "AppName" : "Reframe",
+      "$literal1$" : "Habilita los mensajes",
+      "$literal0$" : "Habilitado",
+      "FrequencyError" : "Por favor ingrese un número válido para la frecuencia.",
+      "$literal3$" : "Permitir Mensajes en Modo no Molestar",
+      "$literal13$" : "Púrpura",
+      "$literal2$" : "Error al habilitar mensajes",
+      "$literal14$" : "Amarillo",
+      "$literal5$" : "Error al habilitar mensajes en modo no molestar",
+      "$literal4$" : "Habilita los mensajes en Modo No Molestar",
+      "$literal7$" : "Fin Sueño",
+      "$literal6$" : "Inicio Sueño",
+      "$literal9$" : "Mensaje",
+      "Frequency" : "Frecuencia",
+      "$literal8$" : "Tus Mensajes",
+      "$literal11$" : "Azul",
+      "$literal12$" : "Verde",
+      "$literal10$" : "Color"
+    }
+  }
+}

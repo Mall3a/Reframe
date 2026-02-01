@@ -84,21 +84,6 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_FrequencyMenuInputDelegate_mc
         invoke %tmp.14 %tmp.15(%tmp.16, %tmp.17, %tmp.23);
 _Users_mallea_Documents_Garmin_Apps_Reframe_source_FrequencyMenuInputDelegate_mc_12_28_22_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc"; @line = 25; @symbol_functiondef = [onBack,25,13,19]; ]
-    function onBack() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_FrequencyMenuInputDelegate_mc_25_22_27_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" 26 8 ]
-        symbol [ WatchUi %tmp.1 26 8 15 ];
-        %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 26 16 23 ];
-        %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 26 24 31 ];
-        %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.4 26 32 42 ];
-        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
-        invoke %tmp.1 %tmp.2(%tmp.4);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_FrequencyMenuInputDelegate_mc_25_22_27_4_stop:
-    }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc"; @line = 1; ]
 <init> {

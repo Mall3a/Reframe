@@ -23,8 +23,21 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             var toggleItem = menuItem as WatchUi.ToggleMenuItem;
             var val = toggleItem.isEnabled();
             Storage.setValue("enabled", val);
-            System.println("Notificaciones habilitadas: " + val);
-        } 
+            
+            if (!val) {
+                // Si el usuario desactiva, cancelamos el próximo evento
+                Background.deleteTemporalEvent();
+                Storage.deleteValue("proximo_timestamp");
+                System.println("Evento de fondo cancelado.");
+            } else {
+                // Si activa, programamos uno nuevo de inmediato
+                var freq = Storage.getValue("frequency");
+                if (freq == null) { freq = 30; }
+                var proximo = Time.now().add(new Time.Duration(freq * 60));
+                Background.registerForTemporalEvent(proximo);
+                Storage.setValue("proximo_timestamp", proximo.value());
+            }
+        }
         else if (idStr.equals("dnd_mode")) {
             var toggleItem = menuItem as WatchUi.ToggleMenuItem;
             var val = toggleItem.isEnabled();
@@ -93,12 +106,7 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
         }
     }
-
-    // Por si el usuario usa el botón físico "atrás"
-    function onBack() {
-        WatchUi.popView(WatchUi.SLIDE_DOWN); // Cierra el menú actual
-    }
-
+    
     function onSettingsChanged() {
         // Esto refresca la pantalla si el usuario cambia algo en el móvil con la app abierta
         WatchUi.requestUpdate(); 

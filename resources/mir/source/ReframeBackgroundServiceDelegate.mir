@@ -1,0 +1,467 @@
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; ]
+using Toybox.Application;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Background,2,13,23]; ]
+using Toybox.Background;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Time,4,13,17]; ]
+using Toybox.Time;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Application,5,13,24]; @symbol_usingdef<2> = [Storage,5,25,32]; ]
+using Toybox.Application.Storage;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [Application,6,13,24]; @symbol_usingdef<2> = [Properties,6,25,35]; ]
+using Toybox.Application.Properties;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 9; background = true; @symbol_classdef = [ReframeBackgroundServiceDelegate,9,6,38]; @symbol_extends<0> = [System,9,47,53]; @symbol_extends<1> = [ServiceDelegate,9,54,69]; ]
+class ReframeBackgroundServiceDelegate extends System.ServiceDelegate {
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_11_26_13_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 12 8 ]
+        symbol [ ServiceDelegate %tmp.2 12 8 23 ];
+        %tmp.2 = getv ? :ServiceDelegate;
+        symbol [ initialize %tmp.3 12 24 34 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_11_26_13_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 15; @symbol_functiondef = [byPassDnD,15,13,22]; ]
+    function byPassDnD() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_15_24_21_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 16 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_15_24_21_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_15_24_21_4_stop" ]
+        %allowDND.1 = local;
+        symbol [ allowDND %allowDND.1 16 12 20 ];
+        symbol [ Storage %tmp.1 16 23 30 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.2 16 31 39 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "allowDND";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %allowDND.1 %tmp.4;
+        symbol [ allowDND %allowDND.1 16 12 20 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 17 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_8_19_8_if_stmt:
+        %tmp.5 = lgetv %allowDND.1;
+        symbol [ allowDND %tmp.5 17 12 20 ];
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_8_19_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_8_19_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_30_19_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 18 12 ]
+        symbol [ Properties %tmp.8 18 23 33 ];
+        %tmp.8 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.9 18 34 42 ];
+        %tmp.9 = getv function %tmp.8 :getValue;
+        %tmp.10 = "allowDND";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        lputv %allowDND.1 %tmp.11;
+        symbol [ allowDND %allowDND.1 18 12 20 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_30_19_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_8_19_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_17_8_19_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 20 8 ]
+        %tmp.12 = lgetv %allowDND.1;
+        symbol [ allowDND %tmp.12 20 15 23 ];
+        ret %tmp.12;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_15_24_21_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 23; @symbol_functiondef = [isDnDMode,23,13,22]; ]
+    function isDnDMode() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_23_24_26_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 24 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_23_24_26_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_23_24_26_4_stop" ]
+        %settings.1 = local;
+        symbol [ settings %settings.1 24 12 20 ];
+        symbol [ System %tmp.1 24 23 29 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 24 30 47 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %settings.1 %tmp.3;
+        symbol [ settings %settings.1 24 12 20 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 25 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_begin:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_16_25_55_begin:
+        %tmp.4 = lgetv %settings.1;
+        symbol [ settings %tmp.4 25 16 24 ];
+        %tmp.6 = const :doNotDisturb;
+        symbol [ doNotDisturb %tmp.6 25 30 42 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_else_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_46_25_55_true:
+        %tmp.8 = lgetv %settings.1;
+        symbol [ settings %tmp.8 25 46 54 ];
+        %tmp.9 = as %tmp.8 { (interface { var doNotDisturb; }) };
+        symbol [ doNotDisturb %tmp.10 25 55 67 ];
+        %tmp.10 = getv %tmp.9 :doNotDisturb;
+        push %tmp.10;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_46_25_55_end:
+        %tmp.11 = phi [%tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_16_25_55_begin] [%tmp.10 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_46_25_55_true] [%tmp.11 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_46_25_55_end];
+        bf %tmp.11 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_else_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_true:
+        %tmp.12 = true;
+        push %tmp.12;
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_else_false:
+        %tmp.13 = false;
+        push %tmp.13;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_end:
+        %tmp.14 = phi [%tmp.11 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_begin] [%tmp.12 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_true] [%tmp.13 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_else_false] [%tmp.14 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_25_15_25_78_end];
+        ret %tmp.14;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_23_24_26_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 28; @symbol_functiondef = [isSleepTime,28,13,24]; ]
+    function isSleepTime() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 29 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 29 12 15 ];
+        symbol [ System %tmp.1 29 18 24 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 29 25 37 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %now.1 %tmp.3;
+        symbol [ now %now.1 29 12 15 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 30 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_stop" ]
+        %sleepStart.2 = local;
+        symbol [ sleepStart %sleepStart.2 30 12 22 ];
+        symbol [ Storage %tmp.4 30 25 32 ];
+        %tmp.4 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.5 30 33 41 ];
+        %tmp.5 = getv function %tmp.4 :getValue;
+        %tmp.6 = "sleepStart";
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        lputv %sleepStart.2 %tmp.7;
+        symbol [ sleepStart %sleepStart.2 30 12 22 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 31 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_8_31_82_if_stmt:
+        %tmp.8 = lgetv %sleepStart.2;
+        symbol [ sleepStart %tmp.8 31 12 22 ];
+        %tmp.9 = null;
+        %tmp.10 = eq %tmp.8 %tmp.9;
+        bf %tmp.10 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_8_31_82_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_8_31_82_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_32_31_82_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 31 34 ]
+        symbol [ Properties %tmp.11 31 47 57 ];
+        %tmp.11 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.12 31 58 66 ];
+        %tmp.12 = getv function %tmp.11 :getValue;
+        %tmp.13 = "sleepStart";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        lputv %sleepStart.2 %tmp.14;
+        symbol [ sleepStart %sleepStart.2 31 34 44 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_32_31_82_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_8_31_82_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_31_8_31_82_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 33 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_stop" ]
+        %sleepEnd.3 = local;
+        symbol [ sleepEnd %sleepEnd.3 33 12 20 ];
+        symbol [ Storage %tmp.15 33 23 30 ];
+        %tmp.15 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.16 33 31 39 ];
+        %tmp.16 = getv function %tmp.15 :getValue;
+        %tmp.17 = "sleepEnd";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        lputv %sleepEnd.3 %tmp.18;
+        symbol [ sleepEnd %sleepEnd.3 33 12 20 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 34 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_8_34_76_if_stmt:
+        %tmp.19 = lgetv %sleepEnd.3;
+        symbol [ sleepEnd %tmp.19 34 12 20 ];
+        %tmp.20 = null;
+        %tmp.21 = eq %tmp.19 %tmp.20;
+        bf %tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_8_34_76_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_8_34_76_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_30_34_76_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 34 32 ]
+        symbol [ Properties %tmp.22 34 43 53 ];
+        %tmp.22 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.23 34 54 62 ];
+        %tmp.23 = getv function %tmp.22 :getValue;
+        %tmp.24 = "sleepEnd";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        lputv %sleepEnd.3 %tmp.25;
+        symbol [ sleepEnd %sleepEnd.3 34 32 40 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_30_34_76_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_8_34_76_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_34_8_34_76_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 36 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_stmt:
+        %tmp.26 = lgetv %sleepStart.2;
+        symbol [ sleepStart %tmp.26 36 12 22 ];
+        %tmp.27 = lgetv %sleepEnd.3;
+        symbol [ sleepEnd %tmp.27 36 25 33 ];
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        bf %tmp.28 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_else_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_35_38_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 37 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_20_37_57_begin:
+        %tmp.29 = lgetv %now.1;
+        symbol [ now %tmp.29 37 20 23 ];
+        symbol [ hour %tmp.30 37 24 28 ];
+        %tmp.30 = getv %tmp.29 :hour;
+        %tmp.31 = lgetv %sleepStart.2;
+        symbol [ sleepStart %tmp.31 37 32 42 ];
+        %tmp.32 = gte %tmp.30 %tmp.31;
+        %tmp.33 = dup %tmp.32;
+        bf %tmp.33 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_46_37_57_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_46_37_57_true:
+        %tmp.34 = lgetv %now.1;
+        symbol [ now %tmp.34 37 46 49 ];
+        symbol [ hour %tmp.35 37 50 54 ];
+        %tmp.35 = getv %tmp.34 :hour;
+        %tmp.36 = lgetv %sleepEnd.3;
+        symbol [ sleepEnd %tmp.36 37 57 65 ];
+        %tmp.37 = lt %tmp.35 %tmp.36;
+        %tmp.38 = and %tmp.32 %tmp.37;
+        push %tmp.38;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_46_37_57_end:
+        %tmp.39 = phi [%tmp.33 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_20_37_57_begin] [%tmp.38 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_46_37_57_true] [%tmp.39 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_37_46_37_57_end];
+        ret %tmp.39;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_35_38_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_else_false:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_38_15_40_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 39 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_20_39_57_begin:
+        %tmp.40 = lgetv %now.1;
+        symbol [ now %tmp.40 39 20 23 ];
+        symbol [ hour %tmp.41 39 24 28 ];
+        %tmp.41 = getv %tmp.40 :hour;
+        %tmp.42 = lgetv %sleepStart.2;
+        symbol [ sleepStart %tmp.42 39 32 42 ];
+        %tmp.43 = gte %tmp.41 %tmp.42;
+        %tmp.44 = dup %tmp.43;
+        bt %tmp.44 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_46_39_57_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_46_39_57_false:
+        %tmp.45 = lgetv %now.1;
+        symbol [ now %tmp.45 39 46 49 ];
+        symbol [ hour %tmp.46 39 50 54 ];
+        %tmp.46 = getv %tmp.45 :hour;
+        %tmp.47 = lgetv %sleepEnd.3;
+        symbol [ sleepEnd %tmp.47 39 57 65 ];
+        %tmp.48 = lt %tmp.46 %tmp.47;
+        %tmp.49 = or %tmp.43 %tmp.48;
+        push %tmp.49;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_46_39_57_end:
+        %tmp.50 = phi [%tmp.44 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_20_39_57_begin] [%tmp.49 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_46_39_57_false] [%tmp.50 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_39_46_39_57_end];
+        ret %tmp.50;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_38_15_40_8_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_36_8_40_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_28_26_41_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 43; @symbol_functiondef = [onTemporalEvent,43,13,28]; ]
+    function onTemporalEvent() {
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 44 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_stop" ]
+        %enabled.1 = local;
+        symbol [ enabled %enabled.1 44 12 19 ];
+        symbol [ Storage %tmp.1 44 22 29 ];
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.2 44 30 38 ];
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.3 = "enabled";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %enabled.1 %tmp.4;
+        symbol [ enabled %enabled.1 44 12 19 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 45 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_8_47_8_if_stmt:
+        %tmp.5 = lgetv %enabled.1;
+        symbol [ enabled %tmp.5 45 12 19 ];
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_8_47_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_8_47_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_29_47_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 46 12 ]
+        symbol [ Properties %tmp.8 46 22 32 ];
+        %tmp.8 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.9 46 33 41 ];
+        %tmp.9 = getv function %tmp.8 :getValue;
+        %tmp.10 = "enabled";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        lputv %enabled.1 %tmp.11;
+        symbol [ enabled %enabled.1 46 12 19 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_29_47_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_8_47_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_45_8_47_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 49 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_8_65_8_if_stmt:
+        %tmp.12 = lgetv %enabled.1;
+        symbol [ enabled %tmp.12 49 12 19 ];
+        bf %tmp.12 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_8_65_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_8_65_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 50 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_stop" ]
+        %isSleep.2 = local;
+        symbol [ isSleep %isSleep.2 50 16 23 ];
+        %tmp.13 = self;
+        symbol [ isSleepTime %tmp.14 50 26 37 ];
+        %tmp.14 = getv function %tmp.13 :isSleepTime;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %isSleep.2 %tmp.15;
+        symbol [ isSleep %isSleep.2 50 16 23 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 51 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_stop" ]
+        %isDnD.3 = local;
+        symbol [ isDnD %isDnD.3 51 16 21 ];
+        %tmp.16 = self;
+        symbol [ isDnDMode %tmp.17 51 24 33 ];
+        %tmp.17 = getv function %tmp.16 :isDnDMode;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        lputv %isDnD.3 %tmp.18;
+        symbol [ isDnD %isDnD.3 51 16 21 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 52 12 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_stop" ]
+        %bypass.4 = local;
+        symbol [ bypass %bypass.4 52 16 22 ];
+        %tmp.19 = self;
+        symbol [ byPassDnD %tmp.20 52 25 34 ];
+        %tmp.20 = getv function %tmp.19 :byPassDnD;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        lputv %bypass.4 %tmp.21;
+        symbol [ bypass %bypass.4 52 16 22 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 60 12 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_12_64_12_if_stmt:
+        %tmp.22 = lgetv %isSleep.2;
+        symbol [ isSleep %tmp.22 60 17 24 ];
+        %tmp.23 = not %tmp.22;
+        bf %tmp.23 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_12_64_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_12_64_12_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_26_64_12_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 61 16 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_20_61_30_begin:
+        %tmp.24 = lgetv %isDnD.3;
+        symbol [ isDnD %tmp.24 61 21 26 ];
+        %tmp.25 = not %tmp.24;
+        bt %tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_true;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_30_61_30_false:
+        %tmp.26 = lgetv %bypass.4;
+        symbol [ bypass %tmp.26 61 30 36 ];
+        push %tmp.26;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_30_61_30_end:
+        %tmp.27 = phi [%tmp.25 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_20_61_30_begin] [%tmp.26 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_30_61_30_false] [%tmp.27 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_30_61_30_end];
+        bf %tmp.27 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_38_63_16_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 62 20 ]
+        symbol [ Background %tmp.28 62 20 30 ];
+        %tmp.28 = getm $.Toybox.Background;
+        symbol [ requestApplicationWake %tmp.29 62 31 53 ];
+        %tmp.29 = getv function %tmp.28 :requestApplicationWake;
+        %tmp.30 = "¿Quieres renovar tu mente?";
+        invoke %tmp.28 %tmp.29(%tmp.30);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_38_63_16_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_61_16_63_16_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_26_64_12_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_12_64_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_60_12_64_12_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_21_65_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_8_65_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_49_8_65_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 69 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_stop" ]
+        %minutes.5 = local;
+        symbol [ minutes %minutes.5 69 12 19 ];
+        symbol [ Storage %tmp.31 69 22 29 ];
+        %tmp.31 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.32 69 30 38 ];
+        %tmp.32 = getv function %tmp.31 :getValue;
+        %tmp.33 = "frequency";
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        lputv %minutes.5 %tmp.34;
+        symbol [ minutes %minutes.5 69 12 19 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 70 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_8_72_8_if_stmt:
+        %tmp.35 = lgetv %minutes.5;
+        symbol [ minutes %tmp.35 70 12 19 ];
+        %tmp.36 = null;
+        %tmp.37 = eq %tmp.35 %tmp.36;
+        bf %tmp.37 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_8_72_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_8_72_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_29_72_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 71 12 ]
+        symbol [ Properties %tmp.38 71 22 32 ];
+        %tmp.38 = getm $.Toybox.Application.Properties;
+        symbol [ getValue %tmp.39 71 33 41 ];
+        %tmp.39 = getv function %tmp.38 :getValue;
+        %tmp.40 = "frequency";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        lputv %minutes.5 %tmp.41;
+        symbol [ minutes %minutes.5 71 12 19 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_29_72_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_8_72_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_70_8_72_8_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 75 8 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_stop" ]
+        %proximoMomento.6 = local;
+        symbol [ proximoMomento %proximoMomento.6 75 12 26 ];
+        symbol [ Time %tmp.42 75 29 33 ];
+        %tmp.42 = getm $.Toybox.Time;
+        symbol [ now %tmp.43 75 34 37 ];
+        %tmp.43 = getv function %tmp.42 :now;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        symbol [ add %tmp.45 75 40 43 ];
+        %tmp.45 = getv function %tmp.44 :add;
+        symbol [ Time %tmp.48 75 48 52 ];
+        %tmp.48 = getm $.Toybox.Time;
+        symbol [ Duration %tmp.49 75 53 61 ];
+        %tmp.49 = getv function ? %tmp.48 :Duration;
+        %tmp.50 = lgetv %minutes.5;
+        symbol [ minutes %tmp.50 75 62 69 ];
+        %tmp.51 = 60;
+        %tmp.52 = mul %tmp.50 %tmp.51;
+        %tmp.46 = newc %tmp.49 (%tmp.52);
+        %tmp.53 = invoke %tmp.44 %tmp.45(%tmp.46);
+        lputv %proximoMomento.6 %tmp.53;
+        symbol [ proximoMomento %proximoMomento.6 75 12 26 ];
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 78 8 ]
+        symbol [ Background %tmp.54 78 8 18 ];
+        %tmp.54 = getm $.Toybox.Background;
+        symbol [ registerForTemporalEvent %tmp.55 78 19 43 ];
+        %tmp.55 = getv function %tmp.54 :registerForTemporalEvent;
+        %tmp.56 = lgetv %proximoMomento.6;
+        symbol [ proximoMomento %tmp.56 78 44 58 ];
+        invoke %tmp.54 %tmp.55(%tmp.56);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 81 8 ]
+        symbol [ Storage %tmp.57 81 8 15 ];
+        %tmp.57 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.58 81 16 24 ];
+        %tmp.58 = getv function %tmp.57 :setValue;
+        %tmp.59 = "proximo_timestamp";
+        %tmp.60 = lgetv %proximoMomento.6;
+        symbol [ proximoMomento %tmp.60 81 46 60 ];
+        symbol [ value %tmp.61 81 61 66 ];
+        %tmp.61 = getv function %tmp.60 :value;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        invoke %tmp.57 %tmp.58(%tmp.59, %tmp.62);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" 83 8 ]
+        symbol [ Background %tmp.63 83 8 18 ];
+        %tmp.63 = getm $.Toybox.Background;
+        symbol [ exit %tmp.64 83 19 23 ];
+        %tmp.64 = getv function %tmp.63 :exit;
+        %tmp.65 = true;
+        invoke %tmp.63 %tmp.64(%tmp.65);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ReframeBackgroundServiceDelegate_mc_43_31_84_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc"; @line = 1; ]
+<init> {
+}

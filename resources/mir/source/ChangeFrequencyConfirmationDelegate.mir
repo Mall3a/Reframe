@@ -36,9 +36,9 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDe
     }
     [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc"; @line = 14; @symbol_functiondef = [onResponse,14,13,23]; @symbol_param<0> = [response,14,24,32]; ]
     function onResponse(response) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_28_4_start:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_31_4_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 15 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_stmt:
         %tmp.1 = lgetv %response;
         symbol [ response %tmp.1 15 12 20 ];
         symbol [ WatchUi %tmp.2 15 24 31 ];
@@ -46,78 +46,125 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDe
         symbol [ CONFIRM_NO %tmp.3 15 32 42 ];
         %tmp.3 = getv %tmp.2 :CONFIRM_NO;
         %tmp.4 = eq %tmp.1 %tmp.3;
-        bf %tmp.4 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_18_8_start:
+        bf %tmp.4 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_else_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_17_8_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 16 12 ]
-        symbol [ System %tmp.5 16 12 18 ];
-        %tmp.5 = getm $.Toybox.System;
-        symbol [ println %tmp.6 16 19 26 ];
-        %tmp.6 = getv function %tmp.5 :println;
-        %tmp.7 = "Cancel";
-        invoke %tmp.5 %tmp.6(%tmp.7);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 17 12 ]
-        %tmp.8 = false;
-        ret %tmp.8;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_18_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_else_false:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_18_15_27_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 19 12 ]
-        symbol [ System %tmp.9 19 12 18 ];
-        %tmp.9 = getm $.Toybox.System;
-        symbol [ println %tmp.10 19 19 26 ];
-        %tmp.10 = getv function %tmp.9 :println;
-        %tmp.11 = "Confirm";
-        invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.5 = false;
+        ret %tmp.5;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_17_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_else_false:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 18 12 ]
+        symbol [ Storage %tmp.6 18 12 19 ];
+        %tmp.6 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.7 18 20 28 ];
+        %tmp.7 = getv function %tmp.6 :setValue;
+        %tmp.8 = "frequency";
+        symbol [ _minutes %tmp.10 18 42 50 ];
+        %tmp.10 = getv ? :_minutes;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.10);
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 21 12 ]
-        symbol [ Storage %tmp.12 21 12 19 ];
-        %tmp.12 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.13 21 20 28 ];
-        %tmp.13 = getv function %tmp.12 :setValue;
-        %tmp.14 = "frequency";
-        symbol [ _minutes %tmp.16 21 42 50 ];
-        %tmp.16 = getv ? :_minutes;
-        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.16);
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_stop" ]
+        %proximoMomento.1 = local;
+        symbol [ proximoMomento %proximoMomento.1 21 16 30 ];
+        symbol [ Time %tmp.12 21 33 37 ];
+        %tmp.12 = getv ? :Time;
+        symbol [ now %tmp.13 21 38 41 ];
+        %tmp.13 = getv function %tmp.12 :now;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        symbol [ add %tmp.15 21 44 47 ];
+        %tmp.15 = getv function %tmp.14 :add;
+        symbol [ Time %tmp.19 21 52 56 ];
+        %tmp.19 = getv ? :Time;
+        symbol [ Duration %tmp.20 21 57 65 ];
+        %tmp.20 = getv function ? %tmp.19 :Duration;
+        symbol [ _minutes %tmp.22 21 66 74 ];
+        %tmp.22 = getv ? :_minutes;
+        %tmp.23 = 60;
+        %tmp.24 = mul %tmp.22 %tmp.23;
+        %tmp.16 = newc %tmp.20 (%tmp.24);
+        %tmp.25 = invoke %tmp.14 %tmp.15(%tmp.16);
+        lputv %proximoMomento.1 %tmp.25;
+        symbol [ proximoMomento %proximoMomento.1 21 16 30 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 22 12 ]
-        symbol [ System %tmp.17 22 12 18 ];
-        %tmp.17 = getm $.Toybox.System;
-        symbol [ println %tmp.18 22 19 26 ];
-        %tmp.18 = getv function %tmp.17 :println;
-        %tmp.19 = "Frecuencia establecida por usuario: ";
-        symbol [ _minutes %tmp.21 22 68 76 ];
-        %tmp.21 = getv ? :_minutes;
-        %tmp.22 = add %tmp.19 %tmp.21;
-        invoke %tmp.17 %tmp.18(%tmp.22);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 23 12 ]
-        symbol [ WatchUi %tmp.23 23 12 19 ];
-        %tmp.23 = getm $.Toybox.WatchUi;
-        symbol [ showToast %tmp.24 23 20 29 ];
-        %tmp.24 = getv function %tmp.23 :showToast;
-        %tmp.25 = "Frecuencia establecida en ";
-        symbol [ _minutes %tmp.27 23 59 67 ];
-        %tmp.27 = getv ? :_minutes;
-        %tmp.28 = add %tmp.25 %tmp.27;
-        %tmp.29 = " minutos";
-        %tmp.30 = add %tmp.28 %tmp.29;
-        %tmp.31 = null;
-        invoke %tmp.23 %tmp.24(%tmp.30, %tmp.31);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 25 12 ]
-        symbol [ WatchUi %tmp.32 25 12 19 ];
-        %tmp.32 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.33 25 20 27 ];
-        %tmp.33 = getv function %tmp.32 :popView;
-        symbol [ WatchUi %tmp.34 25 28 35 ];
-        %tmp.34 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.35 25 36 46 ];
-        %tmp.35 = getv %tmp.34 :SLIDE_DOWN;
-        invoke %tmp.32 %tmp.33(%tmp.35);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 26 12 ]
-        %tmp.36 = true;
-        ret %tmp.36;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_18_15_27_8_stop:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_27_8_if_end:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_28_4_stop:
+        try @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_beginTry @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_endTry @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_catch @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_beginTry:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_16_25_12_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 23 16 ]
+        symbol [ Background %tmp.27 23 16 26 ];
+        %tmp.27 = getv ? :Background;
+        symbol [ registerForTemporalEvent %tmp.28 23 27 51 ];
+        %tmp.28 = getv function %tmp.27 :registerForTemporalEvent;
+        %tmp.29 = lgetv %proximoMomento.1;
+        symbol [ proximoMomento %tmp.29 23 52 66 ];
+        invoke %tmp.27 %tmp.28(%tmp.29);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 24 16 ]
+        symbol [ Storage %tmp.30 24 16 23 ];
+        %tmp.30 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.31 24 24 32 ];
+        %tmp.31 = getv function %tmp.30 :setValue;
+        %tmp.32 = "proximo_timestamp";
+        %tmp.33 = lgetv %proximoMomento.1;
+        symbol [ proximoMomento %tmp.33 24 54 68 ];
+        symbol [ value %tmp.34 24 69 74 ];
+        %tmp.34 = getv function %tmp.33 :value;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.35);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_16_25_12_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_endTry:
+        jsr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally;
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_catch:
+        %tmp.36 = exception;
+        push %tmp.36;
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 25 14 ]
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_catch" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_25_14_25_25_end" ]
+        %ex.2 = local;
+        symbol [ ex %ex.2 25 20 22 ];
+        %tmp.37 = dup %tmp.36;
+        lputv %ex.2 %tmp.37;
+        symbol [ ex %ex.2 25 20 22 ];
+        jsr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally;
+        pop;
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_25_14_25_25_end:
+        try @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_catch @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_25_14_25_25_end @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_25_14_25_25_end @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally;
+        jsr @_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally;
+        throw %tmp.36;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_finally:
+        jsrret;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_22_12_25_25_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 27 12 ]
+        symbol [ WatchUi %tmp.38 27 12 19 ];
+        %tmp.38 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.39 27 20 29 ];
+        %tmp.39 = getv function %tmp.38 :showToast;
+        %tmp.40 = "Frecuencia: ";
+        symbol [ _minutes %tmp.42 27 47 55 ];
+        %tmp.42 = getv ? :_minutes;
+        %tmp.43 = add %tmp.40 %tmp.42;
+        %tmp.44 = " min";
+        %tmp.45 = add %tmp.43 %tmp.44;
+        %tmp.46 = null;
+        invoke %tmp.38 %tmp.39(%tmp.45, %tmp.46);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 28 12 ]
+        symbol [ WatchUi %tmp.47 28 12 19 ];
+        %tmp.47 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.48 28 20 27 ];
+        %tmp.48 = getv function %tmp.47 :popView;
+        symbol [ WatchUi %tmp.49 28 28 35 ];
+        %tmp.49 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.50 28 36 46 ];
+        %tmp.50 = getv %tmp.49 :SLIDE_DOWN;
+        invoke %tmp.47 %tmp.48(%tmp.50);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 29 12 ]
+        %tmp.51 = true;
+        ret %tmp.51;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_31_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc"; @line = 1; ]

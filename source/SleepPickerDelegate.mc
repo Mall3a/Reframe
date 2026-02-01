@@ -10,7 +10,7 @@ class SleepPickerDelegate extends WatchUi.PickerDelegate {
         _key = key;
     }
 
-function onAccept(values) {
+    function onAccept(values) {
         var hour = values[0]; // La hora elegida en el Picker
         
         // Guardamos el valor (sea de inicio o de fin)
@@ -38,17 +38,13 @@ function onAccept(values) {
         return true;
     }
 
-    function onCancel() {
-        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
-        return true;
-    }
-    // Por si el usuario usa el botón físico "atrás"
-    function onBack() {
-        WatchUi.popView(WatchUi.SLIDE_DOWN); // Cierra el menú actual
-    }
-
     function onSettingsChanged() {
         // Esto refresca la pantalla si el usuario cambia algo en el móvil con la app abierta
         WatchUi.requestUpdate(); 
+    }
+
+    function onCancel() {
+        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        return true;
     }
 }

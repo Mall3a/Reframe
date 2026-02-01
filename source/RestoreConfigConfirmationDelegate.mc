@@ -10,30 +10,33 @@ class RestoreConfigConfirmationDelegate extends WatchUi.ConfirmationDelegate {
 
     function onResponse(response) {
         if (response == WatchUi.CONFIRM_NO) {
-            System.println("Cancel");
             return false;
         } else {
-            System.println("Confirm");
             Storage.clearValues();
-            // Valores reestablecidos:
             
-            Storage.setValue("allowDND",Properties.getValue("allowDND"));
-            Storage.setValue("sleepStart",Properties.getValue("sleepStart"));
-            Storage.setValue("sleepEnd",Properties.getValue("sleepEnd"));
-            Storage.setValue("enabled",Properties.getValue("enabled"));
-            Storage.setValue("frequency",Properties.getValue("frequency"));
-
+            // Valores reestablecidos
+            Storage.setValue("allowDND", Properties.getValue("allowDND"));
+            Storage.setValue("sleepStart", Properties.getValue("sleepStart"));
+            Storage.setValue("sleepEnd", Properties.getValue("sleepEnd"));
+            Storage.setValue("enabled", Properties.getValue("enabled"));
+            Storage.setValue("frequency", Properties.getValue("frequency"));
             Storage.setValue("last_msg_index", 0);
 
-            var proximoMomento = Time.now().add(new Time.Duration(Properties.getValue("frequency") * 60));
+            var freq = Properties.getValue("frequency");
+            var proximoMomento = Time.now().add(new Time.Duration(freq * 60));
             Storage.setValue("proximo_timestamp", proximoMomento.value());
-            var proximaFrase = Settings.peekNextMessage();
-            Storage.setValue("proxima_frase", proximaFrase);
 
+            // REGENERAR EL BUZÓN PARA EL GLANCE ---
+            var data = Settings.getNextSequentialMessage();
+            if (data != null) {
+                Storage.setValue("proxima_frase", data[:msg][:text]);
+                Storage.setValue("cat_for_bg", data[:msg][:category]);
+                Storage.setValue("last_sent_index", data[:index]);
+                Storage.setValue("last_sent_total", data[:total]);
+            }
 
-            System.println("Configuración Reestablecida");
             WatchUi.showToast("Configuración Reestablecida", null);
-            WatchUi.popView(WatchUi.SLIDE_DOWN); // Cerrar menú tras borrar
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
             return true;
         }
     }

@@ -21,8 +21,4 @@ class FrequencyMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             );
     }
 
-    // Por si el usuario usa el botón físico "atrás"
-    function onBack() {
-        WatchUi.popView(WatchUi.SLIDE_DOWN);
-    }
 }

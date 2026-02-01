@@ -1,16 +1,12 @@
-using Toybox.Application;
 using Toybox.Application.Storage;
 using Toybox.Application.Properties;
 using Toybox.Lang;
 using Toybox.System;
-import Toybox.Time;
-import Toybox.Time.Gregorian;
 
-(:background)
 class Settings {
 
-    // Lista de mensajes por defecto
-static var defaultMessages = [
+    static function getDefaultMessages() {
+        return [
        {:text => "Todo lo puedo en Cristo que me fortalece (Filipenses 4:13)", :category => "AZUL"},
        {:text => "Dios me ama profunda y eternamente", :category => "VERDE"},
        {:text => "Soy valiosa para Dios, Su tesoro especial", :category => "PURPURA"},
@@ -178,64 +174,47 @@ static var defaultMessages = [
        {:text => "Hago tesoros en el cielo, donde nada se corrompe. (Mat. 6:20)", :category => "VERDE"},
        {:text => "Dios no es Dios de confusión, sino de paz en mi vida. (1 Cor. 14:33)", :category => "AZUL"},
        {:text => "Mi mente está siendo renovada ahora. Amén.", :category => "AMARILLO"}
-   ];
+    ];
+    }
 
     static function getNextSequentialMessage() {
         var userArray = Properties.getValue("messageList");
         var userSize = (userArray != null) ? userArray.size() : 0;
-        var defSize = defaultMessages.size();
-        var totalSize = userSize + defSize;
+        var defMessages = getDefaultMessages();
+        var totalSize = userSize + defMessages.size();
 
         if (totalSize == 0) { return null; }
-        // TODO: Qué pasa aca cuando no hay mensajes?
 
         var index = Storage.getValue("last_msg_index");
         if (index == null || index >= totalSize) { index = 0; }
 
-        // Extraer el mensaje usando la lógica de unión virtual
+        // Usamos la función optimizada para sacar el mensaje
         var selected = getSpecificMessage(index, userArray, userSize);
 
-        // Guardar el siguiente índice para la próxima ejecución
+        // Avanzamos el índice real para la PRÓXIMA vez
         Storage.setValue("last_msg_index", (index + 1) % totalSize);
 
-        return {
-            :msg => selected,
-            :index => index,
-            :total => totalSize
-        };
+        return { :msg => selected, :index => index, :total => totalSize };
     }
 
-    // Función centralizada para obtener el mensaje sin duplicar arrays en RAM
     private static function getSpecificMessage(index, userArray, userSize) {
         if (userArray != null && index < userSize) {
-            // Caso: El índice apunta a un mensaje personalizado del usuario
-            var entry = userArray[index];
+            var entry = userArray[index] as Toybox.Lang.Dictionary;
             return {
-                :text => entry["msgText"],
-                :category => mapCategory(entry["msgCat"])
+                :text => entry.get("msgText"),
+                :category => mapCategory(entry.get("msgCat"))
             };
         } else {
-            // Caso: El índice apunta a los mensajes por defecto (restamos el offset del usuario)
+            var defMessages = getDefaultMessages(); 
             var defIndex = index - userSize;
-            return defaultMessages[defIndex];
+            // Aseguramos que el índice no se pase del límite por error
+            if (defIndex < 0) { defIndex = 0; }
+            if (defIndex >= defMessages.size()) { defIndex = 0; }
+            return defMessages[defIndex]; 
         }
     }
 
-    static function peekNextMessage() {
-        var userArray = Properties.getValue("messageList");
-        var userSize = (userArray != null) ? userArray.size() : 0;
-        var totalSize = userSize + defaultMessages.size();
-
-        var index = Storage.getValue("last_msg_index");
-        if (index == null || index >= totalSize) { index = 0; }
-
-        var selected = getSpecificMessage(index, userArray, userSize);
-        return selected[:text]; 
-    }
-
     static function mapCategory(id) {
-        // El orden debe ser igual al del XML
-        // 0: Azul, 1: Verde, 2: Púrpura, 3: Amarillo
         var cats = ["AZUL", "VERDE", "PURPURA", "AMARILLO"];
         if (id != null && id >= 0 && id < cats.size()) {
             return cats[id];
@@ -244,20 +223,22 @@ static var defaultMessages = [
     }
 
     static function getColor(messageObj, index, total) {
+        if (messageObj == null || messageObj[:category] == null) { return 0x000055; }
         var cat = messageObj[:category];
-        // Colores basados en los IDs del XML
-        if (cat != null) {
-            if (cat.equals("AZUL")) { return 0x000055; }
-            if (cat.equals("VERDE")) { return 0x003300; }
-            if (cat.equals("PURPURA")) { return 0x330066; }
-            if (cat.equals("AMARILLO")) { return 0x552200; }
-        }
-        // Fallback por si acaso
+        if (cat.equals("AZUL")) { return 0x000055; }
+        if (cat.equals("VERDE")) { return 0x003300; }
+        if (cat.equals("PURPURA")) { return 0x330066; }
+        if (cat.equals("AMARILLO")) { return 0x552200; }
         return 0x000055;
     }
 
     static function clearData() {
         Properties.setValue("messageList", []);
         Storage.setValue("last_msg_index", 0);
+        Storage.deleteValue("proxima_frase");
+        Storage.deleteValue("msg_for_bg");
+        Storage.deleteValue("cat_for_bg");
+        Storage.deleteValue("last_sent_index");
+        Storage.deleteValue("last_sent_total");
     }
 }

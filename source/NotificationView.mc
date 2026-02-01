@@ -1,5 +1,6 @@
 import Toybox.WatchUi;
 import Toybox.Graphics;
+import Toybox.Lang; // Importante para usar .toString() de forma segura
 
 class NotificationView extends WatchUi.View {
     private var _messageObj;
@@ -9,8 +10,10 @@ class NotificationView extends WatchUi.View {
     function initialize(messageObj, index, total) {
         View.initialize();
         _messageObj = messageObj;
-        _index = index;
-        _total = total;
+        
+        // Validamos que sean números. Si vienen null, usamos valores por defecto.
+        _index = (index != null) ? index : 0;
+        _total = (total != null) ? total : 0;
     }
 
     function onUpdate(dc) {
@@ -20,12 +23,13 @@ class NotificationView extends WatchUi.View {
         dc.clear();
 
         // 2. Preparar el texto
-        var text = _messageObj[:text];
-        if (text == null) { text = ""; }
+        var text = "";
+        if (_messageObj != null && _messageObj[:text] != null) {
+            text = _messageObj[:text];
+        }
         
         // 3. Dibujar el área de texto
-        // Usamos un margen de seguridad un poco mayor para pantallas redondas
-        var margin = dc.getWidth() * 0.12; // 12% de margen
+        var margin = dc.getWidth() * 0.12; 
         var textArea = new WatchUi.TextArea({
             :text => text,
             :color => Graphics.COLOR_WHITE,
@@ -33,20 +37,24 @@ class NotificationView extends WatchUi.View {
             :locX => margin,
             :locY => margin,
             :width => dc.getWidth() - (margin * 2),
-            :height => dc.getHeight() - (margin * 2) - 20, // Espacio para el contador
+            :height => dc.getHeight() - (margin * 2) - 20, 
             :justification => Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         });
       
         textArea.draw(dc);
 
-        // 4. Dibujar el Contador (X / Total)
-        var progressText = (_index + 1).toString() + " / " + _total;
+        // 4. Dibujar el Contador (X / Total) - LÍNEA 43 PROTEGIDA
+        // Aseguramos que _index sea un número antes de sumar
+        var displayIndex = (_index instanceof Toybox.Lang.Number) ? (_index + 1) : 1;
+        var displayTotal = (_total != null) ? _total : 0;
+        
+        var progressText = displayIndex.toString() + " / " + displayTotal.toString();
+        
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         
-        // Ubicación relativa al alto de la pantalla para evitar cortes
         dc.drawText(
             dc.getWidth() / 2, 
-            dc.getHeight() - (dc.getHeight() * 0.15), // 15% desde abajo
+            dc.getHeight() - (dc.getHeight() * 0.15), 
             Graphics.FONT_SYSTEM_XTINY, 
             progressText, 
             Graphics.TEXT_JUSTIFY_CENTER

@@ -1,110 +1,174 @@
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,7,13]; @symbol_usingdef<1> = [WatchUi,1,14,21]; ]
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
 using Toybox.WatchUi;
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [System,2,13,19]; ]
 using Toybox.System;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 4; @symbol_classdef = [DeleteMessagesConfirmationDelegate,4,6,40]; @symbol_extends<0> = [WatchUi,4,49,56]; @symbol_extends<1> = [ConfirmationDelegate,4,57,77]; ]
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; @symbol_usingdef<2> = [Storage,3,25,32]; ]
+using Toybox.Application.Storage;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Application,4,13,24]; @symbol_usingdef<2> = [Properties,4,25,35]; ]
+using Toybox.Application.Properties;
+[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 7; @symbol_classdef = [DeleteMessagesConfirmationDelegate,7,6,40]; @symbol_extends<0> = [WatchUi,7,49,56]; @symbol_extends<1> = [ConfirmationDelegate,7,57,77]; ]
 class DeleteMessagesConfirmationDelegate extends WatchUi.ConfirmationDelegate {
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 7; ]
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 7; ]
     static
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
     function initialize() as Void {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_5_26_7_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 6 8 ]
-        symbol [ ConfirmationDelegate %tmp.2 6 8 28 ];
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_8_26_10_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 9 8 ]
+        symbol [ ConfirmationDelegate %tmp.2 9 8 28 ];
         %tmp.2 = getv ? :ConfirmationDelegate;
-        symbol [ initialize %tmp.3 6 29 39 ];
+        symbol [ initialize %tmp.3 9 29 39 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_5_26_7_4_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_8_26_10_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 9; @symbol_functiondef = [onResponse,9,13,23]; @symbol_param<0> = [response,9,24,32]; ]
+    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 12; @symbol_functiondef = [onResponse,12,13,23]; @symbol_param<0> = [response,12,24,32]; ]
     function onResponse(response) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_9_34_22_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 10 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_stmt:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_12_34_32_4_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 13 8 ]
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_stmt:
         %tmp.1 = lgetv %response;
-        symbol [ response %tmp.1 10 12 20 ];
-        symbol [ WatchUi %tmp.2 10 24 31 ];
+        symbol [ response %tmp.1 13 12 20 ];
+        symbol [ WatchUi %tmp.2 13 24 31 ];
         %tmp.2 = getm $.Toybox.WatchUi;
-        symbol [ CONFIRM_NO %tmp.3 10 32 42 ];
+        symbol [ CONFIRM_NO %tmp.3 13 32 42 ];
         %tmp.3 = getv %tmp.2 :CONFIRM_NO;
         %tmp.4 = eq %tmp.1 %tmp.3;
-        bf %tmp.4 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_44_13_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 11 12 ]
-        symbol [ System %tmp.5 11 12 18 ];
-        %tmp.5 = getm $.Toybox.System;
-        symbol [ println %tmp.6 11 19 26 ];
-        %tmp.6 = getv function %tmp.5 :println;
-        %tmp.7 = "Cancel";
-        invoke %tmp.5 %tmp.6(%tmp.7);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 12 12 ]
-        %tmp.8 = false;
-        ret %tmp.8;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_44_13_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_else_false:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_15_21_8_start:
+        bf %tmp.4 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_else_false;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_44_15_8_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 14 12 ]
-        symbol [ System %tmp.9 14 12 18 ];
-        %tmp.9 = getm $.Toybox.System;
-        symbol [ println %tmp.10 14 19 26 ];
-        %tmp.10 = getv function %tmp.9 :println;
-        %tmp.11 = "Confirm";
-        invoke %tmp.9 %tmp.10(%tmp.11);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 15 12 ]
-        symbol [ Settings %tmp.13 15 12 20 ];
-        %tmp.13 = getv ? :Settings;
-        symbol [ clearData %tmp.14 15 21 30 ];
-        %tmp.14 = getv function %tmp.13 :clearData;
-        invoke %tmp.13 %tmp.14();
+        %tmp.5 = false;
+        ret %tmp.5;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_44_15_8_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_else_false:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_15_15_31_8_start:
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 16 12 ]
-        symbol [ WatchUi %tmp.15 16 12 19 ];
-        %tmp.15 = getm $.Toybox.WatchUi;
-        symbol [ showToast %tmp.16 16 20 29 ];
-        %tmp.16 = getv function %tmp.15 :showToast;
-        %tmp.17 = "Mensajes Borrados";
-        %tmp.18 = null;
-        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.18);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 17 12 ]
-        symbol [ System %tmp.19 17 12 18 ];
-        %tmp.19 = getm $.Toybox.System;
-        symbol [ println %tmp.20 17 19 26 ];
-        %tmp.20 = getv function %tmp.19 :println;
-        %tmp.21 = "Mensajes Borrados";
-        invoke %tmp.19 %tmp.20(%tmp.21);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 18 12 ]
-        symbol [ WatchUi %tmp.22 18 12 19 ];
-        %tmp.22 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.23 18 20 27 ];
-        %tmp.23 = getv function %tmp.22 :popView;
-        symbol [ WatchUi %tmp.24 18 28 35 ];
-        %tmp.24 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.25 18 36 46 ];
-        %tmp.25 = getv %tmp.24 :SLIDE_DOWN;
-        invoke %tmp.22 %tmp.23(%tmp.25);
+        symbol [ Settings %tmp.7 16 12 20 ];
+        %tmp.7 = getv ? :Settings;
+        symbol [ clearData %tmp.8 16 21 30 ];
+        %tmp.8 = getv function %tmp.7 :clearData;
+        invoke %tmp.7 %tmp.8();
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 19 12 ]
-        symbol [ WatchUi %tmp.26 19 12 19 ];
-        %tmp.26 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.27 19 20 27 ];
-        %tmp.27 = getv function %tmp.26 :popView;
-        symbol [ WatchUi %tmp.28 19 28 35 ];
-        %tmp.28 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.29 19 36 46 ];
-        %tmp.29 = getv %tmp.28 :SLIDE_DOWN;
-        invoke %tmp.26 %tmp.27(%tmp.29);
+        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_15_15_31_8_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_15_15_31_8_stop" ]
+        %data.1 = local;
+        symbol [ data %data.1 19 16 20 ];
+        symbol [ Settings %tmp.10 19 23 31 ];
+        %tmp.10 = getv ? :Settings;
+        symbol [ getNextSequentialMessage %tmp.11 19 32 56 ];
+        %tmp.11 = getv function %tmp.10 :getNextSequentialMessage;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        lputv %data.1 %tmp.12;
+        symbol [ data %data.1 19 16 20 ];
 [ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 20 12 ]
-        %tmp.30 = true;
-        ret %tmp.30;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_15_21_8_stop:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_10_8_21_8_if_end:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_9_34_22_4_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_12_25_12_if_stmt:
+        %tmp.13 = lgetv %data.1;
+        symbol [ data %tmp.13 20 16 20 ];
+        %tmp.14 = null;
+        %tmp.15 = ne %tmp.13 %tmp.14;
+        bf %tmp.15 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_12_25_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_12_25_12_if_true:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_30_25_12_start:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 21 16 ]
+        symbol [ Storage %tmp.16 21 16 23 ];
+        %tmp.16 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.17 21 24 32 ];
+        %tmp.17 = getv function %tmp.16 :setValue;
+        %tmp.18 = "proxima_frase";
+        %tmp.19 = lgetv %data.1;
+        symbol [ data %tmp.19 21 50 54 ];
+        %tmp.20 = as %tmp.19 { (!Null) };
+        %tmp.22 = const :msg;
+        symbol [ msg %tmp.22 21 56 59 const ];
+        %tmp.23 = agetv %tmp.20 %tmp.22;
+        %tmp.25 = const :text;
+        symbol [ text %tmp.25 21 62 66 const ];
+        %tmp.26 = agetv %tmp.23 %tmp.25;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.26);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 22 16 ]
+        symbol [ Storage %tmp.27 22 16 23 ];
+        %tmp.27 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.28 22 24 32 ];
+        %tmp.28 = getv function %tmp.27 :setValue;
+        %tmp.29 = "cat_for_bg";
+        %tmp.30 = lgetv %data.1;
+        symbol [ data %tmp.30 22 47 51 ];
+        %tmp.31 = as %tmp.30 { (!Null) };
+        %tmp.33 = const :msg;
+        symbol [ msg %tmp.33 22 53 56 const ];
+        %tmp.34 = agetv %tmp.31 %tmp.33;
+        %tmp.36 = const :category;
+        symbol [ category %tmp.36 22 59 67 const ];
+        %tmp.37 = agetv %tmp.34 %tmp.36;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.37);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 23 16 ]
+        symbol [ Storage %tmp.38 23 16 23 ];
+        %tmp.38 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.39 23 24 32 ];
+        %tmp.39 = getv function %tmp.38 :setValue;
+        %tmp.40 = "last_sent_index";
+        %tmp.41 = lgetv %data.1;
+        symbol [ data %tmp.41 23 52 56 ];
+        %tmp.42 = as %tmp.41 { (!Null) };
+        %tmp.44 = const :index;
+        symbol [ index %tmp.44 23 58 63 const ];
+        %tmp.45 = agetv %tmp.42 %tmp.44;
+        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.45);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 24 16 ]
+        symbol [ Storage %tmp.46 24 16 23 ];
+        %tmp.46 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.47 24 24 32 ];
+        %tmp.47 = getv function %tmp.46 :setValue;
+        %tmp.48 = "last_sent_total";
+        %tmp.49 = lgetv %data.1;
+        symbol [ data %tmp.49 24 52 56 ];
+        %tmp.50 = as %tmp.49 { (!Null) };
+        %tmp.52 = const :total;
+        symbol [ total %tmp.52 24 58 63 const ];
+        %tmp.53 = agetv %tmp.50 %tmp.52;
+        invoke %tmp.46 %tmp.47(%tmp.48, %tmp.53);
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_30_25_12_stop:
+        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_12_25_12_if_end;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_20_12_25_12_if_end:
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 27 12 ]
+        symbol [ WatchUi %tmp.54 27 12 19 ];
+        %tmp.54 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.55 27 20 29 ];
+        %tmp.55 = getv function %tmp.54 :showToast;
+        %tmp.56 = "Mensajes Borrados";
+        %tmp.57 = null;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.57);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 28 12 ]
+        symbol [ WatchUi %tmp.58 28 12 19 ];
+        %tmp.58 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.59 28 20 27 ];
+        %tmp.59 = getv function %tmp.58 :popView;
+        symbol [ WatchUi %tmp.60 28 28 35 ];
+        %tmp.60 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.61 28 36 46 ];
+        %tmp.61 = getv %tmp.60 :SLIDE_DOWN;
+        invoke %tmp.58 %tmp.59(%tmp.61);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 29 12 ]
+        symbol [ WatchUi %tmp.62 29 12 19 ];
+        %tmp.62 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.63 29 20 27 ];
+        %tmp.63 = getv function %tmp.62 :popView;
+        symbol [ WatchUi %tmp.64 29 28 35 ];
+        %tmp.64 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.65 29 36 46 ];
+        %tmp.65 = getv %tmp.64 :SLIDE_DOWN;
+        invoke %tmp.62 %tmp.63(%tmp.65);
+[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" 30 12 ]
+        %tmp.66 = true;
+        ret %tmp.66;
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_15_15_31_8_stop:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_13_8_31_8_if_end:
+_Users_mallea_Documents_Garmin_Apps_Reframe_source_DeleteMessagesConfirmationDelegate_mc_12_34_32_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc"; @line = 1; ]
