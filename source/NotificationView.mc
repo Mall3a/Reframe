@@ -29,7 +29,7 @@ class NotificationView extends WatchUi.View {
         var textArea = new WatchUi.TextArea({
             :text => text,
             :color => Graphics.COLOR_WHITE,
-            :font => Graphics.FONT_SYSTEM_SMALL, // or Graphics.FONT_SYSTEM_TINY
+            :font => (text.length() > 120) ? Graphics.FONT_SYSTEM_TINY : Graphics.FONT_SYSTEM_SMALL,
             :locX => margin,
             :locY => margin,
             :width => dc.getWidth() - (margin * 2),

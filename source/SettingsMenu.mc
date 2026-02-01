@@ -23,6 +23,7 @@ class SettingsMenu extends WatchUi.Menu2 {
         var frequency = Storage.getValue("frequency");
         if (frequency == null) {
             // Valores por defecto si el usuario no ha configurado nada
+            // Garmin no permite menos de 5 minutos en Background
             frequency = Properties.getValue("frequency");
         }
         System.println("Frecuencia actual? : "+  frequency);
@@ -53,7 +54,6 @@ class SettingsMenu extends WatchUi.Menu2 {
             {}
         ));
 
-         // Al final de tu initialize() en SettingsMenu.mc
         Menu2.addItem(new WatchUi.MenuItem("Configuración Actual", "Resumen", :view_storage, {}));
       
         System.println("Horas de sueño: "+ sleepStart + ":00 a " + sleepEnd + ":00");

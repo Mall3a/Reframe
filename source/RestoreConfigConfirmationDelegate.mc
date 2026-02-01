@@ -16,7 +16,21 @@ class RestoreConfigConfirmationDelegate extends WatchUi.ConfirmationDelegate {
             System.println("Confirm");
             Storage.clearValues();
             // Valores reestablecidos:
-            // allowDND, last_msg_index, frequency, enabled, sleepEnd, sleepStart
+            
+            Storage.setValue("allowDND",Properties.getValue("allowDND"));
+            Storage.setValue("sleepStart",Properties.getValue("sleepStart"));
+            Storage.setValue("sleepEnd",Properties.getValue("sleepEnd"));
+            Storage.setValue("enabled",Properties.getValue("enabled"));
+            Storage.setValue("frequency",Properties.getValue("frequency"));
+
+            Storage.setValue("last_msg_index", 0);
+
+            var proximoMomento = Time.now().add(new Time.Duration(Properties.getValue("frequency") * 60));
+            Storage.setValue("proximo_timestamp", proximoMomento.value());
+            var proximaFrase = Settings.peekNextMessage();
+            Storage.setValue("proxima_frase", proximaFrase);
+
+
             System.println("Configuración Reestablecida");
             WatchUi.showToast("Configuración Reestablecida", null);
             WatchUi.popView(WatchUi.SLIDE_DOWN); // Cerrar menú tras borrar

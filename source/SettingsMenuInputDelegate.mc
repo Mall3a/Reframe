@@ -56,26 +56,41 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
                 new RestoreConfigConfirmationDelegate(),
                 WatchUi.SLIDE_IMMEDIATE
             );
-        }else if(id == :view_storage) {
-        // Creamos el menú de resumen al vuelo
-        var summaryMenu = new WatchUi.Menu2({:title=>"Configuración Actual"});
-        
-        // Obtenemos los valores igual que en tu initialize
-        var freq = Storage.getValue("frequency");
-        var enabled = Storage.getValue("enabled");
-        var dnd = Storage.getValue("allowDND");
-        var sStart = Storage.getValue("sleepStart");
-        var sEnd = Storage.getValue("sleepEnd");
-        var lastIdx = Storage.getValue("last_msg_index");
+        }else if(idStr.equals("view_storage")) {
+            // Creamos el menú de resumen al vuelo
+            var summaryMenu = new WatchUi.Menu2({:title=>"Configuración Actual"});
+            
+            // Obtenemos los valores igual que en tu initialize
+            // Garmin no permite menos de 5 minutos en Background
+            var freq = Storage.getValue("frequency"); 
+            if (freq == null) {
+                freq = Properties.getValue("frequency"); 
+            }
+            var enabled = Storage.getValue("enabled");
+            if (enabled == null) {
+                enabled = Properties.getValue("enabled");
+            }
+            var dnd = Storage.getValue("allowDND");
+            if (dnd == null) {
+                dnd = Properties.getValue("allowDND");
+            }
+            var sStart = Storage.getValue("sleepStart");
+            if (sStart == null) {
+                sStart = Properties.getValue("sleepStart");
+            }
+            var sEnd = Storage.getValue("sleepEnd");
+            if (sEnd == null) {
+                sEnd = Properties.getValue("sleepEnd");
+            }
 
-        // Los añadimos como texto simple
-        summaryMenu.addItem(new WatchUi.MenuItem("Frecuencia", freq != null ? freq.toString() : "N/A", null, {}));
-        summaryMenu.addItem(new WatchUi.MenuItem("Habilitado", enabled == true ? "Sí" : "No", null, {}));
-        summaryMenu.addItem(new WatchUi.MenuItem("Habilitado No Molestar", dnd == true ? "Sí" : "No", null, {}));
-        summaryMenu.addItem(new WatchUi.MenuItem("Horas de Sueño", sStart + " a " + sEnd, null, {}));
+            // Los añadimos como texto simple
+            summaryMenu.addItem(new WatchUi.MenuItem("Frecuencia", freq != null ? freq.toString() : "N/A", null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Habilitado", enabled == true ? "Sí" : "No", null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Habilitado No Molestar", dnd == true ? "Sí" : "No", null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Horas de Sueño", sStart + " a " + sEnd, null, {}));
 
-        // Lo mostramos. Usamos un Delegate vacío porque es solo para ver.
-        WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
+            // Lo mostramos. Usamos un Delegate vacío porque es solo para ver.
+            WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
         }
     }
 
