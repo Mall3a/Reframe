@@ -6,14 +6,17 @@ A diferencia de apps simples, Reframe está pensada para **uso pasivo durante el
 
 No es un simple recordatorio: es una **herramienta de Ingeniería Mental**, que combina fe, neurociencia y psicología para crear cambios duraderos en tu mente y hábitos.
 
+## Recomendación: 
+- Escribir afirmaciones en primera persona
+- Repetir afirmación en voz alta
 ---
 
 ## 🎯 Características principales
 
 - 🔔 Recordatorios con vibración y mensajes en pantalla
 - ⏱️ Frecuencia configurable (minutos u horas)
-- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(En progreso: se pueden agregar desde garming connect, pero se estan usando algunos hardcoded)**
-- 🔀 Modo de entrega: aleatorio o secuencial **(En progreso: por ahora secuencial basado en índices)**
+- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(Se estan usando mensajes hardcoded por motivos de testing, se quitarán en version final)**
+- 🔀 Modo de entrega: secuencial
 - 📱 Configuración desde Garmin Connect (teléfono)
 
 ---
@@ -109,12 +112,6 @@ Combinando **vibración + color + frase**, el cerebro recibe un estímulo multis
 
 ---
 
-## 📌 Licencia
-
-MIT License © 2026 Constanza Mallea
-
----
-
 ## 📷 Capturas de pantalla
 
 Prompt
@@ -180,3 +177,10 @@ Interfaz Garmin Connect IQ
   <img src="https://github.com/user-attachments/assets/3c92e9cc-7e2b-4229-9b4e-3e2edc4aba80" width="200"/>
   <img src="https://github.com/user-attachments/assets/df5b7c6e-0134-45c0-b9eb-8f3083f7091d" width="200" />
 </p>
+
+---
+## 📌 Licencia
+
+© 2026 Constanza Mallea
+
+---
