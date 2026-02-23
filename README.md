@@ -12,10 +12,9 @@ No es un simple recordatorio: es una **herramienta de Ingeniería Mental**, que 
 
 - 🔔 Recordatorios con vibración y mensajes en pantalla  
 - ⏱️ Frecuencia configurable (minutos u horas)  
-- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(En progreso: por ahora hardcoded)**   
+- 📝 Mensajes personalizados: versos bíblicos, afirmaciones, frases motivacionales **(En progreso: se pueden agregar desde garming connect, pero se estan usando algunos hardcoded)**   
 - 🔀 Modo de entrega: aleatorio o secuencial **(En progreso: por ahora secuencial basado en índices)**  
-- 📱 Configuración desde Garmin Connect (teléfono) **(En progreso)**  
-
+- 📱 Configuración desde Garmin Connect (teléfono) 
 ---
 
 ## 🎯 Objetivo de la app
@@ -129,3 +128,41 @@ MIT License © 2026 Constanza Mallea
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/f1573f1d-b441-4e07-8189-2daa43296871" />
 
 <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/324e12e9-9f8c-4804-9035-f5381470c854" />
+
+<img width="528" height="817" alt="image" src="https://github.com/user-attachments/assets/d2ab9691-3303-46b3-aad2-3ec13ed9a2fa" />
+
+<img width="529" height="816" alt="image" src="https://github.com/user-attachments/assets/b51f3bcf-6453-4400-94a1-6835a8f6d0d7" />
+
+
+
+<img width="533" height="818" alt="image" src="https://github.com/user-attachments/assets/7da6a454-b6bb-48bb-99a1-4916133c6edc" />
+
+<img width="527" height="814" alt="image" src="https://github.com/user-attachments/assets/762ee5f1-5265-4119-886d-ef41f3b358f9" />
+<img width="531" height="806" alt="image" src="https://github.com/user-attachments/assets/fa94a904-a108-4f90-8376-85d387b948f7" />
+<img width="1054" height="1616" alt="image" src="https://github.com/user-attachments/assets/0917ddbe-9a91-4b5c-99e3-8a0870cff932" />
+<img width="523" height="814" alt="image" src="https://github.com/user-attachments/assets/149e5005-32af-4121-9066-bb8bcdb02cab" />
+<img width="522" height="813" alt="image" src="https://github.com/user-attachments/assets/8a42d5a8-c9e9-445c-875a-ce098bb62060" />Ç
+<img width="526" height="812" alt="image" src="https://github.com/user-attachments/assets/0432e1c0-cf8b-4baf-8cf4-b7a75aa57a89" />
+
+<img width="524" height="812" alt="image" src="https://github.com/user-attachments/assets/9dd26e00-1a27-4eed-aa46-be0e01ff7f9d" />
+<img width="523" height="817" alt="image" src="https://github.com/user-attachments/assets/0f89b492-9c0e-4315-b8f5-b7eb241cad93" />
+<img width="532" height="816" alt="image" src="https://github.com/user-attachments/assets/ea04f703-60e2-4184-81ef-c2ac29316bf4" />
+<img width="526" height="813" alt="image" src="https://github.com/user-attachments/assets/f683c977-089b-4535-a13c-9f87f5326380" />
+<img width="531" height="809" alt="image" src="https://github.com/user-attachments/assets/b332fc70-4ef1-46c3-9307-7235b0e80f85" />
+
+<img width="521" height="819" alt="image" src="https://github.com/user-attachments/assets/c9324645-f0fc-4b0a-9f9a-ef25df0da68b" />
+
+<img width="529" height="816" alt="image" src="https://github.com/user-attachments/assets/2b78b57c-adf2-44d2-8ade-5b7b5c791b86" />
+<img width="525" height="815" alt="image" src="https://github.com/user-attachments/assets/fca67065-cf3b-499f-aea4-6f5c93ae7c0f" />
+<img width="524" height="816" alt="image" src="https://github.com/user-attachments/assets/68d38b5d-0934-4de5-8c69-e332bb45e049" />
+
+<img width="508" height="357" alt="image" src="https://github.com/user-attachments/assets/15a644e3-73d7-491e-beea-a19ce520e11f" /><img width="1068" height="1628" alt="image" src="https://github.com/user-attachments/assets/c2776886-e1b4-485b-b019-1bfd38ad4d28" />
+<img width="525" height="814" alt="image" src="https://github.com/user-attachments/assets/9927c574-94b2-487c-8e1d-44098943ed91" />
+
+interfaz de garming connect iq app donde se agregan los mensajes:
+<img width="400" height="697" alt="image" src="https://github.com/user-attachments/assets/68e9ab04-3ab4-4787-8867-ebd8e2e15c88" />
+
+<img width="409" height="701" alt="image" src="https://github.com/user-attachments/assets/489fcc68-93be-4057-b4d9-d2c342440f1c" />
+<img width="399" height="698" alt="image" src="https://github.com/user-attachments/assets/47ac685a-767d-4778-b363-f0b196069975" /><img width="401" height="695" alt="image" src="https://github.com/user-attachments/assets/92935651-9e16-43b4-9d7b-98a9402d626a" /><img width="537" height="851" alt="image" src="https://github.com/user-attachments/assets/3c92e9cc-7e2b-4229-9b4e-3e2edc4aba80" />
+
+
