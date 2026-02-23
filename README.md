@@ -168,6 +168,8 @@ Reestablecer configuración
   <img src="https://github.com/user-attachments/assets/b332fc70-4ef1-46c3-9307-7235b0e80f85" width="200"/>
   <img src="https://github.com/user-attachments/assets/68d38b5d-0934-4de5-8c69-e332bb45e049" width="200"/>
   <img src="https://github.com/user-attachments/assets/c2776886-e1b4-485b-b019-1bfd38ad4d28" width="200"/>
+  <img  src="https://github.com/user-attachments/assets/038e49ae-0a43-47aa-87b2-27bf19c11c40" width="200" />
+  <img src="https://github.com/user-attachments/assets/63a8024c-ac86-4de1-ab5b-c1ab0195f64e" width="200" />
 </p>
 Interfaz Garmin Connect IQ
 <p align="center">
@@ -176,4 +178,5 @@ Interfaz Garmin Connect IQ
   <img src="https://github.com/user-attachments/assets/47ac685a-767d-4778-b363-f0b196069975" width="200"/>
   <img src="https://github.com/user-attachments/assets/92935651-9e16-43b4-9d7b-98a9402d626a" width="200"/>
   <img src="https://github.com/user-attachments/assets/3c92e9cc-7e2b-4229-9b4e-3e2edc4aba80" width="200"/>
+  <img src="https://github.com/user-attachments/assets/df5b7c6e-0134-45c0-b9eb-8f3083f7091d" width="200" />
 </p>
