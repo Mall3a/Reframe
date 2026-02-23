@@ -123,11 +123,6 @@ Prompt
   <img src="https://github.com/user-attachments/assets/f4f00098-b49b-4ffc-9436-0111bcc66f72" width="300"/>
   <img src="https://github.com/user-attachments/assets/f3a165da-c328-4283-96a2-137eef4208e4" width="300"/>
 </p>
-Frecuencia
-  <img src="https://github.com/user-attachments/assets/b51f3bcf-6453-4400-94a1-6835a8f6d0d7" width="300"/>
-  <img src="https://github.com/user-attachments/assets/762ee5f1-5265-4119-886d-ef41f3b358f9" width="300"/>
-  <img src="https://github.com/user-attachments/assets/fa94a904-a108-4f90-8376-85d387b948f7" width="300"/>
-</p>
 Frases
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f1573f1d-b441-4e07-8189-2daa43296871" width="300"/>
@@ -138,33 +133,38 @@ GlanceView Widget
   <img src="https://github.com/user-attachments/assets/d2ab9691-3303-46b3-aad2-3ec13ed9a2fa" width="300"/>
   <img src="https://github.com/user-attachments/assets/2b78b57c-adf2-44d2-8ade-5b7b5c791b86" width="300"/>
 </p>
+Pantalla Configuración
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7da6a454-b6bb-48bb-99a1-4916133c6edc" width="300"/>
+</p>
+Establecer Frecuencia
+  <img src="https://github.com/user-attachments/assets/b51f3bcf-6453-4400-94a1-6835a8f6d0d7" width="300"/>
+  <img src="https://github.com/user-attachments/assets/762ee5f1-5265-4119-886d-ef41f3b358f9" width="300"/>
+  <img src="https://github.com/user-attachments/assets/fa94a904-a108-4f90-8376-85d387b948f7" width="300"/>
+</p>
 Cambiar Horas de Sueño
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0917ddbe-9a91-4b5c-99e3-8a0870cff932" width="300"/>
   <img src="https://github.com/user-attachments/assets/9dd26e00-1a27-4eed-aa46-be0e01ff7f9d" width="300"/>
   <img src="https://github.com/user-attachments/assets/0f89b492-9c0e-4315-b8f5-b7eb241cad93" width="300"/>
   <img src="https://github.com/user-attachments/assets/ea04f703-60e2-4184-81ef-c2ac29316bf4" width="300"/>
-  <img src="https://github.com/user-attachments/assets/f683c977-089b-4535-a13c-9f87f5326380" width="300"/>
 </p>
-Pantalla Configuración
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7da6a454-b6bb-48bb-99a1-4916133c6edc" width="300"/>
-</p>
-Configuración actual
+Ver Configuración actual
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b332fc70-4ef1-46c3-9307-7235b0e80f85" width="300"/>
   <img src="https://github.com/user-attachments/assets/0432e1c0-cf8b-4baf-8cf4-b7a75aa57a89" width="300"/>
+  <img src="https://github.com/user-attachments/assets/f683c977-089b-4535-a13c-9f87f5326380" width="300"/>
 </p>
 Borrar mensajes
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c2776886-e1b4-485b-b019-1bfd38ad4d28" width="300"/>
+  <img src="https://github.com/user-attachments/assets/c9324645-f0fc-4b0a-9f9a-ef25df0da68b" width="300"/>
   <img src="https://github.com/user-attachments/assets/9927c574-94b2-487c-8e1d-44098943ed91" width="300"/>
   <img src="https://github.com/user-attachments/assets/fca67065-cf3b-499f-aea4-6f5c93ae7c0f" width="300"/>
 </p>
 Reestablecer configuración
 <p align="center">
   <img src="https://github.com/user-attachments/assets/68d38b5d-0934-4de5-8c69-e332bb45e049" width="300"/>
-  <img src="https://github.com/user-attachments/assets/c9324645-f0fc-4b0a-9f9a-ef25df0da68b" width="300"/>
+  <img src="https://github.com/user-attachments/assets/c2776886-e1b4-485b-b019-1bfd38ad4d28" width="300"/>
 </p>
 Interfaz Garmin Connect IQ
 <p align="center">
