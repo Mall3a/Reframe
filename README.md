@@ -156,14 +156,16 @@ Ver Configuración actual
   <img src="https://github.com/user-attachments/assets/0432e1c0-cf8b-4baf-8cf4-b7a75aa57a89" width="200"/>
   <img src="https://github.com/user-attachments/assets/f683c977-089b-4535-a13c-9f87f5326380" width="200"/>
 </p>
-Borrar mensajes
+Borrar Frases Agregadas
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/b332fc70-4ef1-46c3-9307-7235b0e80f85" width="200"/>
   <img src="https://github.com/user-attachments/assets/c9324645-f0fc-4b0a-9f9a-ef25df0da68b" width="200"/>
   <img src="https://github.com/user-attachments/assets/9927c574-94b2-487c-8e1d-44098943ed91" width="200"/>
   <img src="https://github.com/user-attachments/assets/fca67065-cf3b-499f-aea4-6f5c93ae7c0f" width="200"/>
 </p>
 Reestablecer configuración
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/b332fc70-4ef1-46c3-9307-7235b0e80f85" width="200"/>
   <img src="https://github.com/user-attachments/assets/68d38b5d-0934-4de5-8c69-e332bb45e049" width="200"/>
   <img src="https://github.com/user-attachments/assets/c2776886-e1b4-485b-b019-1bfd38ad4d28" width="200"/>
 </p>
