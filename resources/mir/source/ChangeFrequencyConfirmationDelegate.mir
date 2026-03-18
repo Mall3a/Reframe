@@ -36,9 +36,9 @@ _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfi
     }
     [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc"; @line = 14; @symbol_functiondef = [onResponse,14,13,23]; @symbol_param<0> = [response,14,24,32]; ]
     function onResponse(response) {
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_31_4_start:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_32_4_start:
 [ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 15 8 ]
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_stmt:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_stmt:
         %tmp.1 = lgetv %response;
         symbol [ response %tmp.1 15 12 20 ];
         symbol [ WatchUi %tmp.2 15 24 31 ];
@@ -46,16 +46,16 @@ _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfi
         symbol [ CONFIRM_NO %tmp.3 15 32 42 ];
         %tmp.3 = getv %tmp.2 :CONFIRM_NO;
         %tmp.4 = eq %tmp.1 %tmp.3;
-        bf %tmp.4 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_else_false;
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_true:
+        bf %tmp.4 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_true:
 _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_17_8_start:
 [ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 16 12 ]
         %tmp.5 = false;
         ret %tmp.5;
 _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_44_17_8_stop:
-        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_end;
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_else_false:
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_start:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_else_false:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_31_8_start:
 [ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 18 12 ]
         symbol [ Storage %tmp.6 18 12 19 ];
         %tmp.6 = getm $.Toybox.Application.Storage;
@@ -66,7 +66,7 @@ _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfi
         %tmp.10 = getv ? :_minutes;
         invoke %tmp.6 %tmp.7(%tmp.8, %tmp.10);
 [ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 21 12 ]
-        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_stop" ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_31_8_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_31_8_stop" ]
         %proximoMomento.1 = local;
         symbol [ proximoMomento %proximoMomento.1 21 16 30 ];
         symbol [ Time %tmp.12 21 33 37 ];
@@ -156,15 +156,25 @@ _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfi
         %tmp.48 = getv function %tmp.47 :popView;
         symbol [ WatchUi %tmp.49 28 28 35 ];
         %tmp.49 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.50 28 36 46 ];
-        %tmp.50 = getv %tmp.49 :SLIDE_DOWN;
+        symbol [ SLIDE_IMMEDIATE %tmp.50 28 36 51 ];
+        %tmp.50 = getv %tmp.49 :SLIDE_IMMEDIATE;
         invoke %tmp.47 %tmp.48(%tmp.50);
 [ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 29 12 ]
-        %tmp.51 = true;
-        ret %tmp.51;
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_30_8_stop:
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_30_8_if_end:
-_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_31_4_stop:
+        symbol [ WatchUi %tmp.51 29 12 19 ];
+        %tmp.51 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.52 29 20 27 ];
+        %tmp.52 = getv function %tmp.51 :popView;
+        symbol [ WatchUi %tmp.53 29 28 35 ];
+        %tmp.53 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.54 29 36 51 ];
+        %tmp.54 = getv %tmp.53 :SLIDE_IMMEDIATE;
+        invoke %tmp.51 %tmp.52(%tmp.54);
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" 30 12 ]
+        %tmp.55 = true;
+        ret %tmp.55;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_17_15_31_8_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_15_8_31_8_if_end:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_ChangeFrequencyConfirmationDelegate_mc_14_34_32_4_stop:
     }
 }
 [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc"; @line = 1; ]

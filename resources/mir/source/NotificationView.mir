@@ -401,13 +401,27 @@ _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_
         %tmp.172 = getm $.Toybox.Graphics;
         symbol [ FONT_SYSTEM_XTINY %tmp.173 58 21 38 ];
         %tmp.173 = getv %tmp.172 :FONT_SYSTEM_XTINY;
-        %tmp.174 = lgetv %progressText.7;
-        symbol [ progressText %tmp.174 59 12 24 ];
-        symbol [ Graphics %tmp.175 60 12 20 ];
-        %tmp.175 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.176 60 21 40 ];
-        %tmp.176 = getv %tmp.175 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.156 %tmp.157(%tmp.162, %tmp.171, %tmp.173, %tmp.174, %tmp.176);
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_begin:
+        %tmp.174 = lgetv %displayTotal.6;
+        symbol [ displayTotal %tmp.174 59 12 24 ];
+        %tmp.175 = 0;
+        %tmp.176 = eq %tmp.174 %tmp.175;
+        bf %tmp.176 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_true:
+        %tmp.177 = "";
+        push %tmp.177;
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_else_false:
+        %tmp.178 = lgetv %progressText.7;
+        symbol [ progressText %tmp.178 59 37 49 ];
+        push %tmp.178;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_end:
+        %tmp.179 = phi [%tmp.176 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_begin] [%tmp.177 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_true] [%tmp.178 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_else_false] [%tmp.179 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_59_12_59_37_end];
+        symbol [ Graphics %tmp.180 60 12 20 ];
+        %tmp.180 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.181 60 21 40 ];
+        %tmp.181 = getv %tmp.180 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.156 %tmp.157(%tmp.162, %tmp.171, %tmp.173, %tmp.179, %tmp.181);
 _Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop:
     }
 }

@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="1" lineNum="9" parent="globals/ReframeBackgroundServiceDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="2" lineNum="11" parent="globals/ReframeApp" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="28" parent="globals/ReframeBackgroundServiceDelegate" pc="268435484" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="29" parent="globals/ReframeBackgroundServiceDelegate" pc="268435487" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="30" parent="globals/ReframeBackgroundServiceDelegate" pc="268435499" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="31" parent="globals/ReframeBackgroundServiceDelegate" pc="268435518" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="31" parent="globals/ReframeBackgroundServiceDelegate" pc="268435524" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="33" parent="globals/ReframeBackgroundServiceDelegate" pc="268435546" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="34" parent="globals/ReframeBackgroundServiceDelegate" pc="268435565" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="34" parent="globals/ReframeBackgroundServiceDelegate" pc="268435571" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="36" parent="globals/ReframeBackgroundServiceDelegate" pc="268435593" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="37" parent="globals/ReframeBackgroundServiceDelegate" pc="268435601" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="3" lineNum="39" parent="globals/ReframeBackgroundServiceDelegate" pc="268435629" symbol="isSleepTime"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="4" lineNum="15" parent="globals/ReframeBackgroundServiceDelegate" pc="268435655" symbol="byPassDnD"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="4" lineNum="16" parent="globals/ReframeBackgroundServiceDelegate" pc="268435658" symbol="byPassDnD"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="4" lineNum="17" parent="globals/ReframeBackgroundServiceDelegate" pc="268435677" symbol="byPassDnD"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="4" lineNum="18" parent="globals/ReframeBackgroundServiceDelegate" pc="268435683" symbol="byPassDnD"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="4" lineNum="20" parent="globals/ReframeBackgroundServiceDelegate" pc="268435705" symbol="byPassDnD"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="48" parent="globals/ReframeBackgroundServiceDelegate" pc="268435708" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="50" parent="globals/ReframeBackgroundServiceDelegate" pc="268435711" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="51" parent="globals/ReframeBackgroundServiceDelegate" pc="268435730" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="52" parent="globals/ReframeBackgroundServiceDelegate" pc="268435736" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="55" parent="globals/ReframeBackgroundServiceDelegate" pc="268435758" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="56" parent="globals/ReframeBackgroundServiceDelegate" pc="268435763" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="57" parent="globals/ReframeBackgroundServiceDelegate" pc="268435771" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="58" parent="globals/ReframeBackgroundServiceDelegate" pc="268435779" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="61" parent="globals/ReframeBackgroundServiceDelegate" pc="268435787" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="62" parent="globals/ReframeBackgroundServiceDelegate" pc="268435795" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="63" parent="globals/ReframeBackgroundServiceDelegate" pc="268435814" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="64" parent="globals/ReframeBackgroundServiceDelegate" pc="268435820" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="72" parent="globals/ReframeBackgroundServiceDelegate" pc="268435842" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="74" parent="globals/ReframeBackgroundServiceDelegate" pc="268435848" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="77" parent="globals/ReframeBackgroundServiceDelegate" pc="268435859" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="78" parent="globals/ReframeBackgroundServiceDelegate" pc="268435870" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="85" parent="globals/ReframeBackgroundServiceDelegate" pc="268435900" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="86" parent="globals/ReframeBackgroundServiceDelegate" pc="268435919" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="87" parent="globals/ReframeBackgroundServiceDelegate" pc="268435925" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="91" parent="globals/ReframeBackgroundServiceDelegate" pc="268435947" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="94" parent="globals/ReframeBackgroundServiceDelegate" pc="268435994" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="97" parent="globals/ReframeBackgroundServiceDelegate" pc="268436009" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="5" lineNum="100" parent="globals/ReframeBackgroundServiceDelegate" pc="268436034" symbol="onTemporalEvent"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="6" lineNum="11" parent="globals/ReframeBackgroundServiceDelegate" pc="268436049" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="6" lineNum="12" parent="globals/ReframeBackgroundServiceDelegate" pc="268436051" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="7" lineNum="23" parent="globals/ReframeBackgroundServiceDelegate" pc="268436064" symbol="isDnDMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="7" lineNum="24" parent="globals/ReframeBackgroundServiceDelegate" pc="268436067" symbol="isDnDMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="7" lineNum="25" parent="globals/ReframeBackgroundServiceDelegate" pc="268436079" symbol="isDnDMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="8" lineNum="43" parent="globals/ReframeBackgroundServiceDelegate" pc="268436106" symbol="inBatterySavingMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="8" lineNum="44" parent="globals/ReframeBackgroundServiceDelegate" pc="268436109" symbol="inBatterySavingMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeBackgroundServiceDelegate.mc" id="8" lineNum="45" parent="globals/ReframeBackgroundServiceDelegate" pc="268436121" symbol="inBatterySavingMode"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="25" parent="globals/ReframeApp" pc="268436148" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="26" parent="globals/ReframeApp" pc="268436151" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="27" parent="globals/ReframeApp" pc="268436170" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="27" parent="globals/ReframeApp" pc="268436176" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="29" parent="globals/ReframeApp" pc="268436198" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="30" parent="globals/ReframeApp" pc="268436245" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="31" parent="globals/ReframeApp" pc="268436260" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="34" parent="globals/ReframeApp" pc="268436285" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="9" lineNum="35" parent="globals/ReframeApp" pc="268436306" symbol="onStart"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="10" lineNum="73" parent="globals/ReframeApp" pc="268436333" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="10" lineNum="74" parent="globals/ReframeApp" pc="268436335" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="11" lineNum="81" parent="globals/ReframeApp" pc="268436347" symbol="getServiceDelegate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="11" lineNum="82" parent="globals/ReframeApp" pc="268436349" symbol="getServiceDelegate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="39" parent="globals/ReframeApp" pc="268436375" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="40" parent="globals/ReframeApp" pc="268436378" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="41" parent="globals/ReframeApp" pc="268436397" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="42" parent="globals/ReframeApp" pc="268436416" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="43" parent="globals/ReframeApp" pc="268436435" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="46" parent="globals/ReframeApp" pc="268436454" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="47" parent="globals/ReframeApp" pc="268436473" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="48" parent="globals/ReframeApp" pc="268436486" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="49" parent="globals/ReframeApp" pc="268436492" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="50" parent="globals/ReframeApp" pc="268436502" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="51" parent="globals/ReframeApp" pc="268436512" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="52" parent="globals/ReframeApp" pc="268436522" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="53" parent="globals/ReframeApp" pc="268436532" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="56" parent="globals/ReframeApp" pc="268436542" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="57" parent="globals/ReframeApp" pc="268436562" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="58" parent="globals/ReframeApp" pc="268436582" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="59" parent="globals/ReframeApp" pc="268436602" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="63" parent="globals/ReframeApp" pc="268436628" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="64" parent="globals/ReframeApp" pc="268436651" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="12" lineNum="67" parent="globals/ReframeApp" pc="268436664" symbol="getInitialView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="13" lineNum="12" parent="globals/ReframeApp" pc="268436717" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="13" lineNum="13" parent="globals/ReframeApp" pc="268436719" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="14" lineNum="21" parent="globals/ReframeApp" pc="268436732" symbol="onBackgroundData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="14" lineNum="22" parent="globals/ReframeApp" pc="268436734" symbol="onBackgroundData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="15" lineNum="17" parent="globals/ReframeApp" pc="268436746" symbol="getGlanceView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="15" lineNum="18" parent="globals/ReframeApp" pc="268436748" symbol="getGlanceView"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="85" parent="globals/ReframeApp" pc="268436774" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="86" parent="globals/ReframeApp" pc="268436776" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="86" parent="globals/ReframeApp" pc="268436792" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="88" parent="globals/ReframeApp" pc="268436796" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="89" parent="globals/ReframeApp" pc="268436826" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="16" lineNum="94" parent="globals/ReframeApp" pc="268436906" symbol="vibrateForIndex"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeApp.mc" id="17" lineNum="77" parent="globals/ReframeApp" pc="268436954" symbol="onStop"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="18" lineNum="9" parent="globals/ReframeGlanceView" pc="268436957" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="62" parent="globals/ReframeGlanceView" pc="268436969" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="63" parent="globals/ReframeGlanceView" pc="268436971" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="63" parent="globals/ReframeGlanceView" pc="268436977" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="64" parent="globals/ReframeGlanceView" pc="268436985" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="64" parent="globals/ReframeGlanceView" pc="268437002" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="65" parent="globals/ReframeGlanceView" pc="268437010" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="65" parent="globals/ReframeGlanceView" pc="268437027" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="66" parent="globals/ReframeGlanceView" pc="268437035" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="66" parent="globals/ReframeGlanceView" pc="268437052" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="67" parent="globals/ReframeGlanceView" pc="268437061" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="67" parent="globals/ReframeGlanceView" pc="268437078" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="19" lineNum="68" parent="globals/ReframeGlanceView" pc="268437087" symbol="getGlanceColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="71" parent="globals/ReframeGlanceView" pc="268437092" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="72" parent="globals/ReframeGlanceView" pc="268437095" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="73" parent="globals/ReframeGlanceView" pc="268437114" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="75" parent="globals/ReframeGlanceView" pc="268437120" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="76" parent="globals/ReframeGlanceView" pc="268437124" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="77" parent="globals/ReframeGlanceView" pc="268437164" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="20" lineNum="79" parent="globals/ReframeGlanceView" pc="268437189" symbol="truncarTexto"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="21" lineNum="11" parent="globals/ReframeGlanceView" pc="268437198" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="21" lineNum="12" parent="globals/ReframeGlanceView" pc="268437200" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="15" parent="globals/ReframeGlanceView" pc="268437213" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="16" parent="globals/ReframeGlanceView" pc="268437216" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="17" parent="globals/ReframeGlanceView" pc="268437235" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="19" parent="globals/ReframeGlanceView" pc="268437254" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="21" parent="globals/ReframeGlanceView" pc="268437273" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="22" parent="globals/ReframeGlanceView" pc="268437280" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="23" parent="globals/ReframeGlanceView" pc="268437286" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="24" parent="globals/ReframeGlanceView" pc="268437326" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="31" parent="globals/ReframeGlanceView" pc="268437405" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="32" parent="globals/ReframeGlanceView" pc="268437417" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="34" parent="globals/ReframeGlanceView" pc="268437425" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="35" parent="globals/ReframeGlanceView" pc="268437434" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="36" parent="globals/ReframeGlanceView" pc="268437438" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="37" parent="globals/ReframeGlanceView" pc="268437441" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="40" parent="globals/ReframeGlanceView" pc="268437445" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="41" parent="globals/ReframeGlanceView" pc="268437462" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="44" parent="globals/ReframeGlanceView" pc="268437485" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="45" parent="globals/ReframeGlanceView" pc="268437502" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="46" parent="globals/ReframeGlanceView" pc="268437524" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="49" parent="globals/ReframeGlanceView" pc="268437544" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="51" parent="globals/ReframeGlanceView" pc="268437550" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="53" parent="globals/ReframeGlanceView" pc="268437572" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="54" parent="globals/ReframeGlanceView" pc="268437584" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="56" parent="globals/ReframeGlanceView" pc="268437602" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeGlanceView.mc" id="22" lineNum="57" parent="globals/ReframeGlanceView" pc="268437621" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="23" lineNum="6" parent="globals/FrequencyMenuInputDelegate" pc="268437645" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="24" lineNum="6" parent="globals/NotificationViewDelegate" pc="268437657" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="25" lineNum="5" parent="globals/NumberFactory" pc="268437669" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="26" lineNum="5" parent="globals/NotificationView" pc="268437681" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="27" lineNum="5" parent="globals/SettingsMenu" pc="268437693" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="28" lineNum="3" parent="globals/FrequencyMenu" pc="268437705" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="29" lineNum="4" parent="globals/ReframeView" pc="268437717" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/resources/gen/006-B3704-00/source/Rez.mcgen" id="30" lineNum="7" parent="globals/Rez" pc="268437729" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="31" lineNum="4" parent="globals/SleepPicker" pc="268437749" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="32" lineNum="6" parent="globals/RestoreConfigConfirmationDelegate" pc="268437761" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="33" lineNum="7" parent="globals/SettingsMenuInputDelegate" pc="268437773" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="34" lineNum="7" parent="globals/DeleteMessagesConfirmationDelegate" pc="268437785" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="35" lineNum="6" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268437797" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeViewDelegate.mc" id="36" lineNum="6" parent="globals/ReframeViewDelegate" pc="268437809" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="37" lineNum="5" parent="globals/SleepPickerDelegate" pc="268437821" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="38" lineNum="4" parent="globals/TopicMenuDelegate" pc="268437833" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="39" lineNum="8" parent="globals/FrequencyMenuInputDelegate" pc="268437845" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="39" lineNum="9" parent="globals/FrequencyMenuInputDelegate" pc="268437847" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="40" lineNum="12" parent="globals/FrequencyMenuInputDelegate" pc="268437860" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="40" lineNum="14" parent="globals/FrequencyMenuInputDelegate" pc="268437863" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="40" lineNum="15" parent="globals/FrequencyMenuInputDelegate" pc="268437872" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="40" lineNum="16" parent="globals/FrequencyMenuInputDelegate" pc="268437888" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenuInputDelegate.mc" id="40" lineNum="17" parent="globals/FrequencyMenuInputDelegate" pc="268437914" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="24" parent="globals/NotificationViewDelegate" pc="268437951" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="27" parent="globals/NotificationViewDelegate" pc="268437954" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="28" parent="globals/NotificationViewDelegate" pc="268437967" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="29" parent="globals/NotificationViewDelegate" pc="268437973" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="30" parent="globals/NotificationViewDelegate" pc="268438005" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="31" parent="globals/NotificationViewDelegate" pc="268438037" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="32" parent="globals/NotificationViewDelegate" pc="268438069" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="33" parent="globals/NotificationViewDelegate" pc="268438095" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="41" lineNum="35" parent="globals/NotificationViewDelegate" pc="268438124" symbol="onBack"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="42" lineNum="18" parent="globals/NotificationViewDelegate" pc="268438126" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="42" lineNum="20" parent="globals/NotificationViewDelegate" pc="268438128" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="43" lineNum="8" parent="globals/NotificationViewDelegate" pc="268438140" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="43" lineNum="9" parent="globals/NotificationViewDelegate" pc="268438142" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="44" lineNum="12" parent="globals/NotificationViewDelegate" pc="268438155" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="44" lineNum="13" parent="globals/NotificationViewDelegate" pc="268438157" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="44" lineNum="14" parent="globals/NotificationViewDelegate" pc="268438175" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" id="44" lineNum="15" parent="globals/NotificationViewDelegate" pc="268438226" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="45" lineNum="29" parent="globals/NumberFactory" pc="268438228" symbol="getValue"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="45" lineNum="30" parent="globals/NumberFactory" pc="268438230" symbol="getValue"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="46" lineNum="24" parent="globals/NumberFactory" pc="268438245" symbol="getSize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="46" lineNum="25" parent="globals/NumberFactory" pc="268438247" symbol="getSize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="33" parent="globals/NumberFactory" pc="268438268" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="34" parent="globals/NumberFactory" pc="268438271" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="35" parent="globals/NumberFactory" pc="268438283" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="37" parent="globals/NumberFactory" pc="268438290" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="38" parent="globals/NumberFactory" pc="268438305" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="39" parent="globals/NumberFactory" pc="268438325" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="40" parent="globals/NumberFactory" pc="268438331" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="47" lineNum="43" parent="globals/NumberFactory" pc="268438344" symbol="getDrawable"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="11" parent="globals/NumberFactory" pc="268438421" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="12" parent="globals/NumberFactory" pc="268438423" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="13" parent="globals/NumberFactory" pc="268438435" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="14" parent="globals/NumberFactory" pc="268438444" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="15" parent="globals/NumberFactory" pc="268438453" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="17" parent="globals/NumberFactory" pc="268438462" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="18" parent="globals/NumberFactory" pc="268438486" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NumberFactory.mc" id="48" lineNum="20" parent="globals/NumberFactory" pc="268438511" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="49" lineNum="10" parent="globals/NotificationView" pc="268438524" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="49" lineNum="11" parent="globals/NotificationView" pc="268438526" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="49" lineNum="12" parent="globals/NotificationView" pc="268438538" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="49" lineNum="15" parent="globals/NotificationView" pc="268438547" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="49" lineNum="16" parent="globals/NotificationView" pc="268438566" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="19" parent="globals/NotificationView" pc="268438586" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="21" parent="globals/NotificationView" pc="268438589" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="22" parent="globals/NotificationView" pc="268438619" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="23" parent="globals/NotificationView" pc="268438633" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="26" parent="globals/NotificationView" pc="268438641" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="27" parent="globals/NotificationView" pc="268438648" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="28" parent="globals/NotificationView" pc="268438672" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="32" parent="globals/NotificationView" pc="268438688" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="33" parent="globals/NotificationView" pc="268438703" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="44" parent="globals/NotificationView" pc="268438842" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="48" parent="globals/NotificationView" pc="268438854" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="49" parent="globals/NotificationView" pc="268438887" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="51" parent="globals/NotificationView" pc="268438907" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="53" parent="globals/NotificationView" pc="268438930" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" id="50" lineNum="55" parent="globals/NotificationView" pc="268438947" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="51" lineNum="92" parent="globals/SettingsMenu" pc="268439010" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="51" lineNum="94" parent="globals/SettingsMenu" pc="268439012" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="7" parent="globals/SettingsMenu" pc="268439024" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="8" parent="globals/SettingsMenu" pc="268439027" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="10" parent="globals/SettingsMenu" pc="268439057" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="11" parent="globals/SettingsMenu" pc="268439076" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="14" parent="globals/SettingsMenu" pc="268439082" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="16" parent="globals/SettingsMenu" pc="268439092" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="18" parent="globals/SettingsMenu" pc="268439113" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="19" parent="globals/SettingsMenu" pc="268439132" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="22" parent="globals/SettingsMenu" pc="268439138" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="24" parent="globals/SettingsMenu" pc="268439160" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="27" parent="globals/SettingsMenu" pc="268439181" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="28" parent="globals/SettingsMenu" pc="268439200" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="30" parent="globals/SettingsMenu" pc="268439206" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="32" parent="globals/SettingsMenu" pc="268439228" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="35" parent="globals/SettingsMenu" pc="268439249" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="36" parent="globals/SettingsMenu" pc="268439268" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="38" parent="globals/SettingsMenu" pc="268439274" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="40" parent="globals/SettingsMenu" pc="268439296" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="43" parent="globals/SettingsMenu" pc="268439317" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="44" parent="globals/SettingsMenu" pc="268439336" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="45" parent="globals/SettingsMenu" pc="268439342" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="47" parent="globals/SettingsMenu" pc="268439364" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="49" parent="globals/SettingsMenu" pc="268439385" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="50" parent="globals/SettingsMenu" pc="268439404" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="52" parent="globals/SettingsMenu" pc="268439410" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="54" parent="globals/SettingsMenu" pc="268439432" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="55" parent="globals/SettingsMenu" pc="268439451" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="57" parent="globals/SettingsMenu" pc="268439457" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="59" parent="globals/SettingsMenu" pc="268439479" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="63" parent="globals/SettingsMenu" pc="268439515" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="69" parent="globals/SettingsMenu" pc="268439565" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="70" parent="globals/SettingsMenu" pc="268439632" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="71" parent="globals/SettingsMenu" pc="268439683" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="72" parent="globals/SettingsMenu" pc="268439734" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="79" parent="globals/SettingsMenu" pc="268439785" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="85" parent="globals/SettingsMenu" pc="268439850" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="87" parent="globals/SettingsMenu" pc="268439903" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenu.mc" id="52" lineNum="89" parent="globals/SettingsMenu" pc="268439956" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="5" parent="globals/FrequencyMenu" pc="268440006" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="7" parent="globals/FrequencyMenu" pc="268440008" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="10" parent="globals/FrequencyMenu" pc="268440038" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="11" parent="globals/FrequencyMenu" pc="268440084" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="12" parent="globals/FrequencyMenu" pc="268440130" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="13" parent="globals/FrequencyMenu" pc="268440176" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="14" parent="globals/FrequencyMenu" pc="268440222" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/FrequencyMenu.mc" id="53" lineNum="15" parent="globals/FrequencyMenu" pc="268440268" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="54" lineNum="6" parent="globals/ReframeView" pc="268440316" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="54" lineNum="7" parent="globals/ReframeView" pc="268440318" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="10" parent="globals/ReframeView" pc="268440331" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="11" parent="globals/ReframeView" pc="268440334" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="12" parent="globals/ReframeView" pc="268440337" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="13" parent="globals/ReframeView" pc="268440351" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="14" parent="globals/ReframeView" pc="268440359" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeView.mc" id="55" lineNum="24" parent="globals/ReframeView" pc="268440474" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="5" parent="globals/SleepPicker" pc="268440487" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="7" parent="globals/SleepPicker" pc="268440490" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="15" parent="globals/SleepPicker" pc="268440568" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="16" parent="globals/SleepPicker" pc="268440609" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="17" parent="globals/SleepPicker" pc="268440621" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="56" lineNum="19" parent="globals/SleepPicker" pc="268440646" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="57" lineNum="26" parent="globals/SleepPicker" pc="268440708" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="57" lineNum="27" parent="globals/SleepPicker" pc="268440710" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="57" lineNum="28" parent="globals/SleepPicker" pc="268440722" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPicker.mc" id="57" lineNum="29" parent="globals/SleepPicker" pc="268440730" symbol="onUpdate"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="11" parent="globals/RestoreConfigConfirmationDelegate" pc="268440747" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="12" parent="globals/RestoreConfigConfirmationDelegate" pc="268440750" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="13" parent="globals/RestoreConfigConfirmationDelegate" pc="268440757" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="16" parent="globals/RestoreConfigConfirmationDelegate" pc="268440762" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="19" parent="globals/RestoreConfigConfirmationDelegate" pc="268440773" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="20" parent="globals/RestoreConfigConfirmationDelegate" pc="268440792" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="21" parent="globals/RestoreConfigConfirmationDelegate" pc="268440827" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="22" parent="globals/RestoreConfigConfirmationDelegate" pc="268440862" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="23" parent="globals/RestoreConfigConfirmationDelegate" pc="268440897" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="24" parent="globals/RestoreConfigConfirmationDelegate" pc="268440932" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="25" parent="globals/RestoreConfigConfirmationDelegate" pc="268440967" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="28" parent="globals/RestoreConfigConfirmationDelegate" pc="268440987" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="29" parent="globals/RestoreConfigConfirmationDelegate" pc="268441006" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="30" parent="globals/RestoreConfigConfirmationDelegate" pc="268441024" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="33" parent="globals/RestoreConfigConfirmationDelegate" pc="268441042" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="34" parent="globals/RestoreConfigConfirmationDelegate" pc="268441089" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="36" parent="globals/RestoreConfigConfirmationDelegate" pc="268441114" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="39" parent="globals/RestoreConfigConfirmationDelegate" pc="268441133" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="58" lineNum="40" parent="globals/RestoreConfigConfirmationDelegate" pc="268441148" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="59" lineNum="7" parent="globals/RestoreConfigConfirmationDelegate" pc="268441151" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/RestoreConfigConfirmationDelegate.mc" id="59" lineNum="8" parent="globals/RestoreConfigConfirmationDelegate" pc="268441153" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="60" lineNum="143" parent="globals/SettingsMenuInputDelegate" pc="268441166" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="60" lineNum="145" parent="globals/SettingsMenuInputDelegate" pc="268441168" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="61" lineNum="9" parent="globals/SettingsMenuInputDelegate" pc="268441180" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="61" lineNum="10" parent="globals/SettingsMenuInputDelegate" pc="268441182" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="13" parent="globals/SettingsMenuInputDelegate" pc="268441195" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="14" parent="globals/SettingsMenuInputDelegate" pc="268441198" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="15" parent="globals/SettingsMenuInputDelegate" pc="268441207" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="16" parent="globals/SettingsMenuInputDelegate" pc="268441216" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="18" parent="globals/SettingsMenuInputDelegate" pc="268441237" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="20" parent="globals/SettingsMenuInputDelegate" pc="268441254" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="22" parent="globals/SettingsMenuInputDelegate" pc="268441308" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="23" parent="globals/SettingsMenuInputDelegate" pc="268441325" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="24" parent="globals/SettingsMenuInputDelegate" pc="268441329" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="25" parent="globals/SettingsMenuInputDelegate" pc="268441338" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="27" parent="globals/SettingsMenuInputDelegate" pc="268441358" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="29" parent="globals/SettingsMenuInputDelegate" pc="268441364" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="30" parent="globals/SettingsMenuInputDelegate" pc="268441375" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="31" parent="globals/SettingsMenuInputDelegate" pc="268441393" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="34" parent="globals/SettingsMenuInputDelegate" pc="268441414" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="35" parent="globals/SettingsMenuInputDelegate" pc="268441433" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="35" parent="globals/SettingsMenuInputDelegate" pc="268441439" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="36" parent="globals/SettingsMenuInputDelegate" pc="268441446" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="37" parent="globals/SettingsMenuInputDelegate" pc="268441493" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="38" parent="globals/SettingsMenuInputDelegate" pc="268441508" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="41" parent="globals/SettingsMenuInputDelegate" pc="268441536" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="42" parent="globals/SettingsMenuInputDelegate" pc="268441553" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="43" parent="globals/SettingsMenuInputDelegate" pc="268441557" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="44" parent="globals/SettingsMenuInputDelegate" pc="268441566" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="45" parent="globals/SettingsMenuInputDelegate" pc="268441586" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="47" parent="globals/SettingsMenuInputDelegate" pc="268441610" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="48" parent="globals/SettingsMenuInputDelegate" pc="268441627" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="49" parent="globals/SettingsMenuInputDelegate" pc="268441631" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="52" parent="globals/SettingsMenuInputDelegate" pc="268441640" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="53" parent="globals/SettingsMenuInputDelegate" pc="268441660" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="56" parent="globals/SettingsMenuInputDelegate" pc="268441684" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="57" parent="globals/SettingsMenuInputDelegate" pc="268441701" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="58" parent="globals/SettingsMenuInputDelegate" pc="268441719" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="64" parent="globals/SettingsMenuInputDelegate" pc="268441791" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="65" parent="globals/SettingsMenuInputDelegate" pc="268441808" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="66" parent="globals/SettingsMenuInputDelegate" pc="268441815" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="67" parent="globals/SettingsMenuInputDelegate" pc="268441841" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="73" parent="globals/SettingsMenuInputDelegate" pc="268441878" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="74" parent="globals/SettingsMenuInputDelegate" pc="268441895" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="75" parent="globals/SettingsMenuInputDelegate" pc="268441902" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="76" parent="globals/SettingsMenuInputDelegate" pc="268441928" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="81" parent="globals/SettingsMenuInputDelegate" pc="268441965" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="82" parent="globals/SettingsMenuInputDelegate" pc="268441982" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="84" parent="globals/SettingsMenuInputDelegate" pc="268442022" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="86" parent="globals/SettingsMenuInputDelegate" pc="268442067" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="87" parent="globals/SettingsMenuInputDelegate" pc="268442112" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="88" parent="globals/SettingsMenuInputDelegate" pc="268442157" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="89" parent="globals/SettingsMenuInputDelegate" pc="268442202" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="90" parent="globals/SettingsMenuInputDelegate" pc="268442247" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="91" parent="globals/SettingsMenuInputDelegate" pc="268442292" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="93" parent="globals/SettingsMenuInputDelegate" pc="268442337" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="94" parent="globals/SettingsMenuInputDelegate" pc="268442375" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="96" parent="globals/SettingsMenuInputDelegate" pc="268442392" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="99" parent="globals/SettingsMenuInputDelegate" pc="268442432" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="100" parent="globals/SettingsMenuInputDelegate" pc="268442451" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="103" parent="globals/SettingsMenuInputDelegate" pc="268442457" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="105" parent="globals/SettingsMenuInputDelegate" pc="268442467" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="106" parent="globals/SettingsMenuInputDelegate" pc="268442486" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="107" parent="globals/SettingsMenuInputDelegate" pc="268442492" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="109" parent="globals/SettingsMenuInputDelegate" pc="268442514" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="110" parent="globals/SettingsMenuInputDelegate" pc="268442533" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="111" parent="globals/SettingsMenuInputDelegate" pc="268442539" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="113" parent="globals/SettingsMenuInputDelegate" pc="268442561" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="114" parent="globals/SettingsMenuInputDelegate" pc="268442580" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="115" parent="globals/SettingsMenuInputDelegate" pc="268442586" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="117" parent="globals/SettingsMenuInputDelegate" pc="268442608" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="118" parent="globals/SettingsMenuInputDelegate" pc="268442627" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="119" parent="globals/SettingsMenuInputDelegate" pc="268442633" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="121" parent="globals/SettingsMenuInputDelegate" pc="268442655" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="122" parent="globals/SettingsMenuInputDelegate" pc="268442674" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="123" parent="globals/SettingsMenuInputDelegate" pc="268442680" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="125" parent="globals/SettingsMenuInputDelegate" pc="268442702" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="126" parent="globals/SettingsMenuInputDelegate" pc="268442721" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="127" parent="globals/SettingsMenuInputDelegate" pc="268442727" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="131" parent="globals/SettingsMenuInputDelegate" pc="268442749" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="132" parent="globals/SettingsMenuInputDelegate" pc="268442791" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="133" parent="globals/SettingsMenuInputDelegate" pc="268442865" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="134" parent="globals/SettingsMenuInputDelegate" pc="268442925" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="135" parent="globals/SettingsMenuInputDelegate" pc="268442985" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="136" parent="globals/SettingsMenuInputDelegate" pc="268443045" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SettingsMenuInputDelegate.mc" id="62" lineNum="139" parent="globals/SettingsMenuInputDelegate" pc="268443102" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="12" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443145" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="13" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443147" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="14" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443154" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="16" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443159" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="19" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443171" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="20" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443190" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="21" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443205" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="63" lineNum="22" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443220" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="64" lineNum="8" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443223" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/DeleteMessagesConfirmationDelegate.mc" id="64" lineNum="9" parent="globals/DeleteMessagesConfirmationDelegate" pc="268443225" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="14" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443238" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="15" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443241" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="16" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443248" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="18" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443253" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="21" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443276" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="23" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443326" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="24" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443341" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="25" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443372" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="27" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443388" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="28" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443419" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="29" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443433" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="65" lineNum="30" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443447" symbol="onResponse"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="66" lineNum="9" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443450" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="66" lineNum="10" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443452" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ChangeFrequencyConfirmationDelegate.mc" id="66" lineNum="11" parent="globals/ChangeFrequencyConfirmationDelegate" pc="268443464" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeViewDelegate.mc" id="67" lineNum="8" parent="globals/ReframeViewDelegate" pc="268443474" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/ReframeViewDelegate.mc" id="67" lineNum="9" parent="globals/ReframeViewDelegate" pc="268443476" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="68" lineNum="41" parent="globals/SleepPickerDelegate" pc="268443489" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="68" lineNum="43" parent="globals/SleepPickerDelegate" pc="268443491" symbol="onSettingsChanged"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="69" lineNum="46" parent="globals/SleepPickerDelegate" pc="268443503" symbol="onCancel"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="69" lineNum="47" parent="globals/SleepPickerDelegate" pc="268443505" symbol="onCancel"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="69" lineNum="48" parent="globals/SleepPickerDelegate" pc="268443519" symbol="onCancel"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="70" lineNum="8" parent="globals/SleepPickerDelegate" pc="268443521" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="70" lineNum="9" parent="globals/SleepPickerDelegate" pc="268443523" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="70" lineNum="10" parent="globals/SleepPickerDelegate" pc="268443535" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="13" parent="globals/SleepPickerDelegate" pc="268443545" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="14" parent="globals/SleepPickerDelegate" pc="268443548" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="17" parent="globals/SleepPickerDelegate" pc="268443554" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="18" parent="globals/SleepPickerDelegate" pc="268443574" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="21" parent="globals/SleepPickerDelegate" pc="268443595" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="24" parent="globals/SleepPickerDelegate" pc="268443609" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="25" parent="globals/SleepPickerDelegate" pc="268443630" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="26" parent="globals/SleepPickerDelegate" pc="268443648" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="34" parent="globals/SleepPickerDelegate" pc="268443720" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="36" parent="globals/SleepPickerDelegate" pc="268443734" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/SleepPickerDelegate.mc" id="71" lineNum="38" parent="globals/SleepPickerDelegate" pc="268443792" symbol="onAccept"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="155" parent="globals/Settings" pc="268443794" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="156" parent="globals/Settings" pc="268443796" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="156" parent="globals/Settings" pc="268443813" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="157" parent="globals/Settings" pc="268443823" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="157" parent="globals/Settings" pc="268443840" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="158" parent="globals/Settings" pc="268443850" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="158" parent="globals/Settings" pc="268443867" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="159" parent="globals/Settings" pc="268443877" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="159" parent="globals/Settings" pc="268443894" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="160" parent="globals/Settings" pc="268443904" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="160" parent="globals/Settings" pc="268443921" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="72" lineNum="163" parent="globals/Settings" pc="268443931" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="175" parent="globals/Settings" pc="268443938" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="176" parent="globals/Settings" pc="268443941" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="177" parent="globals/Settings" pc="268443955" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="178" parent="globals/Settings" pc="268443962" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="183" parent="globals/Settings" pc="268444019" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="184" parent="globals/Settings" pc="268444027" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="186" parent="globals/Settings" pc="268444034" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="186" parent="globals/Settings" pc="268444041" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="187" parent="globals/Settings" pc="268444047" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="187" parent="globals/Settings" pc="268444060" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="73" lineNum="188" parent="globals/Settings" pc="268444066" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="74" lineNum="75" parent="globals/Settings" pc="268444073" symbol="getTemaPaz"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="74" lineNum="76" parent="globals/Settings" pc="268444075" symbol="getTemaPaz"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="200" parent="globals/Settings" pc="268444380" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="201" parent="globals/Settings" pc="268444383" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="201" parent="globals/Settings" pc="268444401" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="202" parent="globals/Settings" pc="268444407" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="203" parent="globals/Settings" pc="268444417" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="203" parent="globals/Settings" pc="268444434" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="204" parent="globals/Settings" pc="268444440" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="204" parent="globals/Settings" pc="268444457" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="205" parent="globals/Settings" pc="268444464" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="205" parent="globals/Settings" pc="268444481" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="206" parent="globals/Settings" pc="268444489" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="206" parent="globals/Settings" pc="268444506" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="75" lineNum="207" parent="globals/Settings" pc="268444514" symbol="getColor"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="76" lineNum="167" parent="globals/Settings" pc="268444517" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificUserMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="76" lineNum="168" parent="globals/Settings" pc="268444520" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificUserMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="76" lineNum="169" parent="globals/Settings" pc="268444527" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificUserMessage&gt;"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="210" parent="globals/Settings" pc="268444581" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="211" parent="globals/Settings" pc="268444583" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="212" parent="globals/Settings" pc="268444603" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="213" parent="globals/Settings" pc="268444622" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="214" parent="globals/Settings" pc="268444640" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="215" parent="globals/Settings" pc="268444658" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="216" parent="globals/Settings" pc="268444676" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="77" lineNum="218" parent="globals/Settings" pc="268444694" symbol="clearData"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="78" lineNum="59" parent="globals/Settings" pc="268444713" symbol="getTemaMetanoia"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="78" lineNum="60" parent="globals/Settings" pc="268444715" symbol="getTemaMetanoia"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="79" lineNum="9" parent="globals/Settings" pc="268445020" symbol="getTemaIdentidad"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="79" lineNum="10" parent="globals/Settings" pc="268445022" symbol="getTemaIdentidad"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="80" lineNum="26" parent="globals/Settings" pc="268445357" symbol="getTemaSanidad"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="80" lineNum="27" parent="globals/Settings" pc="268445359" symbol="getTemaSanidad"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="81" lineNum="42" parent="globals/Settings" pc="268445664" symbol="getTemaTrabajo"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="81" lineNum="43" parent="globals/Settings" pc="268445666" symbol="getTemaTrabajo"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="82" lineNum="91" parent="globals/Settings" pc="268446001" symbol="getTemaRelaciones"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="82" lineNum="92" parent="globals/Settings" pc="268446003" symbol="getTemaRelaciones"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="106" parent="globals/Settings" pc="268446248" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="107" parent="globals/Settings" pc="268446251" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="108" parent="globals/Settings" pc="268446270" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="108" parent="globals/Settings" pc="268446276" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="110" parent="globals/Settings" pc="268446286" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="110" parent="globals/Settings" pc="268446303" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="111" parent="globals/Settings" pc="268446313" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="111" parent="globals/Settings" pc="268446330" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="112" parent="globals/Settings" pc="268446340" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="112" parent="globals/Settings" pc="268446357" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="113" parent="globals/Settings" pc="268446367" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="113" parent="globals/Settings" pc="268446384" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="114" parent="globals/Settings" pc="268446394" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="114" parent="globals/Settings" pc="268446411" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="115" parent="globals/Settings" pc="268446421" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="115" parent="globals/Settings" pc="268446438" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="83" lineNum="117" parent="globals/Settings" pc="268446448" symbol="getDefaultMessages"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="120" parent="globals/Settings" pc="268446455" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="121" parent="globals/Settings" pc="268446458" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="122" parent="globals/Settings" pc="268446477" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="122" parent="globals/Settings" pc="268446483" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="124" parent="globals/Settings" pc="268446493" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="125" parent="globals/Settings" pc="268446512" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="128" parent="globals/Settings" pc="268446532" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="129" parent="globals/Settings" pc="268446551" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="129" parent="globals/Settings" pc="268446557" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="131" parent="globals/Settings" pc="268446563" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="132" parent="globals/Settings" pc="268446575" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="133" parent="globals/Settings" pc="268446584" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="135" parent="globals/Settings" pc="268446613" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="135" parent="globals/Settings" pc="268446620" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="136" parent="globals/Settings" pc="268446625" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="136" parent="globals/Settings" pc="268446640" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="139" parent="globals/Settings" pc="268446646" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="140" parent="globals/Settings" pc="268446649" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="141" parent="globals/Settings" pc="268446657" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="143" parent="globals/Settings" pc="268446674" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="144" parent="globals/Settings" pc="268446681" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="148" parent="globals/Settings" pc="268446688" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="149" parent="globals/Settings" pc="268446698" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="84" lineNum="151" parent="globals/Settings" pc="268446718" symbol="getNextSequentialMessage"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="86" lineNum="192" parent="globals/Settings" pc="268446748" symbol="mapCategory"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="86" lineNum="193" parent="globals/Settings" pc="268446751" symbol="mapCategory"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="86" lineNum="194" parent="globals/Settings" pc="268446758" symbol="mapCategory"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="86" lineNum="195" parent="globals/Settings" pc="268446784" symbol="mapCategory"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/Settings.mc" id="86" lineNum="197" parent="globals/Settings" pc="268446793" symbol="mapCategory"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="87" lineNum="5" parent="globals/TopicMenuDelegate" pc="268446799" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="87" lineNum="6" parent="globals/TopicMenuDelegate" pc="268446801" symbol="initialize"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="9" parent="globals/TopicMenuDelegate" pc="268446814" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="10" parent="globals/TopicMenuDelegate" pc="268446817" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="11" parent="globals/TopicMenuDelegate" pc="268446832" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="14" parent="globals/TopicMenuDelegate" pc="268446852" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="15" parent="globals/TopicMenuDelegate" pc="268446871" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="16" parent="globals/TopicMenuDelegate" pc="268446889" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="18" parent="globals/TopicMenuDelegate" pc="268446907" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="21" parent="globals/TopicMenuDelegate" pc="268446934" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="22" parent="globals/TopicMenuDelegate" pc="268446948" symbol="onSelect"/>
+        <entry filename="/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" id="88" lineNum="23" parent="globals/TopicMenuDelegate" pc="268446962" symbol="onSelect"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="20" object="true" symbol="SettingsMenuInputDelegate"/>
+        <entry id="25" method="true" symbol="inBatterySavingMode"/>
+        <entry id="8389626" method="true" symbol="onAccept"/>
+        <entry field="true" id="39" symbol="_key"/>
+        <entry id="8" object="true" symbol="FrequencyMenu"/>
+        <entry field="true" id="8389346" symbol="text"/>
+        <entry id="66" symbol="enable_msgs"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="58" symbol="FrequencyError"/>
+        <entry id="29" method="true" symbol="getGlanceColor"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="32" symbol="&lt;globals/NumberFactory/&lt;&gt;_increment&gt;"/>
+        <entry id="47" method="true" symbol="getTemaIdentidad"/>
+        <entry id="9" object="true" symbol="FrequencyMenuInputDelegate"/>
+        <entry id="19" object="true" symbol="SettingsMenu"/>
+        <entry id="18" object="true" symbol="RestoreConfigConfirmationDelegate"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="45" method="true" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificUserMessage&gt;"/>
+        <entry field="true" id="8389795" symbol="doNotDisturb"/>
+        <entry id="5" module="true" symbol="globals/Settings/&lt;statics&gt;"/>
+        <entry id="30" method="true" symbol="truncarTexto"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="70" symbol="delete_msgs"/>
+        <entry id="71" symbol="restore_settings"/>
+        <entry id="8389629" method="true" symbol="getValue"/>
+        <entry field="true" id="57" symbol="Frequency"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="49" method="true" symbol="getTemaPaz"/>
+        <entry id="53" method="true" symbol="mapCategory"/>
+        <entry id="8389108" method="true" symbol="onResponse"/>
+        <entry id="43" method="true" symbol="getNextSequentialMessage"/>
+        <entry field="true" id="55" symbol="AppName"/>
+        <entry id="44" method="true" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="23" object="true" symbol="TopicMenuDelegate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="67" symbol="dnd_mode"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="14" object="true" symbol="ReframeBackgroundServiceDelegate"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry id="61" symbol="msg"/>
+        <entry field="true" id="59" symbol="FrequencyPrompt"/>
+        <entry field="true" id="33" symbol="&lt;globals/NumberFactory/&lt;&gt;_start&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="10" object="true" symbol="NotificationView"/>
+        <entry id="12" object="true" symbol="NumberFactory"/>
+        <entry id="68" symbol="battery_mode"/>
+        <entry id="8388764" method="true" symbol="format"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="38" symbol="&lt;globals/ChangeFrequencyConfirmationDelegate/&lt;&gt;_minutes&gt;"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="8389630" method="true" symbol="getSize"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="46" method="true" symbol="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="24" method="true" symbol="byPassDnD"/>
+        <entry field="true" id="37" symbol="&lt;globals/NotificationView/&lt;&gt;_total&gt;"/>
+        <entry id="62" symbol="category"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8388987" method="true" symbol="vibrate"/>
+        <entry id="7" object="true" symbol="DeleteMessagesConfirmationDelegate"/>
+        <entry id="8389644" symbol="defaults"/>
+        <entry id="69" symbol="view_config"/>
+        <entry id="64" symbol="topic"/>
+        <entry id="6" object="true" symbol="ChangeFrequencyConfirmationDelegate"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390170" method="true" symbol="onBackgroundData"/>
+        <entry id="11" object="true" symbol="NotificationViewDelegate"/>
+        <entry id="8389628" method="true" symbol="getDrawable"/>
+        <entry id="8392335" object="true" symbol="Settings"/>
+        <entry id="27" method="true" symbol="isSleepTime"/>
+        <entry id="22" object="true" symbol="SleepPickerDelegate"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="28" method="true" symbol="vibrateForIndex"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="35" symbol="&lt;globals/NotificationView/&lt;&gt;_index&gt;"/>
+        <entry field="true" id="36" symbol="&lt;globals/NotificationView/&lt;&gt;_messageObj&gt;"/>
+        <entry id="21" object="true" symbol="SleepPicker"/>
+        <entry id="50" method="true" symbol="getTemaRelaciones"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="13" object="true" symbol="ReframeApp"/>
+        <entry field="true" id="54" symbol="LauncherIcon"/>
+        <entry field="true" id="31" symbol="&lt;globals/NumberFactory/&lt;&gt;_format&gt;"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="48" method="true" symbol="getTemaMetanoia"/>
+        <entry id="42" method="true" symbol="getDefaultMessages"/>
+        <entry id="51" method="true" symbol="getTemaSanidad"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="41" method="true" symbol="getColor"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="34" symbol="&lt;globals/NumberFactory/&lt;&gt;_stop&gt;"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="52" method="true" symbol="getTemaTrabajo"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="60" symbol="batterySavingMode"/>
+        <entry field="true" id="56" symbol="AppVersionTitle"/>
+        <entry id="15" object="true" symbol="ReframeGlanceView"/>
+        <entry id="26" method="true" symbol="isDnDMode"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry id="17" object="true" symbol="ReframeViewDelegate"/>
+        <entry id="8389643" symbol="pattern"/>
+        <entry id="16" object="true" symbol="ReframeView"/>
+        <entry field="true" id="8389866" symbol="total"/>
+        <entry id="8391457" method="true" symbol="getGlanceView"/>
+        <entry id="40" method="true" symbol="clearData"/>
+        <entry id="63" symbol="index"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="65" symbol="freq"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435653" name="now" stackId="1" startPc="268435487"/>
+        <entry endPc="268435653" name="sleepStart" stackId="2" startPc="268435487"/>
+        <entry endPc="268435653" name="sleepEnd" stackId="3" startPc="268435487"/>
+        <entry endPc="268435707" name="allowDND" stackId="1" startPc="268435658"/>
+        <entry endPc="268436047" name="enabled" stackId="1" startPc="268435711"/>
+        <entry endPc="268435896" name="isSleep" stackId="2" startPc="268435763"/>
+        <entry endPc="268435896" name="isDnD" stackId="3" startPc="268435763"/>
+        <entry endPc="268435896" name="bypassDnD" stackId="4" startPc="268435763"/>
+        <entry endPc="268435896" name="inBatterySaving" stackId="5" startPc="268435763"/>
+        <entry endPc="268435896" name="allowInBatterySave" stackId="6" startPc="268435763"/>
+        <entry endPc="268436047" name="minutes" stackId="7" startPc="268435711"/>
+        <entry endPc="268436047" name="proximoMomento" stackId="8" startPc="268435711"/>
+        <entry endPc="268436105" name="settings" stackId="1" startPc="268436067"/>
+        <entry endPc="268436147" name="settings" stackId="1" startPc="268436109"/>
+        <entry arg="true" endPc="268436332" name="state" stackId="1" startPc="268436148"/>
+        <entry endPc="268436331" name="minutes" stackId="2" startPc="268436151"/>
+        <entry endPc="268436331" name="proximoEvento" stackId="3" startPc="268436151"/>
+        <entry endPc="268436716" name="text" stackId="1" startPc="268436378"/>
+        <entry endPc="268436716" name="cat" stackId="2" startPc="268436378"/>
+        <entry endPc="268436716" name="idx" stackId="3" startPc="268436378"/>
+        <entry endPc="268436716" name="total" stackId="4" startPc="268436378"/>
+        <entry endPc="268436624" name="data" stackId="5" startPc="268436473"/>
+        <entry endPc="268436621" name="msgObj" stackId="6" startPc="268436492"/>
+        <entry endPc="268436716" name="finalMsgObj" stackId="7" startPc="268436378"/>
+        <entry arg="true" endPc="268436745" name="data" stackId="1" startPc="268436732"/>
+        <entry arg="true" endPc="268436953" name="index" stackId="1" startPc="268436774"/>
+        <entry arg="true" endPc="268436953" name="total" stackId="2" startPc="268436774"/>
+        <entry arg="true" endPc="268437091" name="cat" stackId="1" startPc="268436969"/>
+        <entry arg="true" endPc="268437197" name="dc" stackId="1" startPc="268437092"/>
+        <entry arg="true" endPc="268437197" name="texto" stackId="2" startPc="268437092"/>
+        <entry arg="true" endPc="268437197" name="anchoMax" stackId="3" startPc="268437092"/>
+        <entry arg="true" endPc="268437197" name="fuente" stackId="4" startPc="268437092"/>
+        <entry endPc="268437197" name="res" stackId="5" startPc="268437095"/>
+        <entry arg="true" endPc="268437644" name="dc" stackId="1" startPc="268437213"/>
+        <entry endPc="268437643" name="ts" stackId="2" startPc="268437216"/>
+        <entry endPc="268437643" name="frase" stackId="3" startPc="268437216"/>
+        <entry endPc="268437643" name="categoria" stackId="4" startPc="268437216"/>
+        <entry endPc="268437643" name="horaStr" stackId="5" startPc="268437216"/>
+        <entry endPc="268437401" name="info" stackId="6" startPc="268437286"/>
+        <entry endPc="268437643" name="h" stackId="7" startPc="268437216"/>
+        <entry endPc="268437643" name="fTiny" stackId="8" startPc="268437216"/>
+        <entry endPc="268437643" name="fXTiny" stackId="9" startPc="268437216"/>
+        <entry endPc="268437643" name="x" stackId="10" startPc="268437216"/>
+        <entry endPc="268437643" name="yHora" stackId="11" startPc="268437216"/>
+        <entry endPc="268437640" name="anchoMax" stackId="12" startPc="268437550"/>
+        <entry endPc="268437640" name="fraseFinal" stackId="13" startPc="268437550"/>
+        <entry endPc="268437640" name="yFrase" stackId="14" startPc="268437550"/>
+        <entry arg="true" endPc="268437950" name="item" stackId="1" startPc="268437860"/>
+        <entry endPc="268437949" name="minutes" stackId="2" startPc="268437863"/>
+        <entry endPc="268437949" name="message" stackId="3" startPc="268437863"/>
+        <entry endPc="268437949" name="dialog" stackId="4" startPc="268437863"/>
+        <entry endPc="268438125" name="data" stackId="1" startPc="268437954"/>
+        <entry arg="true" endPc="268438244" name="index" stackId="1" startPc="268438228"/>
+        <entry arg="true" endPc="268438420" name="index" stackId="1" startPc="268438268"/>
+        <entry arg="true" endPc="268438420" name="selected" stackId="2" startPc="268438268"/>
+        <entry endPc="268438420" name="value" stackId="3" startPc="268438271"/>
+        <entry endPc="268438420" name="text" stackId="4" startPc="268438271"/>
+        <entry arg="true" endPc="268438523" name="start" stackId="1" startPc="268438421"/>
+        <entry arg="true" endPc="268438523" name="stop" stackId="2" startPc="268438421"/>
+        <entry arg="true" endPc="268438523" name="increment" stackId="3" startPc="268438421"/>
+        <entry arg="true" endPc="268438523" name="options" stackId="4" startPc="268438421"/>
+        <entry arg="true" endPc="268438585" name="messageObj" stackId="1" startPc="268438524"/>
+        <entry arg="true" endPc="268438585" name="index" stackId="2" startPc="268438524"/>
+        <entry arg="true" endPc="268438585" name="total" stackId="3" startPc="268438524"/>
+        <entry arg="true" endPc="268439009" name="dc" stackId="1" startPc="268438586"/>
+        <entry endPc="268439008" name="backgroundColor" stackId="2" startPc="268438589"/>
+        <entry endPc="268439008" name="text" stackId="3" startPc="268438589"/>
+        <entry endPc="268439008" name="margin" stackId="4" startPc="268438589"/>
+        <entry endPc="268439008" name="textArea" stackId="5" startPc="268438589"/>
+        <entry endPc="268439008" name="displayIndex" stackId="6" startPc="268438589"/>
+        <entry endPc="268439008" name="displayTotal" stackId="7" startPc="268438589"/>
+        <entry endPc="268439008" name="progressText" stackId="8" startPc="268438589"/>
+        <entry endPc="268440004" name="selected_topic" stackId="1" startPc="268439027"/>
+        <entry endPc="268440004" name="frequency" stackId="2" startPc="268439027"/>
+        <entry endPc="268440004" name="isEnabled" stackId="3" startPc="268439027"/>
+        <entry endPc="268440004" name="allowDND" stackId="4" startPc="268439027"/>
+        <entry endPc="268440004" name="batterySave" stackId="5" startPc="268439027"/>
+        <entry endPc="268440004" name="sleepStart" stackId="6" startPc="268439027"/>
+        <entry endPc="268440004" name="sleepEnd" stackId="7" startPc="268439027"/>
+        <entry arg="true" endPc="268440486" name="dc" stackId="1" startPc="268440331"/>
+        <entry endPc="268440485" name="backgroundColor" stackId="2" startPc="268440334"/>
+        <entry endPc="268440485" name="textArea" stackId="3" startPc="268440334"/>
+        <entry arg="true" endPc="268440707" name="titleText" stackId="1" startPc="268440487"/>
+        <entry endPc="268440706" name="title" stackId="2" startPc="268440490"/>
+        <entry endPc="268440706" name="factory" stackId="3" startPc="268440490"/>
+        <entry endPc="268440706" name="now" stackId="4" startPc="268440490"/>
+        <entry arg="true" endPc="268440746" name="dc" stackId="1" startPc="268440708"/>
+        <entry arg="true" endPc="268441150" name="response" stackId="1" startPc="268440747"/>
+        <entry endPc="268441149" name="freq" stackId="2" startPc="268440762"/>
+        <entry endPc="268441149" name="proximoMomento" stackId="3" startPc="268440762"/>
+        <entry arg="true" endPc="268443144" name="menuItem" stackId="1" startPc="268441195"/>
+        <entry endPc="268443143" name="id" stackId="2" startPc="268441198"/>
+        <entry endPc="268443143" name="idStr" stackId="3" startPc="268441198"/>
+        <entry endPc="268441532" name="toggleItem" stackId="4" startPc="268441325"/>
+        <entry endPc="268441532" name="val" stackId="5" startPc="268441325"/>
+        <entry endPc="268441532" name="freq" stackId="6" startPc="268441414"/>
+        <entry endPc="268441532" name="proximo" stackId="7" startPc="268441414"/>
+        <entry endPc="268441606" name="toggleItem" stackId="8" startPc="268441553"/>
+        <entry endPc="268441606" name="val" stackId="9" startPc="268441553"/>
+        <entry endPc="268441680" name="toggleItem" stackId="10" startPc="268441627"/>
+        <entry endPc="268441680" name="val" stackId="11" startPc="268441627"/>
+        <entry endPc="268441874" name="message" stackId="12" startPc="268441808"/>
+        <entry endPc="268441874" name="dialog" stackId="13" startPc="268441808"/>
+        <entry endPc="268441961" name="message" stackId="14" startPc="268441895"/>
+        <entry endPc="268441961" name="dialog" stackId="15" startPc="268441895"/>
+        <entry endPc="268442371" name="topicMenu" stackId="16" startPc="268441982"/>
+        <entry endPc="268443140" name="summaryMenu" stackId="17" startPc="268442392"/>
+        <entry endPc="268443140" name="selected_topic" stackId="18" startPc="268442392"/>
+        <entry endPc="268443140" name="freq" stackId="19" startPc="268442392"/>
+        <entry endPc="268443140" name="enabled" stackId="20" startPc="268442392"/>
+        <entry endPc="268443140" name="dnd" stackId="21" startPc="268442392"/>
+        <entry endPc="268443140" name="batterySave" stackId="22" startPc="268442392"/>
+        <entry endPc="268443140" name="sStart" stackId="23" startPc="268442392"/>
+        <entry endPc="268443140" name="sEnd" stackId="24" startPc="268442392"/>
+        <entry arg="true" endPc="268443222" name="response" stackId="1" startPc="268443145"/>
+        <entry arg="true" endPc="268443449" name="response" stackId="1" startPc="268443238"/>
+        <entry endPc="268443448" name="proximoMomento" stackId="2" startPc="268443253"/>
+        <entry endPc="268443382" name="ex" stackId="3" startPc="268443372"/>
+        <entry arg="true" endPc="268443473" name="minutes" stackId="1" startPc="268443450"/>
+        <entry arg="true" endPc="268443544" name="key" stackId="1" startPc="268443521"/>
+        <entry arg="true" endPc="268443793" name="values" stackId="1" startPc="268443545"/>
+        <entry endPc="268443793" name="hour" stackId="2" startPc="268443548"/>
+        <entry arg="true" endPc="268443937" name="id" stackId="1" startPc="268443794"/>
+        <entry arg="true" endPc="268444072" name="index" stackId="1" startPc="268443938"/>
+        <entry arg="true" endPc="268444072" name="userArray" stackId="2" startPc="268443938"/>
+        <entry arg="true" endPc="268444072" name="userSize" stackId="3" startPc="268443938"/>
+        <entry endPc="268444015" name="entry" stackId="4" startPc="268443955"/>
+        <entry endPc="268444071" name="defMessages" stackId="5" startPc="268444019"/>
+        <entry endPc="268444071" name="defIndex" stackId="6" startPc="268444019"/>
+        <entry arg="true" endPc="268444516" name="messageObj" stackId="1" startPc="268444380"/>
+        <entry arg="true" endPc="268444516" name="index" stackId="2" startPc="268444380"/>
+        <entry arg="true" endPc="268444516" name="total" stackId="3" startPc="268444380"/>
+        <entry endPc="268444516" name="cat" stackId="4" startPc="268444383"/>
+        <entry arg="true" endPc="268444580" name="index" stackId="1" startPc="268444517"/>
+        <entry arg="true" endPc="268444580" name="userArray" stackId="2" startPc="268444517"/>
+        <entry endPc="268444580" name="entry" stackId="3" startPc="268444520"/>
+        <entry endPc="268446454" name="topicId" stackId="1" startPc="268446251"/>
+        <entry endPc="268446747" name="topicId" stackId="1" startPc="268446458"/>
+        <entry endPc="268446747" name="userArray" stackId="2" startPc="268446458"/>
+        <entry endPc="268446747" name="userSize" stackId="3" startPc="268446458"/>
+        <entry endPc="268446747" name="index" stackId="4" startPc="268446458"/>
+        <entry endPc="268446747" name="defMessages" stackId="5" startPc="268446458"/>
+        <entry endPc="268446747" name="defSize" stackId="6" startPc="268446458"/>
+        <entry endPc="268446747" name="totalSize" stackId="7" startPc="268446458"/>
+        <entry endPc="268446747" name="selected" stackId="8" startPc="268446458"/>
+        <entry endPc="268446687" name="defIndex" stackId="9" startPc="268446674"/>
+        <entry endPc="268446747" name="nextIndex" stackId="10" startPc="268446458"/>
+        <entry arg="true" endPc="268446798" name="id" stackId="1" startPc="268446748"/>
+        <entry endPc="268446798" name="cats" stackId="2" startPc="268446751"/>
+        <entry arg="true" endPc="268447020" name="item" stackId="1" startPc="268446814"/>
+        <entry endPc="268447019" name="topicId" stackId="2" startPc="268446817"/>
+    </localVars>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3704-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppVersionTitle"/>
+        <annotationEntry annotation="glance" class="ReframeGlanceView" module="globals" symbol="truncarTexto"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FrequencyError"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FrequencyPrompt"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="isSleepTime"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="isDnDMode"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="glance" class="ReframeGlanceView" module="globals" symbol="getGlanceColor"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="glance" class="ReframeGlanceView" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="byPassDnD"/>
+        <annotationEntry annotation="glance" class="ReframeGlanceView" module="globals" symbol="onUpdate"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="onStart"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="onStart"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="onSettingsChanged"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="onSettingsChanged"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="onBackgroundData"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="onBackgroundData"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="getServiceDelegate"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="getServiceDelegate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Frequency"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="getGlanceView"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="getGlanceView"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="background" class="ReframeBackgroundServiceDelegate" module="globals" symbol="inBatterySavingMode"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="background" class="ReframeApp" module="globals" symbol="vibrateForIndex"/>
+        <annotationEntry annotation="glance" class="ReframeApp" module="globals" symbol="vibrateForIndex"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/ReframeBackgroundServiceDelegate" offset="269" parentId="globals" symbolId="ReframeBackgroundServiceDelegate" type="class"/>
+        <dataEntry label="globals/ReframeApp" offset="358" parentId="globals" symbolId="ReframeApp" type="class"/>
+        <dataEntry label="globals/ReframeGlanceView" offset="702" parentId="globals" symbolId="ReframeGlanceView" type="class"/>
+        <dataEntry label="globals/FrequencyMenuInputDelegate" offset="878" parentId="globals" symbolId="FrequencyMenuInputDelegate" type="class"/>
+        <dataEntry label="globals/NotificationViewDelegate" offset="931" parentId="globals" symbolId="NotificationViewDelegate" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="1002" parentId="globals" symbolId="NumberFactory" type="class"/>
+        <dataEntry label="globals/NotificationView" offset="1109" parentId="globals" symbolId="NotificationView" type="class"/>
+        <dataEntry label="globals/SettingsMenu" offset="1189" parentId="globals" symbolId="SettingsMenu" type="class"/>
+        <dataEntry label="globals/FrequencyMenu" offset="1242" parentId="globals" symbolId="FrequencyMenu" type="class"/>
+        <dataEntry label="globals/ReframeView" offset="1286" parentId="globals" symbolId="ReframeView" type="class"/>
+        <dataEntry label="globals/Rez" offset="1339" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/SleepPicker" offset="1383" parentId="globals" symbolId="SleepPicker" type="class"/>
+        <dataEntry label="globals/RestoreConfigConfirmationDelegate" offset="1436" parentId="globals" symbolId="RestoreConfigConfirmationDelegate" type="class"/>
+        <dataEntry label="globals/SettingsMenuInputDelegate" offset="1489" parentId="globals" symbolId="SettingsMenuInputDelegate" type="class"/>
+        <dataEntry label="globals/DeleteMessagesConfirmationDelegate" offset="1551" parentId="globals" symbolId="DeleteMessagesConfirmationDelegate" type="class"/>
+        <dataEntry label="globals/ChangeFrequencyConfirmationDelegate" offset="1604" parentId="globals" symbolId="ChangeFrequencyConfirmationDelegate" type="class"/>
+        <dataEntry label="globals/ReframeViewDelegate" offset="1666" parentId="globals" symbolId="ReframeViewDelegate" type="class"/>
+        <dataEntry label="globals/SleepPickerDelegate" offset="1710" parentId="globals" symbolId="SleepPickerDelegate" type="class"/>
+        <dataEntry label="globals/Settings" offset="1790" parentId="globals" symbolId="Settings" type="class"/>
+        <dataEntry label="globals/Settings/&lt;statics&gt;" offset="1838" parentId="Settings" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/TopicMenuDelegate" offset="1986" parentId="globals" symbolId="TopicMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="2039" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="2074" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="ReframeBackgroundServiceDelegate" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="ReframeApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435654" name="isSleepTime" parent="ReframeBackgroundServiceDelegate" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435707" name="byPassDnD" parent="ReframeBackgroundServiceDelegate" startPc="268435655">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436048" name="onTemporalEvent" parent="ReframeBackgroundServiceDelegate" startPc="268435708">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436063" name="initialize" parent="ReframeBackgroundServiceDelegate" startPc="268436049">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436105" name="isDnDMode" parent="ReframeBackgroundServiceDelegate" startPc="268436064">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436147" name="inBatterySavingMode" parent="ReframeBackgroundServiceDelegate" startPc="268436106">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436332" name="onStart" parent="ReframeApp" startPc="268436148">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436346" name="onSettingsChanged" parent="ReframeApp" startPc="268436333">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436374" name="getServiceDelegate" parent="ReframeApp" startPc="268436347">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436716" name="getInitialView" parent="ReframeApp" startPc="268436375">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436731" name="initialize" parent="ReframeApp" startPc="268436717">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436745" name="onBackgroundData" parent="ReframeApp" startPc="268436732">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436773" name="getGlanceView" parent="ReframeApp" startPc="268436746">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436953" name="vibrateForIndex" parent="ReframeApp" startPc="268436774">
+            <param id="index"/>
+            <param id="total"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436956" name="onStop" parent="ReframeApp" startPc="268436954">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436968" name="&lt;init&gt;" parent="ReframeGlanceView" startPc="268436957">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437091" name="getGlanceColor" parent="ReframeGlanceView" startPc="268436969">
+            <param id="cat"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437197" name="truncarTexto" parent="ReframeGlanceView" startPc="268437092">
+            <param id="dc"/>
+            <param id="texto"/>
+            <param id="anchoMax"/>
+            <param id="fuente"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437212" name="initialize" parent="ReframeGlanceView" startPc="268437198">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437644" name="onUpdate" parent="ReframeGlanceView" startPc="268437213">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437656" name="&lt;init&gt;" parent="FrequencyMenuInputDelegate" startPc="268437645">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437668" name="&lt;init&gt;" parent="NotificationViewDelegate" startPc="268437657">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437680" name="&lt;init&gt;" parent="NumberFactory" startPc="268437669">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437692" name="&lt;init&gt;" parent="NotificationView" startPc="268437681">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437704" name="&lt;init&gt;" parent="SettingsMenu" startPc="268437693">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437716" name="&lt;init&gt;" parent="FrequencyMenu" startPc="268437705">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437728" name="&lt;init&gt;" parent="ReframeView" startPc="268437717">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437748" name="&lt;init&gt;" parent="Rez" startPc="268437729">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437760" name="&lt;init&gt;" parent="SleepPicker" startPc="268437749">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437772" name="&lt;init&gt;" parent="RestoreConfigConfirmationDelegate" startPc="268437761">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437784" name="&lt;init&gt;" parent="SettingsMenuInputDelegate" startPc="268437773">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437796" name="&lt;init&gt;" parent="DeleteMessagesConfirmationDelegate" startPc="268437785">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437808" name="&lt;init&gt;" parent="ChangeFrequencyConfirmationDelegate" startPc="268437797">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437820" name="&lt;init&gt;" parent="ReframeViewDelegate" startPc="268437809">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437832" name="&lt;init&gt;" parent="SleepPickerDelegate" startPc="268437821">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Settings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Settings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437844" name="&lt;init&gt;" parent="TopicMenuDelegate" startPc="268437833">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437859" name="initialize" parent="FrequencyMenuInputDelegate" startPc="268437845">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437950" name="onSelect" parent="FrequencyMenuInputDelegate" startPc="268437860">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438125" name="onBack" parent="NotificationViewDelegate" startPc="268437951">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438139" name="onSettingsChanged" parent="NotificationViewDelegate" startPc="268438126">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438154" name="initialize" parent="NotificationViewDelegate" startPc="268438140">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438227" name="onSelect" parent="NotificationViewDelegate" startPc="268438155">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438244" name="getValue" parent="NumberFactory" startPc="268438228">
+            <param id="index"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438267" name="getSize" parent="NumberFactory" startPc="268438245">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438420" name="getDrawable" parent="NumberFactory" startPc="268438268">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438523" name="initialize" parent="NumberFactory" startPc="268438421">
+            <param id="start"/>
+            <param id="stop"/>
+            <param id="increment"/>
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438585" name="initialize" parent="NotificationView" startPc="268438524">
+            <param id="messageObj"/>
+            <param id="index"/>
+            <param id="total"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439009" name="onUpdate" parent="NotificationView" startPc="268438586">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439023" name="onSettingsChanged" parent="SettingsMenu" startPc="268439010">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440005" name="initialize" parent="SettingsMenu" startPc="268439024">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440315" name="initialize" parent="FrequencyMenu" startPc="268440006">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440330" name="initialize" parent="ReframeView" startPc="268440316">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440486" name="onUpdate" parent="ReframeView" startPc="268440331">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440707" name="initialize" parent="SleepPicker" startPc="268440487">
+            <param id="titleText"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440746" name="onUpdate" parent="SleepPicker" startPc="268440708">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441150" name="onResponse" parent="RestoreConfigConfirmationDelegate" startPc="268440747">
+            <param id="response"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441165" name="initialize" parent="RestoreConfigConfirmationDelegate" startPc="268441151">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441179" name="onSettingsChanged" parent="SettingsMenuInputDelegate" startPc="268441166">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441194" name="initialize" parent="SettingsMenuInputDelegate" startPc="268441180">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443144" name="onSelect" parent="SettingsMenuInputDelegate" startPc="268441195">
+            <param id="menuItem"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443222" name="onResponse" parent="DeleteMessagesConfirmationDelegate" startPc="268443145">
+            <param id="response"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443237" name="initialize" parent="DeleteMessagesConfirmationDelegate" startPc="268443223">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443449" name="onResponse" parent="ChangeFrequencyConfirmationDelegate" startPc="268443238">
+            <param id="response"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443473" name="initialize" parent="ChangeFrequencyConfirmationDelegate" startPc="268443450">
+            <param id="minutes"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443488" name="initialize" parent="ReframeViewDelegate" startPc="268443474">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443502" name="onSettingsChanged" parent="SleepPickerDelegate" startPc="268443489">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443520" name="onCancel" parent="SleepPickerDelegate" startPc="268443503">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443544" name="initialize" parent="SleepPickerDelegate" startPc="268443521">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443793" name="onAccept" parent="SleepPickerDelegate" startPc="268443545">
+            <param id="values"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443937" name="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getTemaById&gt;" parent="Settings" startPc="268443794">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444072" name="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificMessage&gt;" parent="Settings" startPc="268443938">
+            <param id="index"/>
+            <param id="userArray"/>
+            <param id="userSize"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444379" name="getTemaPaz" parent="Settings" startPc="268444073">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444516" name="getColor" parent="Settings" startPc="268444380">
+            <param id="messageObj"/>
+            <param id="index"/>
+            <param id="total"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444580" name="&lt;globals/Settings/&lt;statics&gt;/&lt;&gt;getSpecificUserMessage&gt;" parent="Settings" startPc="268444517">
+            <param id="index"/>
+            <param id="userArray"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444712" name="clearData" parent="Settings" startPc="268444581">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445019" name="getTemaMetanoia" parent="Settings" startPc="268444713">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445356" name="getTemaIdentidad" parent="Settings" startPc="268445020">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445663" name="getTemaSanidad" parent="Settings" startPc="268445357">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446000" name="getTemaTrabajo" parent="Settings" startPc="268445664">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446247" name="getTemaRelaciones" parent="Settings" startPc="268446001">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446454" name="getDefaultMessages" parent="Settings" startPc="268446248">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446747" name="getNextSequentialMessage" parent="Settings" startPc="268446455">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Settings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446798" name="mapCategory" parent="Settings" startPc="268446748">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446813" name="initialize" parent="TopicMenuDelegate" startPc="268446799">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447020" name="onSelect" parent="TopicMenuDelegate" startPc="268446814">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
