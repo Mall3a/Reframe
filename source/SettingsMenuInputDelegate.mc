@@ -104,6 +104,26 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
 
             // Lo mostramos. Usamos un Delegate vacío porque es solo para ver.
             WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
+            } else if (idStr.equals("select_topic")) {
+            var topicMenu = new WatchUi.Menu2({:title=>"Elegir Tema"});
+            // La nueva opción para ver solo lo cargado desde el móvil
+            topicMenu.addItem(new WatchUi.MenuItem("Mis Mensajes", "Solo lo que yo anoté", "PERSONAL", {}));
+            // Los temas del sistema (hardcoded)
+            topicMenu.addItem(new WatchUi.MenuItem("Identidad y Valor", "Quién soy", "IDENTIDAD", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Sanidad y Cuerpo", "Cuello e Intestino", "SANIDAD", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Trabajo y Éxito", "Entrevistas", "TRABAJO", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Metanoia", "Mente y Narrativa", "METANOIA", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Paz y Descanso", "Ansiedad y Sueño", "PAZ", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Relaciones", "Límites y Perdón", "RELACIONES", {}));
+
+            WatchUi.pushView(topicMenu, new TopicMenuDelegate(), WatchUi.SLIDE_LEFT);
+        } else if (idStr.equals("batterySave")) {
+            var toggleItem = menuItem as WatchUi.ToggleMenuItem;
+            var val = toggleItem.isEnabled();
+            
+            // Guardamos la decisión del usuario
+            Storage.setValue("batterySave", val);
+            System.println("Configuración: Permitir en ahorro = " + val);
         }
     }
     

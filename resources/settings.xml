@@ -11,13 +11,16 @@
     <setting propertyKey="@Properties.allowDND" title="Permitir Mensajes en Modo no Molestar" prompt="Habilita los mensajes en Modo No Molestar">
         <settingConfig type="boolean" errorMessage="Error al habilitar mensajes en modo no molestar"/>
     </setting>
+    <setting propertyKey="@Properties.batterySave" title="Permitir en Modo Ahorro" prompt="Habilita los mensajes en Modo Ahorro de Batería">
+        <settingConfig type="boolean" />
+    </setting>
     <setting propertyKey="@Properties.sleepStart" title="Inicio Sueño" >
         <settingConfig type="numeric"  min="0" max="24"/>
     </setting>
         <setting propertyKey="@Properties.sleepEnd" title="Fin Sueño" >
         <settingConfig type="numeric"  min="0" max="24"/>
     </setting>
-    <setting propertyKey="@Properties.messageList" title="Tus Mensajes" maxLength="40">
+    <setting propertyKey="@Properties.messageList" title="Tus Mensajes" maxLength="100">
         <setting title="Mensaje" type="string">
             <settingConfig id="msgText" type="alphaNumeric" required="true" />
         </setting>

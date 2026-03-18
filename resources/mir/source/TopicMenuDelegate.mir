@@ -1,0 +1,84 @@
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; @symbol_importdef<2> = [Storage,2,26,33]; ]
+import Toybox.Application.Storage;
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 4; @symbol_classdef = [TopicMenuDelegate,4,6,23]; @symbol_extends<0> = [WatchUi,4,32,39]; @symbol_extends<1> = [Menu2InputDelegate,4,40,58]; ]
+class TopicMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_5_26_7_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 6 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 6 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 6 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_5_26_7_4_stop:
+    }
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 9; @symbol_functiondef = [onSelect,9,13,21]; @symbol_param<0> = [item,9,22,26]; ]
+    function onSelect(item) {
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_9_28_18_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 10 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_9_28_18_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_9_28_18_4_stop" ]
+        %temaId.1 = local;
+        symbol [ temaId %temaId.1 10 12 18 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 10 21 25 ];
+        symbol [ getId %tmp.2 10 26 31 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ toString %tmp.4 10 34 42 ];
+        %tmp.4 = getv function %tmp.3 :toString;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %temaId.1 %tmp.5;
+        symbol [ temaId %temaId.1 10 12 18 ];
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 12 8 ]
+        symbol [ Storage %tmp.6 12 8 15 ];
+        %tmp.6 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.7 12 16 24 ];
+        %tmp.7 = getv function %tmp.6 :setValue;
+        %tmp.8 = "selected_tema";
+        %tmp.9 = lgetv %temaId.1;
+        symbol [ temaId %tmp.9 12 42 48 ];
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9);
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 14 8 ]
+        symbol [ Storage %tmp.10 14 8 15 ];
+        %tmp.10 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.11 14 16 24 ];
+        %tmp.11 = getv function %tmp.10 :setValue;
+        %tmp.12 = "last_msg_index";
+        %tmp.13 = 0;
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13);
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 16 8 ]
+        symbol [ System %tmp.15 16 8 14 ];
+        %tmp.15 = getv ? :System;
+        symbol [ println %tmp.16 16 15 22 ];
+        %tmp.16 = getv function %tmp.15 :println;
+        %tmp.17 = "Tema cambiado a: ";
+        %tmp.18 = lgetv %temaId.1;
+        symbol [ temaId %tmp.18 16 45 51 ];
+        %tmp.19 = add %tmp.17 %tmp.18;
+        invoke %tmp.15 %tmp.16(%tmp.19);
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc" 17 8 ]
+        symbol [ WatchUi %tmp.20 17 8 15 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.21 17 16 23 ];
+        %tmp.21 = getv function %tmp.20 :popView;
+        symbol [ WatchUi %tmp.22 17 24 31 ];
+        %tmp.22 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.23 17 32 43 ];
+        %tmp.23 = getv %tmp.22 :SLIDE_RIGHT;
+        invoke %tmp.20 %tmp.21(%tmp.23);
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_TopicMenuDelegate_mc_9_28_18_4_stop:
+    }
+}
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/TopicMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -46,6 +46,20 @@ class SettingsMenu extends WatchUi.Menu2 {
         System.println("Notificaciones Habilitadas en DnD? : "+ allowDND);
         Menu2.addItem(new WatchUi.ToggleMenuItem("Habilitar en modo No Molestar", null, :dnd_mode, allowDND, {}));
 
+        // Buscamos el valor actual (en Storage o Properties por defecto)
+        var batterySave = Storage.getValue("batterySave");
+        if (batterySave == null) {
+            batterySave = Properties.getValue("batterySave");
+        }
+
+        // Lo añadimos al menú
+        Menu2.addItem(new WatchUi.ToggleMenuItem(
+            "Permitir en Ahorro", 
+            "Ignorar modo ahorro", 
+            :batterySave, // Este ID es el que usaremos en el Delegate
+            batterySave, 
+            {}
+        ));
         // Dentro del initialize de SettingsMenu
         Menu2.addItem(new WatchUi.MenuItem(
             "Horario de Sueño", 
@@ -63,7 +77,15 @@ class SettingsMenu extends WatchUi.Menu2 {
         // Reestablecer Configuracion (Acción directa)
         Menu2.addItem(new WatchUi.MenuItem("Reestablecer Configuración", null, :restore_settings, {}));
 
-       
+       var temaActual = Storage.getValue("selected_tema");
+        if (temaActual == null) { temaActual = "IDENTIDAD"; }
+        
+        Menu2.addItem(new WatchUi.MenuItem(
+            "Seleccionar Tema", 
+            temaActual, 
+            :select_topic, 
+            {}
+        ));
     }
 
     function onSettingsChanged() {

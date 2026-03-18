@@ -1,88 +1,88 @@
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
 import Toybox.Lang;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; @symbol_classdef = [NotificationView,5,6,22]; @symbol_extends<0> = [WatchUi,5,31,38]; @symbol_extends<1> = [View,5,39,43]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; @symbol_classdef = [NotificationView,5,6,22]; @symbol_extends<0> = [WatchUi,5,31,38]; @symbol_extends<1> = [View,5,39,43]; ]
 class NotificationView extends WatchUi.View {
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 6; @position = 16; @symbol_vardef = [_messageObj,6,16,27]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 6; @position = 16; @symbol_vardef = [_messageObj,6,16,27]; ]
     private
     var _messageObj;
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 7; @position = 16; @symbol_vardef = [_index,7,16,22]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 7; @position = 16; @symbol_vardef = [_index,7,16,22]; ]
     private
     var _index;
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 8; @position = 16; @symbol_vardef = [_total,8,16,22]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 8; @position = 16; @symbol_vardef = [_total,8,16,22]; ]
     private
     var _total;
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [messageObj,10,24,34]; @symbol_param<1> = [index,10,36,41]; @symbol_param<2> = [total,10,43,48]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [messageObj,10,24,34]; @symbol_param<1> = [index,10,36,41]; @symbol_param<2> = [total,10,43,48]; ]
     function initialize(messageObj, index, total) as Void {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_10_50_17_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 11 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_10_50_17_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 11 8 ]
         symbol [ View %tmp.2 11 8 12 ];
         %tmp.2 = getv ? :View;
         symbol [ initialize %tmp.3 11 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 12 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 12 8 ]
         %tmp.4 = lgetv %messageObj;
         symbol [ messageObj %tmp.4 12 22 32 ];
         symbol [ _messageObj ? 12 8 19 ];
         putv self :_messageObj %tmp.4;
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 15 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_begin:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 15 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_begin:
         %tmp.5 = lgetv %index;
         symbol [ index %tmp.5 15 18 23 ];
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_true:
+        bf %tmp.7 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_true:
         %tmp.8 = lgetv %index;
         symbol [ index %tmp.8 15 35 40 ];
         %tmp.9 = as %tmp.8 { (!Null) };
         push %tmp.9;
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false:
         %tmp.10 = 0;
         push %tmp.10;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end:
-        %tmp.11 = phi [%tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_begin] [%tmp.9 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_true] [%tmp.10 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false] [%tmp.11 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end];
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end:
+        %tmp.11 = phi [%tmp.7 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_begin] [%tmp.9 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_true] [%tmp.10 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_else_false] [%tmp.11 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_15_17_15_43_end];
         symbol [ _index ? 15 8 14 ];
         putv self :_index %tmp.11;
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 16 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_begin:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 16 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_begin:
         %tmp.12 = lgetv %total;
         symbol [ total %tmp.12 16 18 23 ];
         %tmp.13 = null;
         %tmp.14 = ne %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_true:
+        bf %tmp.14 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_true:
         %tmp.15 = lgetv %total;
         symbol [ total %tmp.15 16 35 40 ];
         %tmp.16 = as %tmp.15 { (!Null) };
         push %tmp.16;
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false:
         %tmp.17 = 0;
         push %tmp.17;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end:
-        %tmp.18 = phi [%tmp.14 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_begin] [%tmp.16 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_true] [%tmp.17 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false] [%tmp.18 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end];
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end:
+        %tmp.18 = phi [%tmp.14 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_begin] [%tmp.16 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_true] [%tmp.17 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_else_false] [%tmp.18 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_16_17_16_43_end];
         symbol [ _total ? 16 8 14 ];
         putv self :_total %tmp.18;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_10_50_17_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_10_50_17_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 19; @symbol_functiondef = [onUpdate,19,13,21]; @symbol_param<0> = [dc,19,22,24]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 19; @symbol_functiondef = [onUpdate,19,13,21]; @symbol_param<0> = [dc,19,22,24]; ]
     function onUpdate(dc) {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 21 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 21 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %backgroundColor.1 = local;
         symbol [ backgroundColor %backgroundColor.1 21 12 27 ];
         symbol [ Settings %tmp.2 21 30 38 ];
@@ -98,7 +98,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_
         %tmp.10 = invoke %tmp.2 %tmp.3(%tmp.5, %tmp.7, %tmp.9);
         lputv %backgroundColor.1 %tmp.10;
         symbol [ backgroundColor %backgroundColor.1 21 12 27 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 22 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 22 8 ]
         %tmp.11 = lgetv %dc;
         symbol [ dc %tmp.11 22 8 10 ];
         symbol [ setColor %tmp.12 22 11 19 ];
@@ -108,28 +108,28 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_
         %tmp.14 = lgetv %backgroundColor.1;
         symbol [ backgroundColor %tmp.14 22 37 52 ];
         invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 23 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 23 8 ]
         %tmp.15 = lgetv %dc;
         symbol [ dc %tmp.15 23 8 10 ];
         symbol [ clear %tmp.16 23 11 16 ];
         %tmp.16 = getv function %tmp.15 :clear;
         invoke %tmp.15 %tmp.16();
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 26 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 26 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %text.2 = local;
         symbol [ text %text.2 26 12 16 ];
         %tmp.17 = "";
         lputv %text.2 %tmp.17;
         symbol [ text %text.2 26 12 16 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 27 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_stmt:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_12_27_57_begin:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 27 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_stmt:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_12_27_57_begin:
         symbol [ _messageObj %tmp.19 27 12 23 ];
         %tmp.19 = getv ? :_messageObj;
         %tmp.20 = null;
         %tmp.21 = ne %tmp.19 %tmp.20;
-        bf %tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_true:
+        bf %tmp.21 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_true:
         symbol [ _messageObj %tmp.23 27 35 46 ];
         %tmp.23 = getv ? :_messageObj;
         %tmp.24 = as %tmp.23 { (!Null) };
@@ -139,12 +139,12 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_
         %tmp.28 = null;
         %tmp.29 = ne %tmp.27 %tmp.28;
         push %tmp.29;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_end:
-        %tmp.30 = phi [%tmp.21 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_12_27_57_begin] [%tmp.29 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_true] [%tmp.30 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_end];
-        bf %tmp.30 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_63_29_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 28 12 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_end:
+        %tmp.30 = phi [%tmp.21 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_12_27_57_begin] [%tmp.29 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_true] [%tmp.30 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_35_27_57_end];
+        bf %tmp.30 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_true:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_63_29_8_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 28 12 ]
         symbol [ _messageObj %tmp.32 28 19 30 ];
         %tmp.32 = getv ? :_messageObj;
         %tmp.33 = as %tmp.32 { (!Null) };
@@ -153,11 +153,11 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_63_29_
         %tmp.36 = agetv %tmp.33 %tmp.35;
         lputv %text.2 %tmp.36;
         symbol [ text %text.2 28 12 16 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_63_29_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 32 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_63_29_8_stop:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8_if_end:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 32 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %margin.3 = local;
         symbol [ margin %margin.3 32 12 18 ];
         %tmp.37 = lgetv %dc;
@@ -169,8 +169,8 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8
         %tmp.41 = mul %tmp.39 %tmp.40;
         lputv %margin.3 %tmp.41;
         symbol [ margin %margin.3 32 12 18 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 33 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 33 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %textArea.4 = local;
         symbol [ textArea %textArea.4 33 12 20 ];
         symbol [ WatchUi %tmp.44 33 27 34 ];
@@ -194,7 +194,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_27_8_29_8
         %tmp.57 = aputv %tmp.56 %tmp.53 %tmp.55;
         %tmp.59 = const :font;
         symbol [ font %tmp.59 36 13 17 const ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_begin:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_begin:
         %tmp.60 = lgetv %text.2;
         symbol [ text %tmp.60 36 22 26 ];
         symbol [ length %tmp.61 36 27 33 ];
@@ -202,22 +202,22 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_
         %tmp.62 = invoke %tmp.60 %tmp.61();
         %tmp.63 = 120;
         %tmp.64 = gt %tmp.62 %tmp.63;
-        bf %tmp.64 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_true:
+        bf %tmp.64 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_true:
         symbol [ Graphics %tmp.65 36 45 53 ];
         %tmp.65 = getm $.Toybox.Graphics;
         symbol [ FONT_SYSTEM_TINY %tmp.66 36 54 70 ];
         %tmp.66 = getv %tmp.65 :FONT_SYSTEM_TINY;
         push %tmp.66;
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false:
         symbol [ Graphics %tmp.67 36 73 81 ];
         %tmp.67 = getm $.Toybox.Graphics;
         symbol [ FONT_SYSTEM_SMALL %tmp.68 36 82 99 ];
         %tmp.68 = getv %tmp.67 :FONT_SYSTEM_SMALL;
         push %tmp.68;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end:
-        %tmp.69 = phi [%tmp.64 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_begin] [%tmp.66 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_true] [%tmp.68 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false] [%tmp.69 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end];
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end:
+        %tmp.69 = phi [%tmp.64 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_begin] [%tmp.66 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_true] [%tmp.68 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_else_false] [%tmp.69 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_82_end];
         %tmp.70 = dup %tmp.57;
         %tmp.71 = aputv %tmp.70 %tmp.59 %tmp.69;
         %tmp.73 = const :locX;
@@ -278,7 +278,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_
         %tmp.42 = newc %tmp.45 (%tmp.114);
         lputv %textArea.4 %tmp.42;
         symbol [ textArea %textArea.4 33 12 20 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 44 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 44 8 ]
         %tmp.115 = lgetv %textArea.4;
         symbol [ textArea %tmp.115 44 8 16 ];
         symbol [ draw %tmp.116 44 17 21 ];
@@ -286,11 +286,11 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_36_21_36_
         %tmp.117 = lgetv %dc;
         symbol [ dc %tmp.117 44 22 24 ];
         invoke %tmp.115 %tmp.116(%tmp.117);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 48 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 48 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %displayIndex.5 = local;
         symbol [ displayIndex %displayIndex.5 48 12 24 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_begin:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_begin:
         symbol [ _index %tmp.119 48 28 34 ];
         %tmp.119 = getv ? :_index;
         symbol [ Toybox %tmp.121 48 46 52 ];
@@ -300,47 +300,47 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_
         symbol [ Number %tmp.123 48 58 64 ];
         %tmp.123 = getv %tmp.122 :Number;
         %tmp.124 = isa %tmp.119 %tmp.123;
-        bf %tmp.124 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_true:
+        bf %tmp.124 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_true:
         symbol [ _index %tmp.126 48 69 75 ];
         %tmp.126 = getv ? :_index;
         %tmp.127 = as %tmp.126 { (Toybox.Lang.Number) };
         %tmp.128 = 1;
         %tmp.129 = add %tmp.127 %tmp.128;
         push %tmp.129;
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false:
         %tmp.130 = 1;
         push %tmp.130;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end:
-        %tmp.131 = phi [%tmp.124 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_begin] [%tmp.129 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_true] [%tmp.130 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false] [%tmp.131 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end];
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end:
+        %tmp.131 = phi [%tmp.124 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_begin] [%tmp.129 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_true] [%tmp.130 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_else_false] [%tmp.131 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_48_27_48_83_end];
         lputv %displayIndex.5 %tmp.131;
         symbol [ displayIndex %displayIndex.5 48 12 24 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 49 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 49 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %displayTotal.6 = local;
         symbol [ displayTotal %displayTotal.6 49 12 24 ];
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_begin:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_begin:
         symbol [ _total %tmp.133 49 28 34 ];
         %tmp.133 = getv ? :_total;
         %tmp.134 = null;
         %tmp.135 = ne %tmp.133 %tmp.134;
-        bf %tmp.135 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_true:
+        bf %tmp.135 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_true:
         symbol [ _total %tmp.137 49 46 52 ];
         %tmp.137 = getv ? :_total;
         %tmp.138 = as %tmp.137 { (!Null) };
         push %tmp.138;
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false:
         %tmp.139 = 0;
         push %tmp.139;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end:
-        %tmp.140 = phi [%tmp.135 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_begin] [%tmp.138 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_true] [%tmp.139 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false] [%tmp.140 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end];
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end:
+        %tmp.140 = phi [%tmp.135 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_begin] [%tmp.138 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_true] [%tmp.139 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_else_false] [%tmp.140 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_55_end];
         lputv %displayTotal.6 %tmp.140;
         symbol [ displayTotal %displayTotal.6 49 12 24 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 51 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 51 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop" ]
         %progressText.7 = local;
         symbol [ progressText %progressText.7 51 12 24 ];
         %tmp.141 = lgetv %displayIndex.5;
@@ -358,7 +358,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_
         %tmp.149 = add %tmp.145 %tmp.148;
         lputv %progressText.7 %tmp.149;
         symbol [ progressText %progressText.7 51 12 24 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 53 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 53 8 ]
         %tmp.150 = lgetv %dc;
         symbol [ dc %tmp.150 53 8 10 ];
         symbol [ setColor %tmp.151 53 11 19 ];
@@ -372,7 +372,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_
         symbol [ COLOR_TRANSPARENT %tmp.155 53 53 70 ];
         %tmp.155 = getv %tmp.154 :COLOR_TRANSPARENT;
         invoke %tmp.150 %tmp.151(%tmp.153, %tmp.155);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc" 55 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc" 55 8 ]
         %tmp.156 = lgetv %dc;
         symbol [ dc %tmp.156 55 8 10 ];
         symbol [ drawText %tmp.157 55 11 19 ];
@@ -408,9 +408,9 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_49_27_49_
         symbol [ TEXT_JUSTIFY_CENTER %tmp.176 60 21 40 ];
         %tmp.176 = getv %tmp.175 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.156 %tmp.157(%tmp.162, %tmp.171, %tmp.173, %tmp.174, %tmp.176);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationView_mc_19_26_62_4_stop:
     }
 }
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 1; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationView.mc"; @line = 1; ]
 <init> {
 }

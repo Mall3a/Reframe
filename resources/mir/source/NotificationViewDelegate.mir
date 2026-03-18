@@ -1,42 +1,42 @@
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [System,2,13,19]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [System,2,13,19]; ]
 using Toybox.System;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; ]
 using Toybox.Application;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Application,4,13,24]; @symbol_usingdef<2> = [Storage,4,25,32]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Application,4,13,24]; @symbol_usingdef<2> = [Storage,4,25,32]; ]
 using Toybox.Application.Storage;
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; @symbol_classdef = [NotificationViewDelegate,6,6,30]; @symbol_extends<0> = [WatchUi,6,39,46]; @symbol_extends<1> = [BehaviorDelegate,6,47,63]; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; @symbol_classdef = [NotificationViewDelegate,6,6,30]; @symbol_extends<0> = [WatchUi,6,39,46]; @symbol_extends<1> = [BehaviorDelegate,6,47,63]; ]
 class NotificationViewDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
     function initialize() as Void {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_8_26_10_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 9 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_8_26_10_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 9 8 ]
         symbol [ BehaviorDelegate %tmp.2 9 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
         symbol [ initialize %tmp.3 9 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_8_26_10_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_8_26_10_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 12; @symbol_functiondef = [onSelect,12,14,22]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 12; @symbol_functiondef = [onSelect,12,14,22]; ]
     function onSelect() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_12_25_16_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 13 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_12_25_16_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 13 8 ]
         symbol [ System %tmp.1 13 8 14 ];
         %tmp.1 = getm $.Toybox.System;
         symbol [ println %tmp.2 13 15 22 ];
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onSelect clicked with pushView";
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 14 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 14 8 ]
         symbol [ WatchUi %tmp.4 14 8 15 ];
         %tmp.4 = getm $.Toybox.WatchUi;
         symbol [ pushView %tmp.5 14 16 24 ];
@@ -52,27 +52,27 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_1
         symbol [ SLIDE_UP %tmp.15 14 86 94 ];
         %tmp.15 = getv %tmp.14 :SLIDE_UP;
         invoke %tmp.4 %tmp.5(%tmp.6, %tmp.10, %tmp.15);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 15 8 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 15 8 ]
         %tmp.16 = true;
         ret %tmp.16;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_12_25_16_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_12_25_16_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 18; @symbol_functiondef = [onSettingsChanged,18,13,30]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 18; @symbol_functiondef = [onSettingsChanged,18,13,30]; ]
     function onSettingsChanged() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_18_33_21_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 20 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_18_33_21_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 20 8 ]
         symbol [ WatchUi %tmp.1 20 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
         symbol [ requestUpdate %tmp.2 20 16 29 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_18_33_21_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_18_33_21_4_stop:
     }
-    [ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 24; @symbol_functiondef = [onBack,24,14,20]; ]
+    [ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 24; @symbol_functiondef = [onBack,24,14,20]; ]
     function onBack() {
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 27 8 ]
-        [ "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_start" "_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_stop" ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 27 8 ]
+        [ "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_start" "_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_stop" ]
         %data.1 = local;
         symbol [ data %data.1 27 12 16 ];
         symbol [ Settings %tmp.2 27 19 27 ];
@@ -82,16 +82,16 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %data.1 %tmp.4;
         symbol [ data %data.1 27 12 16 ];
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 28 8 ]
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_stmt:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 28 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_stmt:
         %tmp.5 = lgetv %data.1;
         symbol [ data %tmp.5 28 12 16 ];
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_true:
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_26_34_8_start:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 29 12 ]
+        bf %tmp.7 @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_true:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_26_34_8_start:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 29 12 ]
         symbol [ Storage %tmp.8 29 12 19 ];
         %tmp.8 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.9 29 20 28 ];
@@ -107,7 +107,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         symbol [ text %tmp.17 29 58 62 const ];
         %tmp.18 = agetv %tmp.15 %tmp.17;
         invoke %tmp.8 %tmp.9(%tmp.10, %tmp.18);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 30 12 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 30 12 ]
         symbol [ Storage %tmp.19 30 12 19 ];
         %tmp.19 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.20 30 20 28 ];
@@ -123,7 +123,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         symbol [ text %tmp.28 30 55 59 const ];
         %tmp.29 = agetv %tmp.26 %tmp.28;
         invoke %tmp.19 %tmp.20(%tmp.21, %tmp.29);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 31 12 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 31 12 ]
         symbol [ Storage %tmp.30 31 12 19 ];
         %tmp.30 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.31 31 20 28 ];
@@ -139,7 +139,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         symbol [ category %tmp.39 31 55 63 const ];
         %tmp.40 = agetv %tmp.37 %tmp.39;
         invoke %tmp.30 %tmp.31(%tmp.32, %tmp.40);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 32 12 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 32 12 ]
         symbol [ Storage %tmp.41 32 12 19 ];
         %tmp.41 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.42 32 20 28 ];
@@ -152,7 +152,7 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         symbol [ index %tmp.47 32 54 59 const ];
         %tmp.48 = agetv %tmp.45 %tmp.47;
         invoke %tmp.41 %tmp.42(%tmp.43, %tmp.48);
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 33 12 ]
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 33 12 ]
         symbol [ Storage %tmp.49 33 12 19 ];
         %tmp.49 = getm $.Toybox.Application.Storage;
         symbol [ setValue %tmp.50 33 20 28 ];
@@ -165,15 +165,15 @@ _Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_2
         symbol [ total %tmp.55 33 54 59 const ];
         %tmp.56 = agetv %tmp.53 %tmp.55;
         invoke %tmp.49 %tmp.50(%tmp.51, %tmp.56);
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_26_34_8_stop:
-        goto @_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end:
-[ "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 35 8 ]
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_26_34_8_stop:
+        goto @_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end;
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_28_8_34_8_if_end:
+[ "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc" 35 8 ]
         %tmp.57 = false;
         ret %tmp.57;
-_Users_mallea_Documents_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_stop:
+_Users_mallea_Documents_Projects_Garmin_Apps_Reframe_source_NotificationViewDelegate_mc_24_23_36_4_stop:
     }
 }
-[ @file = "/Users/mallea/Documents/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 1; ]
+[ @file = "/Users/mallea/Documents/Projects/Garmin Apps/Reframe/source/NotificationViewDelegate.mc"; @line = 1; ]
 <init> {
 }

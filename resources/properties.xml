@@ -6,4 +6,5 @@
     <property id="sleepStart" type="number">22</property>
     <property id="sleepEnd" type="number">7</property>
     <property id="messageList" type="array" />
+    <property id="batterySave" type="boolean">false</property>
 </properties>
