@@ -7,38 +7,19 @@ class TopicMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onSelect(item) {
-        var temaId = item.getId().toString();
+        var topicId = item.getId().toString();
+        Storage.setValue("selected_topic", topicId);
         
-        // 1. Guardamos el estado
-        Storage.setValue("selected_tema", temaId);
-       
-       // Limpieza recomendada
-        Storage.setValue("last_msg_index", 0);
-        Storage.deleteValue("proxima_frase");
+        // RESET TOTAL: Ponemos el contador en 0 y borramos lo anterior
+        Storage.setValue("last_msg_index", 0); 
+        Storage.deleteValue("proxima_frase"); // Al borrar esto, forzamos a la App a recargar
         Storage.deleteValue("cat_for_bg");
-        Storage.deleteValue("last_sent_index");
-        Storage.deleteValue("last_sent_total");
-        Storage.deleteValue("msg_for_bg"); // <--- Importante
-
-        var data = Settings.getNextSequentialMessage();
-        if (data != null) {
-            Storage.setValue("proxima_frase", data[:msg][:text]);
-            Storage.setValue("cat_for_bg", data[:msg][:category]);
-            Storage.setValue("last_sent_index", data[:index]);
-            Storage.setValue("last_sent_total", data[:total]);
-        }
         
-        System.println("Tema cambiado a: " + temaId);
+        System.println("Tema cambiado a: " + topicId + ". Índice reseteado a 0.");
 
-        // 2. Limpiamos el stack de vistas (Cierra el submenú y el menú viejo)
+        // Volver al menú principal
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
-
-        // 3. Reabrimos el Menú de Configuraciones fresco
-        WatchUi.pushView(
-            new $.SettingsMenu(), 
-            new $.SettingsMenuInputDelegate(), 
-            WatchUi.SLIDE_IMMEDIATE
-        );
+        WatchUi.pushView(new $.SettingsMenu(), new $.SettingsMenuInputDelegate(), WatchUi.SLIDE_IMMEDIATE);
     }
 }

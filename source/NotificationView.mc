@@ -56,7 +56,7 @@ class NotificationView extends WatchUi.View {
             dc.getWidth() / 2, 
             dc.getHeight() - (dc.getHeight() * 0.15), 
             Graphics.FONT_SYSTEM_XTINY, 
-            progressText, 
+            displayTotal == 0 ? "" : progressText,
             Graphics.TEXT_JUSTIFY_CENTER
         );
     }

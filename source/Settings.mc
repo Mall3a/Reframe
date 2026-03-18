@@ -41,10 +41,10 @@ class Settings {
     // --- TEMA 3: TRABAJO Y SENIORITY (SEGURIDAD EN MÍ) ---
     static function getTemaTrabajo() {
         return [
-            {:text => "Hija, tu seguridad no es saberlo todo; es descansar en Mí mientras hablas.", :category => "AZUL"},
+            {:text => "Hija, tu seguridad no es saberlo todo; es descansar en Mí mientras obras.", :category => "AZUL"},
             {:text => "Hacer menos no te hace menos. Tu valor para Mí es innegociable.", :category => "VERDE"},
-            {:text => "Te están evaluando a ti, no juzgando Mi amor por ti. Es solo información.", :category => "AZUL"},
-            {:text => "Si no resulta, sigues siendo Mi hija: capaz, inteligente y amada.", :category => "PURPURA"},
+            {:text => "Están evaluando si soy el perfil que necesitan, no juzgando Mi valor como persona.", :category => "AZUL"},
+            {:text => "Si no resulta, sigo siendo: capaz, inteligente y amada.", :category => "PURPURA"},
             {:text => "No lleves la carga del resultado; Yo soy el Maestro, tú Mi instrumento.", :category => "VERDE"},
             {:text => "Tu integridad nace de saber quién eres para Mí, no de los aplausos.", :category => "AZUL"},
             {:text => "Hija, termina tu tarea y para. No necesitas optimizar cada minuto.", :category => "VERDE"},
@@ -104,70 +104,60 @@ class Settings {
 
     // Esta es la función que decide QUÉ lista usar
     static function getDefaultMessages() {
-        var temaId = Storage.getValue("selected_tema");
-        if (temaId == null) { temaId = "IDENTIDAD"; } // Por defecto
+        var topicId = Storage.getValue("selected_topic");
+        if (topicId == null) { topicId = "IDENTIDAD"; } // Por defecto
 
-        if (temaId.equals("IDENTIDAD")) { return getTemaIdentidad(); }
-        if (temaId.equals("SANIDAD"))   { return getTemaSanidad(); }
-        if (temaId.equals("TRABAJO"))    { return getTemaTrabajo(); }
-        if (temaId.equals("METANOIA"))   { return getTemaMetanoia(); }
-        if (temaId.equals("PAZ"))        { return getTemaPaz(); }
-        if (temaId.equals("RELACIONES")) { return getTemaRelaciones(); }
+        if (topicId.equals("Identidad")) { return getTemaIdentidad(); }
+        if (topicId.equals("Sanidad"))   { return getTemaSanidad(); }
+        if (topicId.equals("Trabajo"))    { return getTemaTrabajo(); }
+        if (topicId.equals("Metanoia"))   { return getTemaMetanoia(); }
+        if (topicId.equals("Paz"))        { return getTemaPaz(); }
+        if (topicId.equals("Relaciones")) { return getTemaRelaciones(); }
         
         return getTemaIdentidad();
     }
 
     static function getNextSequentialMessage() {
-        var temaId = Storage.getValue("selected_tema");
-        if (temaId == null) { temaId = "IDENTIDAD"; }
+        var topicId = Storage.getValue("selected_topic");
+        if (topicId == null) { topicId = "Identidad"; }
 
         var userArray = Properties.getValue("messageList");
         var userSize = (userArray != null) ? userArray.size() : 0;
         
-        var selected = null;
-        var totalSize = 0;
+        // 1. Leemos el índice actual (si es nulo, es 0)
         var index = Storage.getValue("last_msg_index");
         if (index == null) { index = 0; }
 
-        var defMessages = getTemaById(temaId);
+        var defMessages = getTemaById(topicId);
         var defSize = defMessages.size();
+        var totalSize = (topicId.equals("Personal")) ? userSize : (userSize + defSize);
 
-        // 1. Calcular tamaño total según el tema
-        if (temaId.equals("PERSONAL")) {
-            totalSize = userSize;
-        } else {
-            totalSize = userSize + defSize;
-        }
-
-        // 2. Si no hay mensajes de ningún tipo, abortar
         if (totalSize == 0) { return null; }
-
-        // 3. Validar que el índice no se haya quedado fuera de rango (Crucial)
         if (index >= totalSize || index < 0) { index = 0; }
 
-        // 4. Obtener el mensaje correspondiente
+        // 2. SELECCIONAMOS LA FRASE ACTUAL
+        var selected = null;
         if (index < userSize) {
             selected = getSpecificUserMessage(index, userArray);
         } else {
             var defIndex = index - userSize;
-            // Doble validación de seguridad para el array del sistema
-            if (defIndex < 0 || defIndex >= defSize) { defIndex = 0; }
             selected = defMessages[defIndex];
         }
 
-        // 5. Actualizar índice para la próxima vez (Avanzamos)
-        Storage.setValue("last_msg_index", (index + 1) % totalSize);
+        // 3. RECIÉN AQUÍ AVANZAMOS EL ÍNDICE PARA LA PRÓXIMA VEZ
+        var nextIndex = (index + 1) % totalSize;
+        Storage.setValue("last_msg_index", nextIndex);
 
         return { :msg => selected, :index => index, :total => totalSize };
     }
 
     // --- FUNCIÓN AUXILIAR PARA MAPEAR TEMAS ---
     private static function getTemaById(id) {
-        if (id.equals("SANIDAD"))   { return getTemaSanidad(); }
-        if (id.equals("TRABAJO"))    { return getTemaTrabajo(); }
-        if (id.equals("METANOIA"))   { return getTemaMetanoia(); }
-        if (id.equals("PAZ"))        { return getTemaPaz(); }
-        if (id.equals("RELACIONES")) { return getTemaRelaciones(); }
+        if (id.equals("Sanidad"))   { return getTemaSanidad(); }
+        if (id.equals("Trabajo"))    { return getTemaTrabajo(); }
+        if (id.equals("Metanoia"))   { return getTemaMetanoia(); }
+        if (id.equals("Paz"))        { return getTemaPaz(); }
+        if (id.equals("Relaciones")) { return getTemaRelaciones(); }
         
         // Si algo falla o es la primera vez, Identidad es la base
         return getTemaIdentidad(); 

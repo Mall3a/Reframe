@@ -25,7 +25,8 @@ class ChangeFrequencyConfirmationDelegate extends WatchUi.ConfirmationDelegate {
             } catch(ex) {}
 
             WatchUi.showToast("Frecuencia: " + _minutes + " min", null);
-            WatchUi.popView(WatchUi.SLIDE_DOWN);
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
             return true;
         }
     }

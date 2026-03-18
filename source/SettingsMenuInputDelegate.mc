@@ -44,6 +44,15 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             Storage.setValue("allowDND", val);
             System.println("Notificaciones habilitadas en DnD: " + val);
         } 
+        else if (idStr.equals("battery_mode")) {
+                var toggleItem = menuItem as WatchUi.ToggleMenuItem;
+                var val = toggleItem.isEnabled();
+                
+                // Guardamos la decisión del usuario
+                Storage.setValue("batterySave", val);
+                System.println("Notificaciones habilitadas en ahorro de bateria: " + val);
+            }
+            
         else if (idStr.equals("sleep_time")) {
             System.println("Configurando horario de Inicio de sueño");
             WatchUi.pushView(
@@ -53,7 +62,7 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             );
         }
         else if (idStr.equals("delete_msgs")) {
-            var message = "¿Borrar todos los mensajes?";
+            var message = "¿Borrar todos Mis Mensajes?";
             var dialog = new WatchUi.Confirmation(message);
             WatchUi.pushView(
                 dialog,
@@ -62,19 +71,37 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             );
         }
         else if(idStr.equals("restore_settings")){
-            var message = "¿Reestablecer la configuración?";
+            var message = "¿Reestablecer configuración inicial?";
             var dialog = new WatchUi.Confirmation(message);
             WatchUi.pushView(
                 dialog,
                 new RestoreConfigConfirmationDelegate(),
                 WatchUi.SLIDE_IMMEDIATE
             );
-        }else if(idStr.equals("view_storage")) {
+        } else if (idStr.equals("topic")) {
+            var topicMenu = new WatchUi.Menu2({:title=>"Elegir Tema"});
+            // La nueva opción para ver solo lo cargado desde el móvil
+            topicMenu.addItem(new WatchUi.MenuItem("Mis Mensajes", null, "Personal", {}));
+            // Los temas del sistema (hardcoded)
+            topicMenu.addItem(new WatchUi.MenuItem("Identidad y Valor", null, "Identidad", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Sanidad", null, "Sanidad", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Trabajo",null, "Trabajo", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Metanoia y Narrativa",null, "Metanoia", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Paz y Descanso", null, "Paz", {}));
+            topicMenu.addItem(new WatchUi.MenuItem("Relaciones, Límites y Perdón", null, "Relaciones", {}));
+
+            WatchUi.pushView(topicMenu, new TopicMenuDelegate(), WatchUi.SLIDE_LEFT);
+        } else if(idStr.equals("view_config")) {
             // Creamos el menú de resumen al vuelo
             var summaryMenu = new WatchUi.Menu2({:title=>"Configuración Actual"});
             
             // Obtenemos los valores igual que en tu initialize
-            // Garmin no permite menos de 5 minutos en Background
+            var selected_topic = Storage.getValue("selected_topic");
+            if (selected_topic == null) {
+                // Valores por defecto si el usuario no ha configurado nada
+                // selected_topic = Properties.getValue("selected_topic");
+                selected_topic = "Identidad";
+            }
             var freq = Storage.getValue("frequency"); 
             if (freq == null) {
                 freq = Properties.getValue("frequency"); 
@@ -87,6 +114,10 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             if (dnd == null) {
                 dnd = Properties.getValue("allowDND");
             }
+            var batterySave = Storage.getValue("batterySave");
+            if (batterySave == null) {
+                batterySave = Properties.getValue("batterySave");
+            }
             var sStart = Storage.getValue("sleepStart");
             if (sStart == null) {
                 sStart = Properties.getValue("sleepStart");
@@ -97,34 +128,16 @@ class SettingsMenuInputDelegate extends WatchUi.Menu2InputDelegate {
             }
 
             // Los añadimos como texto simple
-            summaryMenu.addItem(new WatchUi.MenuItem("Frecuencia", freq != null ? freq.toString() : "N/A", null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Tema actual", selected_topic, null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Frecuencia", freq != null ? + "Cada " + freq.toString() + " minutos" : "N/A", null, {}));
             summaryMenu.addItem(new WatchUi.MenuItem("Habilitado", enabled == true ? "Sí" : "No", null, {}));
             summaryMenu.addItem(new WatchUi.MenuItem("Habilitado No Molestar", dnd == true ? "Sí" : "No", null, {}));
-            summaryMenu.addItem(new WatchUi.MenuItem("Horas de Sueño", sStart + " a " + sEnd, null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Habilitado Ahorro Batería", batterySave == true ? "Sí" : "No", null, {}));
+            summaryMenu.addItem(new WatchUi.MenuItem("Horas de Sueño", sStart + ":00 a " + sEnd + ":00", null, {}));
 
             // Lo mostramos. Usamos un Delegate vacío porque es solo para ver.
             WatchUi.pushView(summaryMenu, new WatchUi.Menu2InputDelegate(), WatchUi.SLIDE_LEFT);
-            } else if (idStr.equals("select_topic")) {
-                var topicMenu = new WatchUi.Menu2({:title=>"Elegir Tema"});
-                // La nueva opción para ver solo lo cargado desde el móvil
-                topicMenu.addItem(new WatchUi.MenuItem("Mis Mensajes", null, "PERSONAL", {}));
-                // Los temas del sistema (hardcoded)
-                topicMenu.addItem(new WatchUi.MenuItem("Identidad y Valor", null, "IDENTIDAD", {}));
-                topicMenu.addItem(new WatchUi.MenuItem("Sanidad y Cuerpo", null, "SANIDAD", {}));
-                topicMenu.addItem(new WatchUi.MenuItem("Trabajo y Éxito",null, "TRABAJO", {}));
-                topicMenu.addItem(new WatchUi.MenuItem("Metanoia; Mente y Narrativa",null, "METANOIA", {}));
-                topicMenu.addItem(new WatchUi.MenuItem("Paz y Descanso", null, "PAZ", {}));
-                topicMenu.addItem(new WatchUi.MenuItem("Relaciones, Límites y Perdón", null, "RELACIONES", {}));
-
-                WatchUi.pushView(topicMenu, new TopicMenuDelegate(), WatchUi.SLIDE_LEFT);
-            } else if (idStr.equals("batterySave")) {
-                var toggleItem = menuItem as WatchUi.ToggleMenuItem;
-                var val = toggleItem.isEnabled();
-                
-                // Guardamos la decisión del usuario
-                Storage.setValue("batterySave", val);
-                System.println("Configuración: Permitir en ahorro = " + val);
-            }
+        }
     }
     
     function onSettingsChanged() {
