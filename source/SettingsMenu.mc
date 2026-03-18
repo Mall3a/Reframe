@@ -54,8 +54,8 @@ class SettingsMenu extends WatchUi.Menu2 {
 
         // Lo añadimos al menú
         Menu2.addItem(new WatchUi.ToggleMenuItem(
-            "Permitir en Ahorro", 
-            "Ignorar modo ahorro", 
+            "Habilitar en modo Ahorro de Batería", 
+            null, 
             :batterySave, // Este ID es el que usaremos en el Delegate
             batterySave, 
             {}
@@ -77,8 +77,12 @@ class SettingsMenu extends WatchUi.Menu2 {
         // Reestablecer Configuracion (Acción directa)
         Menu2.addItem(new WatchUi.MenuItem("Reestablecer Configuración", null, :restore_settings, {}));
 
-       var temaActual = Storage.getValue("selected_tema");
-        if (temaActual == null) { temaActual = "IDENTIDAD"; }
+        var temaActual = Storage.getValue("selected_tema");
+        if (temaActual == null) {
+            // Valores por defecto si el usuario no ha configurado nada
+            // temaActual = Properties.getValue("selected_tema");
+            temaActual = "IDENTIDAD";
+        }
         
         Menu2.addItem(new WatchUi.MenuItem(
             "Seleccionar Tema", 
